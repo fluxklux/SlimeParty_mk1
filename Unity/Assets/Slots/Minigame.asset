@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: Minigame
   m_EditorClassIdentifier: 
   slotType: 3
-  color: {r: 0.7924528, g: 0.47472408, b: 0.69146603, a: 0}
+  color: {r: 0.7924528, g: 0.47472408, b: 0.69146603, a: 1}

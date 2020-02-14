@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: Chans
   m_EditorClassIdentifier: 
   slotType: 4
-  color: {r: 0.6106697, g: 0.33521715, b: 0.764151, a: 0}
+  color: {r: 0.6106697, g: 0.33521715, b: 0.764151, a: 1}
