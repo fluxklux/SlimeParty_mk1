@@ -151,7 +151,7 @@ public class InputController : MonoBehaviour
         }
 
         //take input mid game
-        /*if (!gc.queueFinished)
+        /*if (!gc.queueFinished) //if(StateController.currentState == State.InputState)
         {
             if (canTakeInput)
             {
