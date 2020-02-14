@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.37311912, g: 0.3807398, b: 0.3587271, a: 1}
+  m_IndirectSpecularColor: {r: 0.37311953, g: 0.38074014, b: 0.3587274, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -329,6 +329,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 314e3e296cc5b2a4cb869f23883cec42, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  currentSlot: {fileID: 0}
 --- !u!1 &800083432
 GameObject:
   m_ObjectHideFlags: 0
@@ -964,6 +965,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2027658292}
   - component: {fileID: 2027658291}
+  - component: {fileID: 2027658295}
   - component: {fileID: 2027658290}
   - component: {fileID: 2027658293}
   - component: {fileID: 2027658294}
@@ -1066,19 +1068,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0e9c292e7b8a9d141b7b0acb4d2dfdf7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  currentState:
-    time: 0
-  inputState:
-    time: 5
-  moveState:
-    time: 5
-  actionState:
-    time: 15
-  resultState:
-    time: 5
-  breatheState:
-    time: 5
-  nextStateBool: 1
+  allSlots: []
+  allSlotTypes: []
 --- !u!4 &2027658292
 Transform:
   m_ObjectHideFlags: 0
@@ -1124,3 +1115,28 @@ MonoBehaviour:
   - {fileID: 1098488105}
   - {fileID: 1818373277}
   - {fileID: 1627779465}
+--- !u!114 &2027658295
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2027658289}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be1734a3522caa04b964326a2ce3bcef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentState:
+    time: 0
+  inputState:
+    time: 5
+  moveState:
+    time: 5
+  actionState:
+    time: 15
+  resultState:
+    time: 5
+  breatheState:
+    time: 5
+  nextStateBool: 1
