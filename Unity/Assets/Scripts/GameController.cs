@@ -14,11 +14,6 @@ public class GameController : MonoBehaviour
     private void Start()
     {
         uc = GetComponent<UIController>();
-
-        for (int i = 0; i < allSlots.Length; i++)
-        {
-            allSlots[i].GetComponentInChildren<SpriteRenderer>().enabled = false;
-        }
     }
 
     public void ChangeFruitAmount(int playerIndex, int amount)
@@ -31,5 +26,4 @@ public class GameController : MonoBehaviour
         }
         uc.UpdatePlayerFruits(playerFruits);
     }
-
 }
