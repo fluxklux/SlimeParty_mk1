@@ -12,11 +12,11 @@ public class DevController : MonoBehaviour
 
     private bool debugBool = true;
     private TimerController tc;
-    private GameController gc;
+    private StateController sc;
 
     private void Start()
     {
-        gc = GetComponent<GameController>();
+        sc = GetComponent<StateController>();
         tc = GetComponent<TimerController>();
 
         ChangeDebugMode();
@@ -54,7 +54,7 @@ public class DevController : MonoBehaviour
     {
         if(debugBool)
         {
-            string stateText = "TIMER: " + tc.timer.ToString("F2") + "\n" + "ELAPSED TIME: " + tc.elapsedTime.ToString("F2") + "\n" + gc.currentState.ToString();
+            string stateText = "TIMER: " + tc.timer.ToString("F2") + "\n" + "ELAPSED TIME: " + tc.elapsedTime.ToString("F2") + "\n" + sc.currentState.ToString();
             GUI.Label(new Rect(10, 10, 200, 200), stateText, style);
         }
     }
