@@ -19,7 +19,7 @@ public class UIController : MonoBehaviour
     {
 
     }
-    
+
     public void ToggleConnectionUi (bool onOff)
     {
 
