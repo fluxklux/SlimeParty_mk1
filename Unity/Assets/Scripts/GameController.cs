@@ -40,6 +40,7 @@ public class GameController : MonoBehaviour
             timer -= Time.deltaTime;
             elapsedTime = startTimer - timer;
         }
+        //
 
         if (elapsedTime > currentState.time)
         {
