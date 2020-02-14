@@ -10,7 +10,7 @@ public class DevController : MonoBehaviour
     [Header("Visuals: ")]
     public GUIStyle style;
 
-    private bool debugBool = true;
+    private bool debugBool = false;
     private TimerController tc;
     private StateController sc;
 
@@ -18,8 +18,6 @@ public class DevController : MonoBehaviour
     {
         sc = GetComponent<StateController>();
         tc = GetComponent<TimerController>();
-
-        ChangeDebugMode();
     }
 
     private void Update()
@@ -38,14 +36,14 @@ public class DevController : MonoBehaviour
         {
             for (int i = 0; i < debugObjects.Length; i++)
             {
-                debugObjects[i].SetActive(false);
+                debugObjects[i].SetActive(true);
             }
         }
         else
         {
             for (int i = 0; i < debugObjects.Length; i++)
             {
-                debugObjects[i].SetActive(true);
+                debugObjects[i].SetActive(false);
             }
         }
     }

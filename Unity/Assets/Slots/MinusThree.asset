@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: MinusThree
   m_EditorClassIdentifier: 
   slotType: 1
-  color: {r: 0.7924528, g: 0.20558919, b: 0.20558919, a: 0}
+  color: {r: 0.7924528, g: 0.20558919, b: 0.20558919, a: 1}
