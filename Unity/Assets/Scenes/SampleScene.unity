@@ -4605,6 +4605,7 @@ GameObject:
   - component: {fileID: 2027658296}
   - component: {fileID: 2027658293}
   - component: {fileID: 2027658294}
+  - component: {fileID: 2027658296}
   m_Layer: 0
   m_Name: GameController
   m_TagString: GameController
@@ -4693,6 +4694,7 @@ MonoBehaviour:
     m_FixedHeight: 0
     m_StretchWidth: 1
     m_StretchHeight: 0
+  debugBool: 0
 --- !u!114 &2027658291
 MonoBehaviour:
   m_ObjectHideFlags: 0

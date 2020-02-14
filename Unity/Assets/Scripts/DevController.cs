@@ -10,7 +10,8 @@ public class DevController : MonoBehaviour
     [Header("Visuals: ")]
     public GUIStyle style;
 
-    private bool debugBool = false;
+    [HideInInspector]
+    public bool debugBool = false;
     private TimerController tc;
     private StateController sc;
 
