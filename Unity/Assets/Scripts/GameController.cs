@@ -14,6 +14,9 @@ public class GameController : MonoBehaviour
     public ResultState resultState = new ResultState();
     public BreatheState breatheState = new BreatheState();
 
+    [Header("Visuals: ")]
+    public GUIStyle style;
+
     private float timer = 0.0f;
     private float startTimer = 0.0f;
     private float elapsedTime = 0.0f;
@@ -27,7 +30,7 @@ public class GameController : MonoBehaviour
         timer = inputState.time + moveState.time + actionState.time + resultState.time + breatheState.time;
         startTimer = inputState.time + moveState.time + actionState.time + resultState.time + breatheState.time;
 
-        Debug.Log(currentState + ": " + currentState.time);
+        //Debug.Log(currentState + ": " + currentState.time);
     }
 
     private void Update()
@@ -48,7 +51,7 @@ public class GameController : MonoBehaviour
             {
                 nextStateBool = false;
                 currentState = currentState.NextState();
-                Debug.Log(currentState + ": " + currentState.time);
+                //Debug.Log(currentState + ": " + currentState.time);
                 nextStateBool = true;
             }
         }
@@ -57,6 +60,6 @@ public class GameController : MonoBehaviour
     private void OnGUI()
     {
         string text = "TIMER: " + timer.ToString("F2") + "\n" + "ELAPSED TIME: " + elapsedTime.ToString("F2") + "\n" + currentState.ToString();
-        GUI.Label(new Rect(10, 10, 200, 200), text);
+        GUI.Label(new Rect(10, 10, 200, 200), text, style);
     }
 }
