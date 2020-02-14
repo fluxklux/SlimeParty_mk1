@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class UIController : MonoBehaviour
 {
@@ -10,8 +11,7 @@ public class UIController : MonoBehaviour
     {
         for (int i = 0; i < playerTexts.Length; i++)
         {
-            //Väntar på Canvas Element
-            //playerTexts[i].GetComponentInChildren<Text>().text = "P" + i + ": " + playerFruits[i];
+            playerTexts[i].GetComponentInChildren<Text>().text = "P" + i + ": " + playerFruits[i];
         }
     }
 
