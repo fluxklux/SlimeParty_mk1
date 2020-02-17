@@ -6,12 +6,12 @@ using UnityEngine.UI;
 public class UIController : MonoBehaviour
 {
     [Header("Fruit Text")]
-    [SerializeField] private GameObject[] playerTexts;
+    public GameObject[] playerTexts;
 
     [Header("Connection Panel")]
-    [SerializeField] private GameObject[] playerJoined;
-    [SerializeField] private GameObject[] playerNotJoined;
-    [SerializeField] private GameObject connectionPanel;
+    public GameObject[] playerJoined;
+    public GameObject[] playerNotJoined;
+    public GameObject connectionPanel;
 
     public void UpdatePlayerFruits(int[] playerFruits)
     {
