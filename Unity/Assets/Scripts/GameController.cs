@@ -20,10 +20,22 @@ public class GameController : MonoBehaviour
     int[] playerFruits = { 0, 0, 0, 0 };
 
     UIController uc;
+    InputController ic;
+    Dpad dpad;
+
 
     private void Start()
     {
         uc = GetComponent<UIController>();
+        ic = GetComponent<InputController>();
+        dpad = GetComponent<Dpad>();
+    }
+
+
+    public void HandleQueueInputs(int indexedPlayer, int dpadIndex)
+    {
+        AddToQueue(indexedPlayer, dpad.GetDPadNum(dpadIndex));
+        ic.hasPressedKey[indexedPlayer] = true;
     }
 
     public void AddToQueue(int playerIndex, int steps)
