@@ -15,7 +15,6 @@ public class GameController : MonoBehaviour
     public Slot[] allSlotTypes;
 
     public List<QueueObject> queueObjects = new List<QueueObject>();
-    public bool queueFinished = true;
 
     int[] playerFruits = { 0, 0, 0, 0 };
 

@@ -8,21 +8,27 @@ public class StateController : MonoBehaviour
     public GameState currentState = null;
 
     [Header("All States: ")]
-    public InputState inputState;// = new InputState();
-    public MoveState moveState; //= new MoveState();
-    public ActionState actionState; //= new ActionState();
-    public ResultState resultState; //= new ResultState();
-    public BreatheState breatheState; //= new BreatheState();
+    public InputState inputState;
+    public MoveState moveState;
+    public ActionState actionState;
+    public ResultState resultState;
+    public BreatheState breatheState; 
 
     [HideInInspector]
     public bool nextStateBool = true;
 
     private TimerController tc;
+    private InputController ic;
+    private Dpad dp;
 
     private void Awake()
     {
+        ic = GetComponent<InputController>();
+        dp = GetComponentInChildren<Dpad>();
         tc = GetComponent<TimerController>();
 
+        inputState = new InputState(ic, tc, dp);
+        inputState.time = 3;
         currentState = inputState;
         tc.SetValues(inputState.time + moveState.time + actionState.time + resultState.time + breatheState.time);
     }

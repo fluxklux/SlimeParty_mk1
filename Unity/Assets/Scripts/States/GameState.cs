@@ -7,6 +7,8 @@ public class GameState
 {
     public float time;
     public InputController ic;
+    public TimerController tc;
+    public Dpad dp;
 
     public GameState ()
     {

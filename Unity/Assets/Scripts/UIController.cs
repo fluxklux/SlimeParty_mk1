@@ -5,7 +5,13 @@ using UnityEngine.UI;
 
 public class UIController : MonoBehaviour
 {
-    public GameObject[] playerTexts;
+    [Header("Fruit Text")]
+    [SerializeField] private GameObject[] playerTexts;
+
+    [Header("Connection Panel")]
+    [SerializeField] private GameObject[] playerJoined;
+    [SerializeField] private GameObject[] playerNotJoined;
+    [SerializeField] private GameObject connectionPanel;
 
     public void UpdatePlayerFruits(int[] playerFruits)
     {
@@ -17,11 +23,13 @@ public class UIController : MonoBehaviour
 
     public void TogglePlayerUi(int index)
     {
-
+        playerTexts[index].SetActive(true);
+        playerNotJoined[index].SetActive(false);
+        playerJoined[index].SetActive(true);
     }
 
-    public void ToggleConnectionUi (bool onOff)
+    public void ToggleConnectionUi ()
     {
-
+        connectionPanel.SetActive(false);
     }
 }

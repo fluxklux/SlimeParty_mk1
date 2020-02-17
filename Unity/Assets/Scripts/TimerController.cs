@@ -10,6 +10,8 @@ public class TimerController : MonoBehaviour
     public float timer = 0.0f;
     [HideInInspector]
     public float elapsedTime = 0.0f;
+    [HideInInspector]
+    public bool count = false;
 
     public void SetValues (float value)
     {
@@ -19,7 +21,7 @@ public class TimerController : MonoBehaviour
 
     private void Update()
     {
-        if(timer > 0)
+        if(timer > 0 && count)
         {
             timer -= Time.deltaTime;
             elapsedTime = startTimer - timer;

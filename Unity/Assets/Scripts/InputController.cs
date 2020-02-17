@@ -43,11 +43,7 @@ public class InputController : MonoBehaviour
             hasJoined[index] = true;
             uc.TogglePlayerUi(index);
 
-            //add mechanical functions
-            
-            //KAN INTE DYNAMISKT LÄGGA TILL OCH TA BORT SPELAR OBJEKTEN FÖR DEM LIGGER-
-            //I GAMECONTROLLER OCH JAG MÅSTE ÄNDRA SPELAR ARRAYEN TILL EN LIST. BEHÖVER-
-            //VIKBERG I SAMMA RUM FÖR DET. SÅ GITEN INTE FÅR MERGE-FEL.
+            //dynamicly add and remove players
         }
         else
         {
@@ -58,7 +54,8 @@ public class InputController : MonoBehaviour
     private void StartGame()
     {
         gameStarted = true;
-        uc.ToggleConnectionUi(false);
+        GetComponent<TimerController>().count = true;
+        uc.ToggleConnectionUi();
     }
 
     public void GetInput()
@@ -151,166 +148,160 @@ public class InputController : MonoBehaviour
         }
 
         //take input mid game
-        /*if (!gc.queueFinished) //if(StateController.currentState == State.InputState)
+        //för plebsen utan xbox controllers. lmao
+        switch (Input.inputString)
         {
-            if (canTakeInput)
+            case "1":
+                if (!hasPressedKey[0])
+                {
+                    gc.HandleQueueInputs(0, 0);
+                }
+                break;
+            case "2":
+                if (!hasPressedKey[1])
+                {
+                    gc.HandleQueueInputs(1, 0);
+                }
+                break;
+            case "3":
+                if (!hasPressedKey[2])
+                {
+                    gc.HandleQueueInputs(2, 0);
+                }
+                break;
+            case "4":
+                if (!hasPressedKey[3])
+                {
+                    gc.HandleQueueInputs(3, 0);
+                }
+                break;
+            default:
+                break;
+        }
+
+        //p1
+        if (hasJoined[0] && !hasPressedKey[0])
+        {
+            var c1Horizontal = Input.GetAxis("C1 Horizontal");
+            var c1Vertical = Input.GetAxis("C1 Vertical");
+
+            switch (c1Horizontal)
             {
-                //för plebsen utan xbox controllers. lmao
-                switch (Input.inputString)
-                {
-                    case "1":
-                        if (!hasPressedKey[0])
-                        {
-                            gc.HandleQueueInputs(0, 0);
-                        }
-                        break;
-                    case "2":
-                        if (!hasPressedKey[1])
-                        {
-                            gc.HandleQueueInputs(1, 0);
-                        }
-                        break;
-                    case "3":
-                        if (!hasPressedKey[2])
-                        {
-                            gc.HandleQueueInputs(2, 0);
-                        }
-                        break;
-                    case "4":
-                        if (!hasPressedKey[3])
-                        {
-                            gc.HandleQueueInputs(3, 0);
-                        }
-                        break;
-                    default:
-                        break;
-                }
-
-                //p1
-                if (hasJoined[0] && !hasPressedKey[0])
-                {
-                    var c1Horizontal = Input.GetAxis("C1 Horizontal");
-                    var c1Vertical = Input.GetAxis("C1 Vertical");
-
-                    switch (c1Horizontal)
-                    {
-                        case 1:
-                            gc.HandleQueueInputs(0, 1); //right
-                            break;
-                        case -1:
-                            gc.HandleQueueInputs(0, 3);//left
-                            break;
-                        default:
-                            break;
-                    }
-
-                    switch (c1Vertical)
-                    {
-                        case 1:
-                            gc.HandleQueueInputs(0, 0); //up
-                            break;
-                        case -1:
-                            gc.HandleQueueInputs(0, 2);//down
-                            break;
-                        default:
-                            break;
-                    }
-                }
-
-                //p2
-                if (hasJoined[1] && !hasPressedKey[1])
-                {
-                    var c2Horizontal = Input.GetAxis("C2 Horizontal");
-                    var c2Vertical = Input.GetAxis("C2 Vertical");
-
-                    switch (c2Horizontal)
-                    {
-                        case 1:
-                            gc.HandleQueueInputs(1, 1); //right
-                            break;
-                        case -1:
-                            gc.HandleQueueInputs(1, 3);//left
-                            break;
-                        default:
-                            break;
-                    }
-
-                    switch (c2Vertical)
-                    {
-                        case 1:
-                            gc.HandleQueueInputs(1, 0); //up
-                            break;
-                        case -1:
-                            gc.HandleQueueInputs(1, 2);//down
-                            break;
-                        default:
-                            break;
-                    }
-                }
-
-                //p3
-                if (hasJoined[2] && !hasPressedKey[2])
-                {
-                    var c3Horizontal = Input.GetAxis("C3 Horizontal");
-                    var c3Vertical = Input.GetAxis("C3 Vertical");
-
-                    switch (c3Horizontal)
-                    {
-                        case 1:
-                            gc.HandleQueueInputs(2, 1); //right
-                            break;
-                        case -1:
-                            gc.HandleQueueInputs(2, 3);//left
-                            break;
-                        default:
-                            break;
-                    }
-
-                    switch (c3Vertical)
-                    {
-                        case 1:
-                            gc.HandleQueueInputs(2, 0); //up
-                            break;
-                        case -1:
-                            gc.HandleQueueInputs(2, 2);//down
-                            break;
-                        default:
-                            break;
-                    }
-                }
-
-                //p4
-                if (hasJoined[3] && !hasPressedKey[3])
-                {
-                    var c4Horizontal = Input.GetAxis("C4 Horizontal");
-                    var c4Vertical = Input.GetAxis("C4 Vertical");
-
-                    switch (c4Horizontal)
-                    {
-                        case 1:
-                            gc.HandleQueueInputs(3, 1); //right
-                            break;
-                        case -1:
-                            gc.HandleQueueInputs(3, 3);//left
-                            break;
-                        default:
-                            break;
-                    }
-
-                    switch (c4Vertical)
-                    {
-                        case 1:
-                            gc.HandleQueueInputs(3, 0); //up
-                            break;
-                        case -1:
-                            gc.HandleQueueInputs(3, 2);//down
-                            break;
-                        default:
-                            break;
-                    }
-                }
+                case 1:
+                    gc.HandleQueueInputs(0, 1); //right
+                    break;
+                case -1:
+                    gc.HandleQueueInputs(0, 3);//left
+                    break;
+                default:
+                    break;
             }
-        }*/
+
+            switch (c1Vertical)
+            {
+                case 1:
+                    gc.HandleQueueInputs(0, 0); //up
+                    break;
+                case -1:
+                    gc.HandleQueueInputs(0, 2);//down
+                    break;
+                default:
+                    break;
+            }
+        }
+
+        //p2
+        if (hasJoined[1] && !hasPressedKey[1])
+        {
+            var c2Horizontal = Input.GetAxis("C2 Horizontal");
+            var c2Vertical = Input.GetAxis("C2 Vertical");
+
+            switch (c2Horizontal)
+            {
+                case 1:
+                    gc.HandleQueueInputs(1, 1); //right
+                    break;
+                case -1:
+                    gc.HandleQueueInputs(1, 3);//left
+                    break;
+                default:
+                    break;
+            }
+
+            switch (c2Vertical)
+            {
+                case 1:
+                    gc.HandleQueueInputs(1, 0); //up
+                    break;
+                case -1:
+                    gc.HandleQueueInputs(1, 2);//down
+                    break;
+                default:
+                    break;
+            }
+        }
+
+        //p3
+        if (hasJoined[2] && !hasPressedKey[2])
+        {
+            var c3Horizontal = Input.GetAxis("C3 Horizontal");
+            var c3Vertical = Input.GetAxis("C3 Vertical");
+
+            switch (c3Horizontal)
+            {
+                case 1:
+                    gc.HandleQueueInputs(2, 1); //right
+                    break;
+                case -1:
+                    gc.HandleQueueInputs(2, 3);//left
+                    break;
+                default:
+                    break;
+            }
+
+            switch (c3Vertical)
+            {
+                case 1:
+                    gc.HandleQueueInputs(2, 0); //up
+                    break;
+                case -1:
+                    gc.HandleQueueInputs(2, 2);//down
+                    break;
+                default:
+                    break;
+            }
+        }
+
+        //p4
+        if (hasJoined[3] && !hasPressedKey[3])
+        {
+            var c4Horizontal = Input.GetAxis("C4 Horizontal");
+            var c4Vertical = Input.GetAxis("C4 Vertical");
+
+            switch (c4Horizontal)
+            {
+                case 1:
+                    gc.HandleQueueInputs(3, 1); //right
+                    break;
+                case -1:
+                    gc.HandleQueueInputs(3, 3);//left
+                    break;
+                default:
+                    break;
+            }
+
+            switch (c4Vertical)
+            {
+                case 1:
+                    gc.HandleQueueInputs(3, 0); //up
+                    break;
+                case -1:
+                    gc.HandleQueueInputs(3, 2);//down
+                    break;
+                default:
+                    break;
+            }
+        }
     }
 
     private void OnGUI()
