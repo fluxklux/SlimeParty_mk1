@@ -5,15 +5,15 @@ using UnityEngine;
 [System.Serializable]
 public class ResultState : GameState
 {
-    public ResultState()
+    public ResultState(InputController newIc)
     {
-
+        this.ic = newIc;
     }
 
     public override GameState NextState()
     {
-        BreatheState breatheState = new BreatheState();
-        breatheState.time = 35;
+        BreatheState breatheState = new BreatheState(ic);
+        breatheState.time = 30;
         return breatheState;
     }
 }

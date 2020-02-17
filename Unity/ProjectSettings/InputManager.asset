@@ -294,7 +294,7 @@ InputManager:
     axis: 0
     joyNum: 0
   - serializedVersion: 3
-    m_Name: C1Horizontal
+    m_Name: C1 Horizontal
     descriptiveName: 
     descriptiveNegativeName: 
     negativeButton: 
@@ -310,7 +310,7 @@ InputManager:
     axis: 5
     joyNum: 1
   - serializedVersion: 3
-    m_Name: C2Horizontal
+    m_Name: C2 Horizontal
     descriptiveName: 
     descriptiveNegativeName: 
     negativeButton: 

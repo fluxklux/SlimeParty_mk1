@@ -61,7 +61,7 @@ public class InputController : MonoBehaviour
         uc.ToggleConnectionUi(false);
     }
 
-    private void Update()
+    public void GetInput()
     {
         //add controllers
         if (!gameStarted)
@@ -332,7 +332,7 @@ public class InputController : MonoBehaviour
                 + "\n" + "P3: " + c3Hor.ToString("F2") + ", " + c3Ver.ToString("F2")
                 + "\n" + "P4: " + c4Hor.ToString("F2") + ", " + c4Ver.ToString("F2");
 
-            GUI.Label(new Rect(10, Screen.height - 200, 250, 200), debugString, style);
+            GUI.Label(new Rect(10, Screen.height - 100, 250, 100), debugString, style);
         }
     }
 }

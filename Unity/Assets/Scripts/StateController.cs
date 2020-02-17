@@ -8,11 +8,11 @@ public class StateController : MonoBehaviour
     public GameState currentState = null;
 
     [Header("All States: ")]
-    public InputState inputState = new InputState();
-    public MoveState moveState = new MoveState();
-    public ActionState actionState = new ActionState();
-    public ResultState resultState = new ResultState();
-    public BreatheState breatheState = new BreatheState();
+    public InputState inputState;// = new InputState();
+    public MoveState moveState; //= new MoveState();
+    public ActionState actionState; //= new ActionState();
+    public ResultState resultState; //= new ResultState();
+    public BreatheState breatheState; //= new BreatheState();
 
     [HideInInspector]
     public bool nextStateBool = true;

@@ -5,15 +5,15 @@ using UnityEngine;
 [System.Serializable]
 public class MoveState : GameState
 {
-    public MoveState ()
+    public MoveState (InputController newIc)
     {
-        
+        this.ic = newIc;
     }
 
     public override GameState NextState()
     {
-        ActionState actionState = new ActionState();
-        actionState.time = 25;
+        ActionState actionState = new ActionState(ic);
+        actionState.time = 23;
         return actionState;
     }
 }

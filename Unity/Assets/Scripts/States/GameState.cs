@@ -6,6 +6,12 @@ using UnityEngine;
 public class GameState
 {
     public float time;
+    public InputController ic;
+
+    public GameState ()
+    {
+
+    }
 
     public virtual void Update ()
     {

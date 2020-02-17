@@ -29,19 +29,15 @@ public class SlotController : MonoBehaviour
         switch (currentSlot.slotType)
         {
             case SlotType.plusThree:
-                //Add 3 fruits to player
                 gc.ChangeFruitAmount(playerIndex, 3);
                 break;
             case SlotType.minusThree:
-                //Remove 3 fruits from player
                 gc.ChangeFruitAmount(playerIndex, -3);
                 break;
             case SlotType.plusTen:
-                //Add 10 fruits to player
                 gc.ChangeFruitAmount(playerIndex, 10);
                 break;
             case SlotType.miniGame:
-                //minigame
                 //mgc.RandomizeMinigame();
                 break;
             default:
