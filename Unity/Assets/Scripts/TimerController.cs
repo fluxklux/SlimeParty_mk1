@@ -33,7 +33,7 @@ public class TimerController : MonoBehaviour
             timer -= Time.deltaTime;
             elapsedTime = startTimer - timer;
 
-            uc.UpdateTimerText(timer);
+            uc.UpdateTimerText(timer, startTimer);
         }
 
         timer = Mathf.Clamp(timer, 0, 100);
