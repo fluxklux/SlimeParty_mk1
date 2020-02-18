@@ -13,6 +13,13 @@ public class TimerController : MonoBehaviour
     [HideInInspector]
     public bool count = false;
 
+    private UIController uc;
+
+    private void Start()
+    {
+        uc = GetComponent<UIController>();
+    }
+
     public void SetValues (float value)
     {
         timer = value;
@@ -25,6 +32,8 @@ public class TimerController : MonoBehaviour
         {
             timer -= Time.deltaTime;
             elapsedTime = startTimer - timer;
+
+            uc.UpdateTimerText(timer, startTimer);
         }
 
         timer = Mathf.Clamp(timer, 0, 100);

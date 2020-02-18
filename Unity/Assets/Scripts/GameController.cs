@@ -22,7 +22,7 @@ public class GameController : MonoBehaviour
     InputController ic;
     Dpad dpad;
 
-    private void Start()
+    private void Awake()
     {
         uc = GetComponent<UIController>();
         ic = GetComponent<InputController>();
@@ -38,6 +38,7 @@ public class GameController : MonoBehaviour
 
     public void AddToQueue(int playerIndex, int steps)
     {
+        Debug.Log("Adding player " + playerIndex + " to the queue with " + steps + " steps");
         QueueObject newQueueObject = new QueueObject();
         newQueueObject.playerIndex = playerIndex;
         newQueueObject.steps = steps;
@@ -54,7 +55,8 @@ public class GameController : MonoBehaviour
     {
         Debug.Log("Reseting queue");
         queueObjects.Clear();
-        for(int i = 0; i < ic.hasPressedKey.Length; i++)
+
+        for (int i = 0; i < ic.hasPressedKey.Length; i++)
         {
             ic.hasPressedKey[i] = false;
         }

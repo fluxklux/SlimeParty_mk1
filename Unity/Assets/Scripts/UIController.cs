@@ -13,8 +13,11 @@ public class UIController : MonoBehaviour
     public GameObject[] playerNotJoined;
     [SerializeField] private GameObject connectionPanel = null;
 
-    [Header("Dpad")]
+    [Header("Timer & Dpad")]
     [SerializeField] private GameObject dPadObject = null;
+    [SerializeField] private GameObject timerObject = null;
+    [SerializeField] private Text timerText = null;
+    [SerializeField] private Image pizzaFill = null;
 
     public void UpdatePlayerFruits(int[] playerFruits)
     {
@@ -36,8 +39,21 @@ public class UIController : MonoBehaviour
         dPadObject.SetActive(onOff);
     }
 
+    public void ToggleTimer (bool onOff)
+    {
+        timerObject.SetActive(onOff);
+    }
+
     public void ToggleConnectionUi ()
     {
         connectionPanel.SetActive(false);
+    }
+
+    public void UpdateTimerText(float timerValue, float timerMax)
+    {
+        timerText.text = timerValue.ToString("F1");
+
+        float calcFloat = timerValue / timerMax;
+        pizzaFill.fillAmount = calcFloat;
     }
 }
