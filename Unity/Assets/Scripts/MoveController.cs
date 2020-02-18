@@ -22,6 +22,27 @@ public class MoveController : MonoBehaviour
         {
             int playerIndex = gc.queueObjects[i].playerIndex;
             int calcIndex = players[playerIndex].GetComponent<PlayerController>().playerVariable.currentSlotPosition + gc.queueObjects[i].steps;
+            calcIndex = (int)Mathf.Repeat(calcIndex, gc.allSlots.Length);
+
+            if(gc.queueObjects[i].steps >= 5)
+            {
+                EngageJump(calcIndex);
+            }
+            else
+            {
+                EngageRun(calcIndex);
+            }
         }
+    }
+
+
+    private void EngageRun(int calcIndex)
+    {
+
+    }
+
+    private void EngageJump(int calcIndex)
+    {
+
     }
 }
