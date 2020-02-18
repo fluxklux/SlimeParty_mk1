@@ -22,7 +22,6 @@ public class GameController : MonoBehaviour
     InputController ic;
     Dpad dpad;
 
-
     private void Start()
     {
         uc = GetComponent<UIController>();
@@ -44,8 +43,21 @@ public class GameController : MonoBehaviour
         newQueueObject.steps = steps;
 
         queueObjects.Add(newQueueObject);
+    }
 
-        //Fortsätt arbeta och implementera QUEUE SYSTEMET genom state machines. Alla nödvändiga funktioner bör finnas i GC, men de ska kallas från respektive STATES när de behövs. Gör diagram
+    public void CycleQueue()
+    {
+
+    }
+
+    public void ResetQueue()
+    {
+        Debug.Log("Reseting queue");
+        queueObjects.Clear();
+        for(int i = 0; i < ic.hasPressedKey.Length; i++)
+        {
+            ic.hasPressedKey[i] = false;
+        }
     }
 
     public void ChangeFruitAmount(int playerIndex, int amount)

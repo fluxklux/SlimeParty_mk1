@@ -5,11 +5,12 @@ using UnityEngine;
 [System.Serializable]
 public class InputState : GameState
 {
-    public InputState (InputController newIc, TimerController newTc, Dpad newDp)
+    public InputState (InputController newIc, TimerController newTc, Dpad newDp, GameController newGc)
     {
         this.ic = newIc;
         this.tc = newTc;
         this.dp = newDp;
+        this.gc = newGc;
 
         dp.Randomize();
     }
@@ -21,7 +22,7 @@ public class InputState : GameState
 
     public override GameState NextState()
     {
-        MoveState moveState = new MoveState(ic, tc, dp);
+        MoveState moveState = new MoveState(ic, tc, dp, gc);
         moveState.time = 8;
         return moveState;
     }

@@ -9,6 +9,7 @@ public class GameState
     public InputController ic;
     public TimerController tc;
     public Dpad dp;
+    public GameController gc;
 
     public GameState ()
     {

@@ -20,14 +20,16 @@ public class StateController : MonoBehaviour
     private TimerController tc;
     private InputController ic;
     private Dpad dp;
+    private GameController gc;
 
     private void Awake()
     {
         ic = GetComponent<InputController>();
         dp = GetComponentInChildren<Dpad>();
         tc = GetComponent<TimerController>();
+        gc = GetComponent<GameController>();
 
-        inputState = new InputState(ic, tc, dp);
+        inputState = new InputState(ic, tc, dp, gc);
         inputState.time = 3;
         currentState = inputState;
         tc.SetValues(inputState.time + moveState.time + actionState.time + resultState.time + breatheState.time);
