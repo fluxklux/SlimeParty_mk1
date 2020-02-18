@@ -17,6 +17,7 @@ public class InputState : GameState
 
         dp.Randomize();
         uc.ToggleDpad(true);
+        uc.ToggleTimer(true);
     }
 
     public override void Update ()
