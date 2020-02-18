@@ -11,7 +11,10 @@ public class UIController : MonoBehaviour
     [Header("Connection Panel")]
     public GameObject[] playerJoined;
     public GameObject[] playerNotJoined;
-    public GameObject connectionPanel;
+    [SerializeField] private GameObject connectionPanel = null;
+
+    [Header("Dpad")]
+    [SerializeField] private GameObject dPadObject = null;
 
     public void UpdatePlayerFruits(int[] playerFruits)
     {
@@ -26,6 +29,11 @@ public class UIController : MonoBehaviour
         playerTexts[index].SetActive(true);
         playerNotJoined[index].SetActive(false);
         playerJoined[index].SetActive(true);
+    }
+
+    public void ToggleDpad (bool onOff)
+    {
+        dPadObject.SetActive(onOff);
     }
 
     public void ToggleConnectionUi ()

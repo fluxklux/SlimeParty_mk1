@@ -11,6 +11,7 @@ public class GameState
     public Dpad dp;
     public GameController gc;
     public ChanceController cc;
+    public UIController uc;
 
     public GameState ()
     {

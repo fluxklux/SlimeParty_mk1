@@ -1361,11 +1361,11 @@ MonoBehaviour:
   playerVariable:
     index: 0
     steps: 0
-  currentSlotPosition: 0
-  currentSlotType: {fileID: 0}
-  lastSlotIndex: 0
-  isAlone: 0
-  wasFirst: 0
+    currentSlotPosition: 0
+    currentSlotType: {fileID: 0}
+    lastSlotIndex: 0
+    isAlone: 0
+    wasFirst: 0
 --- !u!4 &442400272
 Transform:
   m_ObjectHideFlags: 0
@@ -2229,11 +2229,11 @@ MonoBehaviour:
   playerVariable:
     index: 0
     steps: 0
-  currentSlotPosition: 0
-  currentSlotType: {fileID: 0}
-  lastSlotIndex: 0
-  isAlone: 0
-  wasFirst: 0
+    currentSlotPosition: 0
+    currentSlotType: {fileID: 0}
+    lastSlotIndex: 0
+    isAlone: 0
+    wasFirst: 0
 --- !u!4 &724941765
 Transform:
   m_ObjectHideFlags: 0
@@ -3328,11 +3328,11 @@ MonoBehaviour:
   playerVariable:
     index: 0
     steps: 0
-  currentSlotPosition: 0
-  currentSlotType: {fileID: 0}
-  lastSlotIndex: 0
-  isAlone: 0
-  wasFirst: 0
+    currentSlotPosition: 0
+    currentSlotType: {fileID: 0}
+    lastSlotIndex: 0
+    isAlone: 0
+    wasFirst: 0
 --- !u!4 &954854756
 Transform:
   m_ObjectHideFlags: 0
@@ -4387,11 +4387,11 @@ MonoBehaviour:
   playerVariable:
     index: 0
     steps: 0
-  currentSlotPosition: 0
-  currentSlotType: {fileID: 0}
-  lastSlotIndex: 0
-  isAlone: 0
-  wasFirst: 0
+    currentSlotPosition: 0
+    currentSlotType: {fileID: 0}
+    lastSlotIndex: 0
+    isAlone: 0
+    wasFirst: 0
 --- !u!4 &1262265710
 Transform:
   m_ObjectHideFlags: 0
@@ -7284,31 +7284,49 @@ MonoBehaviour:
     ic: {fileID: 0}
     tc: {fileID: 0}
     dp: {fileID: 0}
+    gc: {fileID: 0}
+    cc: {fileID: 0}
+    uc: {fileID: 0}
   inputState:
     time: 3
     ic: {fileID: 2027658297}
     tc: {fileID: 2027658293}
     dp: {fileID: 2027658294}
+    gc: {fileID: 0}
+    cc: {fileID: 0}
+    uc: {fileID: 0}
   moveState:
     time: 5
     ic: {fileID: 2027658297}
     tc: {fileID: 2027658293}
     dp: {fileID: 2027658294}
+    gc: {fileID: 0}
+    cc: {fileID: 0}
+    uc: {fileID: 0}
   actionState:
     time: 15
     ic: {fileID: 2027658297}
     tc: {fileID: 2027658293}
     dp: {fileID: 2027658294}
+    gc: {fileID: 0}
+    cc: {fileID: 0}
+    uc: {fileID: 0}
   resultState:
     time: 4
     ic: {fileID: 2027658297}
     tc: {fileID: 2027658293}
     dp: {fileID: 2027658294}
+    gc: {fileID: 0}
+    cc: {fileID: 0}
+    uc: {fileID: 0}
   breatheState:
     time: 3
     ic: {fileID: 2027658297}
     tc: {fileID: 2027658293}
     dp: {fileID: 2027658294}
+    gc: {fileID: 0}
+    cc: {fileID: 0}
+    uc: {fileID: 0}
   nextStateBool: 1
 --- !u!114 &2027658296
 MonoBehaviour:
@@ -7338,6 +7356,7 @@ MonoBehaviour:
   - {fileID: 1853752419}
   - {fileID: 1049044928}
   connectionPanel: {fileID: 91721514}
+  dPadObject: {fileID: 1848130752}
 --- !u!114 &2027658297
 MonoBehaviour:
   m_ObjectHideFlags: 0
