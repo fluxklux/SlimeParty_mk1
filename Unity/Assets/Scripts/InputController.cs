@@ -28,6 +28,9 @@ public class InputController : MonoBehaviour
         dc = GetComponent<Dpad>();
         gc = GetComponent<GameController>();
         uc = GetComponent<UIController>();
+
+        uc.ToggleDpad(false);
+        uc.ToggleTimer(false);
     }
 
     public void ChangeTakeInputBool(bool onOff)
@@ -55,6 +58,8 @@ public class InputController : MonoBehaviour
     {
         gameStarted = true;
         GetComponent<TimerController>().count = true;
+        uc.ToggleDpad(true);
+        uc.ToggleTimer(true);
         uc.ToggleConnectionUi();
     }
 

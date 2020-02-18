@@ -17,6 +17,7 @@ public class UIController : MonoBehaviour
     [SerializeField] private GameObject dPadObject = null;
     [SerializeField] private GameObject timerObject = null;
     [SerializeField] private Text timerText = null;
+    [SerializeField] private Image pizzaFill = null;
 
     public void UpdatePlayerFruits(int[] playerFruits)
     {
@@ -48,8 +49,11 @@ public class UIController : MonoBehaviour
         connectionPanel.SetActive(false);
     }
 
-    public void UpdateTimerText(float timerValue)
+    public void UpdateTimerText(float timerValue, float timerMax)
     {
-        timerText.text = timerValue.ToString("F2");
+        timerText.text = timerValue.ToString("F1");
+
+        float calcFloat = timerValue / timerMax;
+        pizzaFill.fillAmount = calcFloat;
     }
 }
