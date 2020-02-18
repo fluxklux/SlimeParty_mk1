@@ -16,7 +16,6 @@ public class MoveState : GameState
         this.uc = newUc;
 
         uc.ToggleDpad(false);
-        uc.ToggleTimer(false);
     }
 
     public override GameState NextState()
