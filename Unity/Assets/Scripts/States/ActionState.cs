@@ -16,6 +16,11 @@ public class ActionState : GameState
         this.uc = newUc;
     }
 
+    public override void Update()
+    {
+        cc.RandomResult();
+    }
+
     public override GameState NextState()
     {
         ResultState resultState = new ResultState(ic, tc, dp, gc, cc, uc);
