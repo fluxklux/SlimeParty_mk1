@@ -10,6 +10,7 @@ public class GameState
     public TimerController tc;
     public Dpad dp;
     public GameController gc;
+    public ChanceController cc;
 
     public GameState ()
     {
