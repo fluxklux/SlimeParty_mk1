@@ -7,7 +7,10 @@ public class ChanceController : MonoBehaviour
     //TODO spice:a upp lite
     int chance;
 
+    int slotToTp;
+
     GameController gc;
+
 
 
     private void Start()
@@ -15,7 +18,7 @@ public class ChanceController : MonoBehaviour
         gc = GetComponent<GameController>();
     }
 
-    public void RandomResult()
+    public void RandomiseChance(int playerIndex)
     {
 
         chance = Random.Range(1, 4);
@@ -24,25 +27,25 @@ public class ChanceController : MonoBehaviour
         {
             case 1:
 
-                Debug.Log("do this: " + chance);
+                MoveToRandomSlot(playerIndex);
 
                 break;
 
             case 2:
 
-                Debug.Log("do that: " + chance);
+                gc.ChangeFruitAmount(playerIndex, 3);
 
                 break;
 
             case 3:
 
-                Debug.Log("do there: " + chance);
+                gc.ChangeFruitAmount(playerIndex, -3);
 
                 break;
 
             case 4:
 
-                Debug.Log("do their: " + chance);
+                gc.ChangeFruitAmount(playerIndex, 10);
 
                 break;
 
@@ -51,8 +54,11 @@ public class ChanceController : MonoBehaviour
         }
     }
 
-    //public int randomEffect()
-    //{
-    //    return this.chance;
-    //}
+    void MoveToRandomSlot(int playerIndex)
+    {
+        slotToTp = Random.Range(0, gc.allSlots.Length);
+
+        int calcIndex = GetComponent<MoveController>().players[playerIndex].GetComponent<PlayerController>().playerVariable.currentSlotPosition + slotToTp;
+        calcIndex = (int)Mathf.Repeat(calcIndex, gc.allSlots.Length);
+    }
 }

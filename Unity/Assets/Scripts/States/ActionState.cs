@@ -18,7 +18,7 @@ public class ActionState : GameState
 
     public override void Update()
     {
-        cc.RandomResult();
+       
     }
 
     public override GameState NextState()

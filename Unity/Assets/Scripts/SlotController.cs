@@ -12,6 +12,8 @@ public class SlotController : MonoBehaviour
     //MinigameController mgc;
     new SpriteRenderer renderer;
 
+    ChanceController cc;
+
     private void Start()
     {
         gameController = GameObject.FindGameObjectWithTag("GameController");
@@ -22,6 +24,9 @@ public class SlotController : MonoBehaviour
         //mgc = gameController.GetComponent<MinigameController>();
         currentSlot = gc.allSlotTypes[Random.Range(0, gc.allSlotTypes.Length)];
         renderer.color = currentSlot.color;
+
+        cc = GetComponent<ChanceController>();
+
     }
 
     public void TriggerSlotBehaviour(int playerIndex)
@@ -40,6 +45,13 @@ public class SlotController : MonoBehaviour
             case SlotType.miniGame:
                 //mgc.RandomizeMinigame();
                 break;
+
+            case SlotType.chance:
+
+                cc.RandomiseChance(playerIndex);
+
+                break;
+
             default:
                 break;
         }

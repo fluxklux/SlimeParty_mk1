@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public enum SlotType { plusThree, minusThree, plusTen, miniGame, chans };
+public enum SlotType { plusThree, minusThree, plusTen, miniGame, chance };
 
 [CreateAssetMenu(fileName = "new Slot", menuName = "Custom/Slot")]
 public class Slot : ScriptableObject
