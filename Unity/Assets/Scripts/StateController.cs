@@ -23,6 +23,7 @@ public class StateController : MonoBehaviour
     private GameController gc;
     private ChanceController cc;
     private UIController uc;
+    private MoveController mc;
 
     private void Awake()
     {
@@ -32,8 +33,9 @@ public class StateController : MonoBehaviour
         gc = GetComponent<GameController>();
         cc = GetComponent<ChanceController>();
         uc = GetComponent<UIController>();
+        mc = GetComponent<MoveController>();
 
-        inputState = new InputState(ic, tc, dp, gc, cc, uc);
+        inputState = new InputState(ic, tc, dp, gc, cc, uc, mc);
         inputState.time = 3;
         currentState = inputState;
         tc.SetValues(inputState.time + moveState.time + actionState.time + resultState.time + breatheState.time);

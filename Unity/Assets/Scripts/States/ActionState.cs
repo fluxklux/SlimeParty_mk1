@@ -6,7 +6,7 @@ using UnityEngine;
 public class ActionState : GameState
 {
     public ActionState(InputController newIc, TimerController newTc, Dpad newDp,
-        GameController newGc, ChanceController newCc, UIController newUc)
+        GameController newGc, ChanceController newCc, UIController newUc, MoveController newMc)
     {
         this.ic = newIc;
         this.tc = newTc;
@@ -14,11 +14,12 @@ public class ActionState : GameState
         this.gc = newGc;
         this.cc = newCc;
         this.uc = newUc;
+        this.mc = newMc;
     }
 
     public override GameState NextState()
     {
-        ResultState resultState = new ResultState(ic, tc, dp, gc, cc, uc);
+        ResultState resultState = new ResultState(ic, tc, dp, gc, cc, uc, mc);
         resultState.time = 27;
         return resultState;
     }
