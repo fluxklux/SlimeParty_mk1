@@ -104,17 +104,17 @@ public class InputController : MonoBehaviour
                 AddPlayer(0);
             }
 
-            if (Input.GetButtonDown("C2 Select") && !hasJoined[1])
+            if (Input.GetButtonDown("C2 Select") && !hasJoined[1] && hasJoined[0])
             {
                 AddPlayer(1);
             }
 
-            if (Input.GetButtonDown("C3 Select") && !hasJoined[2])
+            if (Input.GetButtonDown("C3 Select") && !hasJoined[2] && hasJoined[1])
             {
                 AddPlayer(2);
             }
 
-            if (Input.GetButtonDown("C4 Select") && !hasJoined[3])
+            if (Input.GetButtonDown("C4 Select") && !hasJoined[3] && hasJoined[2])
             {
                 AddPlayer(3);
             }

@@ -8,22 +8,115 @@ public class MinigameController : MonoBehaviour
 {
     public Minigame[] allMinigames;
     public Text timerText;
+    public Text[] playerTexts;
 
     [Header("0_Masher")]
     public GameObject masherPanel;
     public Text[] masherTexts;
 
     public int[] masherInts = { 0, 0 };
-    private int maxInt = 0;
+
+    private int[] minigamePlayers = { 0, 1 };
 
     private float timer; //local minigame timer
     private bool minigameActive = false; //are minigames playing at the moment?
     private int minigameIndex; //what minigame is active
     private bool doOnce = true;
+    private InputController ic;
+
+    private int amount;
+
+    private void Start()
+    {
+        ic = GetComponent<InputController>();
+    }
+
+    public void SetMinigamePlayers (int playerIndex, int controlIndex)
+    {
+        minigamePlayers[playerIndex] = controlIndex;
+    }
+
+    public void SelectPlayer (int playerIndex)
+    {
+        for (int i = 0; i < ic.hasJoined.Length; i++)
+        {
+            if(ic.hasJoined[i] == true)
+            {
+                amount++;
+            }
+        }
+
+        int randomPlayer = RandomizePlayer();
+
+        while(randomPlayer == playerIndex)
+        {
+            RandomizePlayer();
+        }
+
+        SetMinigamePlayers(0, playerIndex);
+        SetMinigamePlayers(1, randomPlayer);
+
+        RandomizeMinigame();
+
+        switch (minigamePlayers[0])
+        {
+            case 0:
+                playerTexts[0].text = "Player 1";
+                playerTexts[0].color = ic.allPlayers[0].GetComponent<PlayerController>().playerVariable.color;
+                break;
+            case 1:
+                playerTexts[0].text = "Player 2";
+                playerTexts[0].color = ic.allPlayers[1].GetComponent<PlayerController>().playerVariable.color;
+                break;
+            case 2:
+                playerTexts[0].text = "Player 3";
+                playerTexts[0].color = ic.allPlayers[2].GetComponent<PlayerController>().playerVariable.color;
+                break;
+            case 3:
+                playerTexts[0].text = "Player 4";
+                playerTexts[0].color = ic.allPlayers[3].GetComponent<PlayerController>().playerVariable.color;
+                break;
+            default:
+                break;
+        }
+
+        switch (minigamePlayers[1])
+        {
+            case 0:
+                playerTexts[1].text = "Player 1";
+                playerTexts[1].color = ic.allPlayers[0].GetComponent<PlayerController>().playerVariable.color;
+                break;
+            case 1:
+                playerTexts[1].text = "Player 2";
+                playerTexts[1].color = ic.allPlayers[1].GetComponent<PlayerController>().playerVariable.color;
+                break;
+            case 2:
+                playerTexts[1].text = "Player 3";
+                playerTexts[1].color = ic.allPlayers[2].GetComponent<PlayerController>().playerVariable.color;
+                break;
+            case 3:
+                playerTexts[1].text = "Player 4";
+                playerTexts[1].color = ic.allPlayers[3].GetComponent<PlayerController>().playerVariable.color;
+                break;
+            default:
+                break;
+        }
+
+        Debug.Log(minigamePlayers[0].ToString() + ", " + minigamePlayers[1].ToString());
+        Debug.Log("Players in game: " + amount);
+    }
+
+    private int RandomizePlayer ()
+    {
+        int ran = UnityEngine.Random.Range(0, amount);
+        return ran;
+    }
 
     public void RandomizeMinigame()
     {
-        int random = UnityEngine.Random.Range(0, allMinigames.Length);
+        MasherTogglePanel(true);
+
+        /*int random = UnityEngine.Random.Range(0, allMinigames.Length);
 
         switch (random)
         {
@@ -36,14 +129,14 @@ public class MinigameController : MonoBehaviour
                 break;
             default:
                 break;
-        }
+        }*/
     }
 
     private void Update()
     {
         if (Input.GetKeyDown(KeyCode.I))
         {
-            RandomizeMinigame();
+            SelectPlayer(0);
         }
 
         if (minigameActive)
@@ -74,15 +167,22 @@ public class MinigameController : MonoBehaviour
             if (!doOnce)
             {
                 doOnce = true;
-                //Minigame is done
+
                 switch (minigameIndex)
                 {
                     case 0: //0_MASHER
-                            //display winner of masher minigame
-                        Array.Sort(masherInts);
-                        maxInt = masherInts[masherInts.Length - 1];
-                        timerText.text = maxInt.ToString("F0");
-                        //Debug.Log("WINNER OF MASH IS: " + maxInt);
+
+                        if (masherInts[0] > masherInts[1])
+                        {
+                            masherTexts[0].color = Color.green;
+                            masherTexts[1].color = Color.red;
+                        }
+                        else
+                        {
+                            masherTexts[1].color = Color.green;
+                            masherTexts[0].color = Color.red;
+                        }
+
                         StartCoroutine(ResetMinigame());
                         break;
                     case 1: //1_REACTION
@@ -102,7 +202,6 @@ public class MinigameController : MonoBehaviour
         yield return new WaitForSeconds(1f);
         StopAllCoroutines(); //farlig function
         TimerToggle(false);
-        Debug.Log("odododod");
         MasherTogglePanel(false);
 
         for (int i = 0; i < masherInts.Length; i++)
@@ -144,13 +243,13 @@ public class MinigameController : MonoBehaviour
                 break;
         }
 
-        if (Input.GetButtonDown("C1 Select"))
+        if (Input.GetButtonDown("C" + (minigamePlayers[0] + 1) + " Select"))
         {
             masherInts[0]++;
             masherTexts[0].text = masherInts[0].ToString("F2");
         }
 
-        if (Input.GetButtonDown("C2 Select"))
+        if (Input.GetButtonDown("C" + (minigamePlayers[1] + 1) + " Select"))
         {
             masherInts[1]++;
             masherTexts[1].text = masherInts[1].ToString("F2");
