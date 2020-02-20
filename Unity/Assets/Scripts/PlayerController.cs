@@ -31,7 +31,7 @@ public class PlayerController : MonoBehaviour
         playerVariable.currentSlotPosition = newIndex;
     }
 
-    public void UpdateScale(int playerIndex, float highestSlotY)
+    public void UpdateScale(float highestSlotY)
     {
 
         float maxY = highestSlotY;
@@ -42,18 +42,16 @@ public class PlayerController : MonoBehaviour
 
         differents = maxY - yPos;
 
-        Vector3 minScale = new Vector3(0.5f, 0.5f, 0.5f);
+        Vector3 minScale = new Vector3(1f, 1f, 1f);
 
-        Vector3 maxScale = new Vector3(1f, 1f, 1f);
+        Vector3 maxScale = new Vector3(1.5f, 1.5f, 1.5f);
 
         float playerScale;
 
         playerScale = Mathf.Lerp(minScale.y, maxScale.y, differents - 4);
 
         transform.localScale = new Vector3(playerScale, playerScale, 0.0f);
-
-         //ic.allPlayers[playerVariable.index] = playerIndex;
-
+        
     }
 
     public int GetPositionIndex()

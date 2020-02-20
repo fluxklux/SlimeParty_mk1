@@ -26,6 +26,8 @@ public class MoveController : MonoBehaviour
 
             Debug.Log("Now operating queue object " + i + " with " + gc.queueObjects[i].steps + " steps!");
 
+           
+
             if (gc.queueObjects[i].steps >= 5)
             {
                 EngageJump(calcIndex, i);
@@ -34,6 +36,9 @@ public class MoveController : MonoBehaviour
             {
                 EngageRun(calcIndex, i);
             }
+
+            players[playerIndex].GetComponent<PlayerController>().UpdateScale(gc.allSlots[20].transform.position.y);
+
         }
     }
 
