@@ -17,14 +17,14 @@ public class InputController : MonoBehaviour
     private GameController gc;
     private Dpad dc;
     private UIController uc;
-    //private MoveController mc;
+    private MoveController mc;
 
     private bool canTakeInput = true;
     private bool gameStarted = false;
 
     void Start()
     {
-        //mc = GetComponent<MoveController>();
+        mc = GetComponent<MoveController>();
         dc = GetComponent<Dpad>();
         gc = GetComponent<GameController>();
         uc = GetComponent<UIController>();
@@ -45,8 +45,7 @@ public class InputController : MonoBehaviour
             playerCount++;
             hasJoined[index] = true;
             uc.TogglePlayerUi(index);
-
-            //dynamicly add and remove players
+            mc.players[index].SetActive(true);
         }
         else
         {
