@@ -62,8 +62,6 @@ public class GameController : MonoBehaviour
         {
             ic.hasPressedKey[i] = false;
         }
-
-        uc.UpdateQueueOrderUi(false);
     }
 
     public void ChangeFruitAmount(int playerIndex, int amount)

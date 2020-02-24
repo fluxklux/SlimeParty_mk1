@@ -7,7 +7,6 @@ public class UIController : MonoBehaviour
 {
     [Header("Fruit Text")]
     public GameObject[] playerTexts;
-    public Text[] playerScoreTexts;
 
     [Header("Connection Panel")]
     public GameObject[] playerJoined;
@@ -22,7 +21,6 @@ public class UIController : MonoBehaviour
 
     [Header("Order Text")]
     public GameObject[] playerQueueText;
-    public Text[] playerQueueTexts;
 
     GameController gc;
 
@@ -35,7 +33,7 @@ public class UIController : MonoBehaviour
     {
         for (int i = 0; i < playerTexts.Length; i++)
         {
-            playerScoreTexts[i].GetComponentInChildren<Text>().text = "P" + (i + 1) + ": " + playerFruits[i];
+            playerTexts[i].GetComponentInChildren<Text>().text = "P" + (i + 1) + ": " + playerFruits[i];
         }
     }
 
@@ -75,7 +73,7 @@ public class UIController : MonoBehaviour
         {
             int playerIndex = gc.queueObjects[i].playerIndex;
 
-            playerQueueTexts[playerIndex].GetComponent<Text>().text = (i + 1).ToString("F0");
+            playerQueueText[playerIndex].GetComponentInChildren<Text>().text = (i + 1).ToString("F0");
 
             playerQueueText[playerIndex].SetActive(onOff);
 
