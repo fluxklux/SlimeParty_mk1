@@ -9,6 +9,7 @@ public class PlayerVariables
     public int steps;
 
     public int currentSlotPosition = 0;
+    public int currentSlotOrder = 0;
     public Slot currentSlotType = null;
     public int lastSlotIndex = 0;
     public bool isAlone = false;
