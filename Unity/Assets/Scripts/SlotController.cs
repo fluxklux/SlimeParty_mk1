@@ -25,7 +25,7 @@ public class SlotController : MonoBehaviour
         currentSlot = gc.allSlotTypes[Random.Range(0, gc.allSlotTypes.Length)];
         renderer.color = currentSlot.color;
 
-        cc = GetComponent<ChanceController>();
+        cc = GameObject.Find("GameController").GetComponent<ChanceController>();
 
     }
 
@@ -34,22 +34,25 @@ public class SlotController : MonoBehaviour
         switch (currentSlot.slotType)
         {
             case SlotType.plusThree:
+                
                 gc.ChangeFruitAmount(playerIndex, 3);
                 break;
             case SlotType.minusThree:
+                
                 gc.ChangeFruitAmount(playerIndex, -3);
                 break;
             case SlotType.plusTen:
+                
                 gc.ChangeFruitAmount(playerIndex, 10);
                 break;
             case SlotType.miniGame:
+                
                 //mgc.RandomizeMinigame();
                 break;
 
             case SlotType.chance:
-
-                cc.RandomiseChance(playerIndex);
-
+                //Debug.Log("wow chans");
+                //cc.RandomiseChance(playerIndex);
                 break;
 
             default:

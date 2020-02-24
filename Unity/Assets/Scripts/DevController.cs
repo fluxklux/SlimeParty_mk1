@@ -37,14 +37,14 @@ public class DevController : MonoBehaviour
         {
             for (int i = 0; i < debugObjects.Length; i++)
             {
-                debugObjects[i].SetActive(true);
+                debugObjects[i].GetComponentInChildren<SpriteRenderer>().enabled = true;
             }
         }
         else
         {
             for (int i = 0; i < debugObjects.Length; i++)
             {
-                debugObjects[i].SetActive(false);
+                debugObjects[i].GetComponentInChildren<SpriteRenderer>().enabled = false;
             }
         }
     }

@@ -9,6 +9,9 @@ public class MoveController : MonoBehaviour
     GameController gc;
     UIController uc;
 
+    public int selectedSlot = 0;
+    public int selectedPlayer = 0;
+
 
     void Start()
     {
@@ -23,6 +26,8 @@ public class MoveController : MonoBehaviour
             int playerIndex = gc.queueObjects[i].playerIndex;
             int calcIndex = players[playerIndex].GetComponent<PlayerController>().playerVariable.currentSlotPosition + gc.queueObjects[i].steps;
             calcIndex = (int)Mathf.Repeat(calcIndex, gc.allSlots.Length);
+            selectedSlot = calcIndex;
+            selectedPlayer = playerIndex;
 
             Debug.Log("Now operating queue object " + i + " with " + gc.queueObjects[i].steps + " steps!");
 
@@ -121,7 +126,7 @@ public class MoveController : MonoBehaviour
         }
     }
 
-    void updatePlayerSlotPosition(int targetSlot, int queueIndex)
+    public void updatePlayerSlotPosition(int targetSlot, int queueIndex)
     {
         Debug.Log("Player " + gc.queueObjects[queueIndex].playerIndex + " is being moved to slot " + targetSlot + "!");
         players[gc.queueObjects[queueIndex].playerIndex].transform.position = gc.allSlots[targetSlot].transform.position;

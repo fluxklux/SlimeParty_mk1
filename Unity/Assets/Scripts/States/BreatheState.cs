@@ -6,7 +6,7 @@ using UnityEngine;
 public class BreatheState : GameState
 {
     public BreatheState(InputController newIc, TimerController newTc, Dpad newDp,
-        GameController newGc, ChanceController newCc, UIController newUc, MoveController newMc)
+        GameController newGc, ChanceController newCc, UIController newUc, MoveController newMc, SlotController newSc, PlayerController newPc)
     {
         this.ic = newIc;
         this.tc = newTc;
@@ -15,6 +15,8 @@ public class BreatheState : GameState
         this.cc = newCc;
         this.uc = newUc;
         this.mc = newMc;
+        this.sc = newSc;
+        this.pc = newPc;
 
         gc.ResetQueue();
     }
@@ -23,7 +25,7 @@ public class BreatheState : GameState
     {
         tc.SetValues(30);
 
-        InputState inputState = new InputState(ic, tc, dp, gc, cc, uc, mc);
+        InputState inputState = new InputState(ic, tc, dp, gc, cc, uc, mc, sc, pc);
         inputState.time = 3;
         Debug.Log("Round is done!");
         return inputState;
