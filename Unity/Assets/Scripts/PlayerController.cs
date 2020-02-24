@@ -13,6 +13,7 @@ public class PlayerVariables
     public int lastSlotIndex = 0;
     public bool isAlone = false;
     public bool wasFirst = false;
+    public Color color;
 }
 
 public class PlayerController : MonoBehaviour
