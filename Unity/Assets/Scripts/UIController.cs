@@ -19,6 +19,16 @@ public class UIController : MonoBehaviour
     [SerializeField] private Text timerText = null;
     [SerializeField] private Image pizzaFill = null;
 
+    [Header("Order Text")]
+    public GameObject[] playerQueueText;
+
+    GameController gc;
+
+    private void Start()
+    {
+        gc = GetComponent<GameController>();
+    }
+
     public void UpdatePlayerFruits(int[] playerFruits)
     {
         for (int i = 0; i < playerTexts.Length; i++)
@@ -55,5 +65,16 @@ public class UIController : MonoBehaviour
 
         float calcFloat = timerValue / timerMax;
         pizzaFill.fillAmount = calcFloat;
+    }
+
+    public void UpdateQueueOrderUi(int playerIndex)
+    {
+        for (int i = 0; i < gc.queueObjects.Count; i++)
+        {
+            int otherPlayerIndex = gc.queueObjects[i].playerIndex;
+
+            playerQueueText[otherPlayerIndex].GetComponentInChildren<Text>().text = i.ToString("F0");
+
+        }
     }
 }

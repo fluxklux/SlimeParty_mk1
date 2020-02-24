@@ -34,19 +34,19 @@ public class SlotController : MonoBehaviour
         switch (currentSlot.slotType)
         {
             case SlotType.plusThree:
-                Debug.Log("wow plus 3");
+                
                 gc.ChangeFruitAmount(playerIndex, 3);
                 break;
             case SlotType.minusThree:
-                Debug.Log("wow minus 3");
+                
                 gc.ChangeFruitAmount(playerIndex, -3);
                 break;
             case SlotType.plusTen:
-                Debug.Log("wow plus 10");
+                
                 gc.ChangeFruitAmount(playerIndex, 10);
                 break;
             case SlotType.miniGame:
-                Debug.Log("wow minigame");
+                
                 //mgc.RandomizeMinigame();
                 break;
 

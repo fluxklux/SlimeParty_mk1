@@ -21,12 +21,7 @@ public class ActionState : GameState
 
     public override void Update()
     {
-        //mc.players[gc.queueObjects.Count].GetComponent<PlayerVariables>().currentSlotType
-
         gc.allSlots[mc.selectedSlot].GetComponent<SlotController>().TriggerSlotBehaviour(mc.selectedPlayer);
-
-            //gc.allSlots[selectedSlot].GetComponent<SlotController>().TriggerSlotBehaviour(selectedPlayer);
-
     }
 
     public override GameState NextState()

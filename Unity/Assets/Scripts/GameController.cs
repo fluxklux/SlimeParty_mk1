@@ -44,6 +44,8 @@ public class GameController : MonoBehaviour
         newQueueObject.steps = steps;
 
         queueObjects.Add(newQueueObject);
+
+        uc.UpdateQueueOrderUi(playerIndex);
     }
 
     public void CycleQueue()
