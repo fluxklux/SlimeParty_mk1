@@ -50,7 +50,8 @@ public class MinigameController : MonoBehaviour
 
         while(randomPlayer == playerIndex)
         {
-            RandomizePlayer();
+            Debug.Log("While loop");
+            randomPlayer = RandomizePlayer();
         }
 
         SetMinigamePlayers(0, playerIndex);
@@ -102,8 +103,8 @@ public class MinigameController : MonoBehaviour
                 break;
         }
 
-        Debug.Log(minigamePlayers[0].ToString() + ", " + minigamePlayers[1].ToString());
-        Debug.Log("Players in game: " + amount);
+        //Debug.Log(minigamePlayers[0].ToString() + ", " + minigamePlayers[1].ToString());
+        //Debug.Log("Players in game: " + amount);
     }
 
     private int RandomizePlayer ()
@@ -177,10 +178,15 @@ public class MinigameController : MonoBehaviour
                             masherTexts[0].color = Color.green;
                             masherTexts[1].color = Color.red;
                         }
-                        else
+                        else if(masherInts[1] > masherInts[0])
                         {
                             masherTexts[1].color = Color.green;
                             masherTexts[0].color = Color.red;
+                        }
+                        else
+                        {
+                            masherTexts[0].color = Color.red;
+                            masherTexts[1].color = Color.red;
                         }
 
                         StartCoroutine(ResetMinigame());
@@ -201,12 +207,17 @@ public class MinigameController : MonoBehaviour
     {
         yield return new WaitForSeconds(1f);
         StopAllCoroutines(); //farlig function
-        TimerToggle(false);
         MasherTogglePanel(false);
+        minigameActive = false;
+        amount = 0;
+        doOnce = true;
+        TimerToggle(false);
 
         for (int i = 0; i < masherInts.Length; i++)
         {
             masherInts[i] = 0;
+            masherTexts[i].color = Color.white;
+            masherTexts[i].text = "0";
         }
     }
 

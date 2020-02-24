@@ -129,19 +129,19 @@ public class InputController : MonoBehaviour
                     }
                     break;
                 case "w":
-                    if (!hasJoined[1])
+                    if (!hasJoined[1] && hasJoined[0])
                     {
                         AddPlayer(1);
                     }
                     break;
                 case "e":
-                    if (!hasJoined[2])
+                    if (!hasJoined[2] && hasJoined[1])
                     {
                         AddPlayer(2);
                     }
                     break;
                 case "r":
-                    if (!hasJoined[3])
+                    if (!hasJoined[3] && hasJoined[2])
                     {
                         AddPlayer(3);
                     }
