@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.37311912, g: 0.3807398, b: 0.3587271, a: 1}
+  m_IndirectSpecularColor: {r: 0.37311953, g: 0.38074014, b: 0.3587274, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1376,7 +1376,7 @@ Transform:
   m_GameObject: {fileID: 442400270}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0.042, y: -2.855, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.5, y: 1.5, z: 1.5}
   m_Children:
   - {fileID: 597143111}
   m_Father: {fileID: 0}
@@ -2244,7 +2244,7 @@ Transform:
   m_GameObject: {fileID: 724941763}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0.042, y: -2.855, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.5, y: 1.5, z: 1.5}
   m_Children:
   - {fileID: 389363564}
   m_Father: {fileID: 0}
@@ -3343,7 +3343,7 @@ Transform:
   m_GameObject: {fileID: 954854754}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0.042, y: -2.855, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.5, y: 1.5, z: 1.5}
   m_Children:
   - {fileID: 1573077884}
   m_Father: {fileID: 0}
@@ -4402,7 +4402,7 @@ Transform:
   m_GameObject: {fileID: 1262265708}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0.042, y: -2.855, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.5, y: 1.5, z: 1.5}
   m_Children:
   - {fileID: 1993413636}
   m_Father: {fileID: 0}
@@ -7298,6 +7298,7 @@ GameObject:
   - component: {fileID: 2027658296}
   - component: {fileID: 2027658293}
   - component: {fileID: 2027658294}
+  - component: {fileID: 2027658299}
   m_Layer: 0
   m_Name: GameController
   m_TagString: GameController
@@ -7514,6 +7515,8 @@ MonoBehaviour:
     cc: {fileID: 0}
     uc: {fileID: 0}
     mc: {fileID: 0}
+    sc: {fileID: 0}
+    pc: {fileID: 0}
   inputState:
     time: 3
     ic: {fileID: 2027658297}
@@ -7523,6 +7526,8 @@ MonoBehaviour:
     cc: {fileID: 0}
     uc: {fileID: 0}
     mc: {fileID: 0}
+    sc: {fileID: 0}
+    pc: {fileID: 0}
   moveState:
     time: 5
     ic: {fileID: 2027658297}
@@ -7532,6 +7537,8 @@ MonoBehaviour:
     cc: {fileID: 0}
     uc: {fileID: 0}
     mc: {fileID: 0}
+    sc: {fileID: 0}
+    pc: {fileID: 0}
   actionState:
     time: 15
     ic: {fileID: 2027658297}
@@ -7541,6 +7548,8 @@ MonoBehaviour:
     cc: {fileID: 0}
     uc: {fileID: 0}
     mc: {fileID: 0}
+    sc: {fileID: 0}
+    pc: {fileID: 0}
   resultState:
     time: 4
     ic: {fileID: 2027658297}
@@ -7550,6 +7559,8 @@ MonoBehaviour:
     cc: {fileID: 0}
     uc: {fileID: 0}
     mc: {fileID: 0}
+    sc: {fileID: 0}
+    pc: {fileID: 0}
   breatheState:
     time: 3
     ic: {fileID: 2027658297}
@@ -7559,6 +7570,8 @@ MonoBehaviour:
     cc: {fileID: 0}
     uc: {fileID: 0}
     mc: {fileID: 0}
+    sc: {fileID: 0}
+    pc: {fileID: 0}
   nextStateBool: 1
 --- !u!114 &2027658296
 MonoBehaviour:
@@ -7696,6 +7709,20 @@ MonoBehaviour:
   - {fileID: 1262265708}
   - {fileID: 724941763}
   - {fileID: 954854754}
+  selectedSlot: 0
+  selectedPlayer: 0
+--- !u!114 &2027658299
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2027658289}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e73a10887c5ae54083babc09f9913c6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &2058070417
 PrefabInstance:
   m_ObjectHideFlags: 0

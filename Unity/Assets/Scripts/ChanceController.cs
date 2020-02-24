@@ -10,18 +10,21 @@ public class ChanceController : MonoBehaviour
     int slotToTp;
 
     GameController gc;
+    MoveController mc;
 
 
 
     private void Start()
     {
         gc = GetComponent<GameController>();
+        mc = GetComponent<MoveController>();
+
     }
 
     public void RandomiseChance(int playerIndex)
     {
 
-        chance = Random.Range(1, 4);
+        chance = Random.Range(1, 1);
 
         switch (chance)
         {
@@ -58,7 +61,11 @@ public class ChanceController : MonoBehaviour
     {
         slotToTp = Random.Range(0, gc.allSlots.Length);
 
-        int calcIndex = GetComponent<MoveController>().players[playerIndex].GetComponent<PlayerController>().playerVariable.currentSlotPosition + slotToTp;
+        int calcIndex = mc.players[gc.queueObjects[playerIndex].playerIndex].GetComponent<PlayerController>().playerVariable.currentSlotPosition + slotToTp;
         calcIndex = (int)Mathf.Repeat(calcIndex, gc.allSlots.Length);
+
+        mc.updatePlayerSlotPosition(calcIndex, playerIndex);
+
+
     }
 }

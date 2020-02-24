@@ -13,6 +13,8 @@ public class GameState
     public ChanceController cc;
     public UIController uc;
     public MoveController mc;
+    public SlotController sc;
+    public PlayerController pc;
 
     public GameState ()
     {
