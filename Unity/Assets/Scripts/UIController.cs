@@ -73,7 +73,9 @@ public class UIController : MonoBehaviour
         {
             int otherPlayerIndex = gc.queueObjects[i].playerIndex;
 
-            playerQueueText[otherPlayerIndex].GetComponentInChildren<Text>().text = i.ToString("F0");
+            playerQueueText[otherPlayerIndex].GetComponentInChildren<Text>().text = (i + 1).ToString("F0");
+
+            playerQueueText[otherPlayerIndex].SetActive(true);
 
         }
     }
