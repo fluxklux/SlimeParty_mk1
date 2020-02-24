@@ -51,10 +51,8 @@ public class SlotController : MonoBehaviour
                 break;
 
             case SlotType.chance:
-
-                Debug.Log("wow chans");
-                cc.RandomiseChance(playerIndex);
-
+                //Debug.Log("wow chans");
+                //cc.RandomiseChance(playerIndex);
                 break;
 
             default:

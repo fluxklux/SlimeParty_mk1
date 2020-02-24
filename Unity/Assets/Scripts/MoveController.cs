@@ -123,11 +123,6 @@ public class MoveController : MonoBehaviour
         }
     }
 
-    int checkSelectedSlot(int queueIndex)
-    {
-        return 1;
-    }
-
     public void updatePlayerSlotPosition(int targetSlot, int queueIndex)
     {
         Debug.Log("Player " + gc.queueObjects[queueIndex].playerIndex + " is being moved to slot " + targetSlot + "!");
