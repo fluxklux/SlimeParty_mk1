@@ -7,6 +7,7 @@ public class UIController : MonoBehaviour
 {
     [Header("Fruit Text")]
     public GameObject[] playerTexts;
+    public Text[] playerScoreTexts;
 
     [Header("Connection Panel")]
     public GameObject[] playerJoined;
@@ -21,6 +22,7 @@ public class UIController : MonoBehaviour
 
     [Header("Order Text")]
     public GameObject[] playerQueueText;
+    public Text[] playerQueueTexts;
 
     GameController gc;
 
@@ -33,7 +35,7 @@ public class UIController : MonoBehaviour
     {
         for (int i = 0; i < playerTexts.Length; i++)
         {
-            playerTexts[i].GetComponentInChildren<Text>().text = "P" + i + ": " + playerFruits[i];
+            playerScoreTexts[i].GetComponentInChildren<Text>().text = "P" + (i + 1) + ": " + playerFruits[i];
         }
     }
 
@@ -67,15 +69,15 @@ public class UIController : MonoBehaviour
         pizzaFill.fillAmount = calcFloat;
     }
 
-    public void UpdateQueueOrderUi(int playerIndex)
+    public void UpdateQueueOrderUi(bool onOff)
     {
         for (int i = 0; i < gc.queueObjects.Count; i++)
         {
-            int otherPlayerIndex = gc.queueObjects[i].playerIndex;
+            int playerIndex = gc.queueObjects[i].playerIndex;
 
-            playerQueueText[otherPlayerIndex].GetComponentInChildren<Text>().text = (i + 1).ToString("F0");
+            playerQueueTexts[playerIndex].GetComponent<Text>().text = (i + 1).ToString("F0");
 
-            playerQueueText[otherPlayerIndex].SetActive(true);
+            playerQueueText[playerIndex].SetActive(onOff);
 
         }
     }

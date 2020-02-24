@@ -45,7 +45,7 @@ public class GameController : MonoBehaviour
 
         queueObjects.Add(newQueueObject);
 
-        uc.UpdateQueueOrderUi(playerIndex);
+        uc.UpdateQueueOrderUi(true);
     }
 
     public void CycleQueue()
@@ -62,6 +62,8 @@ public class GameController : MonoBehaviour
         {
             ic.hasPressedKey[i] = false;
         }
+
+        uc.UpdateQueueOrderUi(false);
     }
 
     public void ChangeFruitAmount(int playerIndex, int amount)

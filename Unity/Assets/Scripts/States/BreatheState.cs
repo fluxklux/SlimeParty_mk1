@@ -18,7 +18,10 @@ public class BreatheState : GameState
         this.sc = newSc;
         this.pc = newPc;
 
+        uc.UpdateQueueOrderUi(false);
+
         gc.ResetQueue();
+
     }
 
     public override GameState NextState()
