@@ -29,10 +29,8 @@ public class MoveController : MonoBehaviour
             selectedSlot = calcIndex;
             selectedPlayer = playerIndex;
 
-            Debug.Log("Now operating queue object " + i + " with " + gc.queueObjects[i].steps + " steps!");
-
-           
-
+            //Debug.Log("Now operating queue object " + i + " with " + gc.queueObjects[i].steps + " steps!");
+            
             if (gc.queueObjects[i].steps >= 5)
             {
                 EngageJump(calcIndex, i);
@@ -136,8 +134,8 @@ public class MoveController : MonoBehaviour
         //Debug.Log("Player " + gc.queueObjects[queueIndex].playerIndex + " is being moved to slot " + targetSlot + "!");
         //players[gc.queueObjects[queueIndex].playerIndex].transform.position = gc.allSlots[targetSlot].transform.position;
         players[gc.queueObjects[queueIndex].playerIndex].GetComponent<PlayerController>().playerVariable.currentSlotPosition = targetSlot;
+        gc.allSlots[targetSlot].GetComponent<SlotController>().TriggerSlotBehaviour(gc.queueObjects[queueIndex].playerIndex);
     }
-
     
     void offsetPlayers(int caseNumber)
     {

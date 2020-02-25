@@ -1679,6 +1679,7 @@ MonoBehaviour:
   damping: 0.25
   playerVariable:
     index: 0
+    actionType: 0
     steps: 0
     currentSlotPosition: 0
     currentSlotOrder: 0
@@ -2840,6 +2841,7 @@ MonoBehaviour:
   damping: 0.25
   playerVariable:
     index: 2
+    actionType: 0
     steps: 0
     currentSlotPosition: 0
     currentSlotOrder: 0
@@ -4077,6 +4079,7 @@ MonoBehaviour:
   damping: 0.25
   playerVariable:
     index: 3
+    actionType: 0
     steps: 0
     currentSlotPosition: 0
     currentSlotOrder: 0
@@ -5360,6 +5363,7 @@ MonoBehaviour:
   damping: 0.25
   playerVariable:
     index: 1
+    actionType: 0
     steps: 0
     currentSlotPosition: 0
     currentSlotOrder: 0
@@ -9001,6 +9005,8 @@ GameObject:
   - component: {fileID: 2027658293}
   - component: {fileID: 2027658294}
   - component: {fileID: 2027658299}
+  - component: {fileID: 2027658300}
+  - component: {fileID: 2027658301}
   m_Layer: 0
   m_Name: GameController
   m_TagString: GameController
@@ -9470,6 +9476,43 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1e73a10887c5ae54083babc09f9913c6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &2027658300
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2027658289}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3f93b33dc7043a341bdd4da8bf4dc605, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  actionClasses: []
+--- !u!114 &2027658301
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2027658289}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e0fdf6826ca2a44bbc04544312a7166, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  allMinigames:
+  - {fileID: 11400000, guid: fff4a7dad4e701c4dba6d9fc8a26317f, type: 2}
+  - {fileID: 11400000, guid: 7e86a0d8f377baa4da7b97758f7c8d1b, type: 2}
+  timerText: {fileID: 770776886}
+  playerTexts:
+  - {fileID: 1873122073}
+  - {fileID: 1586293425}
+  masherPanel: {fileID: 1820460370}
+  masherTexts:
+  - {fileID: 149040992}
+  - {fileID: 1136401054}
+  masherInts: 0000000000000000
 --- !u!1001 &2058070417
 PrefabInstance:
   m_ObjectHideFlags: 0

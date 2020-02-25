@@ -37,7 +37,7 @@ public class GameController : MonoBehaviour
 
     public void AddToQueue(int playerIndex, int steps)
     {
-        Debug.Log("Adding player " + playerIndex + " to the queue with " + steps + " steps");
+        //Debug.Log("Adding player " + playerIndex + " to the queue with " + steps + " steps");
         QueueObject newQueueObject = new QueueObject();
         newQueueObject.playerIndex = playerIndex;
         newQueueObject.steps = steps;

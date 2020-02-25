@@ -6,13 +6,11 @@ public class SlotController : MonoBehaviour
 {
     public Slot currentSlot;
 
-    GameObject gameController;
-    GameController gc;
-    UIController uc;
-    //MinigameController mgc;
+    private GameObject gameController;
+    private GameController gc;
+    private MoveController mc;
+    private UIController uc;
     new SpriteRenderer renderer;
-
-    ChanceController cc;
 
     private void Start()
     {
@@ -20,13 +18,11 @@ public class SlotController : MonoBehaviour
 
         renderer = GetComponentInChildren<SpriteRenderer>();
         gc = gameController.GetComponent<GameController>();
+        mc = gameController.GetComponent<MoveController>();
         uc = gameController.GetComponent<UIController>();
-        //mgc = gameController.GetComponent<MinigameController>();
+
         currentSlot = gc.allSlotTypes[Random.Range(0, gc.allSlotTypes.Length)];
         renderer.color = currentSlot.color;
-
-        cc = GameObject.Find("GameController").GetComponent<ChanceController>();
-
     }
 
     public void TriggerSlotBehaviour(int playerIndex)
@@ -34,27 +30,30 @@ public class SlotController : MonoBehaviour
         switch (currentSlot.slotType)
         {
             case SlotType.plusThree:
-                
-                gc.ChangeFruitAmount(playerIndex, 3);
+                mc.players[playerIndex].GetComponent<PlayerController>().playerVariable.actionType = ActionType.PlusFruit3;
+                //Debug.Log(currentSlot.slotType);
+                //gc.ChangeFruitAmount(playerIndex, 3);
                 break;
             case SlotType.minusThree:
-                
-                gc.ChangeFruitAmount(playerIndex, -3);
+                mc.players[playerIndex].GetComponent<PlayerController>().playerVariable.actionType = ActionType.MinusFruit3;
+                //Debug.Log(currentSlot.slotType);
+                //gc.ChangeFruitAmount(playerIndex, -3);
                 break;
             case SlotType.plusTen:
-                
-                gc.ChangeFruitAmount(playerIndex, 10);
+                mc.players[playerIndex].GetComponent<PlayerController>().playerVariable.actionType = ActionType.PlusFruit10;
+                //Debug.Log(currentSlot.slotType);
+                //gc.ChangeFruitAmount(playerIndex, 10);
                 break;
             case SlotType.miniGame:
-                
+                mc.players[playerIndex].GetComponent<PlayerController>().playerVariable.actionType = ActionType.Minigame;
+                //Debug.Log(currentSlot.slotType);
                 //mgc.RandomizeMinigame();
                 break;
-
             case SlotType.chance:
-                //Debug.Log("wow chans");
+                mc.players[playerIndex].GetComponent<PlayerController>().playerVariable.actionType = ActionType.Chance;
+                //Debug.Log(currentSlot.slotType);
                 //cc.RandomiseChance(playerIndex);
                 break;
-
             default:
                 break;
         }

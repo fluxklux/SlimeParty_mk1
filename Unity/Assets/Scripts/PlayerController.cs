@@ -2,10 +2,13 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+public enum ActionType { PlusFruit3, PlusFruit10, MinusFruit3, Chance, Minigame}
+
 [System.Serializable]
 public class PlayerVariables
 {
     public int index;
+    public ActionType actionType;
     public int steps;
 
     public int currentSlotPosition = 0;
@@ -43,7 +46,6 @@ public class PlayerController : MonoBehaviour
     {
         if (lerp)
         {
-            Debug.Log(">:(");
             transform.position = Vector2.MoveTowards(transform.position, targetPos.position, damping);
 
             float dist = Vector2.Distance(transform.position, targetPos.position);

@@ -19,6 +19,7 @@ public class BreatheState : GameState
         this.pc = newPc;
 
         uc.UpdateQueueOrderUi(false);
+        newGc.GetComponent<ActionController>().ResetActionList();
         gc.ResetQueue();
 
     }
