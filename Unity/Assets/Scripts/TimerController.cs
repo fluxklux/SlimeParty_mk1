@@ -14,10 +14,12 @@ public class TimerController : MonoBehaviour
     public bool count = false;
 
     private UIController uc;
+    private TimerColor tc;
 
     private void Start()
     {
         uc = GetComponent<UIController>();
+        tc = GetComponent<TimerColor>();
     }
 
     public void SetValues (float value)
@@ -34,6 +36,7 @@ public class TimerController : MonoBehaviour
             elapsedTime = startTimer - timer;
 
             uc.UpdateTimerText(timer, startTimer);
+            tc.ChangeTimerColor(timer);
         }
 
         timer = Mathf.Clamp(timer, 0, 100);
