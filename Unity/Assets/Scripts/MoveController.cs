@@ -130,7 +130,9 @@ public class MoveController : MonoBehaviour
     public void updatePlayerSlotPosition(int targetSlot, int queueIndex)
     {
         //TODO: I ENGAGERUN SKA DEN GÅ ETT STEG I TAGET. NU ÄR FORLOOPEN SNABBARE ÄN LERPEN SÅ HAN GÅR DIREKT TILL SISTA POSITIONEN.
-        players[gc.queueObjects[queueIndex].playerIndex].GetComponent<PlayerController>().Lerp(gc.queueObjects[queueIndex].playerIndex, gc.allSlots[players[gc.queueObjects[queueIndex].playerIndex].GetComponent<PlayerController>().playerVariable.currentSlotPosition].transform);
+        players[gc.queueObjects[queueIndex].playerIndex].GetComponent<PlayerController>().Lerp(gc.queueObjects[queueIndex].playerIndex, gc.allSlots[targetSlot].transform);
+
+        //players[gc.queueObjects[queueIndex].playerIndex].GetComponent<PlayerController>().Lerp(gc.queueObjects[queueIndex].playerIndex, gc.allSlots[players[gc.queueObjects[queueIndex].playerIndex].GetComponent<PlayerController>().playerVariable.currentSlotPosition].transform);
         //Debug.Log("Player " + gc.queueObjects[queueIndex].playerIndex + " is being moved to slot " + targetSlot + "!");
         //players[gc.queueObjects[queueIndex].playerIndex].transform.position = gc.allSlots[targetSlot].transform.position;
         players[gc.queueObjects[queueIndex].playerIndex].GetComponent<PlayerController>().playerVariable.currentSlotPosition = targetSlot;
