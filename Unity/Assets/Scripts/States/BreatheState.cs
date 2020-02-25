@@ -19,7 +19,6 @@ public class BreatheState : GameState
         this.pc = newPc;
 
         uc.UpdateQueueOrderUi(false);
-
         gc.ResetQueue();
 
     }

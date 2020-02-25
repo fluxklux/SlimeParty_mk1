@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class ChanceController : MonoBehaviour
 {
-    //TODO spice:a upp lite
     int chance;
 
     int slotToTp;

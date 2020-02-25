@@ -29,7 +29,6 @@ public class GameController : MonoBehaviour
         dpad = GetComponent<Dpad>();
     }
 
-
     public void HandleQueueInputs(int indexedPlayer, int dpadIndex)
     {
         AddToQueue(indexedPlayer, dpad.GetDPadNum(dpadIndex));
