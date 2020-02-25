@@ -5,15 +5,15 @@ using UnityEngine;
 public class MoveController : MonoBehaviour
 {
     public GameObject[] players;
+    public float damping;
 
-    GameController gc;
-    UIController uc;
+    private GameController gc;
+    private UIController uc;
 
     public int selectedSlot = 0;
     public int selectedPlayer = 0;
 
-
-    void Start()
+    private void Start()
     {
         gc = GetComponent<GameController>();
         uc = GetComponent<UIController>();
@@ -42,6 +42,7 @@ public class MoveController : MonoBehaviour
                 EngageRun(calcIndex, i);
             }
 
+            //players[gc.queueObjects[i].playerIndex].GetComponent<PlayerController>().Lerp(gc.queueObjects[i].playerIndex, gc.allSlots[players[playerIndex].GetComponent<PlayerController>().playerVariable.currentSlotPosition].transform);
             players[playerIndex].GetComponent<PlayerController>().UpdateScale(gc.allSlots[20].transform.position.y);
 
         }
@@ -128,8 +129,10 @@ public class MoveController : MonoBehaviour
 
     public void updatePlayerSlotPosition(int targetSlot, int queueIndex)
     {
-        Debug.Log("Player " + gc.queueObjects[queueIndex].playerIndex + " is being moved to slot " + targetSlot + "!");
-        players[gc.queueObjects[queueIndex].playerIndex].transform.position = gc.allSlots[targetSlot].transform.position;
+        //TODO: I ENGAGERUN SKA DEN GÅ ETT STEG I TAGET. NU ÄR FORLOOPEN SNABBARE ÄN LERPEN SÅ HAN GÅR DIREKT TILL SISTA POSITIONEN.
+        players[gc.queueObjects[queueIndex].playerIndex].GetComponent<PlayerController>().Lerp(gc.queueObjects[queueIndex].playerIndex, gc.allSlots[players[gc.queueObjects[queueIndex].playerIndex].GetComponent<PlayerController>().playerVariable.currentSlotPosition].transform);
+        //Debug.Log("Player " + gc.queueObjects[queueIndex].playerIndex + " is being moved to slot " + targetSlot + "!");
+        //players[gc.queueObjects[queueIndex].playerIndex].transform.position = gc.allSlots[targetSlot].transform.position;
         players[gc.queueObjects[queueIndex].playerIndex].GetComponent<PlayerController>().playerVariable.currentSlotPosition = targetSlot;
     }
 
@@ -157,7 +160,7 @@ public class MoveController : MonoBehaviour
                 }
             }
         }
-
+        //:(
         //GÖR EN ARRAY MED ALLA VÄRDEN SOM ALLA minus ettas OM LASTSLOTINDEX VAR ÖVER ETT (=>) VID EN MOVE??
 
             /*

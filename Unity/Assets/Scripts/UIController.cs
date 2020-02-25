@@ -22,7 +22,7 @@ public class UIController : MonoBehaviour
     [Header("Order Text")]
     public GameObject[] playerQueueText;
 
-    GameController gc;
+    private GameController gc;
 
     private void Start()
     {
