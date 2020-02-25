@@ -17,12 +17,14 @@ public class ActionState : GameState
         this.mc = newMc;
         this.sc = newSc;
         this.pc = newPc;
-    }
 
-    public override void Update()
-    {
         gc.allSlots[mc.selectedSlot].GetComponent<SlotController>().TriggerSlotBehaviour(mc.selectedPlayer);
     }
+
+    /*public override void Update()
+    {
+        gc.allSlots[mc.selectedSlot].GetComponent<SlotController>().TriggerSlotBehaviour(mc.selectedPlayer);
+    }*/
 
     public override GameState NextState()
     {
