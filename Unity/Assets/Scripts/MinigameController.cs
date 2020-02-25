@@ -24,7 +24,7 @@ public class MinigameController : MonoBehaviour
     private bool doOnce = true;
     private InputController ic;
 
-    private int amount;
+    [SerializeField] private int amount;
 
     private void Start()
     {
@@ -135,10 +135,10 @@ public class MinigameController : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.I))
+        /*if (Input.GetKeyDown(KeyCode.I))
         {
             SelectPlayer(0);
-        }
+        }*/
 
         if (minigameActive)
         {
