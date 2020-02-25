@@ -7,16 +7,12 @@ public enum ActionType { PlusFruit3, PlusFruit10, MinusFruit3, Chance, Minigame}
 [System.Serializable]
 public class PlayerVariables
 {
-    public int index;
     public ActionType actionType;
     public int steps;
 
     public int currentSlotPosition = 0;
     public int currentSlotOrder = 0;
-    public Slot currentSlotType = null;
     public int lastSlotIndex = 0;
-    public bool isAlone = false;
-    public bool wasFirst = false;
     public Color color;
 }
 
@@ -26,7 +22,7 @@ public class PlayerController : MonoBehaviour
     public PlayerVariables playerVariable;
 
     private InputController ic;
-    private Transform targetPos;
+    private Vector2 targetPos;
     private int targetPlayer;
     private bool lerp;
 
@@ -35,7 +31,7 @@ public class PlayerController : MonoBehaviour
         ic = Object.FindObjectOfType<InputController>();
     }
 
-    public void Lerp(int playerIndex, Transform targetSlot)
+    public void Lerp(int playerIndex, Vector2 targetSlot)
     {
         lerp = true;
         targetPlayer = playerIndex;
@@ -46,9 +42,9 @@ public class PlayerController : MonoBehaviour
     {
         if (lerp)
         {
-            transform.position = Vector2.MoveTowards(transform.position, targetPos.position, damping);
+            transform.position = Vector2.MoveTowards(transform.position, targetPos, damping);
 
-            float dist = Vector2.Distance(transform.position, targetPos.position);
+            float dist = Vector2.Distance(transform.position, targetPos);
             if (dist < 0.1f)
             {
                 lerp = false;

@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.37311912, g: 0.3807398, b: 0.3587271, a: 1}
+  m_IndirectSpecularColor: {r: 0.37311953, g: 0.38074014, b: 0.3587274, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1678,15 +1678,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   damping: 0.25
   playerVariable:
-    index: 0
     actionType: 0
     steps: 0
     currentSlotPosition: 0
     currentSlotOrder: 0
-    currentSlotType: {fileID: 0}
     lastSlotIndex: 0
-    isAlone: 0
-    wasFirst: 0
     color: {r: 1, g: 0, b: 0, a: 1}
 --- !u!4 &442400272
 Transform:
@@ -2840,15 +2836,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   damping: 0.25
   playerVariable:
-    index: 2
     actionType: 0
     steps: 0
     currentSlotPosition: 0
     currentSlotOrder: 0
-    currentSlotType: {fileID: 0}
     lastSlotIndex: 0
-    isAlone: 0
-    wasFirst: 0
     color: {r: 1, g: 1, b: 0.013082923, a: 1}
 --- !u!4 &724941765
 Transform:
@@ -4078,15 +4070,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   damping: 0.25
   playerVariable:
-    index: 3
     actionType: 0
     steps: 0
     currentSlotPosition: 0
     currentSlotOrder: 0
-    currentSlotType: {fileID: 0}
     lastSlotIndex: 0
-    isAlone: 0
-    wasFirst: 0
     color: {r: 0.6037736, g: 0.15663938, b: 0.55257756, a: 1}
 --- !u!4 &954854756
 Transform:
@@ -5362,15 +5350,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   damping: 0.25
   playerVariable:
-    index: 1
     actionType: 0
     steps: 0
     currentSlotPosition: 0
     currentSlotOrder: 0
-    currentSlotType: {fileID: 0}
     lastSlotIndex: 0
-    isAlone: 0
-    wasFirst: 0
     color: {r: 0.16313636, g: 0.6754177, b: 0.8867924, a: 1}
 --- !u!4 &1262265710
 Transform:
@@ -9007,6 +8991,7 @@ GameObject:
   - component: {fileID: 2027658299}
   - component: {fileID: 2027658300}
   - component: {fileID: 2027658301}
+  - component: {fileID: 2027658302}
   m_Layer: 0
   m_Name: GameController
   m_TagString: GameController
@@ -9513,6 +9498,22 @@ MonoBehaviour:
   - {fileID: 149040992}
   - {fileID: 1136401054}
   masherInts: 0000000000000000
+--- !u!114 &2027658302
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2027658289}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b770ebcae9513fb40804490748868d45, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  timerText: {fileID: 1791519767}
+  defaultColor: {r: 1, g: 1, b: 1, a: 1}
+  halfWayColor: {r: 1, g: 0.99501103, b: 0, a: 1}
+  lastSecondsColor: {r: 1, g: 0, b: 0, a: 1}
 --- !u!1001 &2058070417
 PrefabInstance:
   m_ObjectHideFlags: 0

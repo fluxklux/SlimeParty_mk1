@@ -48,6 +48,6 @@ public class ChanceController : MonoBehaviour
         int calcIndex = mc.players[gc.queueObjects[playerIndex].playerIndex].GetComponent<PlayerController>().playerVariable.currentSlotPosition + slotToTp;
         calcIndex = (int)Mathf.Repeat(calcIndex, gc.allSlots.Length);
 
-        mc.updatePlayerSlotPosition(calcIndex, playerIndex);
+        mc.UpdatePlayerSlotPosition(calcIndex, playerIndex);
     }
 }
