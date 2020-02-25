@@ -43,7 +43,6 @@ public class PlayerController : MonoBehaviour
     {
         if (lerp)
         {
-            Debug.Log(">:(");
             transform.position = Vector2.MoveTowards(transform.position, targetPos.position, damping);
 
             float dist = Vector2.Distance(transform.position, targetPos.position);
