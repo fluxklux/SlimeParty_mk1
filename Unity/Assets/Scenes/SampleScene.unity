@@ -9174,11 +9174,11 @@ MonoBehaviour:
   - {fileID: 798918576}
   - {fileID: 1574913837}
   allSlotTypes:
-  - {fileID: 11400000, guid: 57fbf8afcc5d8824c83d91884704bbf9, type: 2}
   - {fileID: 11400000, guid: cb07e64de73ee3d44807c5d99a69943e, type: 2}
-  - {fileID: 11400000, guid: ea49fae8f05684e46a85c8788146a7e2, type: 2}
-  - {fileID: 11400000, guid: 5257df2f6a84db743a9ca9ab5aeabb09, type: 2}
-  - {fileID: 11400000, guid: 679b99157ed7477499da63448c4f8e25, type: 2}
+  - {fileID: 11400000, guid: cb07e64de73ee3d44807c5d99a69943e, type: 2}
+  - {fileID: 11400000, guid: cb07e64de73ee3d44807c5d99a69943e, type: 2}
+  - {fileID: 11400000, guid: cb07e64de73ee3d44807c5d99a69943e, type: 2}
+  - {fileID: 11400000, guid: cb07e64de73ee3d44807c5d99a69943e, type: 2}
   queueObjects: []
 --- !u!4 &2027658292
 Transform:
