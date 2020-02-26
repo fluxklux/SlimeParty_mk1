@@ -1,6 +1,8 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
+
 
 public class TimerController : MonoBehaviour
 {
@@ -14,12 +16,18 @@ public class TimerController : MonoBehaviour
     public bool count = false;
 
     private UIController uc;
-    private TimerColor tc;
+
+    public Color defaultColor;
+    public Color halfWayColor;
+    public Color lastSecondsColor;
+
+    public Text timerText;
 
     private void Start()
     {
         uc = GetComponent<UIController>();
-        tc = GetComponent<TimerColor>();
+
+        timerText.color = defaultColor;
     }
 
     public void SetValues (float value)
@@ -36,9 +44,35 @@ public class TimerController : MonoBehaviour
             elapsedTime = startTimer - timer;
 
             uc.UpdateTimerText(timer, startTimer);
-            tc.ChangeTimerColor(timer);
+            ChangeTimerColor(timer);
         }
 
         timer = Mathf.Clamp(timer, 0, 100);
+    }
+
+    public void ChangeTimerColor(float timer)
+    {
+        if (timer >= 30)
+        {
+            timerText.color = defaultColor;
+        }
+
+        if (timer <= 15)
+        {
+            timerText.color = halfWayColor;
+        }
+        else
+        {
+            timerText.color = defaultColor;
+        }
+
+        if (timer <= 5)
+        {
+            timerText.color = lastSecondsColor;
+        }
+        else if (timer >= 5 && timer <= 15)
+        {
+            timerText.color = halfWayColor;
+        }
     }
 }

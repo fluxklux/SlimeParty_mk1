@@ -41,7 +41,7 @@ public class MoveController : MonoBehaviour
             }
 
             //players[gc.queueObjects[i].playerIndex].GetComponent<PlayerController>().Lerp(gc.queueObjects[i].playerIndex, gc.allSlots[players[playerIndex].GetComponent<PlayerController>().playerVariable.currentSlotPosition].transform);
-            //players[playerIndex].GetComponent<PlayerController>().UpdateScale(gc.allSlots[20].transform.position.y);
+            players[playerIndex].GetComponent<PlayerController>().UpdateScale(gc.allSlots[20].transform.position.y);
         }
 
         OffsetPlayers();
@@ -154,7 +154,7 @@ public class MoveController : MonoBehaviour
                 {
                     if (players[j].GetComponent<PlayerController>().playerVariable.currentSlotPosition == players[i].GetComponent<PlayerController>().playerVariable.lastSlotIndex)
                     {
-                        players[gc.queueObjects[j].playerIndex].GetComponent<PlayerController>().playerVariable.currentSlotOrder--; //DENNA LOOPAR QUEUE ARRAYEN UTIFRÅN ALLA SPELARE, GER FEL!
+                        //players[gc.queueObjects[j].playerIndex].GetComponent<PlayerController>().playerVariable.currentSlotOrder--; //DENNA LOOPAR QUEUE ARRAYEN UTIFRÅN ALLA SPELARE, GER FEL!
                     }
                 }
             }
