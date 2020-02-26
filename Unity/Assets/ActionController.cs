@@ -17,11 +17,13 @@ public class ActionController : MonoBehaviour
     private GameController gc;
     private MoveController mc;
     private MinigameController mgc;
+    private UIController uc;
 
     bool hasMinigame = false;
 
     private void Start()
     {
+        uc = GetComponent<UIController>();
         mgc = GetComponent<MinigameController>();
         gc = GetComponent<GameController>();
         mc = GetComponent<MoveController>();
@@ -122,7 +124,8 @@ public class ActionController : MonoBehaviour
                 if(!hasMinigame)
                 {
                     //Debug.Log(playerIndex);
-                    mgc.SelectPlayer(playerIndex);
+                    uc.ToggleMasherInstructions(true);
+                    //mgc.SelectPlayer(playerIndex);
                     hasMinigame = true;
                 }
                 break;

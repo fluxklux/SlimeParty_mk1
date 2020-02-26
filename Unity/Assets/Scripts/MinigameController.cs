@@ -11,7 +11,8 @@ public class MinigameController : MonoBehaviour
     public Text[] playerTexts;
 
     [Header("0_Masher")]
-    public GameObject masherPanel;
+    [SerializeField] private GameObject masherPanel = null;
+    [SerializeField] private GameObject masherInstructionPanel = null;
     public Text[] masherTexts;
 
     public int[] masherInts = { 0, 0 };
@@ -26,9 +27,12 @@ public class MinigameController : MonoBehaviour
     private InputController ic;
     private TimerController tc;
     private int amount;
+    private float countdown;
 
     [HideInInspector]
     public int winner, loser;
+    [HideInInspector]
+    public bool countdownBool = false;
 
     private void Start()
     {
