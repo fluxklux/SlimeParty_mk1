@@ -8991,7 +8991,6 @@ GameObject:
   - component: {fileID: 2027658299}
   - component: {fileID: 2027658300}
   - component: {fileID: 2027658301}
-  - component: {fileID: 2027658302}
   m_Layer: 0
   m_Name: GameController
   m_TagString: GameController
@@ -9209,6 +9208,10 @@ MonoBehaviour:
   timer: 0
   elapsedTime: 0
   count: 0
+  defaultColor: {r: 1, g: 1, b: 1, a: 1}
+  halfWayColor: {r: 1, g: 0.9060749, b: 0, a: 1}
+  lastSecondsColor: {r: 1, g: 0, b: 0, a: 1}
+  timerText: {fileID: 1791519767}
 --- !u!114 &2027658294
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9498,22 +9501,7 @@ MonoBehaviour:
   - {fileID: 149040992}
   - {fileID: 1136401054}
   masherInts: 0000000000000000
---- !u!114 &2027658302
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2027658289}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b770ebcae9513fb40804490748868d45, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  timerText: {fileID: 1791519767}
-  defaultColor: {r: 1, g: 1, b: 1, a: 1}
-  halfWayColor: {r: 1, g: 0.99501103, b: 0, a: 1}
-  lastSecondsColor: {r: 1, g: 0, b: 0, a: 1}
+  amount: 0
 --- !u!1001 &2058070417
 PrefabInstance:
   m_ObjectHideFlags: 0
