@@ -54,7 +54,6 @@ public class GameController : MonoBehaviour
 
     public void ResetQueue()
     {
-        Debug.Log("Reseting queue");
         queueObjects.Clear();
 
         for (int i = 0; i < ic.hasPressedKey.Length; i++)

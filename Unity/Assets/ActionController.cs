@@ -125,8 +125,6 @@ public class ActionController : MonoBehaviour
                     mgc.SelectPlayer(playerIndex);
                     hasMinigame = true;
                 }
-
-                Debug.Log("MINIGAME!");
                 break;
             default:
                 Debug.Log("Something went wrong in sorting playerActions!");

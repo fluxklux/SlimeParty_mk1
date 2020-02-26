@@ -21,7 +21,7 @@ public class BreatheState : GameState
         uc.UpdateQueueOrderUi(false);
         newGc.GetComponent<ActionController>().ResetActionList();
         gc.ResetQueue();
-
+        uc.DisplayMinigameWinner(false);
     }
 
     public override GameState NextState()

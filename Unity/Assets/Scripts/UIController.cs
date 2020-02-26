@@ -13,6 +13,11 @@ public class UIController : MonoBehaviour
     public GameObject[] playerNotJoined;
     [SerializeField] private GameObject connectionPanel = null;
 
+    [Header("Minigames")]
+    [SerializeField] private GameObject resultPanel = null;
+    [SerializeField] Text winnerText = null;
+    [SerializeField] Text loserText = null;
+
     [Header("Timer & Dpad")]
     [SerializeField] private GameObject dPadObject = null;
     [SerializeField] private GameObject timerObject = null;
@@ -65,6 +70,14 @@ public class UIController : MonoBehaviour
 
         float calcFloat = timerValue / timerMax;
         pizzaFill.fillAmount = calcFloat;
+    }
+
+    public void DisplayMinigameWinner (bool onOff)
+    {
+        resultPanel.SetActive(onOff);
+
+        winnerText.text = "Winner: \n Player " + (1 + gc.GetComponent<MinigameController>().minigamePlayers[gc.GetComponent<MinigameController>().winner]).ToString("");
+        loserText.text = "Loser: \n Player " + (1 + gc.GetComponent<MinigameController>().minigamePlayers[gc.GetComponent<MinigameController>().loser]).ToString("");
     }
 
     public void UpdateQueueOrderUi(bool onOff)

@@ -17,6 +17,10 @@ public class ResultState : GameState
         this.mc = newMc;
         this.sc = newSc;
         this.pc = newPc;
+
+        uc.DisplayMinigameWinner(true);
+        gc.ChangeFruitAmount(gc.GetComponent<MinigameController>().minigamePlayers[gc.GetComponent<MinigameController>().winner], 10);
+        //Debug.Log(gc.GetComponent<MinigameController>().minigamePlayers[gc.GetComponent<MinigameController>().winner]);
     }
 
     public override GameState NextState()

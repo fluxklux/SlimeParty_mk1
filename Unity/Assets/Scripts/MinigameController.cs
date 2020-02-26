@@ -16,18 +16,23 @@ public class MinigameController : MonoBehaviour
 
     public int[] masherInts = { 0, 0 };
 
-    private int[] minigamePlayers = { 0, 1 };
+    [HideInInspector]
+    public int[] minigamePlayers = { 0, 1 };
 
     private float timer; //local minigame timer
     private bool minigameActive = false; //are minigames playing at the moment?
     private int minigameIndex; //what minigame is active
     private bool doOnce = true;
     private InputController ic;
+    private TimerController tc;
+    private int amount;
 
-    [SerializeField] private int amount;
+    [HideInInspector]
+    public int winner, loser;
 
     private void Start()
     {
+        tc = GetComponent<TimerController>();
         ic = GetComponent<InputController>();
     }
 
@@ -50,7 +55,6 @@ public class MinigameController : MonoBehaviour
 
         while(randomPlayer == playerIndex)
         {
-            Debug.Log("While loop");
             randomPlayer = RandomizePlayer();
         }
 
@@ -135,17 +139,14 @@ public class MinigameController : MonoBehaviour
 
     private void Update()
     {
-        /*if (Input.GetKeyDown(KeyCode.I))
-        {
-            SelectPlayer(0);
-        }*/
-
         if (minigameActive)
         {
             if (timer <= 0)
             {
                 minigameActive = false;
             }
+
+            tc.ChangeMinigameTimerColor(timer);
 
             //minigame is active and running
             switch (minigameIndex)
@@ -177,16 +178,22 @@ public class MinigameController : MonoBehaviour
                         {
                             masherTexts[0].color = Color.green;
                             masherTexts[1].color = Color.red;
+                            winner = 0;
+                            loser = 1;
                         }
                         else if(masherInts[1] > masherInts[0])
                         {
                             masherTexts[1].color = Color.green;
                             masherTexts[0].color = Color.red;
+                            winner = 1;
+                            loser = 0;
                         }
                         else
                         {
                             masherTexts[0].color = Color.red;
                             masherTexts[1].color = Color.red;
+                            winner = 0;
+                            loser = 0;
                         }
 
                         StartCoroutine(ResetMinigame());
