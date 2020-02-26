@@ -38,6 +38,7 @@ public class MinigameController : MonoBehaviour
     {
         tc = GetComponent<TimerController>();
         ic = GetComponent<InputController>();
+        tc = GetComponent<TimerController>();
     }
 
     public void SetMinigamePlayers (int playerIndex, int controlIndex)
