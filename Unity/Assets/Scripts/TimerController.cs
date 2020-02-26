@@ -23,11 +23,14 @@ public class TimerController : MonoBehaviour
 
     public Text timerText;
 
+    public Text minigameTimerText;
+
     private void Start()
     {
         uc = GetComponent<UIController>();
 
         timerText.color = defaultColor;
+        minigameTimerText.color = defaultColor;
     }
 
     public void SetValues (float value)
@@ -52,12 +55,12 @@ public class TimerController : MonoBehaviour
 
     public void ChangeTimerColor(float timer)
     {
-        if (timer >= 30)
+        if (timer >= startTimer)
         {
             timerText.color = defaultColor;
         }
 
-        if (timer <= 15)
+        if (timer <= startTimer/2)
         {
             timerText.color = halfWayColor;
         }
@@ -70,9 +73,36 @@ public class TimerController : MonoBehaviour
         {
             timerText.color = lastSecondsColor;
         }
-        else if (timer >= 5 && timer <= 15)
+        else if (timer >= 5 && timer <= startTimer/2)
         {
             timerText.color = halfWayColor;
         }
     }
+
+    public void ChangeMinigameTimerColor(float timer)
+    {
+        if (timer >= 5)
+        {
+            minigameTimerText.color = defaultColor;
+        }
+
+        if (timer <= 4)
+        {
+            minigameTimerText.color = halfWayColor;
+        }
+        else
+        {
+            minigameTimerText.color = defaultColor;
+        }
+
+        if (timer <= 2)
+        {
+            minigameTimerText.color = lastSecondsColor;
+        }
+        else if (timer >= 2 && timer <= 4)
+        {
+            minigameTimerText.color = halfWayColor;
+        }
+    }
+
 }
