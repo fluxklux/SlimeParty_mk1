@@ -17,7 +17,6 @@ public class UIController : MonoBehaviour
     [SerializeField] private GameObject resultPanel = null;
     [SerializeField] private Text winnerText = null;
     [SerializeField] private Text loserText = null;
-    [SerializeField] private GameObject masherInstructionPanel = null;
 
     [Header("Timer & Dpad")]
     [SerializeField] private GameObject dPadObject = null;
@@ -71,11 +70,6 @@ public class UIController : MonoBehaviour
 
         float calcFloat = timerValue / timerMax;
         pizzaFill.fillAmount = calcFloat;
-    }
-
-    public void ToggleMasherInstructions (bool onOff)
-    {
-        masherInstructionPanel.SetActive(onOff);
     }
 
     public void DisplayMinigameWinner (bool onOff)

@@ -10,6 +10,7 @@ public class SlotController : MonoBehaviour
     private GameController gc;
     private MoveController mc;
     private UIController uc;
+    private ChanceController cc;
     new SpriteRenderer renderer;
 
     private void Start()
@@ -20,6 +21,7 @@ public class SlotController : MonoBehaviour
         gc = gameController.GetComponent<GameController>();
         mc = gameController.GetComponent<MoveController>();
         uc = gameController.GetComponent<UIController>();
+        cc = gameController.GetComponent<ChanceController>();
 
         currentSlot = gc.allSlotTypes[Random.Range(0, gc.allSlotTypes.Length)];
         renderer.color = currentSlot.color;
@@ -51,8 +53,8 @@ public class SlotController : MonoBehaviour
                 break;
             case SlotType.chance:
                 mc.players[playerIndex].GetComponent<PlayerController>().playerVariable.actionType = ActionType.Chance;
-                //Debug.Log(currentSlot.slotType);
-                //cc.RandomiseChance(playerIndex);
+                Debug.Log(currentSlot.slotType);
+                cc.RandomiseChance(playerIndex);
                 break;
             default:
                 break;
