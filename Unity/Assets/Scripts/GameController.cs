@@ -22,6 +22,8 @@ public class GameController : MonoBehaviour
     InputController ic;
     Dpad dpad;
 
+    public int[] turnsWaited;
+
     private void Awake()
     {
         uc = GetComponent<UIController>();
@@ -59,6 +61,24 @@ public class GameController : MonoBehaviour
         for (int i = 0; i < ic.hasPressedKey.Length; i++)
         {
             ic.hasPressedKey[i] = false;
+
+
+            if (turnsWaited[i] >= 1)
+            {
+                ic.allPlayers[i].GetComponent<PlayerController>().playerVariable.skip = false;
+                ic.hasPressedKey[i] = false;
+                turnsWaited[i] = 0;
+
+            }
+            else if (ic.allPlayers[i].GetComponent<PlayerController>().playerVariable.skip == true)
+            {
+                ic.hasPressedKey[i] = true;
+
+                Debug.Log("skipped player " + i + " turn");
+
+                turnsWaited[i]++;
+
+            }
         }
     }
 

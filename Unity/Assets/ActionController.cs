@@ -18,6 +18,7 @@ public class ActionController : MonoBehaviour
     private MoveController mc;
     private MinigameController mgc;
     private UIController uc;
+    private ChanceController cc;
 
     bool hasMinigame = false;
 
@@ -27,6 +28,7 @@ public class ActionController : MonoBehaviour
         mgc = GetComponent<MinigameController>();
         gc = GetComponent<GameController>();
         mc = GetComponent<MoveController>();
+        cc = GetComponent<ChanceController>();
     }
 
     public void ResetActionList ()
@@ -119,6 +121,7 @@ public class ActionController : MonoBehaviour
                 break;
             case 1:
                 Debug.Log("CHANCE!");
+                cc.RandomiseChance(playerIndex);
                 break;
             case 2:
                 if(!hasMinigame)

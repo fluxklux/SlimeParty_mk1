@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.37311912, g: 0.3807398, b: 0.3587271, a: 1}
+  m_IndirectSpecularColor: {r: 0.37311953, g: 0.38074014, b: 0.3587274, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -324,7 +324,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &91721515
 RectTransform:
   m_ObjectHideFlags: 0
@@ -10064,11 +10064,11 @@ MonoBehaviour:
   - {fileID: 798918576}
   - {fileID: 1574913837}
   allSlotTypes:
-  - {fileID: 11400000, guid: cb07e64de73ee3d44807c5d99a69943e, type: 2}
-  - {fileID: 11400000, guid: cb07e64de73ee3d44807c5d99a69943e, type: 2}
-  - {fileID: 11400000, guid: cb07e64de73ee3d44807c5d99a69943e, type: 2}
-  - {fileID: 11400000, guid: cb07e64de73ee3d44807c5d99a69943e, type: 2}
-  - {fileID: 11400000, guid: cb07e64de73ee3d44807c5d99a69943e, type: 2}
+  - {fileID: 11400000, guid: 679b99157ed7477499da63448c4f8e25, type: 2}
+  - {fileID: 11400000, guid: 57fbf8afcc5d8824c83d91884704bbf9, type: 2}
+  - {fileID: 11400000, guid: 57fbf8afcc5d8824c83d91884704bbf9, type: 2}
+  - {fileID: 11400000, guid: 57fbf8afcc5d8824c83d91884704bbf9, type: 2}
+  - {fileID: 11400000, guid: 57fbf8afcc5d8824c83d91884704bbf9, type: 2}
   queueObjects: []
 --- !u!4 &2027658292
 Transform:
@@ -10231,6 +10231,7 @@ MonoBehaviour:
   resultPanel: {fileID: 721112958}
   winnerText: {fileID: 2097209739}
   loserText: {fileID: 1536932415}
+  masherInstructionPanel: {fileID: 0}
   dPadObject: {fileID: 1848130752}
   timerObject: {fileID: 1901858284}
   timerText: {fileID: 1791519767}
@@ -10359,6 +10360,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1e73a10887c5ae54083babc09f9913c6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  fruitBag: {fileID: 6889429002455856588, guid: 40f92bc2ab29d8c4192998acb44e2ca2,
+    type: 3}
+  threePlusSlots: []
 --- !u!114 &2027658300
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10392,6 +10396,7 @@ MonoBehaviour:
   - {fileID: 1873122073}
   - {fileID: 1586293425}
   masherPanel: {fileID: 1820460370}
+  masherInstructionPanel: {fileID: 0}
   masherTexts:
   - {fileID: 149040992}
   - {fileID: 1136401054}
@@ -10399,6 +10404,7 @@ MonoBehaviour:
   minigamePlayers: 0000000001000000
   winner: 0
   loser: 0
+  countdownBool: 0
 --- !u!1 &2038762099
 GameObject:
   m_ObjectHideFlags: 0
@@ -11213,7 +11219,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &2137497146
 RectTransform:
   m_ObjectHideFlags: 0

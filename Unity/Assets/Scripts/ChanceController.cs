@@ -5,40 +5,67 @@ using UnityEngine;
 public class ChanceController : MonoBehaviour
 {
     int chance;
-
     int slotToTp;
+    int slotToPlace;
 
     GameController gc;
     MoveController mc;
+    InputController ic;
+
+    public GameObject fruitBag;
+
+    public List<GameObject> threePlusSlots = new List<GameObject>();
+
+    Vector2 slotPos;
 
     private void Start()
     {
         gc = GetComponent<GameController>();
         mc = GetComponent<MoveController>();
+        ic = GetComponent<InputController>();
+
+        AddPlusThreeSlotsToRange();
+        Debug.Log("There is " + threePlusSlots.Count + " plusThree slots on the board");
     }
 
     public void RandomiseChance(int playerIndex)
     {
-
-        chance = Random.Range(1, 4);
+        chance = Random.Range(3, 3);
 
         switch (chance)
         {
             case 1:
-                MoveToRandomSlot(playerIndex);
+                //bra effekt, 3 food bags som ger +10 ENBART PÅ PLUS SLOT
+                PlaceRandomBags();
                 break;
             case 2:
-                gc.ChangeFruitAmount(playerIndex, 3);
+                //Neutral effekt
+                //MoveToRandomSlot(playerIndex);
+
                 break;
             case 3:
-                gc.ChangeFruitAmount(playerIndex, -3);
-                break;
-            case 4:
-                gc.ChangeFruitAmount(playerIndex, 10);
+                //Dålig effekt, förlora sin tur
+                SkipPlayerTurn(playerIndex);
                 break;
             default:
                 break;
         }
+    }
+
+    void AddPlusThreeSlotsToRange()
+    {
+        for (int i = 0; i < gc.allSlots.Length; i++)
+        {
+            if (gc.allSlots[i].GetComponent<SlotController>().currentSlot.slotType == SlotType.plusThree)
+            {
+                threePlusSlots.Add(gc.allSlots[i]);
+            }
+        }
+    }
+
+    void GetSlotVector(int listIndex)
+    {
+        slotPos = threePlusSlots[listIndex].gameObject.transform.position;
     }
 
     void MoveToRandomSlot(int playerIndex)
@@ -49,5 +76,34 @@ public class ChanceController : MonoBehaviour
         calcIndex = (int)Mathf.Repeat(calcIndex, gc.allSlots.Length);
 
         mc.UpdatePlayerSlotPosition(calcIndex, playerIndex);
+
+        Debug.Log("Moved player " + playerIndex + "to slot " + slotToTp);
+    }
+
+    void PlaceRandomBags()
+    {
+        for (int i = 0; i < 3; i++)
+        {
+            slotToPlace = Random.Range(0, threePlusSlots.Count);
+
+            GetSlotVector(slotToPlace);
+
+            GameObject instance = Instantiate(fruitBag, slotPos, Quaternion.identity);
+
+            //threePlusSlots[slotToPlace].GetComponent<SlotController>().hasBag = true;
+
+            Debug.Log("placed random bag on slot " + slotToPlace);
+        }
+    }
+
+    void SkipPlayerTurn(int playerIndex)
+    {
+        
+        if (gc.turnsWaited[playerIndex] <= 0)
+        {
+            ic.allPlayers[playerIndex].GetComponent<PlayerController>().playerVariable.skip = true;
+        }  
+
+        Debug.Log("player " + playerIndex + " lost a turn!");
     }
 }
