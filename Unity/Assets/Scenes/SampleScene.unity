@@ -1891,6 +1891,7 @@ MonoBehaviour:
     currentSlotOrder: 0
     lastSlotIndex: 0
     color: {r: 1, g: 0, b: 0, a: 1}
+    skip: 0
 --- !u!4 &442400272
 Transform:
   m_ObjectHideFlags: 0
@@ -3240,6 +3241,7 @@ MonoBehaviour:
     currentSlotOrder: 0
     lastSlotIndex: 0
     color: {r: 1, g: 1, b: 0.013082923, a: 1}
+    skip: 0
 --- !u!4 &724941765
 Transform:
   m_ObjectHideFlags: 0
@@ -4759,6 +4761,7 @@ MonoBehaviour:
     currentSlotOrder: 0
     lastSlotIndex: 0
     color: {r: 0.6037736, g: 0.15663938, b: 0.55257756, a: 1}
+    skip: 0
 --- !u!4 &954854756
 Transform:
   m_ObjectHideFlags: 0
@@ -6134,6 +6137,7 @@ MonoBehaviour:
     currentSlotOrder: 0
     lastSlotIndex: 0
     color: {r: 0.16313636, g: 0.6754177, b: 0.8867924, a: 1}
+    skip: 0
 --- !u!4 &1262265710
 Transform:
   m_ObjectHideFlags: 0
@@ -10070,6 +10074,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 57fbf8afcc5d8824c83d91884704bbf9, type: 2}
   - {fileID: 11400000, guid: 57fbf8afcc5d8824c83d91884704bbf9, type: 2}
   queueObjects: []
+  turnSkipped: 00000000
 --- !u!4 &2027658292
 Transform:
   m_ObjectHideFlags: 0

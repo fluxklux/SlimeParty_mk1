@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class ChanceController : MonoBehaviour
 {
-    int chance;
     int slotToTp;
     int slotToPlace;
 
@@ -30,7 +29,9 @@ public class ChanceController : MonoBehaviour
 
     public void RandomiseChance(int playerIndex)
     {
-        chance = Random.Range(3, 3);
+        int chance;
+
+        chance = Random.Range(1, 3);
 
         switch (chance)
         {
@@ -40,7 +41,7 @@ public class ChanceController : MonoBehaviour
                 break;
             case 2:
                 //Neutral effekt
-                //MoveToRandomSlot(playerIndex);
+                MoveToRandomSlot(playerIndex);
 
                 break;
             case 3:
@@ -98,12 +99,10 @@ public class ChanceController : MonoBehaviour
 
     void SkipPlayerTurn(int playerIndex)
     {
-        
-        if (gc.turnsWaited[playerIndex] <= 0)
+        if (gc.turnSkipped[playerIndex] == false)
         {
             ic.allPlayers[playerIndex].GetComponent<PlayerController>().playerVariable.skip = true;
         }  
-
         Debug.Log("player " + playerIndex + " lost a turn!");
     }
 }

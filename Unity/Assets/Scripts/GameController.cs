@@ -22,7 +22,7 @@ public class GameController : MonoBehaviour
     InputController ic;
     Dpad dpad;
 
-    public int[] turnsWaited;
+    public bool[] turnSkipped;
 
     private void Awake()
     {
@@ -63,11 +63,11 @@ public class GameController : MonoBehaviour
             ic.hasPressedKey[i] = false;
 
 
-            if (turnsWaited[i] >= 1)
+            if (turnSkipped[i] == true)
             {
                 ic.allPlayers[i].GetComponent<PlayerController>().playerVariable.skip = false;
                 ic.hasPressedKey[i] = false;
-                turnsWaited[i] = 0;
+                turnSkipped[i] = false;
 
             }
             else if (ic.allPlayers[i].GetComponent<PlayerController>().playerVariable.skip == true)
@@ -76,7 +76,7 @@ public class GameController : MonoBehaviour
 
                 Debug.Log("skipped player " + i + " turn");
 
-                turnsWaited[i]++;
+                turnSkipped[i] = true;
 
             }
         }
