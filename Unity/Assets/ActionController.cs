@@ -51,7 +51,7 @@ public class ActionController : MonoBehaviour
                     newAction.fruitAmount = 3;
                     actionClasses.Add(newAction);
 
-                    Debug.Log("Player" + gc.queueObjects[i].playerIndex + " add 3 fruits");
+                    //Debug.Log("Player" + gc.queueObjects[i].playerIndex + " add 3 fruits");
                     break;
                 case ActionType.PlusFruit10:
                     ActionClass newAction2 = new ActionClass();
@@ -60,7 +60,7 @@ public class ActionController : MonoBehaviour
                     newAction2.fruitAmount = 10;
                     actionClasses.Add(newAction2);
 
-                    Debug.Log("Player" + gc.queueObjects[i].playerIndex + " add 10 fruits");
+                    //Debug.Log("Player" + gc.queueObjects[i].playerIndex + " add 10 fruits");
                     break;
                 case ActionType.MinusFruit3:
                     ActionClass newAction3 = new ActionClass();
@@ -69,7 +69,7 @@ public class ActionController : MonoBehaviour
                     newAction3.fruitAmount = -3;
                     actionClasses.Add(newAction3);
 
-                    Debug.Log("Player" + gc.queueObjects[i].playerIndex + " remove 3 fruits");
+                    //Debug.Log("Player" + gc.queueObjects[i].playerIndex + " remove 3 fruits");
                     break;
                 case ActionType.Chance:
                     ActionClass newAction4 = new ActionClass();
@@ -77,7 +77,7 @@ public class ActionController : MonoBehaviour
                     newAction4.playerIndex = gc.queueObjects[i].playerIndex;
                     actionClasses.Add(newAction4);
 
-                    Debug.Log("Player" + gc.queueObjects[i].playerIndex + " play chance");
+                    //Debug.Log("Player" + gc.queueObjects[i].playerIndex + " play chance");
                     break;
                 case ActionType.Minigame:
                     ActionClass newAction5 = new ActionClass();
@@ -85,7 +85,7 @@ public class ActionController : MonoBehaviour
                     newAction5.playerIndex = gc.queueObjects[i].playerIndex;
                     actionClasses.Add(newAction5);
 
-                    Debug.Log("Player" + gc.queueObjects[i].playerIndex + " play minigame");
+                    //Debug.Log("Player" + gc.queueObjects[i].playerIndex + " play minigame");
                     break;
                 default:
                     Debug.Log("Something went wrong in sorting playerActions!");
@@ -126,10 +126,10 @@ public class ActionController : MonoBehaviour
             case 2:
                 if(!hasMinigame)
                 {
-                    //Debug.Log(playerIndex);
-                    uc.ToggleMasherInstructions(true);
-                    //mgc.SelectPlayer(playerIndex);
                     hasMinigame = true;
+                    mgc.StartCoroutine(mgc.MasherInstructions());
+                    mgc.playerIndex = playerIndex; // :(
+                    //mgc.SelectPlayer(playerIndex);
                 }
                 break;
             default:

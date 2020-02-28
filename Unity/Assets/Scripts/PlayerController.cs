@@ -2,16 +2,17 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public enum ActionType { PlusFruit3, PlusFruit10, MinusFruit3, Chance, Minigame}
+public enum ActionType { PlusFruit3, PlusFruit10, MinusFruit3, Chance, Minigame }
 
 [System.Serializable]
 public class PlayerVariables
 {
     public ActionType actionType;
     public int steps;
-
+    public bool wasFirst;
     public int currentSlotPosition = 0;
     public int currentSlotOrder = 0;
+    public int lastSlotOrder = 0;
     public int lastSlotIndex = 0;
     public Color color;
 
@@ -80,7 +81,7 @@ public class PlayerController : MonoBehaviour
         playerScale = Mathf.Lerp(minScale.y, maxScale.y, differents - 4);
 
         transform.localScale = new Vector3(playerScale, playerScale, 0.0f);
-        
+
     }
 
     public int GetPositionIndex()

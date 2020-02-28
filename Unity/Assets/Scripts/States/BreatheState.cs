@@ -30,7 +30,7 @@ public class BreatheState : GameState
 
         InputState inputState = new InputState(ic, tc, dp, gc, cc, uc, mc, sc, pc);
         inputState.time = 3;
-        Debug.Log("Round is done!");
+        //Debug.Log("Round is done!");
         return inputState;
     }
 }

@@ -76,9 +76,7 @@ public class ChanceController : MonoBehaviour
         int calcIndex = mc.players[gc.queueObjects[playerIndex].playerIndex].GetComponent<PlayerController>().playerVariable.currentSlotPosition + slotToTp;
         calcIndex = (int)Mathf.Repeat(calcIndex, gc.allSlots.Length);
 
-        mc.UpdatePlayerSlotPosition(calcIndex, playerIndex);
-
-        Debug.Log("Moved player " + playerIndex + "to slot " + slotToTp);
+        mc.UpdatePlayerPositionPlayerIndex(calcIndex, gc.queueObjects[playerIndex].playerIndex, Vector3.zero); //OM CHANS FLYTTAR SPELARE TILL ETT RANDOM SLUT SÅ RÄKNAR DENNA INTE UT ORDERN ÄNNU, EFTERSOM DETTA GÖRS TIDIGARE I MOVE SKRIPTET
     }
 
     void PlaceRandomBags()

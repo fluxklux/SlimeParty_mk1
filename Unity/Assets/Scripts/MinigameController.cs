@@ -12,7 +12,8 @@ public class MinigameController : MonoBehaviour
 
     [Header("0_Masher")]
     [SerializeField] private GameObject masherPanel = null;
-    [SerializeField] private GameObject masherInstructionPanel = null;
+    [SerializeField] private Text masherCountdownText = null;
+    [SerializeField] private GameObject masherInstructionsPanel = null;
     public Text[] masherTexts;
 
     public int[] masherInts = { 0, 0 };
@@ -27,12 +28,14 @@ public class MinigameController : MonoBehaviour
     private InputController ic;
     private TimerController tc;
     private int amount;
-    private float countdown;
+    private float countdown = 5;
 
     [HideInInspector]
     public int winner, loser;
     [HideInInspector]
     public bool countdownBool = false;
+    [HideInInspector]
+    public int playerIndex;
 
     private void Start()
     {
@@ -142,8 +145,25 @@ public class MinigameController : MonoBehaviour
         }*/
     }
 
+    public IEnumerator MasherInstructions ()
+    {
+        masherInstructionsPanel.SetActive(true);
+        countdownBool = true;
+        yield return new WaitForSeconds(5);
+        masherInstructionsPanel.SetActive(false);
+        countdownBool = false;
+        countdown = 5;
+        SelectPlayer(playerIndex);
+    }
+
     private void Update()
     {
+        if(countdownBool)
+        {
+            countdown -= 1 * Time.deltaTime;
+            masherCountdownText.text = countdown.ToString("F2");
+        }
+
         if (minigameActive)
         {
             if (timer <= 0)
@@ -233,7 +253,6 @@ public class MinigameController : MonoBehaviour
         }
     }
 
-    //global for all minigames
     private void TimerToggle(bool onOff)
     {
         timerText.gameObject.SetActive(onOff);
