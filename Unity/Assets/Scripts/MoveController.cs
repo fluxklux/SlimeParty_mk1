@@ -187,39 +187,10 @@ public class MoveController : MonoBehaviour
             }
 
         }
-
-        //:( :)
-
-            /*
-            for (int i = 0; i < players.Length; i++)
-            {
-                if (players[i].GetComponent<PlayerController>().wasFirst == true)
-                {
-                    if (checkSelectedSlot(players[i].GetComponent<PlayerController>().currentSlotPosition) > 1)
-                    {
-                        selectedPlayer = i;
-                        updatePlayerPosition(new Vector3(-0.25f, 0.25f), players[i].GetComponent<PlayerController>().currentSlotPosition);
-                    }
-                }
-
-                if (checkSelectedSlot(players[i].GetComponent<PlayerController>().lastSlotIndex) == 1)
-                {
-                    for (int j = 0; j < players.Length; j++)
-                    {
-                        if (players[j].GetComponent<PlayerController>().currentSlotPosition == players[i].GetComponent<PlayerController>().lastSlotIndex)
-                        {
-                            selectedPlayer = j;
-                            updatePlayerPosition(new Vector3(0, 0), players[j].GetComponent<PlayerController>().currentSlotPosition);
-                        }
-                    }
-                }
-            }
-            */
     }
 
     void MoveToOffset(int queueIndex, Vector3 offsetValue)
     {
-        players[gc.queueObjects[queueIndex].playerIndex].GetComponent<PlayerController>().Lerp(gc.queueObjects[queueIndex].playerIndex, gc.allSlots[selectedSlot].transform.position + offsetValue);
-        //players[gc.queueObjects[queueIndex].playerIndex].transform.position += offsetValue;
+        players[gc.queueObjects[queueIndex].playerIndex].GetComponent<PlayerController>().Lerp(gc.queueObjects[queueIndex].playerIndex, gc.allSlots[players[gc.queueObjects[queueIndex].playerIndex].GetComponent<PlayerController>().playerVariable.currentSlotPosition].transform.position + offsetValue);
     }
 }
