@@ -31,7 +31,7 @@ public class ChanceController : MonoBehaviour
     {
         int chance;
 
-        chance = Random.Range(1, 3);
+        chance = Random.Range(1, 4);
 
         switch (chance)
         {
@@ -77,6 +77,8 @@ public class ChanceController : MonoBehaviour
         calcIndex = (int)Mathf.Repeat(calcIndex, gc.allSlots.Length);
 
         mc.UpdatePlayerPositionPlayerIndex(calcIndex, gc.queueObjects[playerIndex].playerIndex, Vector3.zero); //OM CHANS FLYTTAR SPELARE TILL ETT RANDOM SLUT SÅ RÄKNAR DENNA INTE UT ORDERN ÄNNU, EFTERSOM DETTA GÖRS TIDIGARE I MOVE SKRIPTET
+
+        Debug.Log("moved player " + playerIndex + " to slot " + slotToTp);
     }
 
     void PlaceRandomBags()
@@ -87,9 +89,20 @@ public class ChanceController : MonoBehaviour
 
             GetSlotVector(slotToPlace);
 
-            GameObject instance = Instantiate(fruitBag, slotPos, Quaternion.identity);
+            
+            if (threePlusSlots[slotToPlace].GetComponent<SlotController>().hasBag == true)
+            {
+                slotToPlace = Random.Range(0, threePlusSlots.Count);
+            }
+            else
+            {
+                GameObject instance = Instantiate(fruitBag, slotPos, Quaternion.identity);
+                threePlusSlots[slotToPlace].GetComponent<SlotController>().hasBag = true;
+            }
 
-            //threePlusSlots[slotToPlace].GetComponent<SlotController>().hasBag = true;
+
+
+
 
             Debug.Log("placed random bag on slot " + slotToPlace);
         }

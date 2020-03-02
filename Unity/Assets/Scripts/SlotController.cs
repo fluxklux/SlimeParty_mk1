@@ -13,6 +13,8 @@ public class SlotController : MonoBehaviour
     private ChanceController cc;
     new SpriteRenderer renderer;
 
+    [HideInInspector] public bool hasBag;
+
     private void Start()
     {
         gameController = GameObject.FindGameObjectWithTag("GameController");
@@ -53,8 +55,7 @@ public class SlotController : MonoBehaviour
                 break;
             case SlotType.chance:
                 mc.players[playerIndex].GetComponent<PlayerController>().playerVariable.actionType = ActionType.Chance;
-                Debug.Log(currentSlot.slotType);
-                cc.RandomiseChance(playerIndex);
+                //Debug.Log(currentSlot.slotType);
                 break;
             default:
                 break;
