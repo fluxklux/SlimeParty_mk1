@@ -159,7 +159,7 @@ public class MoveController : MonoBehaviour
                 }
             }
 
-            Debug.Log(players[gc.queueObjects[i].playerIndex] + " has the slot order " + players[gc.queueObjects[i].playerIndex].GetComponent<PlayerController>().playerVariable.currentSlotOrder);
+            //Debug.Log(players[gc.queueObjects[i].playerIndex] + " has the slot order " + players[gc.queueObjects[i].playerIndex].GetComponent<PlayerController>().playerVariable.currentSlotOrder);
 
             switch (players[gc.queueObjects[i].playerIndex].GetComponent<PlayerController>().playerVariable.currentSlotOrder)
             {
@@ -219,7 +219,7 @@ public class MoveController : MonoBehaviour
 
     void MoveToOffset(int queueIndex, Vector3 offsetValue)
     {
-        players[gc.queueObjects[queueIndex].playerIndex].GetComponent<PlayerController>().Lerp(gc.queueObjects[queueIndex].playerIndex, gc.allSlots[selectedSlot].transform.position + offsetValue);
-        //players[gc.queueObjects[queueIndex].playerIndex].transform.position += offsetValue;
+        //players[gc.queueObjects[queueIndex].playerIndex].GetComponent<PlayerController>().Lerp(gc.queueObjects[queueIndex].playerIndex, gc.allSlots[selectedSlot].transform.position + offsetValue);
+        players[gc.queueObjects[queueIndex].playerIndex].transform.position += offsetValue;
     }
 }

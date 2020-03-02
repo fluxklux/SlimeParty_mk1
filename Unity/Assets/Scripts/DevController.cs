@@ -53,7 +53,7 @@ public class DevController : MonoBehaviour
     {
         if(debugBool)
         {
-            string stateText = "TIMER: " + tc.timer.ToString("F2") + "\n" + "ELAPSED TIME: " + tc.elapsedTime.ToString("F2") + "\n" + sc.currentState.ToString();
+            string stateText = "TIMER: " + tc.timer.ToString("F2") + "\n" + "ELAPSED TIME: " + tc.elapsedTime.ToString("F2") + "\n" + sc.currentState.ToString() + " " + sc.currentState.type.ToString();
             GUI.Label(new Rect(10, 10, 200, 200), stateText, style);
         }
     }

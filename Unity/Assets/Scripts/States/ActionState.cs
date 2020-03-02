@@ -25,6 +25,7 @@ public class ActionState : GameState
     public override GameState NextState()
     {
         ResultState resultState = new ResultState(ic, tc, dp, gc, cc, uc, mc, sc, pc);
+        resultState.type = 3;
         resultState.time = 27;
         return resultState;
     }

@@ -10064,9 +10064,9 @@ MonoBehaviour:
   - {fileID: 798918576}
   - {fileID: 1574913837}
   allSlotTypes:
-  - {fileID: 11400000, guid: cb07e64de73ee3d44807c5d99a69943e, type: 2}
-  - {fileID: 11400000, guid: cb07e64de73ee3d44807c5d99a69943e, type: 2}
-  - {fileID: 11400000, guid: cb07e64de73ee3d44807c5d99a69943e, type: 2}
+  - {fileID: 11400000, guid: ea49fae8f05684e46a85c8788146a7e2, type: 2}
+  - {fileID: 11400000, guid: 679b99157ed7477499da63448c4f8e25, type: 2}
+  - {fileID: 11400000, guid: 5257df2f6a84db743a9ca9ab5aeabb09, type: 2}
   - {fileID: 11400000, guid: cb07e64de73ee3d44807c5d99a69943e, type: 2}
   - {fileID: 11400000, guid: cb07e64de73ee3d44807c5d99a69943e, type: 2}
   queueObjects: []
@@ -10096,6 +10096,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 09c6dc8c463dc004dbfb4845960e75e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  startTimer: 0
   timer: 0
   elapsedTime: 0
   count: 0
@@ -10135,6 +10136,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   currentState:
     time: 0
+    type: 0
     ic: {fileID: 0}
     tc: {fileID: 0}
     dp: {fileID: 0}
@@ -10146,6 +10148,7 @@ MonoBehaviour:
     pc: {fileID: 0}
   inputState:
     time: 3
+    type: 0
     ic: {fileID: 2027658297}
     tc: {fileID: 2027658293}
     dp: {fileID: 2027658294}
@@ -10157,6 +10160,7 @@ MonoBehaviour:
     pc: {fileID: 0}
   moveState:
     time: 5
+    type: 0
     ic: {fileID: 2027658297}
     tc: {fileID: 2027658293}
     dp: {fileID: 2027658294}
@@ -10168,6 +10172,7 @@ MonoBehaviour:
     pc: {fileID: 0}
   actionState:
     time: 15
+    type: 0
     ic: {fileID: 2027658297}
     tc: {fileID: 2027658293}
     dp: {fileID: 2027658294}
@@ -10179,6 +10184,7 @@ MonoBehaviour:
     pc: {fileID: 0}
   resultState:
     time: 4
+    type: 0
     ic: {fileID: 2027658297}
     tc: {fileID: 2027658293}
     dp: {fileID: 2027658294}
@@ -10190,6 +10196,7 @@ MonoBehaviour:
     pc: {fileID: 0}
   breatheState:
     time: 3
+    type: 0
     ic: {fileID: 2027658297}
     tc: {fileID: 2027658293}
     dp: {fileID: 2027658294}
@@ -10394,6 +10401,8 @@ MonoBehaviour:
   masherPanel: {fileID: 1820460370}
   masherCountdownText: {fileID: 204778452}
   masherInstructionsPanel: {fileID: 679586110}
+  player1SelectedText: {fileID: 932456187}
+  player2SelectedText: {fileID: 935338422}
   masherTexts:
   - {fileID: 149040992}
   - {fileID: 1136401054}
@@ -10402,7 +10411,7 @@ MonoBehaviour:
   winner: 0
   loser: 0
   countdownBool: 0
-  playerIndex: 0
+  playedMinigameThisRound: 0
 --- !u!1 &2038762099
 GameObject:
   m_ObjectHideFlags: 0

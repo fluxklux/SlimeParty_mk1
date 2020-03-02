@@ -14,6 +14,8 @@ public class MinigameController : MonoBehaviour
     [SerializeField] private GameObject masherPanel = null;
     [SerializeField] private Text masherCountdownText = null;
     [SerializeField] private GameObject masherInstructionsPanel = null;
+    [SerializeField] private Text player1SelectedText = null;
+    [SerializeField] private Text player2SelectedText = null;
     public Text[] masherTexts;
 
     public int[] masherInts = { 0, 0 };
@@ -35,7 +37,7 @@ public class MinigameController : MonoBehaviour
     [HideInInspector]
     public bool countdownBool = false;
     [HideInInspector]
-    public int playerIndex;
+    public bool playedMinigameThisRound = false;
 
     private void Start()
     {
@@ -69,7 +71,7 @@ public class MinigameController : MonoBehaviour
         SetMinigamePlayers(0, playerIndex);
         SetMinigamePlayers(1, randomPlayer);
 
-        RandomizeMinigame();
+        //RandomizeMinigame();
 
         switch (minigamePlayers[0])
         {
@@ -145,19 +147,30 @@ public class MinigameController : MonoBehaviour
         }*/
     }
 
-    public IEnumerator MasherInstructions ()
+    public IEnumerator MasherInstructions (int playerIndex)
     {
+        SelectPlayer(playerIndex);
+
+        player1SelectedText.text = "P" + (minigamePlayers[0] + 1).ToString();
+        player1SelectedText.color = ic.allPlayers[minigamePlayers[0]].GetComponent<PlayerController>().playerVariable.color;
+
+        player2SelectedText.text = "P" + (minigamePlayers[1] + 1).ToString();
+        player2SelectedText.color = ic.allPlayers[minigamePlayers[1]].GetComponent<PlayerController>().playerVariable.color;
+
         masherInstructionsPanel.SetActive(true);
         countdownBool = true;
         yield return new WaitForSeconds(5);
         masherInstructionsPanel.SetActive(false);
         countdownBool = false;
         countdown = 5;
-        SelectPlayer(playerIndex);
+
+        RandomizeMinigame();
     }
 
     private void Update()
     {
+        Debug.Log("playedMinigameThisRound: " + playedMinigameThisRound);
+
         if(countdownBool)
         {
             countdown -= 1 * Time.deltaTime;
@@ -251,6 +264,9 @@ public class MinigameController : MonoBehaviour
             masherTexts[i].color = Color.white;
             masherTexts[i].text = "0";
         }
+
+        //might paja
+        tc.GetComponent<ActionController>().ResetActionList();
     }
 
     private void TimerToggle(bool onOff)

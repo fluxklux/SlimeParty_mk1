@@ -26,6 +26,7 @@ public class StateController : MonoBehaviour
     private MoveController mc;
     private SlotController sc;
     private PlayerController pc;
+    private ActionController ac;
 
     private void Awake()
     {
@@ -38,22 +39,59 @@ public class StateController : MonoBehaviour
         mc = GetComponent<MoveController>();
         sc = GetComponent<SlotController>();
         pc = GetComponent<PlayerController>();
+        ac = GetComponent<ActionController>();
 
         inputState = new InputState(ic, tc, dp, gc, cc, uc, mc, sc, pc);
         inputState.time = 3;
         currentState = inputState;
-        tc.SetValues(inputState.time + moveState.time + actionState.time + resultState.time + breatheState.time);
+        tc.SetStartValues(inputState.time + moveState.time + actionState.time + resultState.time + breatheState.time);
+    }
+
+    public void UpdateTimerValues (float amount)
+    {
+        float calcTimer = tc.startTimer - amount;
+        //Debug.Log("[amount]: " + amount + " [calctimer]: " + calcTimer);
+
+        tc.SetTimerValues(calcTimer);
     }
 
     private void Update()
     {
         currentState.Update();
 
-        if (GetComponent<TimerController>().elapsedTime > currentState.time)
+        if (tc.elapsedTime > currentState.time)
         {
             if (nextStateBool)
             {
                 nextStateBool = false;
+                currentState = currentState.NextState();
+                nextStateBool = true;
+            }
+        }
+
+        //skip state if no actions where done.
+        if (currentState.type == 2 && ac.actionClasses.Count == 0)
+        {
+            //Debug.Log("ActionState is empty");
+
+            if (nextStateBool)
+            {
+                Debug.Log("skipped action state");
+                nextStateBool = false;
+                UpdateTimerValues(currentState.time);
+                currentState = currentState.NextState();
+                nextStateBool = true;
+            }
+        }
+
+        //skip results if no minigame was played
+        if (currentState.type == 3 && !ac.GetComponent<MinigameController>().playedMinigameThisRound)
+        {
+            if (nextStateBool)
+            {
+                Debug.Log("skipped results state");
+                nextStateBool = false;
+                UpdateTimerValues(currentState.time);
                 currentState = currentState.NextState();
                 nextStateBool = true;
             }

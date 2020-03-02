@@ -6,8 +6,8 @@ using UnityEngine.UI;
 
 public class TimerController : MonoBehaviour
 {
-    private float startTimer = 0.0f;
-
+    [HideInInspector]
+    public float startTimer = 0.0f;
     [HideInInspector]
     public float timer = 0.0f;
     [HideInInspector]
@@ -33,10 +33,15 @@ public class TimerController : MonoBehaviour
         minigameTimerText.color = defaultColor;
     }
 
-    public void SetValues (float value)
+    public void SetStartValues (float value)
     {
         timer = value;
         startTimer =value;
+    }
+
+    public void SetTimerValues (float value)
+    {
+        timer = value;
     }
 
     private void Update()

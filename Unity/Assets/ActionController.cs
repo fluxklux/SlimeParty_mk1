@@ -12,7 +12,7 @@ public class ActionClass
 
 public class ActionController : MonoBehaviour
 {
-    [SerializeField] private List<ActionClass> actionClasses = new List<ActionClass>();
+    public List<ActionClass> actionClasses = new List<ActionClass>();
 
     private GameController gc;
     private MoveController mc;
@@ -39,7 +39,7 @@ public class ActionController : MonoBehaviour
     {
         for (int i = 0; i < gc.queueObjects.Count; i++)
         {
-            Debug.Log(mc.players[gc.queueObjects[i].playerIndex].GetComponent<PlayerController>().playerVariable.actionType);
+            //Debug.Log(mc.players[gc.queueObjects[i].playerIndex].GetComponent<PlayerController>().playerVariable.actionType);
             switch (mc.players[gc.queueObjects[i].playerIndex].GetComponent<PlayerController>().playerVariable.actionType)//mc.players[i].GetComponent<PlayerController>().playerVariable.actionType)
             {
                 case ActionType.PlusFruit3:
@@ -124,8 +124,8 @@ public class ActionController : MonoBehaviour
                 if(!hasMinigame)
                 {
                     hasMinigame = true;
-                    mgc.StartCoroutine(mgc.MasherInstructions());
-                    mgc.playerIndex = playerIndex; // :(
+                    mgc.playedMinigameThisRound = true;
+                    mgc.StartCoroutine(mgc.MasherInstructions(playerIndex));
                     //mgc.SelectPlayer(playerIndex);
                 }
                 break;

@@ -19,13 +19,17 @@ public class ResultState : GameState
         this.pc = newPc;
 
         uc.DisplayMinigameWinner(true);
-        gc.ChangeFruitAmount(gc.GetComponent<MinigameController>().minigamePlayers[gc.GetComponent<MinigameController>().winner], 10);
+        if(gc.GetComponent<MinigameController>().playedMinigameThisRound)
+        {
+            gc.ChangeFruitAmount(gc.GetComponent<MinigameController>().minigamePlayers[gc.GetComponent<MinigameController>().winner], 10);
+        }
         //Debug.Log(gc.GetComponent<MinigameController>().minigamePlayers[gc.GetComponent<MinigameController>().winner]);
     }
 
     public override GameState NextState()
     {
         BreatheState breatheState = new BreatheState(ic, tc, dp, gc, cc, uc, mc, sc, pc);
+        breatheState.type = 4;
         breatheState.time = 30;
         return breatheState;
     }

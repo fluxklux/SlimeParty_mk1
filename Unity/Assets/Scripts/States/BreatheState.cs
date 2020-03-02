@@ -22,15 +22,16 @@ public class BreatheState : GameState
         newGc.GetComponent<ActionController>().ResetActionList();
         gc.ResetQueue();
         uc.DisplayMinigameWinner(false);
+        gc.GetComponent<MinigameController>().playedMinigameThisRound = false;
     }
 
     public override GameState NextState()
     {
-        tc.SetValues(30);
+        tc.SetStartValues(30);
 
         InputState inputState = new InputState(ic, tc, dp, gc, cc, uc, mc, sc, pc);
+        inputState.type = 0;
         inputState.time = 3;
-        //Debug.Log("Round is done!");
         return inputState;
     }
 }

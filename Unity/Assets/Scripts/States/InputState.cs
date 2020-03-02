@@ -31,6 +31,7 @@ public class InputState : GameState
     public override GameState NextState()
     {
         MoveState moveState = new MoveState(ic, tc, dp, gc, cc, uc, mc, sc, pc);
+        moveState.type = 1;
         moveState.time = 8;
         return moveState;
     }

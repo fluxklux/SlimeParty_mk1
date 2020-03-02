@@ -6,6 +6,8 @@ using UnityEngine;
 public class GameState
 {
     public float time;
+    public int type;
+
     public InputController ic;
     public TimerController tc;
     public Dpad dp;
