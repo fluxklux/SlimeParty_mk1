@@ -46,6 +46,7 @@ public class PlayerController : MonoBehaviour
         if (lerp)
         {
             transform.position = Vector2.MoveTowards(transform.position, targetPos, damping);
+            UpdateScale();
 
             float dist = Vector2.Distance(transform.position, targetPos);
             if (dist < 0.1f)
@@ -61,10 +62,10 @@ public class PlayerController : MonoBehaviour
         playerVariable.currentSlotPosition = newIndex;
     }
 
-    public void UpdateScale(float highestSlotY)
+    public void UpdateScale()
     {
 
-        float maxY = highestSlotY;
+        float maxY = 5;
 
         float yPos = transform.position.y;
 
@@ -81,6 +82,7 @@ public class PlayerController : MonoBehaviour
         playerScale = Mathf.Lerp(minScale.y, maxScale.y, differents - 4);
 
         transform.localScale = new Vector3(playerScale, playerScale, 0.0f);
+
 
     }
 
