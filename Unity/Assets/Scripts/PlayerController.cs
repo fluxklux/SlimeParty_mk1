@@ -15,6 +15,8 @@ public class PlayerVariables
     public int lastSlotOrder = 0;
     public int lastSlotIndex = 0;
     public Color color;
+
+    public bool skip = false;
 }
 
 public class PlayerController : MonoBehaviour
