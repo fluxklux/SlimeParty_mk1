@@ -40,12 +40,6 @@ public class UIController : MonoBehaviour
         {
             playerTexts[i].GetComponentInChildren<Text>().text = "P" + (i + 1) + ": " + playerFruits[i];
         }
-
-        //spelades inget minigame denna rundan (bara frukter gavs ut) ska man hoppa fram ett state så man slipper att vänta
-        if(!gc.GetComponent<MinigameController>().playedMinigameThisRound)
-        {
-            gc.GetComponent<ActionController>().ResetActionList();
-        }
     }
 
     public void TogglePlayerUi(int index)

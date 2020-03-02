@@ -17,6 +17,9 @@ public class StateController : MonoBehaviour
     [HideInInspector]
     public bool nextStateBool = true;
 
+    [HideInInspector]
+    public bool canSkip = false;
+
     private TimerController tc;
     private InputController ic;
     private Dpad dp;
@@ -69,18 +72,23 @@ public class StateController : MonoBehaviour
             }
         }
 
-        //skip state if no actions where done.
-        if (currentState.type == 2 && ac.actionClasses.Count == 0)
-        {
-            //Debug.Log("ActionState is empty");
+        //Debug.Log("canSkip: " + canSkip);
 
-            if (nextStateBool)
+        //skip state if no actions where done.
+        if(canSkip)
+        {
+            if (currentState.type == 2 && ac.actionClasses.Count == 0)
             {
-                Debug.Log("skipped action state");
-                nextStateBool = false;
-                UpdateTimerValues(currentState.time);
-                currentState = currentState.NextState();
-                nextStateBool = true;
+                //Debug.Log("ActionState is empty");
+
+                if (nextStateBool)
+                {
+                    Debug.Log("skipped action state");
+                    nextStateBool = false;
+                    UpdateTimerValues(currentState.time);
+                    currentState = currentState.NextState();
+                    nextStateBool = true;
+                }
             }
         }
 

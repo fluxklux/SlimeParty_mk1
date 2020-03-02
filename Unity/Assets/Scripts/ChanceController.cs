@@ -24,7 +24,7 @@ public class ChanceController : MonoBehaviour
         ic = GetComponent<InputController>();
 
         AddPlusThreeSlotsToRange();
-        Debug.Log("There is " + threePlusSlots.Count + " plusThree slots on the board");
+        //Debug.Log("There is " + threePlusSlots.Count + " plusThree slots on the board");
     }
 
     public void RandomiseChance(int playerIndex)

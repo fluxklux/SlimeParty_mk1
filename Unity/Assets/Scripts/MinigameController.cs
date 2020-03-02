@@ -266,6 +266,7 @@ public class MinigameController : MonoBehaviour
         }
 
         //might paja
+        Debug.Log("might paja");
         tc.GetComponent<ActionController>().ResetActionList();
     }
 

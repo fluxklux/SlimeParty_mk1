@@ -33,6 +33,7 @@ public class ActionController : MonoBehaviour
 
     public void ResetActionList ()
     {
+        //Debug.Log("CLEAR ACTION LIST!");
         actionClasses.Clear();
         hasMinigame = false;
     }
@@ -45,6 +46,7 @@ public class ActionController : MonoBehaviour
             switch (mc.players[gc.queueObjects[i].playerIndex].GetComponent<PlayerController>().playerVariable.actionType)//mc.players[i].GetComponent<PlayerController>().playerVariable.actionType)
             {
                 case ActionType.PlusFruit3:
+                    Debug.Log("Plus 3");
                     ActionClass newAction = new ActionClass();
                     newAction.actionType = 0;
                     newAction.playerIndex = gc.queueObjects[i].playerIndex;
@@ -109,6 +111,14 @@ public class ActionController : MonoBehaviour
         for (int h = 0; h < actionClasses.Count; h++)
         {
             PlayAction(actionClasses[h].playerIndex, actionClasses[h].actionType, h);
+        }
+
+        gc.GetComponent<StateController>().canSkip = true;
+
+        //spelades inget minigame denna rundan (bara frukter gavs ut) ska man hoppa fram ett state så man slipper att vänta
+        if (!gc.GetComponent<MinigameController>().playedMinigameThisRound)
+        {
+            gc.GetComponent<ActionController>().ResetActionList();
         }
     }
 

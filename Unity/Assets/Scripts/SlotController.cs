@@ -5,7 +5,7 @@ using UnityEngine;
 public class SlotController : MonoBehaviour
 {
     public Slot currentSlot;
-
+    
     private GameObject gameController;
     private GameController gc;
     private MoveController mc;

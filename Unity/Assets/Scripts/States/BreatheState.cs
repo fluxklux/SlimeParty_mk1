@@ -22,6 +22,7 @@ public class BreatheState : GameState
         newGc.GetComponent<ActionController>().ResetActionList();
         gc.ResetQueue();
         uc.DisplayMinigameWinner(false);
+        gc.GetComponent<StateController>().canSkip = false;
         gc.GetComponent<MinigameController>().playedMinigameThisRound = false;
     }
 
