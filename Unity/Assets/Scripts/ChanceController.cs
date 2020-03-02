@@ -48,6 +48,6 @@ public class ChanceController : MonoBehaviour
         int calcIndex = mc.players[gc.queueObjects[playerIndex].playerIndex].GetComponent<PlayerController>().playerVariable.currentSlotPosition + slotToTp;
         calcIndex = (int)Mathf.Repeat(calcIndex, gc.allSlots.Length);
 
-        mc.UpdatePlayerSlotPosition(calcIndex, playerIndex);
+        mc.UpdatePlayerPositionPlayerIndex(calcIndex, gc.queueObjects[playerIndex].playerIndex, Vector3.zero); //OM CHANS FLYTTAR SPELARE TILL ETT RANDOM SLUT SÅ RÄKNAR DENNA INTE UT ORDERN ÄNNU, EFTERSOM DETTA GÖRS TIDIGARE I MOVE SKRIPTET
     }
 }
