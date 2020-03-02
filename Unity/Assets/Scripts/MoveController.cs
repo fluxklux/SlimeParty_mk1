@@ -132,7 +132,7 @@ public class MoveController : MonoBehaviour
             {
                 for (int j = 0; j < players.Length; j++)
                 {
-                    Debug.Log("Checking player number " + j + "...");
+                    //Debug.Log("Checking player number " + j + "...");
                     if (players[j].GetComponent<PlayerController>().playerVariable.currentSlotPosition == players[gc.queueObjects[queueIndex].playerIndex].GetComponent<PlayerController>().playerVariable.currentSlotPosition)
                     {
                         //Debug.Log(players[j].GetComponent<PlayerController>().playerVariable.currentSlotPosition + " is the same position as " + players[gc.queueObjects[queueIndex].playerIndex].GetComponent<PlayerController>().playerVariable.currentSlotPosition);
