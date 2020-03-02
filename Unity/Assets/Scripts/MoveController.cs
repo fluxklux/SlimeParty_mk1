@@ -18,7 +18,7 @@ public class MoveController : MonoBehaviour
     {
         for (int i = 0; i < gc.queueObjects.Count; i++)
         {
-            Debug.Log("MovePlayers, looping for queueIndex " + i);
+            //Debug.Log("MovePlayers, looping for queueIndex " + i);
             currentPlayerIndex = gc.queueObjects[i].playerIndex;
             if (gc.queueObjects[i].steps >= 5)
             {
@@ -135,15 +135,15 @@ public class MoveController : MonoBehaviour
                     Debug.Log("Checking player number " + j + "...");
                     if (players[j].GetComponent<PlayerController>().playerVariable.currentSlotPosition == players[gc.queueObjects[queueIndex].playerIndex].GetComponent<PlayerController>().playerVariable.currentSlotPosition)
                     {
-                        Debug.Log(players[j].GetComponent<PlayerController>().playerVariable.currentSlotPosition + " is the same position as " + players[gc.queueObjects[queueIndex].playerIndex].GetComponent<PlayerController>().playerVariable.currentSlotPosition);
-                        Debug.Log(players[j].GetComponent<PlayerController>().playerVariable.currentSlotOrder + " is about to be tested HIGHER against " + players[gc.queueObjects[queueIndex].playerIndex].GetComponent<PlayerController>().playerVariable.currentSlotOrder);
+                        //Debug.Log(players[j].GetComponent<PlayerController>().playerVariable.currentSlotPosition + " is the same position as " + players[gc.queueObjects[queueIndex].playerIndex].GetComponent<PlayerController>().playerVariable.currentSlotPosition);
+                        //Debug.Log(players[j].GetComponent<PlayerController>().playerVariable.currentSlotOrder + " is about to be tested HIGHER against " + players[gc.queueObjects[queueIndex].playerIndex].GetComponent<PlayerController>().playerVariable.currentSlotOrder);
                         Vector3 temp = Vector3.zero;
                         if (players[j].GetComponent<PlayerController>().playerVariable.currentSlotOrder > players[gc.queueObjects[queueIndex].playerIndex].GetComponent<PlayerController>().playerVariable.currentSlotOrder)
                         {
 
-                            Debug.Log("Yes, it was higher, and has thus been lowered!");
+                            //Debug.Log("Yes, it was higher, and has thus been lowered!");
                             players[j].GetComponent<PlayerController>().playerVariable.currentSlotOrder--;
-                            Debug.Log("..to " + players[j].GetComponent<PlayerController>().playerVariable.currentSlotOrder);
+                            //Debug.Log("..to " + players[j].GetComponent<PlayerController>().playerVariable.currentSlotOrder);
                         }
 
 
@@ -181,7 +181,7 @@ public class MoveController : MonoBehaviour
             switch (amountOfPlayers)
             {
                 case 1:
-                    Debug.Log("1 player on the slot you're about to move to!");
+                    //Debug.Log("1 player on the slot you're about to move to!");
                     offset = new Vector3(0.25f, 0.25f);
                     players[gc.queueObjects[queueIndex].playerIndex].GetComponent<PlayerController>().playerVariable.wasFirst = false;
                     players[gc.queueObjects[queueIndex].playerIndex].GetComponent<PlayerController>().playerVariable.currentSlotOrder = 2;
@@ -195,19 +195,19 @@ public class MoveController : MonoBehaviour
                     }
                     break;
                 case 2:
-                    Debug.Log("2 player on the slot you're about to move to!");
+                    //Debug.Log("2 player on the slot you're about to move to!");
                     offset = new Vector3(-0.25f, -0.25f);
                     players[gc.queueObjects[queueIndex].playerIndex].GetComponent<PlayerController>().playerVariable.wasFirst = false;
                     players[gc.queueObjects[queueIndex].playerIndex].GetComponent<PlayerController>().playerVariable.currentSlotOrder = 3;
                     break;
                 case 3:
-                    Debug.Log("3 player on the slot you're about to move to!");
+                    //Debug.Log("3 player on the slot you're about to move to!");
                     offset = new Vector3(0.25f, -0.25f);
                     players[gc.queueObjects[queueIndex].playerIndex].GetComponent<PlayerController>().playerVariable.wasFirst = false;
                     players[gc.queueObjects[queueIndex].playerIndex].GetComponent<PlayerController>().playerVariable.currentSlotOrder = 4;
                     break;
                 case 0:
-                    Debug.Log("NO players on the slot you're about to move to!");
+                    //Debug.Log("NO players on the slot you're about to move to!");
                     offset = new Vector3(0, 0);
                     players[gc.queueObjects[queueIndex].playerIndex].GetComponent<PlayerController>().playerVariable.wasFirst = true;
                     players[gc.queueObjects[queueIndex].playerIndex].GetComponent<PlayerController>().playerVariable.currentSlotOrder = 1;

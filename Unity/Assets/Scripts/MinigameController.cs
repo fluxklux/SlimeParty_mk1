@@ -169,7 +169,7 @@ public class MinigameController : MonoBehaviour
 
     private void Update()
     {
-        Debug.Log("playedMinigameThisRound: " + playedMinigameThisRound);
+        //Debug.Log("playedMinigameThisRound: " + playedMinigameThisRound);
 
         if(countdownBool)
         {
