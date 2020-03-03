@@ -46,13 +46,9 @@ public class SlotController : MonoBehaviour
                 break;
             case SlotType.plusTen:
                 mc.players[playerIndex].GetComponent<PlayerController>().playerVariable.actionType = ActionType.PlusFruit10;
-                //Debug.Log(currentSlot.slotType);
-                //gc.ChangeFruitAmount(playerIndex, 10);
                 break;
             case SlotType.miniGame:
                 mc.players[playerIndex].GetComponent<PlayerController>().playerVariable.actionType = ActionType.Minigame;
-                //Debug.Log(currentSlot.slotType);
-                //mgc.RandomizeMinigame();
                 break;
             case SlotType.chance:
                 mc.players[playerIndex].GetComponent<PlayerController>().playerVariable.actionType = ActionType.Chance;

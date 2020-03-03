@@ -139,12 +139,24 @@ public class ActionController : MonoBehaviour
                     fruitAmount += 10;
                 }
 
-                Debug.Log("FruitAmount: " + fruitAmount);
+                //Debug.Log("FruitAmount: " + fruitAmount);
                 gc.ChangeFruitAmount(playerIndex, fruitAmount);
+
+                //remove fruitbag
+                for (int p = 0; p < cc.fruitBags.Count; p++)
+                {
+                    //har fruitbaggen samma slot index som spelaren som kör actionen?
+                    if(cc.fruitBags[p].GetComponent<FruitbagController>().slotIndex == mc.players[playerIndex].GetComponent<PlayerController>().playerVariable.currentSlotPosition)
+                    {
+                        Debug.Log("Fruitbag Index: " + cc.fruitBags[p].GetComponent<FruitbagController>().slotIndex + "player slot position: " + mc.players[playerIndex].GetComponent<PlayerController>().playerVariable.currentSlotPosition);
+                        Destroy(cc.fruitBags[p]);
+                        cc.fruitBags.Remove(cc.fruitBags[p]);
+                    }
+                }
 
                 break;
             case 1:
-                Debug.Log("CHANCE!");
+                //Debug.Log("CHANCE!");
                 cc.RandomiseChance(playerIndex);
                 break;
             case 2:

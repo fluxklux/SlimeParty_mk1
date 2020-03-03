@@ -31,7 +31,7 @@ public class MoveController : MonoBehaviour
         }
     }
 
-    private void Jump(int queueIndex)
+    public void Jump(int queueIndex)
     {
         int calcSlot = players[gc.queueObjects[queueIndex].playerIndex].GetComponent<PlayerController>().playerVariable.currentSlotPosition + gc.queueObjects[queueIndex].steps;
         calcSlot = (int)Mathf.Repeat(calcSlot, gc.allSlots.Length);

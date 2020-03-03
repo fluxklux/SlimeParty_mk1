@@ -4,18 +4,17 @@ using UnityEngine;
 
 public class ChanceController : MonoBehaviour
 {
-    int slotToTp;
-    int slotToPlace;
-
-    GameController gc;
-    MoveController mc;
-    InputController ic;
-
     public GameObject fruitBag;
+    public List<GameObject> fruitBags = new List<GameObject>();
 
     private List<GameObject> threePlusSlots = new List<GameObject>();
+    private int slotToTp;
+    private int slotToPlace;
+    private Vector2 slotPos;
 
-    Vector2 slotPos;
+    private GameController gc;
+    private MoveController mc;
+    private InputController ic;
 
     private void Start()
     {
@@ -41,12 +40,12 @@ public class ChanceController : MonoBehaviour
                 break;
             case 2:
                 //Neutral effekt
-                MoveToRandomSlot(playerIndex);
+                //MoveToRandomSlot(playerIndex);
 
                 break;
             case 3:
                 //Dålig effekt, förlora sin tur
-                SkipPlayerTurn(playerIndex);
+                //SkipPlayerTurn(playerIndex);
                 break;
             default:
                 break;
@@ -73,14 +72,21 @@ public class ChanceController : MonoBehaviour
     {
         slotToTp = Random.Range(0, gc.allSlots.Length);
 
-        Debug.Log("playerIndex: " + index);
-        int calcIndex = mc.players[index/*gc.queueObjects[index].playerIndex*/].GetComponent<PlayerController>().playerVariable.currentSlotPosition + slotToTp;
-        calcIndex = (int)Mathf.Repeat(calcIndex, gc.allSlots.Length);
-        Debug.Log("calculatedIndex: " + calcIndex);
-
-        mc.UpdatePlayerPositionPlayerIndex(calcIndex, index/*gc.queueObjects[index].playerIndex*/, Vector3.zero); //OM CHANS FLYTTAR SPELARE TILL ETT RANDOM SLUT SÅ RÄKNAR DENNA INTE UT ORDERN ÄNNU, EFTERSOM DETTA GÖRS TIDIGARE I MOVE SKRIPTET
-
-        Debug.Log("moved player " + index + " to slot " + calcIndex);
+        Debug.Log("about to TELEPORT with playerindex: " + index);
+        int calcIndex = mc.players[index].GetComponent<PlayerController>().playerVariable.currentSlotPosition + slotToTp;
+        int slotSteps = calcIndex - mc.players[index].GetComponent<PlayerController>().playerVariable.currentSlotPosition;
+        if (slotSteps < 0)
+        {
+            slotSteps *= -1;
+        }
+        for (int i = 0; i < gc.queueObjects.Count; i++)
+        {
+            if (gc.queueObjects[i].playerIndex == index)
+            {
+                gc.queueObjects[i].steps = slotSteps;
+                mc.Jump(i);
+            }
+        }
     }
 
     void PlaceRandomBags()
@@ -100,6 +106,8 @@ public class ChanceController : MonoBehaviour
             {
                 GameObject instance = Instantiate(fruitBag, slotPos, Quaternion.identity);
                 threePlusSlots[slotToPlace].GetComponent<SlotController>().hasBag = true;
+                instance.GetComponent<FruitbagController>().slotIndex = slotToPlace;
+                fruitBags.Add(instance);
             }
 
             Debug.Log("placed random bag on slot " + slotToPlace);
