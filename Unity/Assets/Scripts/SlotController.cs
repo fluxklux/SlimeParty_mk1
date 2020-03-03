@@ -35,13 +35,14 @@ public class SlotController : MonoBehaviour
         {
             case SlotType.plusThree:
                 mc.players[playerIndex].GetComponent<PlayerController>().playerVariable.actionType = ActionType.PlusFruit3;
-                //Debug.Log(currentSlot.slotType);
-                //gc.ChangeFruitAmount(playerIndex, 3);
+
+                if(hasBag)
+                {
+                    mc.players[playerIndex].GetComponent<PlayerController>().playerVariable.extraFruits = 10;
+                }
                 break;
             case SlotType.minusThree:
                 mc.players[playerIndex].GetComponent<PlayerController>().playerVariable.actionType = ActionType.MinusFruit3;
-                //Debug.Log(currentSlot.slotType);
-                //gc.ChangeFruitAmount(playerIndex, -3);
                 break;
             case SlotType.plusTen:
                 mc.players[playerIndex].GetComponent<PlayerController>().playerVariable.actionType = ActionType.PlusFruit10;

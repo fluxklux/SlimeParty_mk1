@@ -83,7 +83,7 @@ public class StateController : MonoBehaviour
 
                 if (nextStateBool)
                 {
-                    Debug.Log("skipped action state");
+                    //Debug.Log("skipped action state");
                     nextStateBool = false;
                     UpdateTimerValues(currentState.time);
                     currentState = currentState.NextState();
@@ -97,7 +97,7 @@ public class StateController : MonoBehaviour
         {
             if (nextStateBool)
             {
-                Debug.Log("skipped results state");
+                //Debug.Log("skipped results state");
                 nextStateBool = false;
                 UpdateTimerValues(currentState.time);
                 currentState = currentState.NextState();

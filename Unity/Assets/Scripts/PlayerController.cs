@@ -9,6 +9,8 @@ public class PlayerVariables
 {
     public ActionType actionType;
     public int steps;
+    public int extraFruits; //alltid 10 atm.
+
     public bool wasFirst;
     public int currentSlotPosition = 0;
     public int currentSlotOrder = 0;

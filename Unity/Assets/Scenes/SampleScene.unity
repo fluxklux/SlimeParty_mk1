@@ -1887,10 +1887,14 @@ MonoBehaviour:
   playerVariable:
     actionType: 0
     steps: 0
+    extraFruits: 0
+    wasFirst: 0
     currentSlotPosition: 0
     currentSlotOrder: 0
+    lastSlotOrder: 0
     lastSlotIndex: 0
     color: {r: 1, g: 0, b: 0, a: 1}
+    skip: 0
 --- !u!4 &442400272
 Transform:
   m_ObjectHideFlags: 0
@@ -3236,10 +3240,14 @@ MonoBehaviour:
   playerVariable:
     actionType: 0
     steps: 0
+    extraFruits: 0
+    wasFirst: 0
     currentSlotPosition: 0
     currentSlotOrder: 0
+    lastSlotOrder: 0
     lastSlotIndex: 0
     color: {r: 1, g: 1, b: 0.013082923, a: 1}
+    skip: 0
 --- !u!4 &724941765
 Transform:
   m_ObjectHideFlags: 0
@@ -4755,10 +4763,14 @@ MonoBehaviour:
   playerVariable:
     actionType: 0
     steps: 0
+    extraFruits: 0
+    wasFirst: 0
     currentSlotPosition: 0
     currentSlotOrder: 0
+    lastSlotOrder: 0
     lastSlotIndex: 0
     color: {r: 0.6037736, g: 0.15663938, b: 0.55257756, a: 1}
+    skip: 0
 --- !u!4 &954854756
 Transform:
   m_ObjectHideFlags: 0
@@ -6130,10 +6142,14 @@ MonoBehaviour:
   playerVariable:
     actionType: 0
     steps: 0
+    extraFruits: 0
+    wasFirst: 0
     currentSlotPosition: 0
     currentSlotOrder: 0
+    lastSlotOrder: 0
     lastSlotIndex: 0
     color: {r: 0.16313636, g: 0.6754177, b: 0.8867924, a: 1}
+    skip: 0
 --- !u!4 &1262265710
 Transform:
   m_ObjectHideFlags: 0
@@ -10064,12 +10080,13 @@ MonoBehaviour:
   - {fileID: 798918576}
   - {fileID: 1574913837}
   allSlotTypes:
-  - {fileID: 11400000, guid: ea49fae8f05684e46a85c8788146a7e2, type: 2}
+  - {fileID: 11400000, guid: 57fbf8afcc5d8824c83d91884704bbf9, type: 2}
   - {fileID: 11400000, guid: 679b99157ed7477499da63448c4f8e25, type: 2}
   - {fileID: 11400000, guid: 5257df2f6a84db743a9ca9ab5aeabb09, type: 2}
-  - {fileID: 11400000, guid: cb07e64de73ee3d44807c5d99a69943e, type: 2}
-  - {fileID: 11400000, guid: cb07e64de73ee3d44807c5d99a69943e, type: 2}
+  - {fileID: 11400000, guid: 57fbf8afcc5d8824c83d91884704bbf9, type: 2}
+  - {fileID: 11400000, guid: 57fbf8afcc5d8824c83d91884704bbf9, type: 2}
   queueObjects: []
+  turnSkipped: 00000000
 --- !u!4 &2027658292
 Transform:
   m_ObjectHideFlags: 0
@@ -10207,6 +10224,7 @@ MonoBehaviour:
     sc: {fileID: 0}
     pc: {fileID: 0}
   nextStateBool: 1
+  canSkip: 0
 --- !u!114 &2027658296
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10351,9 +10369,6 @@ MonoBehaviour:
   - {fileID: 1262265708}
   - {fileID: 724941763}
   - {fileID: 954854754}
-  damping: 0.5
-  selectedSlot: 0
-  selectedPlayer: 0
 --- !u!114 &2027658299
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10366,6 +10381,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1e73a10887c5ae54083babc09f9913c6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  fruitBag: {fileID: 6889429002455856588, guid: 40f92bc2ab29d8c4192998acb44e2ca2,
+    type: 3}
 --- !u!114 &2027658300
 MonoBehaviour:
   m_ObjectHideFlags: 0

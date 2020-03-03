@@ -13,7 +13,7 @@ public class ChanceController : MonoBehaviour
 
     public GameObject fruitBag;
 
-    public List<GameObject> threePlusSlots = new List<GameObject>();
+    private List<GameObject> threePlusSlots = new List<GameObject>();
 
     Vector2 slotPos;
 
@@ -69,16 +69,18 @@ public class ChanceController : MonoBehaviour
         slotPos = threePlusSlots[listIndex].gameObject.transform.position;
     }
 
-    void MoveToRandomSlot(int playerIndex)
+    void MoveToRandomSlot(int index)
     {
         slotToTp = Random.Range(0, gc.allSlots.Length);
 
-        int calcIndex = mc.players[gc.queueObjects[playerIndex].playerIndex].GetComponent<PlayerController>().playerVariable.currentSlotPosition + slotToTp;
+        Debug.Log("playerIndex: " + index);
+        int calcIndex = mc.players[index/*gc.queueObjects[index].playerIndex*/].GetComponent<PlayerController>().playerVariable.currentSlotPosition + slotToTp;
         calcIndex = (int)Mathf.Repeat(calcIndex, gc.allSlots.Length);
+        Debug.Log("calculatedIndex: " + calcIndex);
 
-        mc.UpdatePlayerPositionPlayerIndex(calcIndex, gc.queueObjects[playerIndex].playerIndex, Vector3.zero); //OM CHANS FLYTTAR SPELARE TILL ETT RANDOM SLUT SÅ RÄKNAR DENNA INTE UT ORDERN ÄNNU, EFTERSOM DETTA GÖRS TIDIGARE I MOVE SKRIPTET
+        mc.UpdatePlayerPositionPlayerIndex(calcIndex, index/*gc.queueObjects[index].playerIndex*/, Vector3.zero); //OM CHANS FLYTTAR SPELARE TILL ETT RANDOM SLUT SÅ RÄKNAR DENNA INTE UT ORDERN ÄNNU, EFTERSOM DETTA GÖRS TIDIGARE I MOVE SKRIPTET
 
-        Debug.Log("moved player " + playerIndex + " to slot " + slotToTp);
+        Debug.Log("moved player " + index + " to slot " + calcIndex);
     }
 
     void PlaceRandomBags()
@@ -100,10 +102,6 @@ public class ChanceController : MonoBehaviour
                 threePlusSlots[slotToPlace].GetComponent<SlotController>().hasBag = true;
             }
 
-
-
-
-
             Debug.Log("placed random bag on slot " + slotToPlace);
         }
     }
@@ -114,6 +112,6 @@ public class ChanceController : MonoBehaviour
         {
             ic.allPlayers[playerIndex].GetComponent<PlayerController>().playerVariable.skip = true;
         }  
-        Debug.Log("player " + playerIndex + " lost a turn!");
+        Debug.Log("player " + (playerIndex  + 1)+ " lost a turn!");
     }
 }

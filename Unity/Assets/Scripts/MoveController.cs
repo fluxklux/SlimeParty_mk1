@@ -153,11 +153,13 @@ public class MoveController : MonoBehaviour
                             case 1:
                                 if (CheckSelectedSlot(players[j].GetComponent<PlayerController>().playerVariable.currentSlotPosition) > 2)
                                 {
-                                    temp = new Vector3(-0.25f, 0.25f); Debug.Log("The left player is order 1 with extra players!");
+                                    temp = new Vector3(-0.25f, 0.25f);
+                                    //Debug.Log("The left player is order 1 with extra players!");
                                 }
                                 else
                                 {
-                                    temp = new Vector3(0, 0); Debug.Log("The left player is order 1 with no extra players!");
+                                    temp = new Vector3(0, 0);
+                                    //Debug.Log("The left player is order 1 with no extra players!");
                                 }
                                 break;
                             case 2:

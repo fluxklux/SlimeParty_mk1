@@ -22,7 +22,7 @@ public class GameController : MonoBehaviour
     InputController ic;
     Dpad dpad;
 
-    public bool[] turnSkipped;
+    public bool[] turnSkipped = { false, false, false, false };
 
     private void Awake()
     {
@@ -74,7 +74,7 @@ public class GameController : MonoBehaviour
             {
                 ic.hasPressedKey[i] = true;
 
-                Debug.Log("skipped player " + i + " turn");
+                //Debug.Log("skipped player " + i + " turn");
 
                 turnSkipped[i] = true;
 

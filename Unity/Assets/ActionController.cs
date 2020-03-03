@@ -33,7 +33,12 @@ public class ActionController : MonoBehaviour
 
     public void ResetActionList ()
     {
-        //Debug.Log("CLEAR ACTION LIST!");
+        for (int g = 0; g < mc.players.Length; g++)
+        {
+            //clear extra fruits;
+            mc.players[g].GetComponent<PlayerController>().playerVariable.extraFruits = 0;
+        }
+
         actionClasses.Clear();
         hasMinigame = false;
     }
@@ -127,7 +132,16 @@ public class ActionController : MonoBehaviour
         switch (actionType)
         {
             case 0:
-                gc.ChangeFruitAmount(playerIndex, actionClasses[i].fruitAmount);
+
+                int fruitAmount = actionClasses[i].fruitAmount;
+                if (mc.players[playerIndex].GetComponent<PlayerController>().playerVariable.extraFruits > 0)
+                {
+                    fruitAmount += 10;
+                }
+
+                Debug.Log("FruitAmount: " + fruitAmount);
+                gc.ChangeFruitAmount(playerIndex, fruitAmount);
+
                 break;
             case 1:
                 Debug.Log("CHANCE!");
