@@ -13,9 +13,13 @@ public class MoveController : MonoBehaviour
     private float playerWaitTime;
     private bool waitingBetweenPlayer = false;
 
+    private AudioController ac;
+
     void Start()
     {
         gc = GetComponent<GameController>();
+
+        ac = GetComponent<AudioController>();
     }
 
     public void MovePlayers() //Ändra DAMPING i PlayerController beroende på mängden queue objects, tillsammans med detta addera (någon slags) waiting-system för ett en effektiv dynamisk tid

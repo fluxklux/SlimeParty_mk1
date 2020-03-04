@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public enum MinigameType { Masher, Reaction }
+public enum MinigameType { Masher, Rotation }
 
 [CreateAssetMenu(fileName = " new Minigame", menuName = "Custom/Minigame")]
 public class Minigame : ScriptableObject

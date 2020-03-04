@@ -5,9 +5,9 @@ using UnityEngine;
 public class ChanceController : MonoBehaviour
 {
     public GameObject fruitBag;
-    public List<GameObject> fruitBags = new List<GameObject>();
 
-    private List<GameObject> threePlusSlots = new List<GameObject>();
+    [HideInInspector]
+    public List<int> threePlusSlots = new List<int>();
     private int slotToTp;
     private int slotToPlace;
     private Vector2 slotPos;
@@ -16,11 +16,15 @@ public class ChanceController : MonoBehaviour
     private MoveController mc;
     private InputController ic;
 
+    AudioController ac;
+
     private void Start()
     {
         gc = GetComponent<GameController>();
         mc = GetComponent<MoveController>();
         ic = GetComponent<InputController>();
+
+        ac = GetComponent<AudioController>();
 
         AddPlusThreeSlotsToRange();
         //Debug.Log("There is " + threePlusSlots.Count + " plusThree slots on the board");
@@ -40,12 +44,11 @@ public class ChanceController : MonoBehaviour
                 break;
             case 2:
                 //Neutral effekt
-                //MoveToRandomSlot(playerIndex);
-
+                MoveToRandomSlot(playerIndex);
                 break;
             case 3:
                 //Dålig effekt, förlora sin tur
-                //SkipPlayerTurn(playerIndex);
+                SkipPlayerTurn(playerIndex);
                 break;
             default:
                 break;
@@ -58,14 +61,14 @@ public class ChanceController : MonoBehaviour
         {
             if (gc.allSlots[i].GetComponent<SlotController>().currentSlot.slotType == SlotType.plusThree)
             {
-                threePlusSlots.Add(gc.allSlots[i]);
+                threePlusSlots.Add(i);
             }
         }
     }
 
     void GetSlotVector(int listIndex)
     {
-        slotPos = threePlusSlots[listIndex].gameObject.transform.position;
+        slotPos = gc.allSlots[threePlusSlots[listIndex]].transform.position;
     }
 
     void MoveToRandomSlot(int index)
@@ -98,16 +101,15 @@ public class ChanceController : MonoBehaviour
             GetSlotVector(slotToPlace);
 
             
-            if (threePlusSlots[slotToPlace].GetComponent<SlotController>().hasBag == true)
+            if (gc.allSlots[threePlusSlots[slotToPlace]].GetComponent<SlotController>().hasBag == true)
             {
                 slotToPlace = Random.Range(0, threePlusSlots.Count);
             }
             else
             {
                 GameObject instance = Instantiate(fruitBag, slotPos, Quaternion.identity);
-                threePlusSlots[slotToPlace].GetComponent<SlotController>().hasBag = true;
-                instance.GetComponent<FruitbagController>().slotIndex = slotToPlace;
-                fruitBags.Add(instance);
+                gc.allSlots[threePlusSlots[slotToPlace]].GetComponent<SlotController>().hasBag = true;
+                gc.allSlots[threePlusSlots[slotToPlace]].GetComponent<SlotController>().fruitBagObject = instance;
             }
 
             Debug.Log("placed random bag on slot " + slotToPlace);

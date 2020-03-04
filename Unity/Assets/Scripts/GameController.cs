@@ -29,6 +29,8 @@ public class GameController : MonoBehaviour
         uc = GetComponent<UIController>();
         ic = GetComponent<InputController>();
         dpad = GetComponent<Dpad>();
+
+        //ac = GetComponent<AudioController>();
     }
 
     public void HandleQueueInputs(int indexedPlayer, int dpadIndex)
@@ -90,6 +92,9 @@ public class GameController : MonoBehaviour
         {
             playerFruits[playerIndex] = 0;
         }
+
+        //ac.PlaySound(SoundEnum.plusThree);
+
         uc.UpdatePlayerFruits(playerFruits);
     }
 }
