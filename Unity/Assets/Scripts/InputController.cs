@@ -22,12 +22,16 @@ public class InputController : MonoBehaviour
     private bool canTakeInput = true;
     private bool gameStarted = false;
 
+    AudioController ac;
+
     void Start()
     {
         mc = GetComponent<MoveController>();
         dc = GetComponent<Dpad>();
         gc = GetComponent<GameController>();
         uc = GetComponent<UIController>();
+
+        ac = GetComponent<AudioController>();
 
         uc.ToggleDpad(false);
         uc.ToggleTimer(false);
@@ -60,6 +64,8 @@ public class InputController : MonoBehaviour
         uc.ToggleDpad(true);
         uc.ToggleTimer(true);
         uc.ToggleConnectionUi();
+
+        ac.PlaySong(MusicEnum.boardMusic);
     }
 
     public void GetInput()

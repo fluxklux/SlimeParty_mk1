@@ -39,11 +39,15 @@ public class MinigameController : MonoBehaviour
     [HideInInspector]
     public bool playedMinigameThisRound = false;
 
+    AudioController ac;
+
     private void Start()
     {
         tc = GetComponent<TimerController>();
         ic = GetComponent<InputController>();
         tc = GetComponent<TimerController>();
+
+        ac = GetComponent<AudioController>();
     }
 
     public void SetMinigamePlayers (int playerIndex, int controlIndex)
@@ -165,6 +169,8 @@ public class MinigameController : MonoBehaviour
         countdown = 5;
 
         RandomizeMinigame();
+
+        ac.PlaySong(MusicEnum.minigameMusic);
     }
 
     private void Update()
@@ -183,6 +189,7 @@ public class MinigameController : MonoBehaviour
             {
                 minigameActive = false;
             }
+            
 
             tc.ChangeMinigameTimerColor(timer);
 
@@ -257,6 +264,10 @@ public class MinigameController : MonoBehaviour
         amount = 0;
         doOnce = true;
         TimerToggle(false);
+
+        ac.PlaySound(SoundEnum.winSound);
+
+        ac.PlaySong(MusicEnum.boardMusic);
 
         for (int i = 0; i < masherInts.Length; i++)
         {

@@ -16,11 +16,15 @@ public class ChanceController : MonoBehaviour
     private MoveController mc;
     private InputController ic;
 
+    AudioController ac;
+
     private void Start()
     {
         gc = GetComponent<GameController>();
         mc = GetComponent<MoveController>();
         ic = GetComponent<InputController>();
+
+        ac = GetComponent<AudioController>();
 
         AddPlusThreeSlotsToRange();
         //Debug.Log("There is " + threePlusSlots.Count + " plusThree slots on the board");

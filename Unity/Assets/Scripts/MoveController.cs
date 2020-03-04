@@ -9,9 +9,13 @@ public class MoveController : MonoBehaviour
     private int currentPlayerIndex;
     private GameController gc;
 
+    private AudioController ac;
+
     void Start()
     {
         gc = GetComponent<GameController>();
+
+        ac = GetComponent<AudioController>();
     }
 
     public void MovePlayers()
