@@ -13,7 +13,8 @@ public class SlotController : MonoBehaviour
     private ChanceController cc;
     new SpriteRenderer renderer;
 
-    [HideInInspector] public bool hasBag;
+    public bool hasBag;
+    public GameObject fruitBagObject;
 
     private void Start()
     {

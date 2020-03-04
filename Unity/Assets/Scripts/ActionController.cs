@@ -143,14 +143,17 @@ public class ActionController : MonoBehaviour
                 gc.ChangeFruitAmount(playerIndex, fruitAmount);
 
                 //remove fruitbag
-                for (int p = 0; p < cc.fruitBags.Count; p++)
+                for (int p = 0; p < gc.allSlots.Length; p++)
                 {
                     //har fruitbaggen samma slot index som spelaren som kör actionen?
-                    if(cc.fruitBags[p].GetComponent<FruitbagController>().slotIndex == mc.players[playerIndex].GetComponent<PlayerController>().playerVariable.currentSlotPosition)
+                    Debug.Log(p + " " + mc.players[playerIndex].GetComponent<PlayerController>().playerVariable.currentSlotPosition);
+                    if(p == mc.players[playerIndex].GetComponent<PlayerController>().playerVariable.currentSlotPosition)
                     {
-                        Debug.Log("Fruitbag Index: " + cc.fruitBags[p].GetComponent<FruitbagController>().slotIndex + "player slot position: " + mc.players[playerIndex].GetComponent<PlayerController>().playerVariable.currentSlotPosition);
-                        Destroy(cc.fruitBags[p]);
-                        cc.fruitBags.Remove(cc.fruitBags[p]);
+                        Debug.Log("TAKE FRUIT BAG");
+                        //Debug.Log("Slot index: " + p + ", Player slot position: " + mc.players[playerIndex].GetComponent<PlayerController>().playerVariable.currentSlotPosition);
+                        Destroy(gc.allSlots[p].GetComponent<SlotController>().fruitBagObject);
+                        gc.allSlots[p].GetComponent<SlotController>().fruitBagObject = null;
+                        gc.allSlots[p].GetComponent<SlotController>().hasBag = false;
                     }
                 }
 

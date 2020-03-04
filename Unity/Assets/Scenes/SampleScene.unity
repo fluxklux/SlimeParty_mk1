@@ -10383,6 +10383,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   fruitBag: {fileID: 6889429002455856588, guid: 40f92bc2ab29d8c4192998acb44e2ca2,
     type: 3}
+  threePlusSlots: 
 --- !u!114 &2027658300
 MonoBehaviour:
   m_ObjectHideFlags: 0
