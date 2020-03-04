@@ -6,19 +6,23 @@ public class MoveController : MonoBehaviour
 {
 
     public GameObject[] players;
-    private int currentPlayerIndex;
     private GameController gc;
+    private TimerController tc;
+
+    private float timer = 0;
+    private float playerWaitTime;
+    private bool waitingBetweenPlayer = false;
 
     void Start()
     {
         gc = GetComponent<GameController>();
     }
 
-    public void MovePlayers()
+    public void MovePlayers() //Ändra DAMPING i PlayerController beroende på mängden queue objects, tillsammans med detta addera (någon slags) waiting-system för ett en effektiv dynamisk tid
     {
+        CalculateTimings();
         for (int i = 0; i < gc.queueObjects.Count; i++)
         {
-            currentPlayerIndex = gc.queueObjects[i].playerIndex;
             if (gc.queueObjects[i].steps >= 5)
             {
                 Jump(i);
@@ -26,6 +30,60 @@ public class MoveController : MonoBehaviour
             else
             {
                 Run(i);
+            }
+        }
+    }
+
+    public void CalculateTimings()
+    {
+        playerWaitTime = 0f;
+        switch (gc.queueObjects.Count)
+        {
+            case 1:
+                for (int i = 0; i < players.Length; i++)
+                {
+                    players[i].GetComponent<PlayerController>().damping = 0.1f;
+                }
+                playerWaitTime = 1.2f;
+                break;
+            case 2:
+                for (int i = 0; i < players.Length; i++)
+                {
+                    players[i].GetComponent<PlayerController>().damping = 0.15f;
+                }
+                playerWaitTime = 0.8f;
+                break;
+            case 3:
+                for (int i = 0; i < players.Length; i++)
+                {
+                    players[i].GetComponent<PlayerController>().damping = 0.17f;
+                }
+                playerWaitTime = 0.6f;
+                break;
+            case 4:
+                for (int i = 0; i < players.Length; i++)
+                {
+                    players[i].GetComponent<PlayerController>().damping = 0.2f;
+                }
+                playerWaitTime = 0.4f;
+                break;
+            case 0:
+                break;
+            default:
+                break;
+        }
+    }
+
+    public void Update()
+    {
+        if (waitingBetweenPlayer)
+        {
+            timer += Time.deltaTime;
+            if(timer >= playerWaitTime)
+            {
+                waitingBetweenPlayer = false;
+                timer = 0f;
+                
             }
         }
     }
