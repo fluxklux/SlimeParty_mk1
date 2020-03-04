@@ -146,10 +146,10 @@ public class ActionController : MonoBehaviour
                 for (int p = 0; p < gc.allSlots.Length; p++)
                 {
                     //har fruitbaggen samma slot index som spelaren som kör actionen?
-                    Debug.Log(p + " " + mc.players[playerIndex].GetComponent<PlayerController>().playerVariable.currentSlotPosition);
+                    //Debug.Log(p + " " + mc.players[playerIndex].GetComponent<PlayerController>().playerVariable.currentSlotPosition);
                     if(p == mc.players[playerIndex].GetComponent<PlayerController>().playerVariable.currentSlotPosition)
                     {
-                        Debug.Log("TAKE FRUIT BAG");
+                        //Debug.Log("TAKE FRUIT BAG");
                         //Debug.Log("Slot index: " + p + ", Player slot position: " + mc.players[playerIndex].GetComponent<PlayerController>().playerVariable.currentSlotPosition);
                         Destroy(gc.allSlots[p].GetComponent<SlotController>().fruitBagObject);
                         gc.allSlots[p].GetComponent<SlotController>().fruitBagObject = null;

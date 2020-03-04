@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.37311953, g: 0.38074014, b: 0.3587274, a: 1}
+  m_IndirectSpecularColor: {r: 0.37311912, g: 0.3807398, b: 0.3587271, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1883,7 +1883,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 77eca6e9e6387bf48a07337117de2e29, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 0.25
+  damping: 1.25
   playerVariable:
     actionType: 0
     steps: 0
@@ -3236,10 +3236,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 77eca6e9e6387bf48a07337117de2e29, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 0.25
+  damping: 0.415
   playerVariable:
     actionType: 0
     steps: 0
+    extraFruits: 0
+    wasFirst: 0
     currentSlotPosition: 0
     currentSlotOrder: 0
     lastSlotOrder: 0
@@ -4757,10 +4759,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 77eca6e9e6387bf48a07337117de2e29, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 0.25
+  damping: 0.3125
   playerVariable:
     actionType: 0
     steps: 0
+    extraFruits: 0
+    wasFirst: 0
     currentSlotPosition: 0
     currentSlotOrder: 0
     lastSlotOrder: 0
@@ -6134,10 +6138,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 77eca6e9e6387bf48a07337117de2e29, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 0.25
+  damping: 0.625
   playerVariable:
     actionType: 0
     steps: 0
+    extraFruits: 0
+    wasFirst: 0
     currentSlotPosition: 0
     currentSlotOrder: 0
     lastSlotOrder: 0
@@ -10378,6 +10384,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1e73a10887c5ae54083babc09f9913c6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  fruitBag: {fileID: 6889429002455856588, guid: 40f92bc2ab29d8c4192998acb44e2ca2,
+    type: 3}
+  threePlusSlots: 
 --- !u!114 &2027658300
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10405,16 +10414,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   allMinigames:
   - {fileID: 11400000, guid: fff4a7dad4e701c4dba6d9fc8a26317f, type: 2}
-  - {fileID: 11400000, guid: 7e86a0d8f377baa4da7b97758f7c8d1b, type: 2}
+  - {fileID: 0}
   timerText: {fileID: 770776886}
   playerTexts:
   - {fileID: 1873122073}
   - {fileID: 1586293425}
+  player1SelectedText: {fileID: 932456187}
+  player2SelectedText: {fileID: 935338422}
+  rotationPanel: {fileID: 0}
+  rotationCountdownText: {fileID: 0}
+  rotationInstructionsPanel: {fileID: 0}
   masherPanel: {fileID: 1820460370}
   masherCountdownText: {fileID: 204778452}
   masherInstructionsPanel: {fileID: 679586110}
-  player1SelectedText: {fileID: 932456187}
-  player2SelectedText: {fileID: 935338422}
   masherTexts:
   - {fileID: 149040992}
   - {fileID: 1136401054}
@@ -10441,9 +10453,12 @@ MonoBehaviour:
   boardMusic: {fileID: 8300000, guid: c3b17edd628c61446b019ac4ecfec659, type: 3}
   menuMusic: {fileID: 8300000, guid: 95859e7dd1dc3e44996c9a81e5d70f22, type: 3}
   minigameMusic: {fileID: 8300000, guid: 0fe1a80cabd361041a9f86a91328b25a, type: 3}
+  walkSound: {fileID: 8300000, guid: 4954d0be3bf1b2c4bbb3cef1949a1cd2, type: 3}
+  jumpSound: {fileID: 0}
   winSound: {fileID: 8300000, guid: 846f2f34042a2b14b9608fafab5ae4f8, type: 3}
   loseSound: {fileID: 8300000, guid: d50c4e07edab6af40bba82a9a40c657a, type: 3}
-  walkSound: {fileID: 8300000, guid: 4954d0be3bf1b2c4bbb3cef1949a1cd2, type: 3}
+  plusThree: {fileID: 0}
+  minusThree: {fileID: 0}
   musicSource: {fileID: 2027658303}
   soundSource: {fileID: 2027658304}
 --- !u!82 &2027658303
