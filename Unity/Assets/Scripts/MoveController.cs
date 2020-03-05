@@ -78,20 +78,6 @@ public class MoveController : MonoBehaviour
         }
     }
 
-    public void Update()
-    {
-        if (waitingBetweenPlayer)
-        {
-            timer += Time.deltaTime;
-            if(timer >= playerWaitTime)
-            {
-                waitingBetweenPlayer = false;
-                timer = 0f;
-                
-            }
-        }
-    }
-
     public void Jump(int queueIndex)
     {
         int calcSlot = players[gc.queueObjects[queueIndex].playerIndex].GetComponent<PlayerController>().playerVariable.currentSlotPosition + gc.queueObjects[queueIndex].steps;
