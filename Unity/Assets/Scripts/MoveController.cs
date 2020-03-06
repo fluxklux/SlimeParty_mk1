@@ -10,8 +10,15 @@ public class MoveController : MonoBehaviour
     private TimerController tc;
 
     private float timer = 0;
+    private float runTimer = 0;
+
     private float playerWaitTime;
+    private float runWaitTime = 0.15f;
+
     private bool waitingBetweenPlayer = false;
+    private bool waitingBetweenRun = false;
+
+    public int globalSequencer = 0;
 
     private AudioController ac;
 
@@ -25,16 +32,10 @@ public class MoveController : MonoBehaviour
     public void MovePlayers() //Ändra DAMPING i PlayerController beroende på mängden queue objects, tillsammans med detta addera (någon slags) waiting-system för ett en effektiv dynamisk tid
     {
         CalculateTimings();
-        for (int i = 0; i < gc.queueObjects.Count; i++)
+        globalSequencer = 0;
+        if(gc.queueObjects.Count > 0)
         {
-            if (gc.queueObjects[i].steps >= 5)
-            {
-                Jump(i);
-            }
-            else
-            {
-                Run(i);
-            }
+            LoopPlayer(0);
         }
     }
 
@@ -48,28 +49,28 @@ public class MoveController : MonoBehaviour
                 {
                     players[i].GetComponent<PlayerController>().damping = 0.1f;
                 }
-                playerWaitTime = 1.2f;
+                playerWaitTime = 1.4f;
                 break;
             case 2:
                 for (int i = 0; i < players.Length; i++)
                 {
                     players[i].GetComponent<PlayerController>().damping = 0.15f;
                 }
-                playerWaitTime = 0.8f;
+                playerWaitTime = 1f;
                 break;
             case 3:
                 for (int i = 0; i < players.Length; i++)
                 {
                     players[i].GetComponent<PlayerController>().damping = 0.17f;
                 }
-                playerWaitTime = 0.6f;
+                playerWaitTime = 0.8f;
                 break;
             case 4:
                 for (int i = 0; i < players.Length; i++)
                 {
                     players[i].GetComponent<PlayerController>().damping = 0.2f;
                 }
-                playerWaitTime = 0.4f;
+                playerWaitTime = 0.6f;
                 break;
             case 0:
                 break;
@@ -78,6 +79,20 @@ public class MoveController : MonoBehaviour
         }
     }
 
+    private void LoopPlayer(int queueIndex)
+    {
+        if (gc.queueObjects[queueIndex].steps >= 5)
+        {
+            Jump(queueIndex);
+        }
+        else
+        {
+            Run(queueIndex);
+        }
+    }
+
+    
+
     public void Jump(int queueIndex)
     {
         int calcSlot = players[gc.queueObjects[queueIndex].playerIndex].GetComponent<PlayerController>().playerVariable.currentSlotPosition + gc.queueObjects[queueIndex].steps;
@@ -85,6 +100,8 @@ public class MoveController : MonoBehaviour
         Vector3 offset = CheckOtherPlayers(queueIndex, calcSlot);
         UpdatePlayerPositionPlayerIndex(calcSlot, gc.queueObjects[queueIndex].playerIndex, offset);
         gc.allSlots[calcSlot].GetComponent<SlotController>().TriggerSlotBehaviour(gc.queueObjects[queueIndex].playerIndex);
+        waitingBetweenPlayer = true;
+        globalSequencer++;
     }
 
     private void Run(int queueIndex)
@@ -96,6 +113,35 @@ public class MoveController : MonoBehaviour
             Vector3 offset = CheckOtherPlayers(queueIndex, calcSlot);
             UpdatePlayerPositionPlayerIndex(calcSlot, gc.queueObjects[queueIndex].playerIndex, offset);
             gc.allSlots[calcSlot].GetComponent<SlotController>().TriggerSlotBehaviour(gc.queueObjects[queueIndex].playerIndex);
+            waitingBetweenRun = true;
+        }
+        waitingBetweenPlayer = true;
+        globalSequencer++;
+    }
+
+    private void Update()
+    {
+        if (waitingBetweenPlayer)
+        {
+            timer += Time.deltaTime;
+            if (timer >= playerWaitTime)
+            {
+                timer = 0;
+                waitingBetweenPlayer = false;
+                if(globalSequencer < gc.queueObjects.Count)
+                {
+                    LoopPlayer(globalSequencer);
+                }
+            }
+        }
+        if (waitingBetweenRun)
+        {
+            runTimer += Time.deltaTime;
+            if(runTimer >= runWaitTime)
+            {
+                runTimer = 0;
+                waitingBetweenRun = false;
+            }
         }
     }
 
