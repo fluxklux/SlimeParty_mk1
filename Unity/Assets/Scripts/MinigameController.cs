@@ -7,31 +7,40 @@ using System;
 public class MinigameController : MonoBehaviour
 {
     public Minigame[] allMinigames;
-    public Text timerText;
     public Text[] playerTexts;
+    public Text timerText;
 
     [SerializeField] private Text player1SelectedText = null;
     [SerializeField] private Text player2SelectedText = null;
 
+    [SerializeField] private GameObject instructionsPanel = null;
+    [SerializeField] private Text instructionText = null;
+    [SerializeField] private Text headerText = null;
+    [SerializeField] private Text countdownText = null;
+
+    [Header("Instructions variables")]
+    [SerializeField] private string[] instructionsHeaders = { "", "" };
+    [SerializeField] private string[] instructionsDescription = { "", "" };
+
+    //--------------------------------------------------------------
+
     [Header("1_Rotation")]
     [SerializeField] private GameObject rotationPanel = null;
-    [SerializeField] private Text rotationCountdownText = null;
-    [SerializeField] private GameObject rotationInstructionsPanel = null;
 
+    private bool[] player1InputSequence = { false, false, false, false };
+    private bool[] player2InputSequence = { false, false, false, false };
 
     [Header("0_Masher")]
     [SerializeField] private GameObject masherPanel = null;
-    [SerializeField] private Text masherCountdownText = null;
-    [SerializeField] private GameObject masherInstructionsPanel = null;
+    [SerializeField] private Text[] pointText = { null, null };
 
+    
+    //--------------------------------------------------------------
 
-    [HideInInspector]
-    public Text[] masherTexts;
-    [HideInInspector]
-    public int[] masherInts = { 0, 0 };
     [HideInInspector]
     public int[] minigamePlayers = { 0, 1 };
 
+    private int[] points = { 0, 0 };
     private float timer; //local minigame timer
     private bool minigameActive = false; //are minigames playing at the moment?
     private int minigameIndex; //what minigame is active
@@ -40,6 +49,7 @@ public class MinigameController : MonoBehaviour
     private TimerController tc;
     private int amount;
     private float countdown = 5;
+    private AudioController ac;
 
     [HideInInspector]
     public int winner, loser;
@@ -48,14 +58,10 @@ public class MinigameController : MonoBehaviour
     [HideInInspector]
     public bool playedMinigameThisRound = false;
 
-    AudioController ac;
-
     private void Start()
     {
-        tc = GetComponent<TimerController>();
         ic = GetComponent<InputController>();
         tc = GetComponent<TimerController>();
-
         ac = GetComponent<AudioController>();
     }
 
@@ -142,27 +148,27 @@ public class MinigameController : MonoBehaviour
 
     public void RandomizeMinigame()
     {
-        //MasherTogglePanel(true);
-
         int random = UnityEngine.Random.Range(0, allMinigames.Length);
 
         switch (random)
         {
             case 0:
                 Debug.Log("Masher");
-                MasherTogglePanel(true);
+                minigameIndex = allMinigames[0].index;
                 break;
             case 1:
                 Debug.Log("Reaction");
+                minigameIndex = allMinigames[1].index;
                 break;
             default:
                 break;
         }
     }
 
-    public IEnumerator MasherInstructions (int playerIndex)
+    public IEnumerator Instructions (int playerIndex)
     {
         SelectPlayer(playerIndex);
+        RandomizeMinigame();
 
         player1SelectedText.text = "P" + (minigamePlayers[0] + 1).ToString();
         player1SelectedText.color = ic.allPlayers[minigamePlayers[0]].GetComponent<PlayerController>().playerVariable.color;
@@ -170,16 +176,34 @@ public class MinigameController : MonoBehaviour
         player2SelectedText.text = "P" + (minigamePlayers[1] + 1).ToString();
         player2SelectedText.color = ic.allPlayers[minigamePlayers[1]].GetComponent<PlayerController>().playerVariable.color;
 
-        masherInstructionsPanel.SetActive(true);
+        instructionsPanel.SetActive(true);
+        instructionText.text = instructionsDescription[minigameIndex];
+        headerText.text = instructionsHeaders[minigameIndex];
+
         countdownBool = true;
         yield return new WaitForSeconds(5);
-        masherInstructionsPanel.SetActive(false);
+        instructionsPanel.SetActive(false);
         countdownBool = false;
         countdown = 5;
 
-        RandomizeMinigame();
-
+        StartMinigame(minigameIndex);
         ac.PlaySong(MusicEnum.minigameMusic);
+    }
+
+    private void StartMinigame (int index)
+    {
+        switch(index)
+        {
+            case 0:
+                MasherTogglePanel(true);
+                break;
+            case 1:
+                RotationTogglePanel(true);
+                break;
+            default:
+                Debug.Log("Something went wrong!");
+            break;
+        }
     }
 
     private void Update()
@@ -189,7 +213,7 @@ public class MinigameController : MonoBehaviour
         if(countdownBool)
         {
             countdown -= 1 * Time.deltaTime;
-            masherCountdownText.text = countdown.ToString("F2");
+            countdownText.text = countdown.ToString("F2");
         }
 
         if (minigameActive)
@@ -198,21 +222,19 @@ public class MinigameController : MonoBehaviour
             {
                 minigameActive = false;
             }
-            
 
             tc.ChangeMinigameTimerColor(timer);
+            timer -= Time.fixedDeltaTime;
+            timerText.text = Mathf.Round(timer).ToString("F2");
 
             //minigame is active and running
             switch (minigameIndex)
             {
                 case 0: //0_MASHER
                     MasherEvent();
-                    timer -= Time.fixedDeltaTime;
-                    timerText.text = Mathf.Round(timer).ToString("F2");
                     break;
                 case 1: //1_REACTION
-                    timer -= Time.fixedDeltaTime;
-                    timerText.text = Mathf.Round(timer).ToString("F2");
+                    RotationEvent();
                     break;
                 default:
                     Debug.Log("Something went wrong!");
@@ -229,24 +251,24 @@ public class MinigameController : MonoBehaviour
                 {
                     case 0: //0_MASHER
 
-                        if (masherInts[0] > masherInts[1])
+                        if (points[0] > points[1])
                         {
-                            masherTexts[0].color = Color.green;
-                            masherTexts[1].color = Color.red;
+                            pointText[0].color = Color.green;
+                            pointText[1].color = Color.red;
                             winner = 0;
                             loser = 1;
                         }
-                        else if(masherInts[1] > masherInts[0])
+                        else if(points[1] > points[0])
                         {
-                            masherTexts[1].color = Color.green;
-                            masherTexts[0].color = Color.red;
+                            pointText[1].color = Color.green;
+                            pointText[0].color = Color.red;
                             winner = 1;
                             loser = 0;
                         }
                         else
                         {
-                            masherTexts[0].color = Color.red;
-                            masherTexts[1].color = Color.red;
+                            pointText[0].color = Color.red;
+                            pointText[1].color = Color.red;
                             winner = 0;
                             loser = 0;
                         }
@@ -254,14 +276,35 @@ public class MinigameController : MonoBehaviour
                         StartCoroutine(ResetMinigame());
                         break;
                     case 1: //1_REACTION
+                        if (points[0] > points[1])
+                        {
+                            pointText[0].color = Color.green;
+                            pointText[1].color = Color.red;
+                            winner = 0;
+                            loser = 1;
+                        }
+                        else if (points[1] > points[0])
+                        {
+                            pointText[1].color = Color.green;
+                            pointText[0].color = Color.red;
+                            winner = 1;
+                            loser = 0;
+                        }
+                        else
+                        {
+                            pointText[0].color = Color.red;
+                            pointText[1].color = Color.red;
+                            winner = 0;
+                            loser = 0;
+                        }
 
+                        StartCoroutine(ResetMinigame());
                         break;
                     default:
                         Debug.Log("Something went wrong!");
                         break;
                 }
             }
-
         }
     }
 
@@ -270,24 +313,22 @@ public class MinigameController : MonoBehaviour
         yield return new WaitForSeconds(1f);
         StopAllCoroutines(); //farlig function
         MasherTogglePanel(false);
+        RotationTogglePanel(false);
         minigameActive = false;
         amount = 0;
         doOnce = true;
         TimerToggle(false);
 
         ac.PlaySound(SoundEnum.winSound);
-
         ac.PlaySong(MusicEnum.boardMusic);
 
-        for (int i = 0; i < masherInts.Length; i++)
+        for (int i = 0; i < points.Length; i++)
         {
-            masherInts[i] = 0;
-            masherTexts[i].color = Color.white;
-            masherTexts[i].text = "0";
+            points[i] = 0;
+            pointText[i].color = Color.white;
+            pointText[i].text = "0";
         }
 
-        //might paja
-        Debug.Log("might paja");
         tc.GetComponent<ActionController>().ResetActionList();
     }
 
@@ -305,6 +346,12 @@ public class MinigameController : MonoBehaviour
         doOnce = false;
         minigameIndex = allMinigames[0].index;
         masherPanel.SetActive(onOff);
+
+        pointText[0].gameObject.SetActive(onOff);
+        pointText[1].gameObject.SetActive(onOff);
+
+        playerTexts[0].gameObject.SetActive(onOff);
+        playerTexts[1].gameObject.SetActive(onOff);
     }
 
     private void MasherEvent()
@@ -312,12 +359,12 @@ public class MinigameController : MonoBehaviour
         switch (Input.inputString)
         {
             case "1":
-                masherInts[0]++;
-                masherTexts[0].text = masherInts[0].ToString("F2");
+                points[0]++;
+                pointText[0].text = points[0].ToString("F2");
                 break;
             case "2":
-                masherInts[1]++;
-                masherTexts[1].text = masherInts[1].ToString("F2");
+                points[1]++;
+                pointText[1].text = points[1].ToString("F2");
                 break;
             default:
                 break;
@@ -325,14 +372,14 @@ public class MinigameController : MonoBehaviour
 
         if (Input.GetButtonDown("C" + (minigamePlayers[0] + 1) + " Select"))
         {
-            masherInts[0]++;
-            masherTexts[0].text = masherInts[0].ToString("F2");
+            points[0]++;
+            pointText[0].text = points[0].ToString("F2");
         }
 
         if (Input.GetButtonDown("C" + (minigamePlayers[1] + 1) + " Select"))
         {
-            masherInts[1]++;
-            masherTexts[1].text = masherInts[1].ToString("F2");
+            points[1]++;
+            pointText[1].text = points[1].ToString("F2");
         }
     }
     #endregion
@@ -340,40 +387,126 @@ public class MinigameController : MonoBehaviour
     #region 1_Rotation
     private void RotationTogglePanel(bool onOff)
     {
-        timer = allMinigames[0].time;
+        timer = allMinigames[1].time;
         TimerToggle(true);
         minigameActive = true;
         doOnce = false;
-        minigameIndex = allMinigames[0].index;
-        masherPanel.SetActive(onOff);
+        minigameIndex = allMinigames[1].index;
+        rotationPanel.SetActive(onOff);
+
+        pointText[0].gameObject.SetActive(onOff);
+        pointText[1].gameObject.SetActive(onOff);
+
+        playerTexts[0].gameObject.SetActive(onOff);
+        playerTexts[1].gameObject.SetActive(onOff);
     }
 
     private void RotationEvent()
     {
+        //DEBUG keyboard
         switch (Input.inputString)
         {
             case "1":
-                masherInts[0]++;
-                masherTexts[0].text = masherInts[0].ToString("F2");
+                points[0]++;
+                pointText[0].text = points[0].ToString("F2");
                 break;
             case "2":
-                masherInts[1]++;
-                masherTexts[1].text = masherInts[1].ToString("F2");
+                points[1]++;
+                pointText[1].text = points[1].ToString("F2");
                 break;
             default:
                 break;
         }
 
-        if (Input.GetButtonDown("C" + (minigamePlayers[0] + 1) + " Select"))
+        //Player 1
+        var p1Horizontal = Input.GetAxis("C" + (minigamePlayers[0] + 1) + " Horizontal");
+        var p1Vertical = Input.GetAxis("C" + (minigamePlayers[0] + 1) + " Vertical");
+
+        switch (p1Horizontal)
         {
-            masherInts[0]++;
-            masherTexts[0].text = masherInts[0].ToString("F2");
+            case 1:
+                
+                if(player1InputSequence[0] == true)
+                {
+                    player1InputSequence[1] = true;
+                }
+                break;
+            case -1:
+                if (player1InputSequence[2] == true)
+                {
+                    player1InputSequence[3] = true;
+
+                    points[0]++;
+                    pointText[0].text = points[0].ToString("F2");
+
+                    for (int j = 0; j < player1InputSequence.Length; j++)
+                    {
+                        player1InputSequence[j] = false;
+                    }
+                }
+                break;
+            default:
+                break;
         }
 
-        if (Input.GetButtonDown("C" + (minigamePlayers[1] + 1) + " Select"))
+        switch (p1Vertical)
         {
-            masherInts[1]++;
-            masherTexts[1].text = masherInts[1].ToString("F2");
+            case 1:
+                player1InputSequence[0] = true;
+                break;
+            case -1:
+                if (player1InputSequence[1] == true)
+                {
+                    player1InputSequence[2] = true;
+                }
+                break;
+            default:
+                break;
+        }
+
+        //Player 2
+        var p2Horizontal = Input.GetAxis("C" + (minigamePlayers[1] + 1) + " Horizontal");
+        var p2Vertical = Input.GetAxis("C" + (minigamePlayers[1] + 1) + " Vertical");
+
+        switch (p2Horizontal)
+        {
+            case 1:
+
+                if (player2InputSequence[0] == true)
+                {
+                    player2InputSequence[1] = true;
+                }
+                break;
+            case -1:
+                if (player2InputSequence[2] == true)
+                {
+                    player2InputSequence[3] = true;
+
+                    points[1]++;
+                    pointText[1].text = points[1].ToString("F2");
+                    for (int i = 0; i < player2InputSequence.Length; i++)
+                    {
+                        player2InputSequence[i] = false;
+                    }
+                }
+                break;
+            default:
+                break;
+        }
+
+        switch (p2Vertical)
+        {
+            case 1:
+                player2InputSequence[0] = true;
+                break;
+            case -1:
+                if (player2InputSequence[1] == true)
+                {
+                    player2InputSequence[2] = true;
+                }
+                break;
+            default:
+                break;
         }
     }
     #endregion
