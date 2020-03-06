@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.37311953, g: 0.38074014, b: 0.3587274, a: 1}
+  m_IndirectSpecularColor: {r: 0.37311912, g: 0.3807398, b: 0.3587271, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1320,7 +1320,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &291518600
 RectTransform:
   m_ObjectHideFlags: 0
@@ -7012,7 +7012,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1491796051
 RectTransform:
   m_ObjectHideFlags: 0
@@ -8429,8 +8429,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1768380590}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.97, z: 0}
-  m_LocalScale: {x: 0.4888, y: 0.4888, z: 0.4888}
+  m_LocalPosition: {x: 0, y: 1, z: 0}
+  m_LocalScale: {x: 0.4632064, y: 0.4632064, z: 0.4632064}
   m_Children: []
   m_Father: {fileID: 1445170868}
   m_RootOrder: 1
@@ -8473,7 +8473,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: b973eeaa00ceca646bf0d84613b6038d, type: 3}
+  m_Sprite: {fileID: 21300000, guid: bac670219c3298e4487fdb24c49b8f5e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -8594,7 +8594,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1815233339
 RectTransform:
   m_ObjectHideFlags: 0
@@ -8973,7 +8973,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1838010717
 RectTransform:
   m_ObjectHideFlags: 0
@@ -11033,7 +11033,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   musicEnum: 0
   soundEnum: 0
-  boardMusic: {fileID: 8300000, guid: c3b17edd628c61446b019ac4ecfec659, type: 3}
+  boardMusic: {fileID: 8300000, guid: d20502239560d8847b44807214bd8990, type: 3}
   menuMusic: {fileID: 8300000, guid: 95859e7dd1dc3e44996c9a81e5d70f22, type: 3}
   minigameMusic: {fileID: 8300000, guid: 0fe1a80cabd361041a9f86a91328b25a, type: 3}
   walkSound: {fileID: 8300000, guid: 4954d0be3bf1b2c4bbb3cef1949a1cd2, type: 3}
@@ -11261,7 +11261,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a7e6a875d0481dd41ab29059c5ea2ee6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  round: 0
   overEndText: {fileID: 1858918372}
   roundMax: 30
 --- !u!1 &2038762099
