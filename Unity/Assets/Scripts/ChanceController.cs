@@ -75,7 +75,7 @@ public class ChanceController : MonoBehaviour
     {
         slotToTp = Random.Range(0, gc.allSlots.Length);
 
-        Debug.Log("about to TELEPORT with playerindex: " + index);
+        //Debug.Log("about to TELEPORT with playerindex: " + index);
         int calcIndex = mc.players[index].GetComponent<PlayerController>().playerVariable.currentSlotPosition + slotToTp;
         int slotSteps = calcIndex - mc.players[index].GetComponent<PlayerController>().playerVariable.currentSlotPosition;
         if (slotSteps < 0)
@@ -112,7 +112,7 @@ public class ChanceController : MonoBehaviour
                 gc.allSlots[threePlusSlots[slotToPlace]].GetComponent<SlotController>().fruitBagObject = instance;
             }
 
-            Debug.Log("placed random bag on slot " + slotToPlace);
+            //Debug.Log("placed random bag on slot " + slotToPlace);
         }
     }
 
@@ -122,6 +122,6 @@ public class ChanceController : MonoBehaviour
         {
             ic.allPlayers[playerIndex].GetComponent<PlayerController>().playerVariable.skip = true;
         }  
-        Debug.Log("player " + (playerIndex  + 1)+ " lost a turn!");
+        //Debug.Log("player " + (playerIndex  + 1)+ " lost a turn!");
     }
 }

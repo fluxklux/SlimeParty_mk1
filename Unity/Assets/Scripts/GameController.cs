@@ -14,6 +14,7 @@ public class GameController : MonoBehaviour
     public GameObject[] allSlots;
     public Slot[] allSlotTypes;
 
+    
     public List<QueueObject> queueObjects = new List<QueueObject>();
 
     int[] playerFruits = { 0, 0, 0, 0 };
@@ -89,6 +90,7 @@ public class GameController : MonoBehaviour
     public void ChangeFruitAmount(int playerIndex, int amount)
     {
         playerFruits[playerIndex] += amount;
+
 
         if (playerFruits[playerIndex] < 0)
         {

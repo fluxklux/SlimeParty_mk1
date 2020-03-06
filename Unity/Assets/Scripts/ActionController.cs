@@ -167,7 +167,7 @@ public class ActionController : MonoBehaviour
                 {
                     hasMinigame = true;
                     mgc.playedMinigameThisRound = true;
-                    mgc.StartCoroutine(mgc.MasherInstructions(playerIndex));
+                    mgc.StartCoroutine(mgc.Instructions(playerIndex));
                     //mgc.SelectPlayer(playerIndex);
                 }
                 break;
