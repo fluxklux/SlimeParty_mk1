@@ -66,6 +66,8 @@ public class InputController : MonoBehaviour
         uc.ToggleConnectionUi();
 
         ac.PlaySong(MusicEnum.boardMusic);
+        ac.PlaySong(MusicEnum.minigameMusic);
+        ac.minigameSource.volume = 0;
     }
 
     public void GetInput()

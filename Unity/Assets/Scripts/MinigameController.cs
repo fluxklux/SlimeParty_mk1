@@ -179,7 +179,11 @@ public class MinigameController : MonoBehaviour
 
         RandomizeMinigame();
 
-        ac.PlaySong(MusicEnum.minigameMusic);
+
+        ac.FadeInCaller(ac.minigameSource, 1.5f, 1f);
+        ac.FadeOutCaller(ac.boardSource, 1.5f, 0f);
+       
+
     }
 
     private void Update()
@@ -255,6 +259,8 @@ public class MinigameController : MonoBehaviour
                         break;
                     case 1: //1_REACTION
 
+                        StartCoroutine(ResetMinigame());
+
                         break;
                     default:
                         Debug.Log("Something went wrong!");
@@ -277,7 +283,10 @@ public class MinigameController : MonoBehaviour
 
         ac.PlaySound(SoundEnum.winSound);
 
-        ac.PlaySong(MusicEnum.boardMusic);
+        ac.FadeInCaller(ac.boardSource, 0.75f, 1f);
+        ac.FadeOutCaller(ac.minigameSource, 0.75f, 0.0f);
+       
+
 
         for (int i = 0; i < masherInts.Length; i++)
         {

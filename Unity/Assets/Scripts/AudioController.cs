@@ -26,27 +26,44 @@ public class AudioController : MonoBehaviour
     public AudioClip plusThree;
     public AudioClip minusThree;
 
-    [Header("Source")]
-    public AudioSource musicSource;
+    [Header("MusicSource")]
+    public AudioSource boardSource;
+    public AudioSource minigameSource;
+
+    [Header("SoundSource")]
     public AudioSource soundSource;
+
+    private static bool keepFadingIn;
+
+    private static bool keepFadingOut;
+
+
+    public static AudioController instance;
+
+    private void Awake()
+    {
+        instance = this;
+    }
 
     public void PlaySong(MusicEnum song)
     {
         switch (song)
         {
             case MusicEnum.boardMusic:
-                musicSource.clip = boardMusic;
+                boardSource.clip = boardMusic;
                 break;
             case MusicEnum.menuMusic:
-                musicSource.clip = menuMusic;
+                //musicSource.clip = menuMusic;
                 break;
             case MusicEnum.minigameMusic:
-                musicSource.clip = minigameMusic;
+                minigameSource.clip = minigameMusic;
                 break;
             default:
                 break;
         }
-        musicSource.Play();
+        //musicSource.Play();
+        minigameSource.Play();
+        boardSource.Play();
     }
 
     public void PlaySound(SoundEnum sound)
@@ -75,5 +92,73 @@ public class AudioController : MonoBehaviour
                 break;
         }
         soundSource.Play();
+    }
+
+    public void FadeInCaller(AudioSource songSource, float speed, float maxVolume)
+    {
+        instance.StartCoroutine(FadeIn(songSource, speed, maxVolume));
+    }
+
+    public void FadeOutCaller(AudioSource songSource, float speed, float minVolume)
+    {
+        instance.StartCoroutine(FadeOut(songSource, speed, minVolume));
+    }
+
+    static IEnumerator FadeIn(AudioSource songSource, float speed, float maxVolume)
+    {
+        keepFadingIn = true;
+
+        float fadeInTimer = Time.deltaTime;
+
+        songSource.volume = 0;
+        float audioVolume = songSource.volume;
+
+        if (keepFadingIn)
+        {
+            while (songSource.volume <= maxVolume && keepFadingIn)
+            {
+                if (songSource.volume == maxVolume)
+                {
+                    keepFadingIn = false;
+                    yield break;
+                }
+                else
+                {
+                    audioVolume += speed * fadeInTimer;
+                    songSource.volume = audioVolume;
+
+                    yield return new WaitForSeconds(0.1f);
+                }
+            } 
+        }
+    }
+
+    static IEnumerator FadeOut(AudioSource songSource, float speed, float minVolume)
+    {
+        keepFadingOut = true;
+
+        float fadeOutTimer = Time.deltaTime;
+
+        songSource.volume = 1;
+        float audioVolume = songSource.volume;
+       
+        if (keepFadingOut)
+        {
+            while (songSource.volume >= minVolume && keepFadingOut)
+            {
+                if (songSource.volume == minVolume)
+                {
+                    keepFadingOut = false;
+                    yield break;
+                }
+                else
+                {
+                    audioVolume -= speed * fadeOutTimer;
+                    songSource.volume = audioVolume;
+
+                    yield return new WaitForSeconds(0.1f);
+                }     
+            }
+        }
     }
 }
