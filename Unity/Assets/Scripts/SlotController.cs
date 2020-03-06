@@ -26,7 +26,7 @@ public class SlotController : MonoBehaviour
         uc = gameController.GetComponent<UIController>();
         cc = gameController.GetComponent<ChanceController>();
 
-        currentSlot = gc.allSlotTypes[Random.Range(0, gc.allSlotTypes.Length)];
+        //currentSlot = gc.allSlotTypes[Random.Range(0, gc.allSlotTypes.Length)];
         renderer.color = currentSlot.color;
     }
 

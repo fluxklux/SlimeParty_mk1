@@ -1,19 +1,19 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class PauseController : MonoBehaviour
 {
+    [SerializeField] private GameObject pauseText = null;
     private bool paused = false;
-
-    [Header("Visuals: ")]
-    public GUIStyle style;
 
     private void Update()
     {
         if (Input.GetKeyDown(KeyCode.Escape))
         {
             paused = TogglePause();
+            pauseText.SetActive(paused);
         }
     }
 
@@ -21,29 +21,13 @@ public class PauseController : MonoBehaviour
     {
         if(Time.timeScale == 0f)
         {
-            Debug.Log("About to unpause the game!");
             Time.timeScale = 1f;
             return (false);
         }
         else
         {
-            Debug.Log("About to pause the game!");
             Time.timeScale = 0f;
             return (true);
-        }
-    }
-
-    private void OnGUI()
-    {
-        if (paused)
-        { 
-            string pauseText = "Game" + "\n" + "Paused";
-            GUI.Label(new Rect(Screen.width/2 - 150, Screen.height/2 - 75, 300, 150), pauseText, style);
-
-            if (GUI.Button(new Rect(Screen.width / 2 - 150, Screen.height / 2 + 75, 300, 150), "Click here to unpause!", style))
-            {
-                paused = TogglePause();
-            }
         }
     }
 }
