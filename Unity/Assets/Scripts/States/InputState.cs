@@ -21,6 +21,7 @@ public class InputState : GameState
         dp.Randomize();
         uc.ToggleDpad(true);
         uc.ToggleTimer(true);
+        gc.GetComponent<RoundController>().UpdateRound();
     }
 
     public override void Update ()
