@@ -90,6 +90,9 @@ public class ChanceController : MonoBehaviour
                 mc.Jump(i);
             }
         }
+
+        ac.PlaySound(SoundEnum.tpPlayerSound);
+
     }
 
     void PlaceRandomBags()
@@ -112,6 +115,8 @@ public class ChanceController : MonoBehaviour
                 gc.allSlots[threePlusSlots[slotToPlace]].GetComponent<SlotController>().fruitBagObject = instance;
             }
 
+            ac.PlaySound(SoundEnum.placeBagSound);
+
             //Debug.Log("placed random bag on slot " + slotToPlace);
         }
     }
@@ -121,7 +126,10 @@ public class ChanceController : MonoBehaviour
         if (gc.turnSkipped[playerIndex] == false)
         {
             ic.allPlayers[playerIndex].GetComponent<PlayerController>().playerVariable.skip = true;
-        }  
+        }
+
+        ac.PlaySound(SoundEnum.loseTurnSound);
+
         //Debug.Log("player " + (playerIndex  + 1)+ " lost a turn!");
     }
 }

@@ -97,7 +97,7 @@ public class GameController : MonoBehaviour
             playerFruits[playerIndex] = 0;
         }
 
-        ac.PlaySound(SoundEnum.plusThree);
+        ac.PlaySound(SoundEnum.plusThreeSound);
 
         uc.UpdatePlayerFruits(playerFruits);
     }

@@ -102,6 +102,8 @@ public class MoveController : MonoBehaviour
         gc.allSlots[calcSlot].GetComponent<SlotController>().TriggerSlotBehaviour(gc.queueObjects[queueIndex].playerIndex);
         waitingBetweenPlayer = true;
         globalSequencer++;
+
+        ac.PlaySound(SoundEnum.jumpSound);
     }
 
     private void Run(int queueIndex)
@@ -117,6 +119,8 @@ public class MoveController : MonoBehaviour
         }
         waitingBetweenPlayer = true;
         globalSequencer++;
+
+        ac.PlaySound(SoundEnum.walkSound);
     }
 
     private void Update()

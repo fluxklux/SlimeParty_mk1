@@ -167,6 +167,10 @@ public class MinigameController : MonoBehaviour
 
     public IEnumerator Instructions (int playerIndex)
     {
+
+        ac.FadeInCaller(ac.minigameSource, 1.5f, 1);
+        ac.FadeOutCaller(ac.boardSource, 1.5f, 0);
+
         SelectPlayer(playerIndex);
         RandomizeMinigame();
 
@@ -187,7 +191,9 @@ public class MinigameController : MonoBehaviour
         countdown = 5;
 
         StartMinigame(minigameIndex);
-        ac.PlaySong(MusicEnum.minigameMusic);
+        ac.PlaySound(SoundEnum.minigameStartSound);
+       
+
     }
 
     private void StartMinigame (int index)
@@ -297,7 +303,7 @@ public class MinigameController : MonoBehaviour
                             winner = 0;
                             loser = 0;
                         }
-
+                        StartCoroutine(ResetMinigame());
                         break;
                     default:
                         Debug.Log("Something went wrong!");
@@ -320,7 +326,8 @@ public class MinigameController : MonoBehaviour
 
         ac.PlaySound(SoundEnum.winSound);
 
-        ac.PlaySong(MusicEnum.boardMusic);
+        ac.FadeInCaller(ac.boardSource, 1.5f, 1);
+        ac.FadeOutCaller(ac.minigameSource, 1.5f, 0);
 
         for (int i = 0; i < points.Length; i++)
         {

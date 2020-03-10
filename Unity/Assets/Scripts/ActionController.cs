@@ -19,6 +19,7 @@ public class ActionController : MonoBehaviour
     private MinigameController mgc;
     private UIController uc;
     private ChanceController cc;
+    private AudioController ac;
 
     bool hasMinigame = false;
 
@@ -29,6 +30,7 @@ public class ActionController : MonoBehaviour
         gc = GetComponent<GameController>();
         mc = GetComponent<MoveController>();
         cc = GetComponent<ChanceController>();
+        ac = GetComponent<AudioController>();
     }
 
     public void ResetActionList ()
@@ -160,6 +162,7 @@ public class ActionController : MonoBehaviour
                 break;
             case 1:
                 //Debug.Log("CHANCE!");
+                ac.PlaySound(SoundEnum.chanceSlotSound);
                 cc.RandomiseChance(playerIndex);
                 break;
             case 2:
@@ -169,6 +172,8 @@ public class ActionController : MonoBehaviour
                     mgc.playedMinigameThisRound = true;
                     mgc.StartCoroutine(mgc.Instructions(playerIndex));
                     //mgc.SelectPlayer(playerIndex);
+                    ac.PlaySound(SoundEnum.minigameSlotSound);
+
                 }
                 break;
             default:
