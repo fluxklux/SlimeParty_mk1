@@ -15,6 +15,14 @@ public class PauseController : MonoBehaviour
             paused = TogglePause();
             pauseText.SetActive(paused);
         }
+
+        if(paused)
+        {
+            if(Input.GetKeyDown(KeyCode.Return))
+            {
+                Application.Quit();
+            }
+        }
     }
 
     private bool TogglePause()
