@@ -322,7 +322,7 @@ public class MinigameController : MonoBehaviour
 
         ac.PlaySong(MusicEnum.boardMusic);
 
-        for (int i = 0; i < masherInts.Length; i++)
+        for (int i = 0; i < points.Length; i++)
         {
             points[i] = 0;
             pointText[i].color = Color.white;
