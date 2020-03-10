@@ -10,6 +10,26 @@ public class PauseController : MonoBehaviour
 
     private void Update()
     {
+        if (Input.GetButtonDown("C1 Start"))
+        {
+            TogglePause();
+        }
+
+        if (Input.GetButtonDown("C2 Start"))
+        {
+            TogglePause();
+        }
+
+        if (Input.GetButtonDown("C3 Start"))
+        {
+            TogglePause();
+        }
+
+        if (Input.GetButtonDown("C4 Start"))
+        {
+            TogglePause();
+        }
+
         if (Input.GetKeyDown(KeyCode.Escape))
         {
             paused = TogglePause();
