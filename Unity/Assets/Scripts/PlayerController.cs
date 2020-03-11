@@ -31,8 +31,11 @@ public class PlayerController : MonoBehaviour
     private int targetPlayer;
     private bool lerp;
 
+    private Animator anim;
+
     private void Start()
     {
+        anim = GetComponentInChildren<Animator>();
         ic = Object.FindObjectOfType<InputController>();
     }
 
@@ -47,6 +50,7 @@ public class PlayerController : MonoBehaviour
     {
         if (lerp)
         {
+            anim.SetFloat("Speed", 1);
             transform.position = Vector2.MoveTowards(transform.position, targetPos, damping);
             UpdateScale();
 
@@ -55,6 +59,10 @@ public class PlayerController : MonoBehaviour
             {
                 lerp = false;
             }
+        }
+        else
+        {
+            anim.SetFloat("Speed", 0);
         }
     }
 

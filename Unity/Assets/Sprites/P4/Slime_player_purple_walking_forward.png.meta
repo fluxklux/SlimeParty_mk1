@@ -1,0 +1,583 @@
+fileFormatVersion: 2
+guid: 232dc9e51669f744ab64177c47ee9233
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8412127589751043606
+    second: Slime_player_purple_walking_forward_0
+  - first:
+      213: 8017005378153184384
+    second: Slime_player_purple_walking_forward_1
+  - first:
+      213: 9111592991476988877
+    second: Slime_player_purple_walking_forward_2
+  - first:
+      213: -1685104200803311400
+    second: Slime_player_purple_walking_forward_3
+  - first:
+      213: 8269787461437899192
+    second: Slime_player_purple_walking_forward_4
+  - first:
+      213: -3640152788954268730
+    second: Slime_player_purple_walking_forward_5
+  - first:
+      213: -8988600584606999306
+    second: Slime_player_purple_walking_forward_6
+  - first:
+      213: 3481522672374486846
+    second: Slime_player_purple_walking_forward_7
+  - first:
+      213: 3858649167130897870
+    second: Slime_player_purple_walking_forward_8
+  - first:
+      213: 4673766246283074125
+    second: Slime_player_purple_walking_forward_9
+  - first:
+      213: 8451723389259113787
+    second: Slime_player_purple_walking_forward_10
+  - first:
+      213: 5437430156949566366
+    second: Slime_player_purple_walking_forward_11
+  - first:
+      213: -1145321506122614514
+    second: Slime_player_purple_walking_forward_12
+  - first:
+      213: 1368815815111537988
+    second: Slime_player_purple_walking_forward_13
+  - first:
+      213: 3437433277460236245
+    second: Slime_player_purple_walking_forward_14
+  - first:
+      213: 3839114985707388085
+    second: Slime_player_purple_walking_forward_15
+  - first:
+      213: -5270410333013616833
+    second: Slime_player_purple_walking_forward_16
+  - first:
+      213: 536674178405419379
+    second: Slime_player_purple_walking_forward_17
+  - first:
+      213: -7488401855513763407
+    second: Slime_player_purple_walking_forward_18
+  - first:
+      213: -4068282401822908135
+    second: Slime_player_purple_walking_forward_19
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 600
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Slime_player_purple_walking_forward_0
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 653
+        width: 281
+        height: 482
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90b4411db8c28db459098b8b7e9832e3
+      internalID: -8412127589751043606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_player_purple_walking_forward_1
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 659
+        width: 281
+        height: 478
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0748a85ff309fc74e867bd007f44d3b7
+      internalID: 8017005378153184384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_player_purple_walking_forward_2
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 668
+        width: 281
+        height: 476
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 203cc694b9b493a48a787f3ad3ae3a35
+      internalID: 9111592991476988877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_player_purple_walking_forward_3
+      rect:
+        serializedVersion: 2
+        x: 1023
+        y: 678
+        width: 281
+        height: 474
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 335b67ebaf784e14aa1171e8d786a337
+      internalID: -1685104200803311400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_player_purple_walking_forward_4
+      rect:
+        serializedVersion: 2
+        x: 1357
+        y: 690
+        width: 281
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee7fe336930c73647aa13c28b44740a1
+      internalID: 8269787461437899192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_player_purple_walking_forward_5
+      rect:
+        serializedVersion: 2
+        x: 1691
+        y: 696
+        width: 281
+        height: 466
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f964e1933812e2f4c99f6e4d02c60411
+      internalID: -3640152788954268730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_player_purple_walking_forward_6
+      rect:
+        serializedVersion: 2
+        x: 2024
+        y: 688
+        width: 281
+        height: 472
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25aad1475e139484eba0a30135c68f0c
+      internalID: -8988600584606999306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_player_purple_walking_forward_7
+      rect:
+        serializedVersion: 2
+        x: 2358
+        y: 678
+        width: 281
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec2e3880cc05b0d4a8d5973bc4d96d47
+      internalID: 3481522672374486846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_player_purple_walking_forward_8
+      rect:
+        serializedVersion: 2
+        x: 2692
+        y: 668
+        width: 281
+        height: 484
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7aae59584b6311b4296b8893bc423b74
+      internalID: 3858649167130897870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_player_purple_walking_forward_9
+      rect:
+        serializedVersion: 2
+        x: 3025
+        y: 659
+        width: 281
+        height: 485
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32abcd9b48c2c504b8ce7b8c525067aa
+      internalID: 4673766246283074125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_player_purple_walking_forward_10
+      rect:
+        serializedVersion: 2
+        x: 3359
+        y: 653
+        width: 281
+        height: 487
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 370b74e0997179e42873b50ad362bc5d
+      internalID: 8451723389259113787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_player_purple_walking_forward_11
+      rect:
+        serializedVersion: 2
+        x: 3691
+        y: 659
+        width: 281
+        height: 485
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6483bf4b5dc852e43bdd5896ca13065b
+      internalID: 5437430156949566366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_player_purple_walking_forward_12
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 67
+        width: 281
+        height: 484
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a66e3fba5a5d25f4ea7504e2a3ede183
+      internalID: -1145321506122614514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_player_purple_walking_forward_13
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 79
+        width: 281
+        height: 478
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc386ec527c3b004cb27d79a3d2b21e7
+      internalID: 1368815815111537988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_player_purple_walking_forward_14
+      rect:
+        serializedVersion: 2
+        x: 694
+        y: 89
+        width: 279
+        height: 476
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4c80c5aa6dc430488502399cffab472
+      internalID: 3437433277460236245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_player_purple_walking_forward_15
+      rect:
+        serializedVersion: 2
+        x: 1025
+        y: 96
+        width: 281
+        height: 469
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5da8e01a2547c4c4fbe8c6632fe2f2da
+      internalID: 3839114985707388085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_player_purple_walking_forward_16
+      rect:
+        serializedVersion: 2
+        x: 1357
+        y: 91
+        width: 281
+        height: 472
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f928139661753c74db79104bef0001f2
+      internalID: -5270410333013616833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_player_purple_walking_forward_17
+      rect:
+        serializedVersion: 2
+        x: 1691
+        y: 83
+        width: 279
+        height: 476
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e67547fb3e9c7f849b7a0cabe957ba47
+      internalID: 536674178405419379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_player_purple_walking_forward_18
+      rect:
+        serializedVersion: 2
+        x: 2022
+        y: 73
+        width: 281
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 130fcaf77013e0e4ea54795002949c2f
+      internalID: -7488401855513763407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_player_purple_walking_forward_19
+      rect:
+        serializedVersion: 2
+        x: 2354
+        y: 65
+        width: 281
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fdb36031913f68419c57bfa99c2d8f0
+      internalID: -4068282401822908135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
