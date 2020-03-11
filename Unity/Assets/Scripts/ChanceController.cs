@@ -76,15 +76,21 @@ public class ChanceController : MonoBehaviour
         //Debug.Log("about to TELEPORT with playerindex: " + index);
         int calcIndex = mc.players[index].GetComponent<PlayerController>().playerVariable.currentSlotPosition + slotToTp;
         int slotSteps = calcIndex - mc.players[index].GetComponent<PlayerController>().playerVariable.currentSlotPosition;
+
+        gc.allSlots[calcIndex].GetComponent<SlotController>().hasEffect = true;
+        Debug.Log("HAR DU FEL I KODEN? DETTA KAN VARA PROBLEMET");
+
         if (slotSteps < 0)
         {
             slotSteps *= -1;
         }
+
         for (int i = 0; i < gc.queueObjects.Count; i++)
         {
             if (gc.queueObjects[i].playerIndex == index)
             {
                 gc.queueObjects[i].steps = slotSteps;
+
                 mc.Jump(i);
             }
         }

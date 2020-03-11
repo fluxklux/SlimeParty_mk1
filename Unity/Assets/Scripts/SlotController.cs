@@ -11,10 +11,14 @@ public class SlotController : MonoBehaviour
     private MoveController mc;
     private UIController uc;
     private ChanceController cc;
-    new SpriteRenderer renderer;
+    private new SpriteRenderer renderer;
 
+    [HideInInspector]
     public bool hasBag;
+    [HideInInspector]
     public GameObject fruitBagObject;
+    [HideInInspector]
+    public bool hasEffect = false;
 
     private void Start()
     {

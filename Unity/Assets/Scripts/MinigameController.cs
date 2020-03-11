@@ -273,7 +273,7 @@ public class MinigameController : MonoBehaviour
                         }
                         else
                         {
-                            Debug.Log("DRAW");
+                            //Debug.Log("DRAW");
                             pointText[0].color = Color.yellow;
                             pointText[1].color = Color.yellow;
                             winner = 3;

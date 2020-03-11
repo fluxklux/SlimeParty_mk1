@@ -11127,6 +11127,7 @@ MonoBehaviour:
   - {fileID: 724941763}
   - {fileID: 954854754}
   globalSequencer: 0
+  runSequencer: 1
 --- !u!114 &2027658299
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11155,6 +11156,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   actionClasses: []
+  effectPrefab: {fileID: 691779173148021371, guid: 1e81cfb624574d84391d3b343cb43f66,
+    type: 3}
+  effectSprites:
+  - {fileID: 21300000, guid: 34fd226f926843840b8a58a33c4a3a10, type: 3}
+  - {fileID: 21300000, guid: 3ad8136983220b246bda573db782cdef, type: 3}
+  - {fileID: 21300000, guid: cdc4c31c87ca7b84dbdb10da7beb2024, type: 3}
 --- !u!114 &2027658301
 MonoBehaviour:
   m_ObjectHideFlags: 0
