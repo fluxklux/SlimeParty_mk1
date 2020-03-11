@@ -76,8 +76,16 @@ public class UIController : MonoBehaviour
     {
         resultPanel.SetActive(onOff);
 
-        winnerText.text = "Winner: \n Player " + (1 + gc.GetComponent<MinigameController>().minigamePlayers[gc.GetComponent<MinigameController>().winner]).ToString("");
-        loserText.text = "Loser: \n Player " + (1 + gc.GetComponent<MinigameController>().minigamePlayers[gc.GetComponent<MinigameController>().loser]).ToString("");
+        if (gc.GetComponent<MinigameController>().winner == 3)
+        {
+            winnerText.text = "";
+            loserText.text = "Draw!";
+        }
+        else
+        {
+            winnerText.text = "Winner: \n Player " + (1 + gc.GetComponent<MinigameController>().minigamePlayers[gc.GetComponent<MinigameController>().winner]).ToString("");
+            loserText.text = "Loser: \n Player " + (1 + gc.GetComponent<MinigameController>().minigamePlayers[gc.GetComponent<MinigameController>().loser]).ToString("");
+        }
     }
 
     public void UpdateQueueOrderUi(bool onOff)

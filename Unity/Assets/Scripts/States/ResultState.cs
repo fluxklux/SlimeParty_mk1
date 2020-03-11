@@ -19,7 +19,7 @@ public class ResultState : GameState
         this.pc = newPc;
 
         uc.DisplayMinigameWinner(true);
-        if(gc.GetComponent<MinigameController>().playedMinigameThisRound)
+        if(gc.GetComponent<MinigameController>().playedMinigameThisRound && gc.GetComponent<MinigameController>().winner != 3)
         {
             gc.ChangeFruitAmount(gc.GetComponent<MinigameController>().minigamePlayers[gc.GetComponent<MinigameController>().winner], 10);
         }

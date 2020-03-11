@@ -52,7 +52,7 @@ public class MinigameController : MonoBehaviour
     private AudioController ac;
 
     [HideInInspector]
-    public int winner, loser;
+    public int winner, loser; //Sätt til 3 om det blir lika
     [HideInInspector]
     public bool countdownBool = false;
     [HideInInspector]
@@ -267,10 +267,11 @@ public class MinigameController : MonoBehaviour
                         }
                         else
                         {
-                            pointText[0].color = Color.red;
-                            pointText[1].color = Color.red;
-                            winner = 0;
-                            loser = 0;
+                            Debug.Log("DRAW");
+                            pointText[0].color = Color.yellow;
+                            pointText[1].color = Color.yellow;
+                            winner = 3;
+                            loser = 3;
                         }
 
                         StartCoroutine(ResetMinigame());
@@ -292,12 +293,13 @@ public class MinigameController : MonoBehaviour
                         }
                         else
                         {
-                            pointText[0].color = Color.red;
-                            pointText[1].color = Color.red;
-                            winner = 0;
-                            loser = 0;
+                            pointText[0].color = Color.yellow;
+                            pointText[1].color = Color.yellow;
+                            winner = 3;
+                            loser = 3;
                         }
 
+                        StartCoroutine(ResetMinigame());
                         break;
                     default:
                         Debug.Log("Something went wrong!");
