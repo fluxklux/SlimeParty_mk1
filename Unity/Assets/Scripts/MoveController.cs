@@ -13,12 +13,13 @@ public class MoveController : MonoBehaviour
     private float runTimer = 0;
 
     private float playerWaitTime;
-    private float runWaitTime = 0.15f;
+    private float runWaitTime = 0.08f;
 
     private bool waitingBetweenPlayer = false;
     private bool waitingBetweenRun = false;
 
     public int globalSequencer = 0;
+    public int runSequencer = 1;
 
     private AudioController ac;
 
@@ -33,7 +34,7 @@ public class MoveController : MonoBehaviour
     {
         CalculateTimings();
         globalSequencer = 0;
-        if(gc.queueObjects.Count > 0)
+        if (gc.queueObjects.Count > 0)
         {
             LoopPlayer(0);
         }
@@ -47,30 +48,30 @@ public class MoveController : MonoBehaviour
             case 1:
                 for (int i = 0; i < players.Length; i++)
                 {
-                    players[i].GetComponent<PlayerController>().damping = 0.1f;
+                    players[i].GetComponent<PlayerController>().damping = 0.09f;
                 }
                 playerWaitTime = 1.4f;
                 break;
             case 2:
                 for (int i = 0; i < players.Length; i++)
                 {
-                    players[i].GetComponent<PlayerController>().damping = 0.15f;
+                    players[i].GetComponent<PlayerController>().damping = 0.1f;
                 }
-                playerWaitTime = 1f;
+                playerWaitTime = 1.4f;
                 break;
             case 3:
                 for (int i = 0; i < players.Length; i++)
                 {
-                    players[i].GetComponent<PlayerController>().damping = 0.17f;
+                    players[i].GetComponent<PlayerController>().damping = 0.12f;
                 }
-                playerWaitTime = 0.8f;
+                playerWaitTime = 1f;
                 break;
             case 4:
                 for (int i = 0; i < players.Length; i++)
                 {
-                    players[i].GetComponent<PlayerController>().damping = 0.2f;
+                    players[i].GetComponent<PlayerController>().damping = 0.14f;
                 }
-                playerWaitTime = 0.6f;
+                playerWaitTime = 1f;
                 break;
             case 0:
                 break;
@@ -81,17 +82,21 @@ public class MoveController : MonoBehaviour
 
     private void LoopPlayer(int queueIndex)
     {
-        if (gc.queueObjects[queueIndex].steps >= 5)
+        if (globalSequencer < gc.queueObjects.Count)
         {
-            Jump(queueIndex);
+            if (gc.queueObjects[queueIndex].steps >= 5)
+            {
+                Jump(queueIndex);
+            }
+            else
+            {
+                Run(queueIndex);
+            }
         }
-        else
-        {
-            Run(queueIndex);
-        }
+        
     }
 
-    
+
 
     public void Jump(int queueIndex)
     {
@@ -108,19 +113,43 @@ public class MoveController : MonoBehaviour
 
     private void Run(int queueIndex)
     {
-        for (int i = 1; i <= gc.queueObjects[queueIndex].steps; i++)
+        if (runSequencer <= gc.queueObjects[queueIndex].steps)
         {
-            int calcSlot = players[gc.queueObjects[queueIndex].playerIndex].GetComponent<PlayerController>().playerVariable.currentSlotPosition + 1;
-            calcSlot = (int)Mathf.Repeat(calcSlot, gc.allSlots.Length);
-            Vector3 offset = CheckOtherPlayers(queueIndex, calcSlot);
-            UpdatePlayerPositionPlayerIndex(calcSlot, gc.queueObjects[queueIndex].playerIndex, offset);
-            gc.allSlots[calcSlot].GetComponent<SlotController>().TriggerSlotBehaviour(gc.queueObjects[queueIndex].playerIndex);
-            waitingBetweenRun = true;
+            Step(queueIndex, runSequencer);
         }
-        waitingBetweenPlayer = true;
-        globalSequencer++;
+        else
+        {
+            runSequencer = 1;
+            globalSequencer++;
+            //LoopPlayer(globalSequencer);
+            waitingBetweenPlayer = true;
 
-        ac.PlaySound(SoundEnum.walkSound);
+            ac.PlaySound(SoundEnum.walkSound);
+        }
+
+        //sluta snacka östgötska Carl!
+
+        /*
+        int calcSlot = players[gc.queueObjects[queueIndex].playerIndex].GetComponent<PlayerController>().playerVariable.currentSlotPosition + 1;
+        calcSlot = (int)Mathf.Repeat(calcSlot, gc.allSlots.Length);
+        Vector3 offset = CheckOtherPlayers(queueIndex, calcSlot);
+        UpdatePlayerPositionPlayerIndex(calcSlot, gc.queueObjects[queueIndex].playerIndex, offset);
+        gc.allSlots[calcSlot].GetComponent<SlotController>().TriggerSlotBehaviour(gc.queueObjects[queueIndex].playerIndex);
+        waitingBetweenRun = true;
+        */
+
+
+    }
+
+    private void Step(int queueIndex, int i)
+    {
+        int calcSlot = players[gc.queueObjects[queueIndex].playerIndex].GetComponent<PlayerController>().playerVariable.currentSlotPosition + 1;
+        calcSlot = (int)Mathf.Repeat(calcSlot, gc.allSlots.Length);
+        Vector3 offset = CheckOtherPlayers(queueIndex, calcSlot);
+        UpdatePlayerPositionPlayerIndex(calcSlot, gc.queueObjects[queueIndex].playerIndex, offset);
+        gc.allSlots[calcSlot].GetComponent<SlotController>().TriggerSlotBehaviour(gc.queueObjects[queueIndex].playerIndex);
+        runSequencer++;
+        waitingBetweenRun = true;
     }
 
     private void Update()
@@ -132,19 +161,21 @@ public class MoveController : MonoBehaviour
             {
                 timer = 0;
                 waitingBetweenPlayer = false;
-                if(globalSequencer < gc.queueObjects.Count)
+                if (globalSequencer < gc.queueObjects.Count)
                 {
                     LoopPlayer(globalSequencer);
                 }
             }
         }
+
         if (waitingBetweenRun)
         {
             runTimer += Time.deltaTime;
-            if(runTimer >= runWaitTime)
+            if (runTimer >= runWaitTime)
             {
                 runTimer = 0;
                 waitingBetweenRun = false;
+                Run(globalSequencer);
             }
         }
     }
@@ -172,7 +203,7 @@ public class MoveController : MonoBehaviour
                         case 1:
                             if (CheckSelectedSlot(players[j].GetComponent<PlayerController>().playerVariable.currentSlotPosition) > 2)
                             {
-                                temp = new Vector3(-0.25f, 0.25f);
+                                temp = new Vector3(-0.2f, 0.2f);
                             }
                             else
                             {
@@ -180,13 +211,13 @@ public class MoveController : MonoBehaviour
                             }
                             break;
                         case 2:
-                            temp = new Vector3(0.25f, 0.25f);
+                            temp = new Vector3(0.2f, 0.2f);
                             break;
                         case 3:
-                            temp = new Vector3(-0.25f, -0.25f);
+                            temp = new Vector3(-0.2f, -0.2f);
                             break;
                         case 4:
-                            temp = new Vector3(0.25f, -0.25f);
+                            temp = new Vector3(0.2f, -0.2f);
                             break;
                         default:
                             break;
@@ -199,25 +230,25 @@ public class MoveController : MonoBehaviour
         switch (amountOfPlayers)
         {
             case 1:
-                offset = new Vector3(0.25f, 0.25f);
+                offset = new Vector3(0.2f, 0.2f);
                 players[gc.queueObjects[queueIndex].playerIndex].GetComponent<PlayerController>().playerVariable.wasFirst = false;
                 players[gc.queueObjects[queueIndex].playerIndex].GetComponent<PlayerController>().playerVariable.currentSlotOrder = 2;
                 for (int j = 0; j < players.Length; j++)
                 {
                     if (players[j].GetComponent<PlayerController>().playerVariable.wasFirst == true && players[j].GetComponent<PlayerController>().playerVariable.currentSlotPosition == calcSlot)
                     {
-                        Vector3 temp = new Vector3(-0.25f, 0.25f);
-                        UpdatePlayerPositionPlayerIndex(players[j].GetComponent<PlayerController>().playerVariable.currentSlotPosition, j, temp); //OVANST�ENDE
+                        Vector3 temp = new Vector3(-0.2f, 0.2f);
+                        UpdatePlayerPositionPlayerIndex(players[j].GetComponent<PlayerController>().playerVariable.currentSlotPosition, j, temp); //OVANST?ENDE
                     }
                 }
                 break;
             case 2:
-                offset = new Vector3(-0.25f, -0.25f);
+                offset = new Vector3(-0.2f, -0.2f);
                 players[gc.queueObjects[queueIndex].playerIndex].GetComponent<PlayerController>().playerVariable.wasFirst = false;
                 players[gc.queueObjects[queueIndex].playerIndex].GetComponent<PlayerController>().playerVariable.currentSlotOrder = 3;
                 break;
             case 3:
-                offset = new Vector3(0.25f, -0.25f);
+                offset = new Vector3(0.2f, -0.2f);
                 players[gc.queueObjects[queueIndex].playerIndex].GetComponent<PlayerController>().playerVariable.wasFirst = false;
                 players[gc.queueObjects[queueIndex].playerIndex].GetComponent<PlayerController>().playerVariable.currentSlotOrder = 4;
                 break;
