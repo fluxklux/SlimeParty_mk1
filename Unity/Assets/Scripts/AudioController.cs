@@ -4,7 +4,7 @@ using UnityEngine;
 
 public enum MusicEnum { boardMusic, menuMusic, minigameMusic };
 
-public enum SoundEnum { winSound, loseSound, plusThree, minusThree, walkSound, jumpSound };
+public enum SoundEnum {/*START OF GAMESOUNDS*/ winSound, loseTurnSound, plusThreeSound, minusThreeSound, plusTenSound, chanceSlotSound, minigameSlotSound, minigameStartSound, tpPlayerSound, placeBagSound,  /*END OF GAMESOUNDS*/ /*START OF PLAYERSOUND*/walkSound, jumpSound, landSound /*END OF PLAYERSOUND*/ };
 
 public class AudioController : MonoBehaviour
 {
@@ -19,12 +19,20 @@ public class AudioController : MonoBehaviour
     [Header("PlayerSound")]
     public AudioClip walkSound;
     public AudioClip jumpSound;
+    public AudioClip landSound;
 
     [Header("GameSound")]
     public AudioClip winSound;
-    public AudioClip loseSound;
-    public AudioClip plusThree;
-    public AudioClip minusThree;
+    public AudioClip loseTurnSound;
+    public AudioClip plusThreeSound;
+    public AudioClip minusThreeSound;
+    public AudioClip plusTenSound;
+    public AudioClip chanceSlotSound;
+    public AudioClip minigameSlotSound;
+    public AudioClip minigameStartsound;
+    public AudioClip tpPlayerSound;
+    public AudioClip placeBagSound;
+
 
     [Header("MusicSource")]
     public AudioSource boardSource;
@@ -70,24 +78,49 @@ public class AudioController : MonoBehaviour
     {
         switch (sound)
         {
+            //START OF GAMESOUND//
             case SoundEnum.winSound:
                 soundSource.PlayOneShot(winSound);
                 break;
-            case SoundEnum.loseSound:
-                soundSource.PlayOneShot(loseSound);
+            case SoundEnum.loseTurnSound:
+                soundSource.PlayOneShot(loseTurnSound);
                 break;
-            case SoundEnum.plusThree:
-                soundSource.PlayOneShot(plusThree);
+            case SoundEnum.plusThreeSound:
+                soundSource.PlayOneShot(plusThreeSound);
                 break;
-            case SoundEnum.minusThree:
-                soundSource.PlayOneShot(minusThree);
+            case SoundEnum.minusThreeSound:
+                soundSource.PlayOneShot(minusThreeSound);
                 break;
+            case SoundEnum.plusTenSound:
+                soundSource.PlayOneShot(plusTenSound);
+                break;
+            case SoundEnum.tpPlayerSound:
+                soundSource.PlayOneShot(tpPlayerSound);
+                break;
+            case SoundEnum.placeBagSound:
+                soundSource.PlayOneShot(placeBagSound);
+                break;
+            case SoundEnum.minigameStartSound:
+                soundSource.PlayOneShot(minigameStartsound);
+                break;
+            case SoundEnum.minigameSlotSound:
+                soundSource.PlayOneShot(minigameSlotSound);
+                break;
+            case SoundEnum.chanceSlotSound:
+                soundSource.PlayOneShot(chanceSlotSound);
+                break;
+            //END OF GAMESOUND//
+            //START OF PLAYERSOUND//
             case SoundEnum.walkSound:
                 soundSource.PlayOneShot(walkSound);
                 break;
             case SoundEnum.jumpSound:
                 soundSource.PlayOneShot(jumpSound);
                 break;
+            case SoundEnum.landSound:
+                soundSource.PlayOneShot(landSound);
+                break;
+            //END OF PLAYERSOUND//
             default:
                 break;
         }
