@@ -83,7 +83,8 @@ public class AudioController : MonoBehaviour
                 soundSource.PlayOneShot(winSound);
                 break;
             case SoundEnum.loseTurnSound:
-                soundSource.PlayOneShot(loseTurnSound);
+                //soundSource.PlayOneShot(loseTurnSound);
+                Invoke("LoseSoundDelay", 1.8f);
                 break;
             case SoundEnum.plusThreeSound:
                 soundSource.PlayOneShot(plusThreeSound);
@@ -95,10 +96,12 @@ public class AudioController : MonoBehaviour
                 soundSource.PlayOneShot(plusTenSound);
                 break;
             case SoundEnum.tpPlayerSound:
-                soundSource.PlayOneShot(tpPlayerSound);
+                //soundSource.PlayOneShot(tpPlayerSound);
+                Invoke("TpPlayerSoundDelay", 1.8f);
                 break;
             case SoundEnum.placeBagSound:
-                soundSource.PlayOneShot(placeBagSound);
+                //soundSource.PlayOneShot(placeBagSound);
+                Invoke("PlaceBagSoundDelay", 1.8f);
                 break;
             case SoundEnum.minigameStartSound:
                 soundSource.PlayOneShot(minigameStartsound);
@@ -193,5 +196,20 @@ public class AudioController : MonoBehaviour
                 }     
             }
         }
+    }
+
+    void LoseSoundDelay()
+    {
+        soundSource.PlayOneShot(loseTurnSound);
+    }
+
+    void PlaceBagSoundDelay()
+    {
+        soundSource.PlayOneShot(placeBagSound);
+    }
+
+    void TpPlayerSoundDelay()
+    {
+        soundSource.PlayOneShot(tpPlayerSound);
     }
 }

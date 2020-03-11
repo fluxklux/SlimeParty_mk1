@@ -15,15 +15,13 @@ public class ChanceController : MonoBehaviour
     private GameController gc;
     private MoveController mc;
     private InputController ic;
-
-    AudioController ac;
+    private AudioController ac;
 
     private void Start()
     {
         gc = GetComponent<GameController>();
         mc = GetComponent<MoveController>();
         ic = GetComponent<InputController>();
-
         ac = GetComponent<AudioController>();
 
         AddPlusThreeSlotsToRange();
@@ -92,7 +90,6 @@ public class ChanceController : MonoBehaviour
         }
 
         ac.PlaySound(SoundEnum.tpPlayerSound);
-
     }
 
     void PlaceRandomBags()
@@ -103,7 +100,7 @@ public class ChanceController : MonoBehaviour
 
             GetSlotVector(slotToPlace);
 
-            
+
             if (gc.allSlots[threePlusSlots[slotToPlace]].GetComponent<SlotController>().hasBag == true)
             {
                 slotToPlace = Random.Range(0, threePlusSlots.Count);
@@ -131,5 +128,6 @@ public class ChanceController : MonoBehaviour
         ac.PlaySound(SoundEnum.loseTurnSound);
 
         //Debug.Log("player " + (playerIndex  + 1)+ " lost a turn!");
+
     }
 }

@@ -25,6 +25,8 @@ public class GameController : MonoBehaviour
 
     AudioController ac;
 
+    MoveController mc;
+
     public bool[] turnSkipped = { false, false, false, false };
 
     private void Awake()
@@ -32,8 +34,8 @@ public class GameController : MonoBehaviour
         uc = GetComponent<UIController>();
         ic = GetComponent<InputController>();
         dpad = GetComponent<Dpad>();
-
         ac = GetComponent<AudioController>();
+        mc = GetComponent<MoveController>();
     }
 
     public void HandleQueueInputs(int indexedPlayer, int dpadIndex)
@@ -97,7 +99,22 @@ public class GameController : MonoBehaviour
             playerFruits[playerIndex] = 0;
         }
 
-        ac.PlaySound(SoundEnum.plusThreeSound);
+        if (mc.players[playerIndex].GetComponent<PlayerController>().playerVariable.actionType == ActionType.PlusFruit3)
+        {
+            ac.PlaySound(SoundEnum.plusThreeSound);
+        }
+
+        if (mc.players[playerIndex].GetComponent<PlayerController>().playerVariable.actionType == ActionType.MinusFruit3)
+        {
+            ac.PlaySound(SoundEnum.minusThreeSound);
+        }
+
+
+
+        if (mc.players[playerIndex].GetComponent<PlayerController>().playerVariable.actionType == ActionType.PlusFruit10)
+        {
+            ac.PlaySound(SoundEnum.plusTenSound);
+        }
 
         uc.UpdatePlayerFruits(playerFruits);
     }
