@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Fade : MonoBehaviour
 {
-    [SerializeField] private float damping;
+    [SerializeField] private float damping = 0;
 
     private new SpriteRenderer renderer;
     private Color goalColor;

@@ -6,6 +6,10 @@ using UnityEngine.UI;
 public class PauseController : MonoBehaviour
 {
     [SerializeField] private GameObject pauseText = null;
+
+    [HideInInspector]
+    public bool canPause = false;
+
     private bool paused = false;
     private bool gameEnded = false;
 
@@ -45,6 +49,12 @@ public class PauseController : MonoBehaviour
         }
     }
 
+    public IEnumerator delayPause ()
+    {
+        yield return new WaitForSeconds(0.5f);
+        canPause = true;
+    }
+
     public void EndGame ()
     {
         gameEnded = true;
@@ -52,7 +62,7 @@ public class PauseController : MonoBehaviour
 
     private void TogglePause()
     {
-        if(!gameEnded)
+        if(!gameEnded && canPause)
         {
             paused = !paused;
             pauseText.SetActive(paused);
