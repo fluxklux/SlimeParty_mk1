@@ -50,7 +50,19 @@ public class PlayerController : MonoBehaviour
     {
         if (lerp)
         {
-            anim.SetFloat("Speed", 1);
+            float difference = (transform.position.y - targetPos.y) * 10;
+            //Debug.Log("Dif: " + difference + ", Speed: " + anim.GetFloat("Speed"));
+
+            if(difference >= 0)
+            {
+                Debug.Log(difference);
+                anim.SetFloat("Speed", 1f);
+            }
+            else if(difference < 0)
+            {
+                anim.SetFloat("Speed", 0.5f);
+            }
+
             transform.position = Vector2.MoveTowards(transform.position, targetPos, damping);
             UpdateScale();
 
