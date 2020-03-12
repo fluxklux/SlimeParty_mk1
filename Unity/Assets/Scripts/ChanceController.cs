@@ -75,8 +75,11 @@ public class ChanceController : MonoBehaviour
 
         //Debug.Log("about to TELEPORT with playerindex: " + index);
         int calcIndex = mc.players[index].GetComponent<PlayerController>().playerVariable.currentSlotPosition + slotToTp;
+        calcIndex = (int)Mathf.Repeat(calcIndex, gc.allSlots.Length);
+
         int slotSteps = calcIndex - mc.players[index].GetComponent<PlayerController>().playerVariable.currentSlotPosition;
 
+        Debug.Log(calcIndex);
         gc.allSlots[calcIndex].GetComponent<SlotController>().hasEffect = true;
         Debug.Log("HAR DU FEL I KODEN? DETTA KAN VARA PROBLEMET");
 

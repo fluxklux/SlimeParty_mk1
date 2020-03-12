@@ -55,7 +55,6 @@ public class PlayerController : MonoBehaviour
 
             if(difference >= 0)
             {
-                Debug.Log(difference);
                 anim.SetFloat("Speed", 1f);
             }
             else if(difference < 0)
