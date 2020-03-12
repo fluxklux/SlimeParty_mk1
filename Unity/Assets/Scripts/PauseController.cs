@@ -6,7 +6,12 @@ using UnityEngine.UI;
 public class PauseController : MonoBehaviour
 {
     [SerializeField] private GameObject pauseText = null;
+
+    [HideInInspector]
+    public bool canPause = false;
+
     private bool paused = false;
+    private bool gameEnded = false;
 
     private void Update()
     {
@@ -32,8 +37,7 @@ public class PauseController : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.Escape))
         {
-            paused = TogglePause();
-            pauseText.SetActive(paused);
+            TogglePause();
         }
 
         if(paused)
@@ -45,17 +49,32 @@ public class PauseController : MonoBehaviour
         }
     }
 
-    private bool TogglePause()
+    public IEnumerator delayPause ()
     {
-        if(Time.timeScale == 0f)
+        yield return new WaitForSeconds(0.5f);
+        canPause = true;
+    }
+
+    public void EndGame ()
+    {
+        gameEnded = true;
+    }
+
+    private void TogglePause()
+    {
+        if(!gameEnded && canPause)
         {
-            Time.timeScale = 1f;
-            return (false);
-        }
-        else
-        {
-            Time.timeScale = 0f;
-            return (true);
+            paused = !paused;
+            pauseText.SetActive(paused);
+
+            if (paused)
+            {
+                Time.timeScale = 0.0f;
+            }
+            else
+            {
+                Time.timeScale = 1.0f;
+            }
         }
     }
 }

@@ -14,6 +14,10 @@ public class ActionController : MonoBehaviour
 {
     public List<ActionClass> actionClasses = new List<ActionClass>();
 
+    [Header("Effects: ")]
+    [SerializeField] private GameObject effectPrefab = null;
+    [SerializeField] private Sprite[] effectSprites = { null, null, null };
+
     private GameController gc;
     private MoveController mc;
     private MinigameController mgc;
@@ -22,6 +26,7 @@ public class ActionController : MonoBehaviour
     private AudioController ac;
 
     bool hasMinigame = false;
+    GameObject effect;
 
     private void Start()
     {
@@ -41,6 +46,11 @@ public class ActionController : MonoBehaviour
             mc.players[g].GetComponent<PlayerController>().playerVariable.extraFruits = 0;
         }
 
+        for (int i = 0; i < gc.allSlots.Length; i++)
+        {
+            gc.allSlots[i].GetComponent<SlotController>().hasEffect = false;
+        }
+
         actionClasses.Clear();
         hasMinigame = false;
     }
@@ -53,7 +63,7 @@ public class ActionController : MonoBehaviour
             switch (mc.players[gc.queueObjects[i].playerIndex].GetComponent<PlayerController>().playerVariable.actionType)//mc.players[i].GetComponent<PlayerController>().playerVariable.actionType)
             {
                 case ActionType.PlusFruit3:
-                    Debug.Log("Plus 3");
+                    //Debug.Log("Plus 3");
                     ActionClass newAction = new ActionClass();
                     newAction.actionType = 0;
                     newAction.playerIndex = gc.queueObjects[i].playerIndex;
@@ -131,6 +141,20 @@ public class ActionController : MonoBehaviour
 
     private void PlayAction (int playerIndex, int actionType, int i)
     {
+        if(gc.allSlots[mc.players[playerIndex].GetComponent<PlayerController>().playerVariable.currentSlotPosition].GetComponent<SlotController>().hasEffect == false)
+        {
+            //Debug.Log(gc.allSlots[mc.players[playerIndex].GetComponent<PlayerController>().playerVariable.currentSlotPosition].GetComponent<SlotController>().hasEffect);
+            gc.allSlots[mc.players[playerIndex].GetComponent<PlayerController>().playerVariable.currentSlotPosition].GetComponent<SlotController>().hasEffect = true;
+            effect = Instantiate(effectPrefab) as GameObject;
+            effect.transform.position = new Vector3(
+                gc.allSlots[mc.players[playerIndex].GetComponent<PlayerController>().playerVariable.currentSlotPosition].transform.position.x,
+                gc.allSlots[mc.players[playerIndex].GetComponent<PlayerController>().playerVariable.currentSlotPosition].transform.position.y + 0.5f, 0);
+        }
+        else
+        {
+            Debug.Log("already has effects LMAO");
+        }
+
         switch (actionType)
         {
             case 0:
@@ -146,6 +170,19 @@ public class ActionController : MonoBehaviour
 
                 //Debug.Log("FruitAmount: " + fruitAmount);
                 gc.ChangeFruitAmount(playerIndex, fruitAmount);
+
+                switch(fruitAmount)
+                {
+                    case 3:
+                        effect.GetComponentInChildren<SpriteRenderer>().sprite = effectSprites[0];
+                        break;
+                    case 10:
+                        effect.GetComponentInChildren<SpriteRenderer>().sprite = effectSprites[1];
+                        break;
+                    case -3:
+                        effect.GetComponentInChildren<SpriteRenderer>().sprite = effectSprites[2];
+                        break;
+                }
 
                 //remove fruitbag
                 for (int p = 0; p < gc.allSlots.Length; p++)
@@ -183,5 +220,7 @@ public class ActionController : MonoBehaviour
                 Debug.Log("Something went wrong in sorting playerActions!");
                 break;
         }
+
+        Destroy(effect, 5);
     }
 }

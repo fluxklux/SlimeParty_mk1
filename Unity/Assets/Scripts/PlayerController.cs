@@ -55,7 +55,7 @@ public class PlayerController : MonoBehaviour
             UpdateScale();
 
             float dist = Vector2.Distance(transform.position, targetPos);
-            if (dist < 0.1f)
+            if (dist < 0.025f)
             {
                 lerp = false;
             }

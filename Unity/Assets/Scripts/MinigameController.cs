@@ -70,11 +70,11 @@ public class MinigameController : MonoBehaviour
         minigamePlayers[playerIndex] = controlIndex;
     }
 
-    public void SelectPlayer (int playerIndex)
+    public void SelectPlayer (int mainPlayer)
     {
         for (int i = 0; i < ic.hasJoined.Length; i++)
         {
-            if(ic.hasJoined[i] == true)
+            if (ic.hasJoined[i] == true)
             {
                 amount++;
             }
@@ -82,15 +82,13 @@ public class MinigameController : MonoBehaviour
 
         int randomPlayer = RandomizePlayer();
 
-        while(randomPlayer == playerIndex)
+        while(randomPlayer == mainPlayer)
         {
             randomPlayer = RandomizePlayer();
         }
 
-        SetMinigamePlayers(0, playerIndex);
+        SetMinigamePlayers(0, mainPlayer);
         SetMinigamePlayers(1, randomPlayer);
-
-        //RandomizeMinigame();
 
         switch (minigamePlayers[0])
         {
@@ -273,7 +271,7 @@ public class MinigameController : MonoBehaviour
                         }
                         else
                         {
-                            Debug.Log("DRAW");
+                            //Debug.Log("DRAW");
                             pointText[0].color = Color.yellow;
                             pointText[1].color = Color.yellow;
                             winner = 3;

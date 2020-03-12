@@ -15,18 +15,13 @@ public class RoundController : MonoBehaviour
         round = 1;
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
     public void UpdateRound()
     {
         round++;
         if(round >= roundMax)
         {
             Time.timeScale = 0f;
+            GetComponent<PauseController>().EndGame();
             overEndText.gameObject.SetActive(true);
         }
     }

@@ -60,6 +60,7 @@ public class InputController : MonoBehaviour
     private void StartGame()
     {
         gameStarted = true;
+        StartCoroutine(GetComponent<PauseController>().delayPause());
         GetComponent<TimerController>().count = true;
         uc.ToggleDpad(true);
         uc.ToggleTimer(true);
