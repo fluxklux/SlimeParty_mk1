@@ -1,7 +1,172 @@
 fileFormatVersion: 2
 guid: 1d8722aabe270134195ef3c7304e0ae3
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -4429433851071062367
+    second: Slime_player_red_jump_0
+  - first:
+      213: -9039172758155500647
+    second: Slime_player_red_jump_1
+  - first:
+      213: -8887658425617351830
+    second: Slime_player_red_jump_2
+  - first:
+      213: 4346604060923079686
+    second: Slime_player_red_jump_3
+  - first:
+      213: 7135794009903117462
+    second: Slime_player_red_jump_4
+  - first:
+      213: -7740305882735671671
+    second: Slime_player_red_jump_5
+  - first:
+      213: -1877129541088361296
+    second: Slime_player_red_jump_6
+  - first:
+      213: -4273905251258976207
+    second: Slime_player_red_jump_7
+  - first:
+      213: -6324986653899127570
+    second: Slime_player_red_jump_8
+  - first:
+      213: -6041161865190394064
+    second: Slime_player_red_jump_9
+  - first:
+      213: 2597718626182270503
+    second: Slime_player_red_jump_10
+  - first:
+      213: 5915462344063835934
+    second: Slime_player_red_jump_11
+  - first:
+      213: 5499179114250051870
+    second: Slime_player_red_jump_12
+  - first:
+      213: -8175617034320553837
+    second: Slime_player_red_jump_13
+  - first:
+      213: 6236835776767677831
+    second: Slime_player_red_jump_14
+  - first:
+      213: -5725476329024886250
+    second: Slime_player_red_jump_15
+  - first:
+      213: 6641891620193191940
+    second: Slime_player_red_jump_16
+  - first:
+      213: 3480507001612534246
+    second: Slime_player_red_jump_17
+  - first:
+      213: -5853777065541798577
+    second: Slime_player_red_jump_18
+  - first:
+      213: 4368566711420056790
+    second: Slime_player_red_jump_19
+  - first:
+      213: -7100770194340498336
+    second: Slime_player_red_jump_20
+  - first:
+      213: -8749760682681422321
+    second: Slime_player_red_jump_21
+  - first:
+      213: 7280408578115589930
+    second: Slime_player_red_jump_22
+  - first:
+      213: -3155663769786119918
+    second: Slime_player_red_jump_23
+  - first:
+      213: 2780691167234540662
+    second: Slime_player_red_jump_24
+  - first:
+      213: 6858969889676135377
+    second: Slime_player_red_jump_25
+  - first:
+      213: -345901096294906002
+    second: Slime_player_red_jump_26
+  - first:
+      213: 3873469323931784413
+    second: Slime_player_red_jump_27
+  - first:
+      213: 3638831829101020783
+    second: Slime_player_red_jump_28
+  - first:
+      213: -1598968440555432584
+    second: Slime_player_red_jump_29
+  - first:
+      213: -1704134373661162973
+    second: Slime_player_red_jump_30
+  - first:
+      213: 5167466871018306418
+    second: Slime_player_red_jump_31
+  - first:
+      213: -8755466409957839301
+    second: Slime_player_red_jump_32
+  - first:
+      213: 5808565685170567783
+    second: Slime_player_red_jump_33
+  - first:
+      213: 6211296616932418189
+    second: Slime_player_red_jump_34
+  - first:
+      213: 7560836929078426577
+    second: Slime_player_red_jump_35
+  - first:
+      213: 97033259088568005
+    second: Slime_player_red_jump_36
+  - first:
+      213: 4157555284034031400
+    second: Slime_player_red_jump_37
+  - first:
+      213: 5605635423446281927
+    second: Slime_player_red_jump_38
+  - first:
+      213: -1082129068554659250
+    second: Slime_player_red_jump_39
+  - first:
+      213: 9092860383394367936
+    second: Slime_player_red_jump_40
+  - first:
+      213: 6668375255173072796
+    second: Slime_player_red_jump_41
+  - first:
+      213: -440608658814618703
+    second: Slime_player_red_jump_42
+  - first:
+      213: 8208668839186487896
+    second: Slime_player_red_jump_43
+  - first:
+      213: 5765232293376453597
+    second: Slime_player_red_jump_44
+  - first:
+      213: -8416700474613780461
+    second: Slime_player_red_jump_45
+  - first:
+      213: 6929629527312842633
+    second: Slime_player_red_jump_46
+  - first:
+      213: 9053602599430592739
+    second: Slime_player_red_jump_47
+  - first:
+      213: 7164599106530878968
+    second: Slime_player_red_jump_48
+  - first:
+      213: 8761144107036552389
+    second: Slime_player_red_jump_49
+  - first:
+      213: -2841675829992593543
+    second: Slime_player_red_jump_50
+  - first:
+      213: 5128005117905101504
+    second: Slime_player_red_jump_51
+  - first:
+      213: 4950216200960050898
+    second: Slime_player_red_jump_52
+  - first:
+      213: -7457833956475302368
+    second: Slime_player_red_jump_53
+  - first:
+      213: -1856396687104593422
+    second: Slime_player_red_jump_54
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -40,12 +205,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 600
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -82,9 +247,1188 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Slime_player_red_jump_0
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 2473
+        width: 276
+        height: 509
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f64d3749be1eca4ebc24f4edaa74ff8
+      internalID: -4429433851071062367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_player_red_jump_1
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 2473
+        width: 278
+        height: 505
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d79660b5ad7afc4e81038626107427b
+      internalID: -9039172758155500647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_player_red_jump_2
+      rect:
+        serializedVersion: 2
+        x: 694
+        y: 2472
+        width: 278
+        height: 502
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28e4114dbe471f04eaac312270a991f2
+      internalID: -8887658425617351830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_player_red_jump_3
+      rect:
+        serializedVersion: 2
+        x: 1026
+        y: 2472
+        width: 280
+        height: 499
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3f0e26f66742dd439de6c2e14bf8006
+      internalID: 4346604060923079686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_player_red_jump_4
+      rect:
+        serializedVersion: 2
+        x: 1358
+        y: 2472
+        width: 282
+        height: 495
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd61829f91bb10c4b9d1effe690ceb68
+      internalID: 7135794009903117462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_player_red_jump_5
+      rect:
+        serializedVersion: 2
+        x: 1690
+        y: 2471
+        width: 284
+        height: 491
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ae2d0127292f0142bdfeda4ab90760a
+      internalID: -7740305882735671671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_player_red_jump_6
+      rect:
+        serializedVersion: 2
+        x: 2023
+        y: 2471
+        width: 285
+        height: 486
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1800a5d2bf70be4f856b7d95fd18108
+      internalID: -1877129541088361296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_player_red_jump_7
+      rect:
+        serializedVersion: 2
+        x: 2355
+        y: 2471
+        width: 286
+        height: 481
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c69dc0543750684c98f99ca5f71aafe
+      internalID: -4273905251258976207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_player_red_jump_8
+      rect:
+        serializedVersion: 2
+        x: 2687
+        y: 2470
+        width: 288
+        height: 477
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65abb3a2f4931a14c823e2ef77e1b3c6
+      internalID: -6324986653899127570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_player_red_jump_9
+      rect:
+        serializedVersion: 2
+        x: 3019
+        y: 2470
+        width: 290
+        height: 471
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d8992610809ca148bc7eec5d86c6648
+      internalID: -6041161865190394064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_player_red_jump_10
+      rect:
+        serializedVersion: 2
+        x: 3352
+        y: 2470
+        width: 291
+        height: 465
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e34a49f381e44747aa044a65074043c
+      internalID: 2597718626182270503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_player_red_jump_11
+      rect:
+        serializedVersion: 2
+        x: 3684
+        y: 2470
+        width: 293
+        height: 459
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41ff3ef143014e4429750702de55150c
+      internalID: 5915462344063835934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_player_red_jump_12
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 1869
+        width: 294
+        height: 455
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1f74c51e9483374ea36cf2af9e3e8b6
+      internalID: 5499179114250051870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_player_red_jump_13
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 1869
+        width: 296
+        height: 449
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cde4e9ff1026304a9489ccad96d7601
+      internalID: -8175617034320553837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_player_red_jump_14
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 1869
+        width: 297
+        height: 443
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f3ef7e20e5648e4ab0a1b28fd655a91
+      internalID: 6236835776767677831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_player_red_jump_15
+      rect:
+        serializedVersion: 2
+        x: 1017
+        y: 1866
+        width: 299
+        height: 439
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da6bfdb52307036479c72e9f2ee09fa3
+      internalID: -5725476329024886250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_player_red_jump_16
+      rect:
+        serializedVersion: 2
+        x: 1349
+        y: 1868
+        width: 301
+        height: 436
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36051762ecada294c8800ba10fb576fb
+      internalID: 6641891620193191940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_player_red_jump_17
+      rect:
+        serializedVersion: 2
+        x: 1681
+        y: 1861
+        width: 302
+        height: 434
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae4695c3132344c44a4d3c855652229f
+      internalID: 3480507001612534246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_player_red_jump_18
+      rect:
+        serializedVersion: 2
+        x: 2014
+        y: 1859
+        width: 303
+        height: 431
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05125e36485bcd9469fbaa7e59d2e59d
+      internalID: -5853777065541798577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_player_red_jump_19
+      rect:
+        serializedVersion: 2
+        x: 2346
+        y: 1856
+        width: 305
+        height: 428
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61a0c117c8dda6346bcd1e789e7055f7
+      internalID: 4368566711420056790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_player_red_jump_20
+      rect:
+        serializedVersion: 2
+        x: 2678
+        y: 1854
+        width: 307
+        height: 426
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da4c73091ec95184da0840d1cf3e6d8d
+      internalID: -7100770194340498336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_player_red_jump_21
+      rect:
+        serializedVersion: 2
+        x: 3010
+        y: 1852
+        width: 309
+        height: 422
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbda299ffd582c546ac49af29e415644
+      internalID: -8749760682681422321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_player_red_jump_22
+      rect:
+        serializedVersion: 2
+        x: 3343
+        y: 1851
+        width: 309
+        height: 417
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba32962e015c74f4981ac6dcac7413e6
+      internalID: 7280408578115589930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_player_red_jump_23
+      rect:
+        serializedVersion: 2
+        x: 3675
+        y: 1850
+        width: 311
+        height: 416
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efcdd2c1f1e4f174b9c204ac0cc5775f
+      internalID: -3155663769786119918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_player_red_jump_24
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 1249
+        width: 313
+        height: 411
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9850dcb7a5188bb4bb86a33403c8a676
+      internalID: 2780691167234540662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_player_red_jump_25
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 1248
+        width: 315
+        height: 410
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43a715690be4e544b894a53e48439c17
+      internalID: 6858969889676135377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_player_red_jump_26
+      rect:
+        serializedVersion: 2
+        x: 683
+        y: 1248
+        width: 300
+        height: 414
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a62554e30c47a654080a2e7f61b09f26
+      internalID: -345901096294906002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_player_red_jump_27
+      rect:
+        serializedVersion: 2
+        x: 1022
+        y: 1256
+        width: 287
+        height: 426
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 758781ec2406e494bb71b08fc6b5d7ce
+      internalID: 3873469323931784413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_player_red_jump_28
+      rect:
+        serializedVersion: 2
+        x: 1362
+        y: 1265
+        width: 272
+        height: 451
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76be27c389d6e7e43a411d628335c357
+      internalID: 3638831829101020783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_player_red_jump_29
+      rect:
+        serializedVersion: 2
+        x: 1701
+        y: 1265
+        width: 259
+        height: 489
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 265b1d4c3e6a6b640acab7262140038b
+      internalID: -1598968440555432584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_player_red_jump_30
+      rect:
+        serializedVersion: 2
+        x: 2040
+        y: 1265
+        width: 246
+        height: 519
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8671fd46a490a3242bf9d417a419703d
+      internalID: -1704134373661162973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_player_red_jump_31
+      rect:
+        serializedVersion: 2
+        x: 2373
+        y: 1265
+        width: 246
+        height: 519
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bb6c06f306128a42ae20f4a1dc78f26
+      internalID: 5167466871018306418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_player_red_jump_32
+      rect:
+        serializedVersion: 2
+        x: 2706
+        y: 1265
+        width: 246
+        height: 519
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 100e2eeb0b2abd74cb40896b9ca0293a
+      internalID: -8755466409957839301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_player_red_jump_33
+      rect:
+        serializedVersion: 2
+        x: 3039
+        y: 1265
+        width: 246
+        height: 519
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8d6fb0d4f9d3da4aae5aecbd0eb5786
+      internalID: 5808565685170567783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_player_red_jump_34
+      rect:
+        serializedVersion: 2
+        x: 3372
+        y: 1265
+        width: 246
+        height: 519
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 562a444245777a749a04d04777db150a
+      internalID: 6211296616932418189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_player_red_jump_35
+      rect:
+        serializedVersion: 2
+        x: 3705
+        y: 1265
+        width: 246
+        height: 519
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c04056192ab3c974195f261785743abb
+      internalID: 7560836929078426577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_player_red_jump_36
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 665
+        width: 246
+        height: 519
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1eaca82a7d2c6247a9a5db249fb6e14
+      internalID: 97033259088568005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_player_red_jump_37
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 665
+        width: 246
+        height: 519
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af0eab9534b8d494bbe8619e86df23d1
+      internalID: 4157555284034031400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_player_red_jump_38
+      rect:
+        serializedVersion: 2
+        x: 708
+        y: 665
+        width: 246
+        height: 519
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1bc5ea73fe38184b97160c82e227192
+      internalID: 5605635423446281927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_player_red_jump_39
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 665
+        width: 246
+        height: 519
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67bce8db15147d345b569b4f2cee3de8
+      internalID: -1082129068554659250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_player_red_jump_40
+      rect:
+        serializedVersion: 2
+        x: 1374
+        y: 665
+        width: 246
+        height: 519
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f8330aa7b47049448e77337af67405b
+      internalID: 9092860383394367936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_player_red_jump_41
+      rect:
+        serializedVersion: 2
+        x: 1707
+        y: 665
+        width: 246
+        height: 519
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 972bdfb92e4d32640891ef537e76748a
+      internalID: 6668375255173072796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_player_red_jump_42
+      rect:
+        serializedVersion: 2
+        x: 2040
+        y: 665
+        width: 246
+        height: 519
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02f1a13786359924d9593519fb723d2b
+      internalID: -440608658814618703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_player_red_jump_43
+      rect:
+        serializedVersion: 2
+        x: 2373
+        y: 665
+        width: 246
+        height: 519
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2173a3d5d5ec22468afe532596d7507
+      internalID: 8208668839186487896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_player_red_jump_44
+      rect:
+        serializedVersion: 2
+        x: 2706
+        y: 665
+        width: 246
+        height: 519
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd93d094d064f7c4da264e28752fa8d2
+      internalID: 5765232293376453597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_player_red_jump_45
+      rect:
+        serializedVersion: 2
+        x: 3039
+        y: 665
+        width: 246
+        height: 519
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7f0e22418a90ca4e82d996cecd507fe
+      internalID: -8416700474613780461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_player_red_jump_46
+      rect:
+        serializedVersion: 2
+        x: 3372
+        y: 665
+        width: 246
+        height: 519
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3207272dbc306884aacc44798c3e676b
+      internalID: 6929629527312842633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_player_red_jump_47
+      rect:
+        serializedVersion: 2
+        x: 3705
+        y: 665
+        width: 246
+        height: 519
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b15f3e69b77a36d45acec330fcbb2d67
+      internalID: 9053602599430592739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_player_red_jump_48
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 65
+        width: 246
+        height: 519
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53694547c87cacf4bacbe38080617f36
+      internalID: 7164599106530878968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_player_red_jump_49
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 65
+        width: 246
+        height: 519
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea205ebc89606e3449bd01abdcadb0e7
+      internalID: 8761144107036552389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_player_red_jump_50
+      rect:
+        serializedVersion: 2
+        x: 708
+        y: 65
+        width: 246
+        height: 519
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cd39420dad830547922a0b77c98f3cb
+      internalID: -2841675829992593543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_player_red_jump_51
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 65
+        width: 246
+        height: 519
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19edd212931aae5478be2efa6e941b0e
+      internalID: 5128005117905101504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_player_red_jump_52
+      rect:
+        serializedVersion: 2
+        x: 1374
+        y: 65
+        width: 246
+        height: 519
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90882b31befc1be42b67af16a3ff4685
+      internalID: 4950216200960050898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_player_red_jump_53
+      rect:
+        serializedVersion: 2
+        x: 1707
+        y: 65
+        width: 246
+        height: 519
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9c6ed7e813f0f94c9797bd9b72ab705
+      internalID: -7457833956475302368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_player_red_jump_54
+      rect:
+        serializedVersion: 2
+        x: 2040
+        y: 65
+        width: 246
+        height: 519
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9b768c900adfc6459bea0b3a601df43
+      internalID: -1856396687104593422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

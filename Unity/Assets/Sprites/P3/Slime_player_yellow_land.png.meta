@@ -1,7 +1,79 @@
 fileFormatVersion: 2
 guid: f8b639c46946d9b498c6a65789518486
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 7941582120540398104
+    second: Slime_player_yellow_land_0
+  - first:
+      213: -8563385109964047780
+    second: Slime_player_yellow_land_1
+  - first:
+      213: 8187702914406289493
+    second: Slime_player_yellow_land_2
+  - first:
+      213: -4889399025599772776
+    second: Slime_player_yellow_land_3
+  - first:
+      213: -7920015143123314391
+    second: Slime_player_yellow_land_4
+  - first:
+      213: -4064668563762601489
+    second: Slime_player_yellow_land_5
+  - first:
+      213: -7685616273410697523
+    second: Slime_player_yellow_land_6
+  - first:
+      213: -981887854595798723
+    second: Slime_player_yellow_land_7
+  - first:
+      213: -8995953694670831119
+    second: Slime_player_yellow_land_8
+  - first:
+      213: -846284892977289091
+    second: Slime_player_yellow_land_9
+  - first:
+      213: 6132156914414762910
+    second: Slime_player_yellow_land_10
+  - first:
+      213: 9173689377562919565
+    second: Slime_player_yellow_land_11
+  - first:
+      213: 2405562818904797818
+    second: Slime_player_yellow_land_12
+  - first:
+      213: 7480585610381109099
+    second: Slime_player_yellow_land_13
+  - first:
+      213: -8944256211629248393
+    second: Slime_player_yellow_land_14
+  - first:
+      213: -6288467227706926960
+    second: Slime_player_yellow_land_15
+  - first:
+      213: -1176775662463431692
+    second: Slime_player_yellow_land_16
+  - first:
+      213: -4977726285054980124
+    second: Slime_player_yellow_land_17
+  - first:
+      213: 8094705981649397696
+    second: Slime_player_yellow_land_18
+  - first:
+      213: -7281026363912981963
+    second: Slime_player_yellow_land_19
+  - first:
+      213: 578588231316896526
+    second: Slime_player_yellow_land_20
+  - first:
+      213: -4303108424249553498
+    second: Slime_player_yellow_land_21
+  - first:
+      213: 1876894530632042385
+    second: Slime_player_yellow_land_22
+  - first:
+      213: 4542049060804347616
+    second: Slime_player_yellow_land_23
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -84,11 +156,515 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Slime_player_yellow_land_0
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 673
+        width: 276
+        height: 510
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: beeafa1cfc0da3f47b6b12d94d93c67d
+      internalID: 7941582120540398104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_player_yellow_land_1
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 673
+        width: 276
+        height: 510
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a02ac73dbfae454f96e098f50b42233
+      internalID: -8563385109964047780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_player_yellow_land_2
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 673
+        width: 276
+        height: 510
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f95c9bc758528a4496a86ed4b926fb3
+      internalID: 8187702914406289493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_player_yellow_land_3
+      rect:
+        serializedVersion: 2
+        x: 1028
+        y: 673
+        width: 276
+        height: 510
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1f7b4d08c18783499271f6844b7677a
+      internalID: -4889399025599772776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_player_yellow_land_4
+      rect:
+        serializedVersion: 2
+        x: 1361
+        y: 673
+        width: 276
+        height: 510
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4159c402e2178d241a049793e71750a2
+      internalID: -7920015143123314391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_player_yellow_land_5
+      rect:
+        serializedVersion: 2
+        x: 1694
+        y: 673
+        width: 276
+        height: 510
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77c1825ade88b3d4fb7b1d7d355522d7
+      internalID: -4064668563762601489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_player_yellow_land_6
+      rect:
+        serializedVersion: 2
+        x: 2027
+        y: 673
+        width: 276
+        height: 510
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35f9fd143cc7b6846a6e485ebbe7ca1a
+      internalID: -7685616273410697523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_player_yellow_land_7
+      rect:
+        serializedVersion: 2
+        x: 2360
+        y: 673
+        width: 276
+        height: 510
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c4bcdc46ff80ff4c9495dbf85390661
+      internalID: -981887854595798723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_player_yellow_land_8
+      rect:
+        serializedVersion: 2
+        x: 2693
+        y: 673
+        width: 276
+        height: 510
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e31883b0e818b3f468a47c4d09b6c6de
+      internalID: -8995953694670831119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_player_yellow_land_9
+      rect:
+        serializedVersion: 2
+        x: 3026
+        y: 673
+        width: 276
+        height: 510
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17df171b71c48cd43a6f03d142628c5a
+      internalID: -846284892977289091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_player_yellow_land_10
+      rect:
+        serializedVersion: 2
+        x: 3359
+        y: 673
+        width: 276
+        height: 510
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b75ff6a06a8c58419d5624a072c05fb
+      internalID: 6132156914414762910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_player_yellow_land_11
+      rect:
+        serializedVersion: 2
+        x: 3687
+        y: 671
+        width: 286
+        height: 485
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b61743e8b2c61ad4c819dd6c64c7d1c2
+      internalID: 9173689377562919565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_player_yellow_land_12
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 69
+        width: 295
+        height: 452
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7033ba3519b453f439362dff6ff02209
+      internalID: 2405562818904797818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_player_yellow_land_13
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 57
+        width: 305
+        height: 429
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3060b93bfce3b664caada491f32e88c9
+      internalID: 7480585610381109099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_player_yellow_land_14
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 48
+        width: 315
+        height: 410
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1160832782f88c845ade5d335fa16076
+      internalID: -8944256211629248393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_player_yellow_land_15
+      rect:
+        serializedVersion: 2
+        x: 1011
+        y: 51
+        width: 310
+        height: 400
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 710b2da65b1e87f4c8e35f9e8d9a8ef6
+      internalID: -6288467227706926960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_player_yellow_land_16
+      rect:
+        serializedVersion: 2
+        x: 1347
+        y: 55
+        width: 305
+        height: 393
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a9b1b60107886648bb75329a1e22833
+      internalID: -1176775662463431692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_player_yellow_land_17
+      rect:
+        serializedVersion: 2
+        x: 1682
+        y: 62
+        width: 301
+        height: 408
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e82b28820fe03c42ab03025d5dd9b9d
+      internalID: -4977726285054980124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_player_yellow_land_18
+      rect:
+        serializedVersion: 2
+        x: 2017
+        y: 68
+        width: 297
+        height: 426
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11ce60e9ed3e87948a1b0f89467cadf3
+      internalID: 8094705981649397696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_player_yellow_land_19
+      rect:
+        serializedVersion: 2
+        x: 2352
+        y: 68
+        width: 293
+        height: 450
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 608420afd8ba35440946f82e714d4fa7
+      internalID: -7281026363912981963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_player_yellow_land_20
+      rect:
+        serializedVersion: 2
+        x: 2687
+        y: 69
+        width: 288
+        height: 468
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7005bc5c18fadb4cb573f7e3605a714
+      internalID: 578588231316896526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_player_yellow_land_21
+      rect:
+        serializedVersion: 2
+        x: 3022
+        y: 69
+        width: 284
+        height: 487
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22825db7e0d0fa64e8fb75f86368bd12
+      internalID: -4303108424249553498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_player_yellow_land_22
+      rect:
+        serializedVersion: 2
+        x: 3357
+        y: 70
+        width: 280
+        height: 503
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7303a3e0b2a933847a974f84ebbf831c
+      internalID: 1876894530632042385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_player_yellow_land_23
+      rect:
+        serializedVersion: 2
+        x: 3692
+        y: 71
+        width: 276
+        height: 512
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a9137b7b92135441acbac198ace20e9
+      internalID: 4542049060804347616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: b4f8034527daad7438be6dcabf03afec
     internalID: 0
     vertices: []
     indices: 

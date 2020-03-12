@@ -1,7 +1,79 @@
 fileFormatVersion: 2
 guid: 89d73de68a27a51409c93d8435b25ec3
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -2376468345472134110
+    second: Slime_player_purple_land_0
+  - first:
+      213: -4236814406140037536
+    second: Slime_player_purple_land_1
+  - first:
+      213: -6363686678532508520
+    second: Slime_player_purple_land_2
+  - first:
+      213: -4611290112225399165
+    second: Slime_player_purple_land_3
+  - first:
+      213: 4677383182682730297
+    second: Slime_player_purple_land_4
+  - first:
+      213: 8934541277848002413
+    second: Slime_player_purple_land_5
+  - first:
+      213: 3464732134012921865
+    second: Slime_player_purple_land_6
+  - first:
+      213: -7070105600160792293
+    second: Slime_player_purple_land_7
+  - first:
+      213: 2145639705046875507
+    second: Slime_player_purple_land_8
+  - first:
+      213: 2709122174716315600
+    second: Slime_player_purple_land_9
+  - first:
+      213: -7942986681130241753
+    second: Slime_player_purple_land_10
+  - first:
+      213: -4998701967382279996
+    second: Slime_player_purple_land_11
+  - first:
+      213: 3779921185853029266
+    second: Slime_player_purple_land_12
+  - first:
+      213: 8574670825001999272
+    second: Slime_player_purple_land_13
+  - first:
+      213: 7167818445337857679
+    second: Slime_player_purple_land_14
+  - first:
+      213: 2362452550419452481
+    second: Slime_player_purple_land_15
+  - first:
+      213: -8147833991901983293
+    second: Slime_player_purple_land_16
+  - first:
+      213: -4391132535827054559
+    second: Slime_player_purple_land_17
+  - first:
+      213: -6410848063836353223
+    second: Slime_player_purple_land_18
+  - first:
+      213: -1951823810900896789
+    second: Slime_player_purple_land_19
+  - first:
+      213: -7990900406239021604
+    second: Slime_player_purple_land_20
+  - first:
+      213: -8180395837972318605
+    second: Slime_player_purple_land_21
+  - first:
+      213: -3384961046792767043
+    second: Slime_player_purple_land_22
+  - first:
+      213: -2305290301746577993
+    second: Slime_player_purple_land_23
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -84,7 +156,511 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Slime_player_purple_land_0
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 673
+        width: 276
+        height: 510
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80d3e70acfe5af5458d79f73e4176aa1
+      internalID: -2376468345472134110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_player_purple_land_1
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 673
+        width: 276
+        height: 510
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4146c131f88c1294cba66ae43f7ad7d6
+      internalID: -4236814406140037536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_player_purple_land_2
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 673
+        width: 276
+        height: 510
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 788a6139dbbd6074ebf15c8a6c79bbde
+      internalID: -6363686678532508520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_player_purple_land_3
+      rect:
+        serializedVersion: 2
+        x: 1028
+        y: 673
+        width: 276
+        height: 510
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41203bcb1af12204f883cc4373b823a1
+      internalID: -4611290112225399165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_player_purple_land_4
+      rect:
+        serializedVersion: 2
+        x: 1361
+        y: 673
+        width: 276
+        height: 510
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bcf45454dd613449bc957bda98c1615
+      internalID: 4677383182682730297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_player_purple_land_5
+      rect:
+        serializedVersion: 2
+        x: 1694
+        y: 673
+        width: 276
+        height: 510
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90c1e75f256eb9b4bb64ea96df1ea81b
+      internalID: 8934541277848002413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_player_purple_land_6
+      rect:
+        serializedVersion: 2
+        x: 2027
+        y: 673
+        width: 276
+        height: 510
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a725e825ba9c3346b1bc6e043723bbf
+      internalID: 3464732134012921865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_player_purple_land_7
+      rect:
+        serializedVersion: 2
+        x: 2360
+        y: 673
+        width: 276
+        height: 510
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13a4834d7fb65444f9a2e35b9362d39c
+      internalID: -7070105600160792293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_player_purple_land_8
+      rect:
+        serializedVersion: 2
+        x: 2693
+        y: 673
+        width: 276
+        height: 510
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb7040fb12afbd9489dc3adf1d2c2d5a
+      internalID: 2145639705046875507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_player_purple_land_9
+      rect:
+        serializedVersion: 2
+        x: 3026
+        y: 673
+        width: 276
+        height: 510
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dd580b0b17bfd84286510573ff8739c
+      internalID: 2709122174716315600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_player_purple_land_10
+      rect:
+        serializedVersion: 2
+        x: 3359
+        y: 673
+        width: 276
+        height: 510
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a5b5b129da3b5747972b2693871836c
+      internalID: -7942986681130241753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_player_purple_land_11
+      rect:
+        serializedVersion: 2
+        x: 3687
+        y: 671
+        width: 286
+        height: 485
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06f784fe09bf2a94598f58bea6fb60ed
+      internalID: -4998701967382279996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_player_purple_land_12
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 69
+        width: 295
+        height: 452
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: deb3fc5303cb02e4a8d44b5339f77bed
+      internalID: 3779921185853029266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_player_purple_land_13
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 57
+        width: 305
+        height: 429
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87eb6f5924c44ec4b9ed1f8f228b5414
+      internalID: 8574670825001999272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_player_purple_land_14
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 48
+        width: 315
+        height: 410
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2880dd0ff8106254ca1e84a7a2705da0
+      internalID: 7167818445337857679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_player_purple_land_15
+      rect:
+        serializedVersion: 2
+        x: 1011
+        y: 51
+        width: 310
+        height: 400
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6979738be477a3543bbd2871013bf856
+      internalID: 2362452550419452481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_player_purple_land_16
+      rect:
+        serializedVersion: 2
+        x: 1347
+        y: 55
+        width: 305
+        height: 393
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2eb78fb8e0f60547b3ba213db5709b5
+      internalID: -8147833991901983293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_player_purple_land_17
+      rect:
+        serializedVersion: 2
+        x: 1682
+        y: 62
+        width: 301
+        height: 408
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a6c3832394ae494099d1e17bbbdb46f
+      internalID: -4391132535827054559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_player_purple_land_18
+      rect:
+        serializedVersion: 2
+        x: 2017
+        y: 68
+        width: 297
+        height: 426
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a8e801c4e744e8458a822dca636c828
+      internalID: -6410848063836353223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_player_purple_land_19
+      rect:
+        serializedVersion: 2
+        x: 2352
+        y: 68
+        width: 293
+        height: 450
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d472c37389c0e55488216a655bfbf078
+      internalID: -1951823810900896789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_player_purple_land_20
+      rect:
+        serializedVersion: 2
+        x: 2687
+        y: 69
+        width: 288
+        height: 468
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d5a1d41ba7141944a62d12bb0291d00
+      internalID: -7990900406239021604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_player_purple_land_21
+      rect:
+        serializedVersion: 2
+        x: 3022
+        y: 69
+        width: 284
+        height: 487
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c14acfba56c70744b6b3ab320e158f9
+      internalID: -8180395837972318605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_player_purple_land_22
+      rect:
+        serializedVersion: 2
+        x: 3357
+        y: 70
+        width: 280
+        height: 503
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 924ae45e272397d4099c7d52e3c60664
+      internalID: -3384961046792767043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_player_purple_land_23
+      rect:
+        serializedVersion: 2
+        x: 3692
+        y: 71
+        width: 276
+        height: 512
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b03a234a31f8c04f8a28ecb434a414d
+      internalID: -2305290301746577993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
