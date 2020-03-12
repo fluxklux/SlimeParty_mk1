@@ -1,7 +1,88 @@
 fileFormatVersion: 2
 guid: b9e6e2685a097e34e888ba7297871de8
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -1196622943319984479
+    second: Slime_player_red_land_0
+  - first:
+      213: -7878803346966585384
+    second: Slime_player_red_land_1
+  - first:
+      213: -3502178081289143041
+    second: Slime_player_red_land_2
+  - first:
+      213: -3825324716768282449
+    second: Slime_player_red_land_3
+  - first:
+      213: -3907818238944484493
+    second: Slime_player_red_land_4
+  - first:
+      213: -81300760673080726
+    second: Slime_player_red_land_5
+  - first:
+      213: -4370754497246511561
+    second: Slime_player_red_land_6
+  - first:
+      213: -1369625440773046846
+    second: Slime_player_red_land_7
+  - first:
+      213: 5296909819873952739
+    second: Slime_player_red_land_8
+  - first:
+      213: -2116357836422262677
+    second: Slime_player_red_land_9
+  - first:
+      213: -4236370631605621843
+    second: Slime_player_red_land_10
+  - first:
+      213: -8858428450714987272
+    second: Slime_player_red_land_11
+  - first:
+      213: -2611462710355469390
+    second: Slime_player_red_land_12
+  - first:
+      213: -1013203563534758586
+    second: Slime_player_red_land_13
+  - first:
+      213: 9211968154372449648
+    second: Slime_player_red_land_14
+  - first:
+      213: -8997539656242150801
+    second: Slime_player_red_land_15
+  - first:
+      213: -5160740195408760033
+    second: Slime_player_red_land_16
+  - first:
+      213: 3382577084896738075
+    second: Slime_player_red_land_17
+  - first:
+      213: -1386671413950972825
+    second: Slime_player_red_land_18
+  - first:
+      213: 7744703030200139864
+    second: Slime_player_red_land_19
+  - first:
+      213: 6944147504627764539
+    second: Slime_player_red_land_20
+  - first:
+      213: 7020363466363205146
+    second: Slime_player_red_land_21
+  - first:
+      213: -370379889825136438
+    second: Slime_player_red_land_22
+  - first:
+      213: 5373113029684060934
+    second: Slime_player_red_land_23
+  - first:
+      213: -7371443379105428055
+    second: Slime_player_red_land_24
+  - first:
+      213: -7883514701319267571
+    second: Slime_player_red_land_25
+  - first:
+      213: 7870689803917302312
+    second: Slime_player_red_land_26
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -40,12 +121,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 600
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -82,9 +163,600 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Slime_player_red_land_0
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 1273
+        width: 276
+        height: 510
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 306881b13d238a546bcc9b4e4d8471c4
+      internalID: -1196622943319984479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_player_red_land_1
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 1273
+        width: 276
+        height: 510
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06fd11bab66c6f24fac2ce909f9da7aa
+      internalID: -7878803346966585384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_player_red_land_2
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 1273
+        width: 276
+        height: 510
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29275333317cc5c4ca6338e4f4c0f7c5
+      internalID: -3502178081289143041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_player_red_land_3
+      rect:
+        serializedVersion: 2
+        x: 1028
+        y: 1273
+        width: 276
+        height: 510
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28a3f6fe615902f4c8c5fb85c9663034
+      internalID: -3825324716768282449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_player_red_land_4
+      rect:
+        serializedVersion: 2
+        x: 1361
+        y: 1273
+        width: 276
+        height: 510
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4851e86474b19d846b933c6fefbaa58b
+      internalID: -3907818238944484493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_player_red_land_5
+      rect:
+        serializedVersion: 2
+        x: 1694
+        y: 1273
+        width: 276
+        height: 510
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e88be2904fc86744a8e50a8a320bb890
+      internalID: -81300760673080726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_player_red_land_6
+      rect:
+        serializedVersion: 2
+        x: 2027
+        y: 1273
+        width: 276
+        height: 510
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c809e63089bbd5e42b5beb145abfceaa
+      internalID: -4370754497246511561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_player_red_land_7
+      rect:
+        serializedVersion: 2
+        x: 2360
+        y: 1273
+        width: 276
+        height: 510
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ab3095101443ef4cb5dc358276f2673
+      internalID: -1369625440773046846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_player_red_land_8
+      rect:
+        serializedVersion: 2
+        x: 2693
+        y: 1273
+        width: 276
+        height: 510
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78d8f95263b0a5c47b8e6b605f77c7e8
+      internalID: 5296909819873952739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_player_red_land_9
+      rect:
+        serializedVersion: 2
+        x: 3026
+        y: 1273
+        width: 276
+        height: 510
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f747f05d16a1b34b8d506064a072e6f
+      internalID: -2116357836422262677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_player_red_land_10
+      rect:
+        serializedVersion: 2
+        x: 3359
+        y: 1273
+        width: 276
+        height: 510
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea00bca45a5df244382044906bafacea
+      internalID: -4236370631605621843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_player_red_land_11
+      rect:
+        serializedVersion: 2
+        x: 3687
+        y: 1271
+        width: 286
+        height: 485
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c69966d316d5de84ba07480340f85657
+      internalID: -8858428450714987272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_player_red_land_12
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 669
+        width: 295
+        height: 452
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ace531095f8f99459502e9c3e60f4e6
+      internalID: -2611462710355469390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_player_red_land_13
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 657
+        width: 305
+        height: 429
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66c2b91ef1282aa4d9f1f3c0866d0c32
+      internalID: -1013203563534758586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_player_red_land_14
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 648
+        width: 315
+        height: 410
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7d026bf42fc50e4fa874383cf789693
+      internalID: 9211968154372449648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_player_red_land_15
+      rect:
+        serializedVersion: 2
+        x: 1011
+        y: 651
+        width: 310
+        height: 400
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80a8822030e1dd648bb1fcf5a16c8b83
+      internalID: -8997539656242150801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_player_red_land_16
+      rect:
+        serializedVersion: 2
+        x: 1347
+        y: 655
+        width: 305
+        height: 393
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 187bb423df7a567418d333f89e8713c8
+      internalID: -5160740195408760033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_player_red_land_17
+      rect:
+        serializedVersion: 2
+        x: 1682
+        y: 662
+        width: 301
+        height: 408
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb6a9cde1171584478e363c17fa08f70
+      internalID: 3382577084896738075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_player_red_land_18
+      rect:
+        serializedVersion: 2
+        x: 2017
+        y: 668
+        width: 297
+        height: 426
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8f2505088587c64a80c294e5e90ab03
+      internalID: -1386671413950972825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_player_red_land_19
+      rect:
+        serializedVersion: 2
+        x: 2352
+        y: 668
+        width: 293
+        height: 450
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db26acd1bfec1194099058aeb23eed01
+      internalID: 7744703030200139864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_player_red_land_20
+      rect:
+        serializedVersion: 2
+        x: 2687
+        y: 669
+        width: 288
+        height: 468
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d7ff8e4023466a41abcba7edcdc4455
+      internalID: 6944147504627764539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_player_red_land_21
+      rect:
+        serializedVersion: 2
+        x: 3022
+        y: 669
+        width: 284
+        height: 487
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d9d1be0ba1abe44e947ea0abaff0f82
+      internalID: 7020363466363205146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_player_red_land_22
+      rect:
+        serializedVersion: 2
+        x: 3357
+        y: 670
+        width: 280
+        height: 503
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2836ae2b47a45ee499e65b87755158b8
+      internalID: -370379889825136438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_player_red_land_23
+      rect:
+        serializedVersion: 2
+        x: 3692
+        y: 671
+        width: 276
+        height: 512
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: feb5558d42f7a1a45bc73a5409a1af0b
+      internalID: 5373113029684060934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_player_red_land_24
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 71
+        width: 276
+        height: 512
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bcbd5fc8d995e34883f276a747e5d0b
+      internalID: -7371443379105428055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_player_red_land_25
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 72
+        width: 276
+        height: 511
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a21d0fdc3d169124aaaf6cf8038800bf
+      internalID: -7883514701319267571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_player_red_land_26
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 72
+        width: 276
+        height: 511
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d747bd3486f36249a6677ba4eddcfff
+      internalID: 7870689803917302312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

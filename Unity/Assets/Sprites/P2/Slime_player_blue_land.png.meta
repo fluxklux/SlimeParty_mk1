@@ -1,7 +1,79 @@
 fileFormatVersion: 2
 guid: e50b417ddf7c30543a20631c5c4f040b
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -5783695232642517613
+    second: Slime_player_blue_land_0
+  - first:
+      213: 2915941100162639845
+    second: Slime_player_blue_land_1
+  - first:
+      213: 7766687983901577381
+    second: Slime_player_blue_land_2
+  - first:
+      213: -3149542170766633390
+    second: Slime_player_blue_land_3
+  - first:
+      213: 8511140678453604235
+    second: Slime_player_blue_land_4
+  - first:
+      213: -4749224551759632911
+    second: Slime_player_blue_land_5
+  - first:
+      213: -6900485081099846438
+    second: Slime_player_blue_land_6
+  - first:
+      213: -3004815044212893734
+    second: Slime_player_blue_land_7
+  - first:
+      213: 4943672192779011701
+    second: Slime_player_blue_land_8
+  - first:
+      213: 3684621515673501032
+    second: Slime_player_blue_land_9
+  - first:
+      213: -3832880319203461731
+    second: Slime_player_blue_land_10
+  - first:
+      213: -4648435059431529176
+    second: Slime_player_blue_land_11
+  - first:
+      213: 8876083744585236664
+    second: Slime_player_blue_land_12
+  - first:
+      213: 4680409775549397845
+    second: Slime_player_blue_land_13
+  - first:
+      213: -2821348093835431775
+    second: Slime_player_blue_land_14
+  - first:
+      213: -7523699939628635242
+    second: Slime_player_blue_land_15
+  - first:
+      213: 3725778033432650841
+    second: Slime_player_blue_land_16
+  - first:
+      213: 457811578964932652
+    second: Slime_player_blue_land_17
+  - first:
+      213: 4259413905859264121
+    second: Slime_player_blue_land_18
+  - first:
+      213: -7957470052674893068
+    second: Slime_player_blue_land_19
+  - first:
+      213: -443296768529864158
+    second: Slime_player_blue_land_20
+  - first:
+      213: 2189815844735352109
+    second: Slime_player_blue_land_21
+  - first:
+      213: 7395746305381270527
+    second: Slime_player_blue_land_22
+  - first:
+      213: 7683950053748743162
+    second: Slime_player_blue_land_23
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -84,11 +156,515 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Slime_player_blue_land_0
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 673
+        width: 276
+        height: 510
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c276092f8512c34d936aa1cc4bb4dba
+      internalID: -5783695232642517613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_player_blue_land_1
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 673
+        width: 276
+        height: 510
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc085ecf0d9b26444923101d942b5b43
+      internalID: 2915941100162639845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_player_blue_land_2
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 673
+        width: 276
+        height: 510
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99ce57e637ae6134db81f66c2348cf5f
+      internalID: 7766687983901577381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_player_blue_land_3
+      rect:
+        serializedVersion: 2
+        x: 1028
+        y: 673
+        width: 276
+        height: 510
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c491867db6711e847924c32b8316eb30
+      internalID: -3149542170766633390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_player_blue_land_4
+      rect:
+        serializedVersion: 2
+        x: 1361
+        y: 673
+        width: 276
+        height: 510
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a5daad121d864b488a84312a5d2da09
+      internalID: 8511140678453604235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_player_blue_land_5
+      rect:
+        serializedVersion: 2
+        x: 1694
+        y: 673
+        width: 276
+        height: 510
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b03260fed8e330e4d8f8ad61cacc2667
+      internalID: -4749224551759632911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_player_blue_land_6
+      rect:
+        serializedVersion: 2
+        x: 2027
+        y: 673
+        width: 276
+        height: 510
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc3065767141ac648bfef9980efc609d
+      internalID: -6900485081099846438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_player_blue_land_7
+      rect:
+        serializedVersion: 2
+        x: 2360
+        y: 673
+        width: 276
+        height: 510
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5af6e51cc031004f9585b2c40532d17
+      internalID: -3004815044212893734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_player_blue_land_8
+      rect:
+        serializedVersion: 2
+        x: 2693
+        y: 673
+        width: 276
+        height: 510
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4e4d64c8f5db224f863d89074f2cd05
+      internalID: 4943672192779011701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_player_blue_land_9
+      rect:
+        serializedVersion: 2
+        x: 3026
+        y: 673
+        width: 276
+        height: 510
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ffc32334af5b594b8b42beb5aa51348
+      internalID: 3684621515673501032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_player_blue_land_10
+      rect:
+        serializedVersion: 2
+        x: 3359
+        y: 673
+        width: 276
+        height: 510
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18272509cb2d6de4ca94566a565eaad0
+      internalID: -3832880319203461731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_player_blue_land_11
+      rect:
+        serializedVersion: 2
+        x: 3687
+        y: 671
+        width: 286
+        height: 485
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a603baa43f70ff54099b8bbeb9b91265
+      internalID: -4648435059431529176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_player_blue_land_12
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 69
+        width: 295
+        height: 452
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f09c3a0ebb6163549b15a573e89a90fb
+      internalID: 8876083744585236664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_player_blue_land_13
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 57
+        width: 305
+        height: 429
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c920a3051ce422f45bd6ec4324d31409
+      internalID: 4680409775549397845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_player_blue_land_14
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 48
+        width: 315
+        height: 410
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5316f83fe1b8354b95c64fec6271a61
+      internalID: -2821348093835431775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_player_blue_land_15
+      rect:
+        serializedVersion: 2
+        x: 1011
+        y: 51
+        width: 310
+        height: 400
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e71596daf32dd294db8443c7f189dc3f
+      internalID: -7523699939628635242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_player_blue_land_16
+      rect:
+        serializedVersion: 2
+        x: 1347
+        y: 55
+        width: 305
+        height: 393
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78dd5831e5e632944bb62cd73ea7135d
+      internalID: 3725778033432650841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_player_blue_land_17
+      rect:
+        serializedVersion: 2
+        x: 1682
+        y: 62
+        width: 301
+        height: 408
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca8cc9d259bf3304980c93ab1e2534b4
+      internalID: 457811578964932652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_player_blue_land_18
+      rect:
+        serializedVersion: 2
+        x: 2017
+        y: 68
+        width: 297
+        height: 426
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45f9f864fcca6f1458ee46e28e16643c
+      internalID: 4259413905859264121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_player_blue_land_19
+      rect:
+        serializedVersion: 2
+        x: 2352
+        y: 68
+        width: 293
+        height: 450
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46fae5c56e96d824cb6cb7431dc1d29a
+      internalID: -7957470052674893068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_player_blue_land_20
+      rect:
+        serializedVersion: 2
+        x: 2687
+        y: 69
+        width: 288
+        height: 468
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9232acc0b1bbc3740829a0b812ac2faa
+      internalID: -443296768529864158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_player_blue_land_21
+      rect:
+        serializedVersion: 2
+        x: 3022
+        y: 69
+        width: 284
+        height: 487
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc15bbb8a6c00374386d2dc44e6ebb5a
+      internalID: 2189815844735352109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_player_blue_land_22
+      rect:
+        serializedVersion: 2
+        x: 3357
+        y: 70
+        width: 280
+        height: 503
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8d4c068291d51f43b9f36b08d49cfe3
+      internalID: 7395746305381270527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_player_blue_land_23
+      rect:
+        serializedVersion: 2
+        x: 3692
+        y: 71
+        width: 276
+        height: 512
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57b8e2a9a64cec34d87d8608daac1a89
+      internalID: 7683950053748743162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: cce5c8c299d4add4eb360d0efdbe6190
     internalID: 0
     vertices: []
     indices: 
