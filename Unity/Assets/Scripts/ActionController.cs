@@ -138,7 +138,10 @@ public class ActionController : MonoBehaviour
                 int fruitAmount = actionClasses[i].fruitAmount;
                 if (mc.players[playerIndex].GetComponent<PlayerController>().playerVariable.extraFruits > 0)
                 {
-                    fruitAmount += 10;
+                    if (mc.players[playerIndex].GetComponent<PlayerController>().playerVariable.wasFirst)
+                    {
+                        fruitAmount += 10;
+                    }
                 }
 
                 //Debug.Log("FruitAmount: " + fruitAmount);
@@ -151,11 +154,11 @@ public class ActionController : MonoBehaviour
                     //Debug.Log(p + " " + mc.players[playerIndex].GetComponent<PlayerController>().playerVariable.currentSlotPosition);
                     if(p == mc.players[playerIndex].GetComponent<PlayerController>().playerVariable.currentSlotPosition)
                     {
-                        //Debug.Log("TAKE FRUIT BAG");
-                        //Debug.Log("Slot index: " + p + ", Player slot position: " + mc.players[playerIndex].GetComponent<PlayerController>().playerVariable.currentSlotPosition);
-                        Destroy(gc.allSlots[p].GetComponent<SlotController>().fruitBagObject);
-                        gc.allSlots[p].GetComponent<SlotController>().fruitBagObject = null;
-                        gc.allSlots[p].GetComponent<SlotController>().hasBag = false;
+                           //Debug.Log("TAKE FRUIT BAG");
+                            //Debug.Log("Slot index: " + p + ", Player slot position: " + mc.players[playerIndex].GetComponent<PlayerController>().playerVariable.currentSlotPosition);
+                            Destroy(gc.allSlots[p].GetComponent<SlotController>().fruitBagObject);
+                            gc.allSlots[p].GetComponent<SlotController>().fruitBagObject = null;
+                            gc.allSlots[p].GetComponent<SlotController>().hasBag = false;
                     }
                 }
 
