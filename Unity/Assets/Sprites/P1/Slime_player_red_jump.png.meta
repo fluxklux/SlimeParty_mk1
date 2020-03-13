@@ -278,18 +278,18 @@ TextureImporter:
       name: Slime_player_red_jump_0
       rect:
         serializedVersion: 2
-        x: 29
-        y: 2473
-        width: 276
-        height: 509
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 0
+        y: 2400
+        width: 333
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8f64d3749be1eca4ebc24f4edaa74ff8
+      spriteID: f94bc92794a558a4fb0b9a251e60c244
       internalID: -4429433851071062367
       vertices: []
       indices: 
@@ -299,18 +299,18 @@ TextureImporter:
       name: Slime_player_red_jump_1
       rect:
         serializedVersion: 2
-        x: 361
-        y: 2473
-        width: 278
-        height: 505
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 333
+        y: 2400
+        width: 333
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9d79660b5ad7afc4e81038626107427b
+      spriteID: d19086eba91f6984dadd4847cc57e05d
       internalID: -9039172758155500647
       vertices: []
       indices: 
@@ -320,18 +320,18 @@ TextureImporter:
       name: Slime_player_red_jump_2
       rect:
         serializedVersion: 2
-        x: 694
-        y: 2472
-        width: 278
-        height: 502
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 666
+        y: 2400
+        width: 333
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 28e4114dbe471f04eaac312270a991f2
+      spriteID: 1223596c28ad5fc488d7e899d322b3de
       internalID: -8887658425617351830
       vertices: []
       indices: 
@@ -341,18 +341,18 @@ TextureImporter:
       name: Slime_player_red_jump_3
       rect:
         serializedVersion: 2
-        x: 1026
-        y: 2472
-        width: 280
-        height: 499
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 999
+        y: 2400
+        width: 333
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d3f0e26f66742dd439de6c2e14bf8006
+      spriteID: 08dccdd9aa32a0e4889b1a68ca2c0dde
       internalID: 4346604060923079686
       vertices: []
       indices: 
@@ -362,18 +362,18 @@ TextureImporter:
       name: Slime_player_red_jump_4
       rect:
         serializedVersion: 2
-        x: 1358
-        y: 2472
-        width: 282
-        height: 495
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 1332
+        y: 2400
+        width: 333
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bd61829f91bb10c4b9d1effe690ceb68
+      spriteID: af164907fd9641b41b691af07536e84c
       internalID: 7135794009903117462
       vertices: []
       indices: 
@@ -383,18 +383,18 @@ TextureImporter:
       name: Slime_player_red_jump_5
       rect:
         serializedVersion: 2
-        x: 1690
-        y: 2471
-        width: 284
-        height: 491
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 1665
+        y: 2400
+        width: 333
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7ae2d0127292f0142bdfeda4ab90760a
+      spriteID: 09a7ec8f5461af0488e8d9c614cd9fb0
       internalID: -7740305882735671671
       vertices: []
       indices: 
@@ -404,18 +404,18 @@ TextureImporter:
       name: Slime_player_red_jump_6
       rect:
         serializedVersion: 2
-        x: 2023
-        y: 2471
-        width: 285
-        height: 486
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 1998
+        y: 2400
+        width: 333
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a1800a5d2bf70be4f856b7d95fd18108
+      spriteID: 38422c55dbade1c4eab3db2afd858524
       internalID: -1877129541088361296
       vertices: []
       indices: 
@@ -425,18 +425,18 @@ TextureImporter:
       name: Slime_player_red_jump_7
       rect:
         serializedVersion: 2
-        x: 2355
-        y: 2471
-        width: 286
-        height: 481
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 2331
+        y: 2400
+        width: 333
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6c69dc0543750684c98f99ca5f71aafe
+      spriteID: 4daff5a028df74d47812659d54f97a42
       internalID: -4273905251258976207
       vertices: []
       indices: 
@@ -446,18 +446,18 @@ TextureImporter:
       name: Slime_player_red_jump_8
       rect:
         serializedVersion: 2
-        x: 2687
-        y: 2470
-        width: 288
-        height: 477
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 2664
+        y: 2400
+        width: 333
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 65abb3a2f4931a14c823e2ef77e1b3c6
+      spriteID: a37d8dad492128642894bf7c356f2ac5
       internalID: -6324986653899127570
       vertices: []
       indices: 
@@ -467,18 +467,18 @@ TextureImporter:
       name: Slime_player_red_jump_9
       rect:
         serializedVersion: 2
-        x: 3019
-        y: 2470
-        width: 290
-        height: 471
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 2997
+        y: 2400
+        width: 333
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8d8992610809ca148bc7eec5d86c6648
+      spriteID: 95a99089040f4d34ea7fe35f5a0f19e6
       internalID: -6041161865190394064
       vertices: []
       indices: 
@@ -488,18 +488,18 @@ TextureImporter:
       name: Slime_player_red_jump_10
       rect:
         serializedVersion: 2
-        x: 3352
-        y: 2470
-        width: 291
-        height: 465
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 3330
+        y: 2400
+        width: 333
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4e34a49f381e44747aa044a65074043c
+      spriteID: 53afed47e2bc333478a79987ff4ec414
       internalID: 2597718626182270503
       vertices: []
       indices: 
@@ -509,18 +509,18 @@ TextureImporter:
       name: Slime_player_red_jump_11
       rect:
         serializedVersion: 2
-        x: 3684
-        y: 2470
-        width: 293
-        height: 459
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 3663
+        y: 2400
+        width: 333
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 41ff3ef143014e4429750702de55150c
+      spriteID: 475a1ffcd4d09214895a6977c6681c76
       internalID: 5915462344063835934
       vertices: []
       indices: 
@@ -530,18 +530,18 @@ TextureImporter:
       name: Slime_player_red_jump_12
       rect:
         serializedVersion: 2
-        x: 20
-        y: 1869
-        width: 294
-        height: 455
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 0
+        y: 1800
+        width: 333
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f1f74c51e9483374ea36cf2af9e3e8b6
+      spriteID: 880331af9b71b444bb7316874d592ba2
       internalID: 5499179114250051870
       vertices: []
       indices: 
@@ -551,18 +551,18 @@ TextureImporter:
       name: Slime_player_red_jump_13
       rect:
         serializedVersion: 2
-        x: 352
-        y: 1869
-        width: 296
-        height: 449
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 333
+        y: 1800
+        width: 333
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6cde4e9ff1026304a9489ccad96d7601
+      spriteID: 1bcf1133ca698844e927f10ddb9174f5
       internalID: -8175617034320553837
       vertices: []
       indices: 
@@ -572,18 +572,18 @@ TextureImporter:
       name: Slime_player_red_jump_14
       rect:
         serializedVersion: 2
-        x: 685
-        y: 1869
-        width: 297
-        height: 443
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 666
+        y: 1800
+        width: 333
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6f3ef7e20e5648e4ab0a1b28fd655a91
+      spriteID: 3d2dbd123a6f75f46adf8fbfc11f4689
       internalID: 6236835776767677831
       vertices: []
       indices: 
@@ -593,18 +593,18 @@ TextureImporter:
       name: Slime_player_red_jump_15
       rect:
         serializedVersion: 2
-        x: 1017
-        y: 1866
-        width: 299
-        height: 439
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 999
+        y: 1800
+        width: 333
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: da6bfdb52307036479c72e9f2ee09fa3
+      spriteID: 72d1831cde5151844b0ea497ee4affa9
       internalID: -5725476329024886250
       vertices: []
       indices: 
@@ -614,18 +614,18 @@ TextureImporter:
       name: Slime_player_red_jump_16
       rect:
         serializedVersion: 2
-        x: 1349
-        y: 1868
-        width: 301
-        height: 436
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 1332
+        y: 1800
+        width: 333
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 36051762ecada294c8800ba10fb576fb
+      spriteID: db9d142d15e97414794ff40b7f20fa69
       internalID: 6641891620193191940
       vertices: []
       indices: 
@@ -635,18 +635,18 @@ TextureImporter:
       name: Slime_player_red_jump_17
       rect:
         serializedVersion: 2
-        x: 1681
-        y: 1861
-        width: 302
-        height: 434
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 1665
+        y: 1800
+        width: 333
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ae4695c3132344c44a4d3c855652229f
+      spriteID: c1a7b06777e2bdc4789ad9cb90d005f1
       internalID: 3480507001612534246
       vertices: []
       indices: 
@@ -656,18 +656,18 @@ TextureImporter:
       name: Slime_player_red_jump_18
       rect:
         serializedVersion: 2
-        x: 2014
-        y: 1859
-        width: 303
-        height: 431
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 1998
+        y: 1800
+        width: 333
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 05125e36485bcd9469fbaa7e59d2e59d
+      spriteID: 8124b84a948c04f4489a2eb99bdb6d86
       internalID: -5853777065541798577
       vertices: []
       indices: 
@@ -677,18 +677,18 @@ TextureImporter:
       name: Slime_player_red_jump_19
       rect:
         serializedVersion: 2
-        x: 2346
-        y: 1856
-        width: 305
-        height: 428
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 2331
+        y: 1800
+        width: 333
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 61a0c117c8dda6346bcd1e789e7055f7
+      spriteID: b7912b3137aee2240a321ae3ac6db235
       internalID: 4368566711420056790
       vertices: []
       indices: 
@@ -698,18 +698,18 @@ TextureImporter:
       name: Slime_player_red_jump_20
       rect:
         serializedVersion: 2
-        x: 2678
-        y: 1854
-        width: 307
-        height: 426
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 2664
+        y: 1800
+        width: 333
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: da4c73091ec95184da0840d1cf3e6d8d
+      spriteID: 24003eae578e2dd42b5b44505eca1edb
       internalID: -7100770194340498336
       vertices: []
       indices: 
@@ -719,18 +719,18 @@ TextureImporter:
       name: Slime_player_red_jump_21
       rect:
         serializedVersion: 2
-        x: 3010
-        y: 1852
-        width: 309
-        height: 422
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 2997
+        y: 1800
+        width: 333
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cbda299ffd582c546ac49af29e415644
+      spriteID: 36b7e7bc5f8103b45b8fa268e056dd20
       internalID: -8749760682681422321
       vertices: []
       indices: 
@@ -740,18 +740,18 @@ TextureImporter:
       name: Slime_player_red_jump_22
       rect:
         serializedVersion: 2
-        x: 3343
-        y: 1851
-        width: 309
-        height: 417
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 3330
+        y: 1800
+        width: 333
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ba32962e015c74f4981ac6dcac7413e6
+      spriteID: 3818da5a54daa904d80799c3a6fc5d0e
       internalID: 7280408578115589930
       vertices: []
       indices: 
@@ -761,18 +761,18 @@ TextureImporter:
       name: Slime_player_red_jump_23
       rect:
         serializedVersion: 2
-        x: 3675
-        y: 1850
-        width: 311
-        height: 416
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 3663
+        y: 1800
+        width: 333
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: efcdd2c1f1e4f174b9c204ac0cc5775f
+      spriteID: dcec755db29a86a478ccd9b92d138595
       internalID: -3155663769786119918
       vertices: []
       indices: 
@@ -782,18 +782,18 @@ TextureImporter:
       name: Slime_player_red_jump_24
       rect:
         serializedVersion: 2
-        x: 11
-        y: 1249
-        width: 313
-        height: 411
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 0
+        y: 1200
+        width: 333
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9850dcb7a5188bb4bb86a33403c8a676
+      spriteID: c19098f38d85f2c43955eec991b5b70b
       internalID: 2780691167234540662
       vertices: []
       indices: 
@@ -803,18 +803,18 @@ TextureImporter:
       name: Slime_player_red_jump_25
       rect:
         serializedVersion: 2
-        x: 343
-        y: 1248
-        width: 315
-        height: 410
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 333
+        y: 1200
+        width: 333
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 43a715690be4e544b894a53e48439c17
+      spriteID: 01c7494707940e541b18b05f9f3b7d83
       internalID: 6858969889676135377
       vertices: []
       indices: 
@@ -824,18 +824,18 @@ TextureImporter:
       name: Slime_player_red_jump_26
       rect:
         serializedVersion: 2
-        x: 683
-        y: 1248
-        width: 300
-        height: 414
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 666
+        y: 1200
+        width: 333
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a62554e30c47a654080a2e7f61b09f26
+      spriteID: 1e0b09516d7e00241abe20ec6a9c57a9
       internalID: -345901096294906002
       vertices: []
       indices: 
@@ -845,18 +845,18 @@ TextureImporter:
       name: Slime_player_red_jump_27
       rect:
         serializedVersion: 2
-        x: 1022
-        y: 1256
-        width: 287
-        height: 426
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 999
+        y: 1200
+        width: 333
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 758781ec2406e494bb71b08fc6b5d7ce
+      spriteID: e489366ecefccf441b88078f0df73d69
       internalID: 3873469323931784413
       vertices: []
       indices: 
@@ -866,18 +866,18 @@ TextureImporter:
       name: Slime_player_red_jump_28
       rect:
         serializedVersion: 2
-        x: 1362
-        y: 1265
-        width: 272
-        height: 451
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 1332
+        y: 1200
+        width: 333
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 76be27c389d6e7e43a411d628335c357
+      spriteID: 8e7e4f8dd73eb7e4bb3a3038d2797ef2
       internalID: 3638831829101020783
       vertices: []
       indices: 
@@ -887,18 +887,18 @@ TextureImporter:
       name: Slime_player_red_jump_29
       rect:
         serializedVersion: 2
-        x: 1701
-        y: 1265
-        width: 259
-        height: 489
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 1665
+        y: 1200
+        width: 333
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 265b1d4c3e6a6b640acab7262140038b
+      spriteID: b6b998229a7690f429667ade8415923a
       internalID: -1598968440555432584
       vertices: []
       indices: 
@@ -908,18 +908,18 @@ TextureImporter:
       name: Slime_player_red_jump_30
       rect:
         serializedVersion: 2
-        x: 2040
-        y: 1265
-        width: 246
-        height: 519
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 1998
+        y: 1200
+        width: 333
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8671fd46a490a3242bf9d417a419703d
+      spriteID: 1a7f6aed96be9d642bba5a57ad7ad73f
       internalID: -1704134373661162973
       vertices: []
       indices: 
@@ -929,18 +929,18 @@ TextureImporter:
       name: Slime_player_red_jump_31
       rect:
         serializedVersion: 2
-        x: 2373
-        y: 1265
-        width: 246
-        height: 519
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 2331
+        y: 1200
+        width: 333
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9bb6c06f306128a42ae20f4a1dc78f26
+      spriteID: 40c214dc32a82cf42a6cb292a0e92291
       internalID: 5167466871018306418
       vertices: []
       indices: 
@@ -950,18 +950,18 @@ TextureImporter:
       name: Slime_player_red_jump_32
       rect:
         serializedVersion: 2
-        x: 2706
-        y: 1265
-        width: 246
-        height: 519
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 2664
+        y: 1200
+        width: 333
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 100e2eeb0b2abd74cb40896b9ca0293a
+      spriteID: 502e6f9f872fbe745807f41cde012b3c
       internalID: -8755466409957839301
       vertices: []
       indices: 
@@ -971,18 +971,18 @@ TextureImporter:
       name: Slime_player_red_jump_33
       rect:
         serializedVersion: 2
-        x: 3039
-        y: 1265
-        width: 246
-        height: 519
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 2997
+        y: 1200
+        width: 333
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e8d6fb0d4f9d3da4aae5aecbd0eb5786
+      spriteID: 8a0578265a8d46b4fa85065867eff7b2
       internalID: 5808565685170567783
       vertices: []
       indices: 
@@ -992,18 +992,18 @@ TextureImporter:
       name: Slime_player_red_jump_34
       rect:
         serializedVersion: 2
-        x: 3372
-        y: 1265
-        width: 246
-        height: 519
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 3330
+        y: 1200
+        width: 333
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 562a444245777a749a04d04777db150a
+      spriteID: edca40d72b8174143ad9554e2baaa3ee
       internalID: 6211296616932418189
       vertices: []
       indices: 
@@ -1013,18 +1013,18 @@ TextureImporter:
       name: Slime_player_red_jump_35
       rect:
         serializedVersion: 2
-        x: 3705
-        y: 1265
-        width: 246
-        height: 519
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 3663
+        y: 1200
+        width: 333
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c04056192ab3c974195f261785743abb
+      spriteID: 93190fbf6c1a6a9438395e1a2f64e290
       internalID: 7560836929078426577
       vertices: []
       indices: 
@@ -1034,18 +1034,18 @@ TextureImporter:
       name: Slime_player_red_jump_36
       rect:
         serializedVersion: 2
-        x: 42
-        y: 665
-        width: 246
-        height: 519
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 0
+        y: 600
+        width: 333
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c1eaca82a7d2c6247a9a5db249fb6e14
+      spriteID: c993687901c1be6429f6e94126a1962e
       internalID: 97033259088568005
       vertices: []
       indices: 
@@ -1055,18 +1055,18 @@ TextureImporter:
       name: Slime_player_red_jump_37
       rect:
         serializedVersion: 2
-        x: 375
-        y: 665
-        width: 246
-        height: 519
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 333
+        y: 600
+        width: 333
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: af0eab9534b8d494bbe8619e86df23d1
+      spriteID: b60e2af54e2d23345ba69605cd3aa8a8
       internalID: 4157555284034031400
       vertices: []
       indices: 
@@ -1076,18 +1076,18 @@ TextureImporter:
       name: Slime_player_red_jump_38
       rect:
         serializedVersion: 2
-        x: 708
-        y: 665
-        width: 246
-        height: 519
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 666
+        y: 600
+        width: 333
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b1bc5ea73fe38184b97160c82e227192
+      spriteID: dd070385ca8898b4bb1fd9e070f2c30c
       internalID: 5605635423446281927
       vertices: []
       indices: 
@@ -1097,18 +1097,18 @@ TextureImporter:
       name: Slime_player_red_jump_39
       rect:
         serializedVersion: 2
-        x: 1041
-        y: 665
-        width: 246
-        height: 519
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 999
+        y: 600
+        width: 333
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 67bce8db15147d345b569b4f2cee3de8
+      spriteID: d96ae3f0d2400774baa660987fed4ec7
       internalID: -1082129068554659250
       vertices: []
       indices: 
@@ -1118,18 +1118,18 @@ TextureImporter:
       name: Slime_player_red_jump_40
       rect:
         serializedVersion: 2
-        x: 1374
-        y: 665
-        width: 246
-        height: 519
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 1332
+        y: 600
+        width: 333
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6f8330aa7b47049448e77337af67405b
+      spriteID: 413060ba45aeab74eb29d94a1b7190f2
       internalID: 9092860383394367936
       vertices: []
       indices: 
@@ -1139,18 +1139,18 @@ TextureImporter:
       name: Slime_player_red_jump_41
       rect:
         serializedVersion: 2
-        x: 1707
-        y: 665
-        width: 246
-        height: 519
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 1665
+        y: 600
+        width: 333
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 972bdfb92e4d32640891ef537e76748a
+      spriteID: a127b923bcbeb9a46a41fbcf8cee0445
       internalID: 6668375255173072796
       vertices: []
       indices: 
@@ -1160,18 +1160,18 @@ TextureImporter:
       name: Slime_player_red_jump_42
       rect:
         serializedVersion: 2
-        x: 2040
-        y: 665
-        width: 246
-        height: 519
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 1998
+        y: 600
+        width: 333
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 02f1a13786359924d9593519fb723d2b
+      spriteID: f7ca7cc8872ab2c4e8267c9259764c10
       internalID: -440608658814618703
       vertices: []
       indices: 
@@ -1181,18 +1181,18 @@ TextureImporter:
       name: Slime_player_red_jump_43
       rect:
         serializedVersion: 2
-        x: 2373
-        y: 665
-        width: 246
-        height: 519
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 2331
+        y: 600
+        width: 333
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b2173a3d5d5ec22468afe532596d7507
+      spriteID: 719467b53288642468a7b115272be949
       internalID: 8208668839186487896
       vertices: []
       indices: 
@@ -1202,18 +1202,18 @@ TextureImporter:
       name: Slime_player_red_jump_44
       rect:
         serializedVersion: 2
-        x: 2706
-        y: 665
-        width: 246
-        height: 519
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 2664
+        y: 600
+        width: 333
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dd93d094d064f7c4da264e28752fa8d2
+      spriteID: fbe8e8bc318fd6041807e3c69dcc897f
       internalID: 5765232293376453597
       vertices: []
       indices: 
@@ -1223,18 +1223,18 @@ TextureImporter:
       name: Slime_player_red_jump_45
       rect:
         serializedVersion: 2
-        x: 3039
-        y: 665
-        width: 246
-        height: 519
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 2997
+        y: 600
+        width: 333
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b7f0e22418a90ca4e82d996cecd507fe
+      spriteID: 16e672580fc901f44b2cfac1fd46f448
       internalID: -8416700474613780461
       vertices: []
       indices: 
@@ -1244,18 +1244,18 @@ TextureImporter:
       name: Slime_player_red_jump_46
       rect:
         serializedVersion: 2
-        x: 3372
-        y: 665
-        width: 246
-        height: 519
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 3330
+        y: 600
+        width: 333
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3207272dbc306884aacc44798c3e676b
+      spriteID: 0550c639fe89c924a9861715c4def783
       internalID: 6929629527312842633
       vertices: []
       indices: 
@@ -1265,18 +1265,18 @@ TextureImporter:
       name: Slime_player_red_jump_47
       rect:
         serializedVersion: 2
-        x: 3705
-        y: 665
-        width: 246
-        height: 519
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 3663
+        y: 600
+        width: 333
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b15f3e69b77a36d45acec330fcbb2d67
+      spriteID: 936e9b72b022a044f9c070056579742d
       internalID: 9053602599430592739
       vertices: []
       indices: 
@@ -1286,18 +1286,18 @@ TextureImporter:
       name: Slime_player_red_jump_48
       rect:
         serializedVersion: 2
-        x: 42
-        y: 65
-        width: 246
-        height: 519
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 0
+        y: 0
+        width: 333
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 53694547c87cacf4bacbe38080617f36
+      spriteID: 068ce3a5323c8564abcaf7ba87c69f16
       internalID: 7164599106530878968
       vertices: []
       indices: 
@@ -1307,18 +1307,18 @@ TextureImporter:
       name: Slime_player_red_jump_49
       rect:
         serializedVersion: 2
-        x: 375
-        y: 65
-        width: 246
-        height: 519
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 333
+        y: 0
+        width: 333
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ea205ebc89606e3449bd01abdcadb0e7
+      spriteID: b14032b73fde17c45a80ca40651fc398
       internalID: 8761144107036552389
       vertices: []
       indices: 
@@ -1328,18 +1328,18 @@ TextureImporter:
       name: Slime_player_red_jump_50
       rect:
         serializedVersion: 2
-        x: 708
-        y: 65
-        width: 246
-        height: 519
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 666
+        y: 0
+        width: 333
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3cd39420dad830547922a0b77c98f3cb
+      spriteID: af9a8257d0b455c4e994291d2187d28c
       internalID: -2841675829992593543
       vertices: []
       indices: 
@@ -1349,18 +1349,18 @@ TextureImporter:
       name: Slime_player_red_jump_51
       rect:
         serializedVersion: 2
-        x: 1041
-        y: 65
-        width: 246
-        height: 519
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 999
+        y: 0
+        width: 333
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 19edd212931aae5478be2efa6e941b0e
+      spriteID: 6aa83eba69f9aad4cb171f8d8b308aeb
       internalID: 5128005117905101504
       vertices: []
       indices: 
@@ -1370,18 +1370,18 @@ TextureImporter:
       name: Slime_player_red_jump_52
       rect:
         serializedVersion: 2
-        x: 1374
-        y: 65
-        width: 246
-        height: 519
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 1332
+        y: 0
+        width: 333
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 90882b31befc1be42b67af16a3ff4685
+      spriteID: 0633ba24f657e804a8bd1f2b8f748761
       internalID: 4950216200960050898
       vertices: []
       indices: 
@@ -1391,18 +1391,18 @@ TextureImporter:
       name: Slime_player_red_jump_53
       rect:
         serializedVersion: 2
-        x: 1707
-        y: 65
-        width: 246
-        height: 519
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 1665
+        y: 0
+        width: 333
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a9c6ed7e813f0f94c9797bd9b72ab705
+      spriteID: c45d5c2f926d7994d94b6b5217ddeb28
       internalID: -7457833956475302368
       vertices: []
       indices: 
@@ -1412,18 +1412,18 @@ TextureImporter:
       name: Slime_player_red_jump_54
       rect:
         serializedVersion: 2
-        x: 2040
-        y: 65
-        width: 246
-        height: 519
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 1998
+        y: 0
+        width: 333
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f9b768c900adfc6459bea0b3a601df43
+      spriteID: 22d945961f4094f4d82f84ecf2790ded
       internalID: -1856396687104593422
       vertices: []
       indices: 
