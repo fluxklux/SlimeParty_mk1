@@ -68,7 +68,7 @@ public class InputController : MonoBehaviour
 
         ac.PlaySong(MusicEnum.boardMusic);
         ac.PlaySong(MusicEnum.minigameMusic);
-        ac.minigameSource.volume = 0;
+        ac.source.minigameSource.volume = 0;
     }
 
     public void GetInput()

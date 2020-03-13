@@ -166,8 +166,8 @@ public class MinigameController : MonoBehaviour
     public IEnumerator Instructions (int playerIndex)
     {
 
-        ac.FadeInCaller(ac.minigameSource, 1.5f, 1);
-        ac.FadeOutCaller(ac.boardSource, 1.5f, 0);
+        ac.FadeInCaller(ac.source.minigameSource, 1.5f, 1);
+        ac.FadeOutCaller(ac.source.boardSource, 1.5f, 0);
 
         SelectPlayer(playerIndex);
         RandomizeMinigame();
@@ -326,8 +326,8 @@ public class MinigameController : MonoBehaviour
 
         ac.PlaySound(SoundEnum.winSound);
 
-        ac.FadeInCaller(ac.boardSource, 1.5f, 1);
-        ac.FadeOutCaller(ac.minigameSource, 1.5f, 0);
+        ac.FadeInCaller(ac.source.boardSource, 1.5f, 1);
+        ac.FadeOutCaller(ac.source.minigameSource, 1.5f, 0);
 
         for (int i = 0; i < points.Length; i++)
         {

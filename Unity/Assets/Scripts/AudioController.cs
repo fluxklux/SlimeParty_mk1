@@ -2,25 +2,32 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public enum MusicEnum { boardMusic, menuMusic, minigameMusic };
+public enum MusicEnum { boardMusic, menuMusic, minigameMusic, winMusic };
 
-public enum SoundEnum {/*START OF GAMESOUNDS*/ winSound, loseTurnSound, plusThreeSound, minusThreeSound, plusTenSound, chanceSlotSound, minigameSlotSound, minigameStartSound, tpPlayerSound, placeBagSound,  /*END OF GAMESOUNDS*/ /*START OF PLAYERSOUND*/walkSound, jumpSound, landSound /*END OF PLAYERSOUND*/ };
+public enum SoundEnum {/*START OF GAMESOUNDS*/ winSound, loseTurnSound, plusThreeSound, minusThreeSound, plusTenSound, chanceSlotSound, minigameSlotSound, minigameStartSound, tpPlayerSound, placeBagSound, tickingClockSound,  /*END OF GAMESOUNDS*/ /*START OF PLAYERSOUND*/walkSound, jumpSound, landSound /*END OF PLAYERSOUND*/ };
 
-public class AudioController : MonoBehaviour
+[System.Serializable]
+public class Music
 {
-    [HideInInspector] public MusicEnum musicEnum;
-    [HideInInspector] public SoundEnum soundEnum;
-
     [Header("Music")]
     public AudioClip boardMusic;
     public AudioClip menuMusic;
     public AudioClip minigameMusic;
+    public AudioClip winMusic;
+}
 
+[System.Serializable]
+public class PlayerSound
+{
     [Header("PlayerSound")]
     public AudioClip walkSound;
     public AudioClip jumpSound;
     public AudioClip landSound;
+}
 
+[System.Serializable]
+public class GameSound
+{
     [Header("GameSound")]
     public AudioClip winSound;
     public AudioClip loseTurnSound;
@@ -32,19 +39,41 @@ public class AudioController : MonoBehaviour
     public AudioClip minigameStartsound;
     public AudioClip tpPlayerSound;
     public AudioClip placeBagSound;
+    public AudioClip tickingClockSound;
+}
 
-
+[System.Serializable]
+public class Sources
+{
     [Header("MusicSource")]
     public AudioSource boardSource;
     public AudioSource minigameSource;
 
     [Header("SoundSource")]
     public AudioSource soundSource;
+}
+
+public class AudioController : MonoBehaviour
+{
+    [HideInInspector] public MusicEnum musicEnum;
+    [HideInInspector] public SoundEnum soundEnum;
+
+    public Music music;
+
+    [Space(10)]
+
+    public PlayerSound playerSound;
+
+    [Space(10)]
+
+    public GameSound gameSound;
+
+    [Space(10)]
+
+    public Sources source;
 
     private static bool keepFadingIn;
-
     private static bool keepFadingOut;
-
 
     public static AudioController instance;
 
@@ -58,20 +87,23 @@ public class AudioController : MonoBehaviour
         switch (song)
         {
             case MusicEnum.boardMusic:
-                boardSource.clip = boardMusic;
+                source.boardSource.clip = music.boardMusic;
                 break;
             case MusicEnum.menuMusic:
                 //musicSource.clip = menuMusic;
                 break;
             case MusicEnum.minigameMusic:
-                minigameSource.clip = minigameMusic;
+                source.minigameSource.clip = music.minigameMusic;
+                break;
+            case MusicEnum.winMusic:
+                //musicSource.clip = winMusic;
                 break;
             default:
                 break;
         }
         //musicSource.Play();
-        minigameSource.Play();
-        boardSource.Play();
+        source.minigameSource.Play();
+        source.boardSource.Play();
     }
 
     public void PlaySound(SoundEnum sound)
@@ -80,54 +112,54 @@ public class AudioController : MonoBehaviour
         {
             //START OF GAMESOUND//
             case SoundEnum.winSound:
-                soundSource.PlayOneShot(winSound);
+                source.soundSource.PlayOneShot(gameSound.winSound);
                 break;
             case SoundEnum.loseTurnSound:
-                //soundSource.PlayOneShot(loseTurnSound);
                 Invoke("LoseSoundDelay", 1.8f);
                 break;
             case SoundEnum.plusThreeSound:
-                soundSource.PlayOneShot(plusThreeSound);
+                source.soundSource.PlayOneShot(gameSound.plusThreeSound);
                 break;
             case SoundEnum.minusThreeSound:
-                soundSource.PlayOneShot(minusThreeSound);
+                source.soundSource.PlayOneShot(gameSound.minusThreeSound);
                 break;
             case SoundEnum.plusTenSound:
-                soundSource.PlayOneShot(plusTenSound);
+                source.soundSource.PlayOneShot(gameSound.plusTenSound);
                 break;
             case SoundEnum.tpPlayerSound:
-                //soundSource.PlayOneShot(tpPlayerSound);
                 Invoke("TpPlayerSoundDelay", 1.8f);
                 break;
             case SoundEnum.placeBagSound:
-                //soundSource.PlayOneShot(placeBagSound);
                 Invoke("PlaceBagSoundDelay", 1.8f);
                 break;
             case SoundEnum.minigameStartSound:
-                soundSource.PlayOneShot(minigameStartsound);
+                source.soundSource.PlayOneShot(gameSound.minigameStartsound);
                 break;
             case SoundEnum.minigameSlotSound:
-                soundSource.PlayOneShot(minigameSlotSound);
+                source.soundSource.PlayOneShot(gameSound.minigameSlotSound);
                 break;
             case SoundEnum.chanceSlotSound:
-                soundSource.PlayOneShot(chanceSlotSound);
+                source.soundSource.PlayOneShot(gameSound.chanceSlotSound);
+                break;
+            case SoundEnum.tickingClockSound:
+                source.soundSource.PlayOneShot(gameSound.tickingClockSound);
                 break;
             //END OF GAMESOUND//
             //START OF PLAYERSOUND//
             case SoundEnum.walkSound:
-                soundSource.PlayOneShot(walkSound);
+                source.soundSource.PlayOneShot(playerSound.walkSound);
                 break;
             case SoundEnum.jumpSound:
-                soundSource.PlayOneShot(jumpSound);
+                source.soundSource.PlayOneShot(playerSound.jumpSound);
                 break;
             case SoundEnum.landSound:
-                soundSource.PlayOneShot(landSound);
+                source.soundSource.PlayOneShot(playerSound.landSound);
                 break;
             //END OF PLAYERSOUND//
             default:
                 break;
         }
-        soundSource.Play();
+        source.soundSource.Play();
     }
 
     public void FadeInCaller(AudioSource songSource, float speed, float maxVolume)
@@ -200,16 +232,16 @@ public class AudioController : MonoBehaviour
 
     void LoseSoundDelay()
     {
-        soundSource.PlayOneShot(loseTurnSound);
+        source.soundSource.PlayOneShot(gameSound.loseTurnSound);
     }
 
     void PlaceBagSoundDelay()
     {
-        soundSource.PlayOneShot(placeBagSound);
+        source.soundSource.PlayOneShot(gameSound.placeBagSound);
     }
 
     void TpPlayerSoundDelay()
     {
-        soundSource.PlayOneShot(tpPlayerSound);
+        source.soundSource.PlayOneShot(gameSound.tpPlayerSound);
     }
 }
