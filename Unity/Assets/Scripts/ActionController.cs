@@ -152,7 +152,7 @@ public class ActionController : MonoBehaviour
         }
         else
         {
-            Debug.Log("already has effects LMAO");
+            //Debug.Log("already has effects LMAO");
         }
 
         switch (actionType)

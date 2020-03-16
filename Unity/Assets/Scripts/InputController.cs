@@ -193,127 +193,131 @@ public class InputController : MonoBehaviour
                     break;
             }
 
-            //p1
-            if (hasJoined[0] && !hasPressedKey[0])
+            if (!gc.GetComponent<PauseController>().paused)
             {
-                var c1Horizontal = Input.GetAxis("C1 Horizontal");
-                var c1Vertical = Input.GetAxis("C1 Vertical");
-
-                switch (c1Horizontal)
+                //p1
+                if (hasJoined[0] && !hasPressedKey[0])
                 {
-                    case 1:
-                        gc.HandleQueueInputs(0, 1); //right
-                        break;
-                    case -1:
-                        gc.HandleQueueInputs(0, 3);//left
-                        break;
-                    default:
-                        break;
+
+                    var c1Horizontal = Input.GetAxis("C1 Horizontal");
+                    var c1Vertical = Input.GetAxis("C1 Vertical");
+
+                    switch (c1Horizontal)
+                    {
+                        case 1:
+                            gc.HandleQueueInputs(0, 1); //right
+                            break;
+                        case -1:
+                            gc.HandleQueueInputs(0, 3);//left
+                            break;
+                        default:
+                            break;
+                    }
+
+                    switch (c1Vertical)
+                    {
+                        case 1:
+                            gc.HandleQueueInputs(0, 0); //up
+                            break;
+                        case -1:
+                            gc.HandleQueueInputs(0, 2);//down
+                            break;
+                        default:
+                            break;
+                    }
                 }
 
-                switch (c1Vertical)
+                //p2
+                if (hasJoined[1] && !hasPressedKey[1])
                 {
-                    case 1:
-                        gc.HandleQueueInputs(0, 0); //up
-                        break;
-                    case -1:
-                        gc.HandleQueueInputs(0, 2);//down
-                        break;
-                    default:
-                        break;
-                }
-            }
+                    var c2Horizontal = Input.GetAxis("C2 Horizontal");
+                    var c2Vertical = Input.GetAxis("C2 Vertical");
 
-            //p2
-            if (hasJoined[1] && !hasPressedKey[1])
-            {
-                var c2Horizontal = Input.GetAxis("C2 Horizontal");
-                var c2Vertical = Input.GetAxis("C2 Vertical");
+                    switch (c2Horizontal)
+                    {
+                        case 1:
+                            gc.HandleQueueInputs(1, 1); //right
+                            break;
+                        case -1:
+                            gc.HandleQueueInputs(1, 3);//left
+                            break;
+                        default:
+                            break;
+                    }
 
-                switch (c2Horizontal)
-                {
-                    case 1:
-                        gc.HandleQueueInputs(1, 1); //right
-                        break;
-                    case -1:
-                        gc.HandleQueueInputs(1, 3);//left
-                        break;
-                    default:
-                        break;
-                }
-
-                switch (c2Vertical)
-                {
-                    case 1:
-                        gc.HandleQueueInputs(1, 0); //up
-                        break;
-                    case -1:
-                        gc.HandleQueueInputs(1, 2);//down
-                        break;
-                    default:
-                        break;
-                }
-            }
-
-            //p3
-            if (hasJoined[2] && !hasPressedKey[2])
-            {
-                var c3Horizontal = Input.GetAxis("C3 Horizontal");
-                var c3Vertical = Input.GetAxis("C3 Vertical");
-
-                switch (c3Horizontal)
-                {
-                    case 1:
-                        gc.HandleQueueInputs(2, 1); //right
-                        break;
-                    case -1:
-                        gc.HandleQueueInputs(2, 3);//left
-                        break;
-                    default:
-                        break;
+                    switch (c2Vertical)
+                    {
+                        case 1:
+                            gc.HandleQueueInputs(1, 0); //up
+                            break;
+                        case -1:
+                            gc.HandleQueueInputs(1, 2);//down
+                            break;
+                        default:
+                            break;
+                    }
                 }
 
-                switch (c3Vertical)
+                //p3
+                if (hasJoined[2] && !hasPressedKey[2])
                 {
-                    case 1:
-                        gc.HandleQueueInputs(2, 0); //up
-                        break;
-                    case -1:
-                        gc.HandleQueueInputs(2, 2);//down
-                        break;
-                    default:
-                        break;
+                    var c3Horizontal = Input.GetAxis("C3 Horizontal");
+                    var c3Vertical = Input.GetAxis("C3 Vertical");
+
+                    switch (c3Horizontal)
+                    {
+                        case 1:
+                            gc.HandleQueueInputs(2, 1); //right
+                            break;
+                        case -1:
+                            gc.HandleQueueInputs(2, 3);//left
+                            break;
+                        default:
+                            break;
+                    }
+
+                    switch (c3Vertical)
+                    {
+                        case 1:
+                            gc.HandleQueueInputs(2, 0); //up
+                            break;
+                        case -1:
+                            gc.HandleQueueInputs(2, 2);//down
+                            break;
+                        default:
+                            break;
+                    }
                 }
-            }
 
-            //p4
-            if (hasJoined[3] && !hasPressedKey[3])
-            {
-                var c4Horizontal = Input.GetAxis("C4 Horizontal");
-                var c4Vertical = Input.GetAxis("C4 Vertical");
-
-                switch (c4Horizontal)
+                //p4
+                if (hasJoined[3] && !hasPressedKey[3])
                 {
-                    case 1:
-                        gc.HandleQueueInputs(3, 1); //right
-                        break;
-                    case -1:
-                        gc.HandleQueueInputs(3, 3);//left
-                        break;
-                    default:
-                        break;
-                }
+                    var c4Horizontal = Input.GetAxis("C4 Horizontal");
+                    var c4Vertical = Input.GetAxis("C4 Vertical");
 
-                switch (c4Vertical)
-                {
-                    case 1:
-                        gc.HandleQueueInputs(3, 0); //up
-                        break;
-                    case -1:
-                        gc.HandleQueueInputs(3, 2);//down
-                        break;
-                    default:
-                        break;
+                    switch (c4Horizontal)
+                    {
+                        case 1:
+                            gc.HandleQueueInputs(3, 1); //right
+                            break;
+                        case -1:
+                            gc.HandleQueueInputs(3, 3);//left
+                            break;
+                        default:
+                            break;
+                    }
+
+                    switch (c4Vertical)
+                    {
+                        case 1:
+                            gc.HandleQueueInputs(3, 0); //up
+                            break;
+                        case -1:
+                            gc.HandleQueueInputs(3, 2);//down
+                            break;
+                        default:
+                            break;
+                    }
                 }
             }
         }
