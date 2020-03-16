@@ -30,7 +30,7 @@ public class MoveController : MonoBehaviour
         ac = GetComponent<AudioController>();
     }
 
-    public void MovePlayers() //Ändra DAMPING i PlayerController beroende på mängden queue objects, tillsammans med detta addera (någon slags) waiting-system för ett en effektiv dynamisk tid
+    public void MovePlayers()
     {
         CalculateTimings();
         globalSequencer = 0;
@@ -93,7 +93,7 @@ public class MoveController : MonoBehaviour
                 Run(queueIndex);
             }
         }
-        
+
     }
 
 
@@ -103,11 +103,11 @@ public class MoveController : MonoBehaviour
         int calcSlot = players[gc.queueObjects[queueIndex].playerIndex].GetComponent<PlayerController>().playerVariable.currentSlotPosition + gc.queueObjects[queueIndex].steps;
         calcSlot = (int)Mathf.Repeat(calcSlot, gc.allSlots.Length);
         Vector3 offset = CheckOtherPlayers(queueIndex, calcSlot);
+        players[gc.queueObjects[queueIndex].playerIndex].GetComponent<PlayerController>().playerVariable.isJumping = true; //Jump sätts til true
         UpdatePlayerPositionPlayerIndex(calcSlot, gc.queueObjects[queueIndex].playerIndex, offset);
         gc.allSlots[calcSlot].GetComponent<SlotController>().TriggerSlotBehaviour(gc.queueObjects[queueIndex].playerIndex);
         waitingBetweenPlayer = true;
         globalSequencer++;
-
         ac.PlaySound(SoundEnum.jumpSound);
     }
 
@@ -126,19 +126,6 @@ public class MoveController : MonoBehaviour
 
             ac.PlaySound(SoundEnum.walkSound);
         }
-
-        //sluta snacka östgötska Carl!
-
-        /*
-        int calcSlot = players[gc.queueObjects[queueIndex].playerIndex].GetComponent<PlayerController>().playerVariable.currentSlotPosition + 1;
-        calcSlot = (int)Mathf.Repeat(calcSlot, gc.allSlots.Length);
-        Vector3 offset = CheckOtherPlayers(queueIndex, calcSlot);
-        UpdatePlayerPositionPlayerIndex(calcSlot, gc.queueObjects[queueIndex].playerIndex, offset);
-        gc.allSlots[calcSlot].GetComponent<SlotController>().TriggerSlotBehaviour(gc.queueObjects[queueIndex].playerIndex);
-        waitingBetweenRun = true;
-        */
-
-
     }
 
     private void Step(int queueIndex, int i)
@@ -222,6 +209,7 @@ public class MoveController : MonoBehaviour
                         default:
                             break;
                     }
+                    players[j].GetComponent<PlayerController>().playerVariable.isJumping = false;
                     UpdatePlayerPositionPlayerIndex(players[j].GetComponent<PlayerController>().playerVariable.currentSlotPosition, j, temp);
                 }
             }
@@ -238,6 +226,7 @@ public class MoveController : MonoBehaviour
                     if (players[j].GetComponent<PlayerController>().playerVariable.wasFirst == true && players[j].GetComponent<PlayerController>().playerVariable.currentSlotPosition == calcSlot)
                     {
                         Vector3 temp = new Vector3(-0.2f, 0.2f);
+                        players[j].GetComponent<PlayerController>().playerVariable.isJumping = false;
                         UpdatePlayerPositionPlayerIndex(players[j].GetComponent<PlayerController>().playerVariable.currentSlotPosition, j, temp); //OVANST?ENDE
                     }
                 }

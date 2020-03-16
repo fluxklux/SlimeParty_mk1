@@ -2320,11 +2320,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damping: 1.25
+  teleportOffset: 6.25
   playerVariable:
     actionType: 0
     steps: 0
     extraFruits: 0
     wasFirst: 0
+    isJump: 0
     currentSlotPosition: 0
     currentSlotOrder: 0
     lastSlotOrder: 0
@@ -3824,11 +3826,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damping: 0.415
+  teleportOffset: 6.25
   playerVariable:
     actionType: 0
     steps: 0
     extraFruits: 0
     wasFirst: 0
+    isJump: 0
     currentSlotPosition: 0
     currentSlotOrder: 0
     lastSlotOrder: 0
@@ -5819,11 +5823,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damping: 0.3125
+  teleportOffset: 6.25
   playerVariable:
     actionType: 0
     steps: 0
     extraFruits: 0
     wasFirst: 0
+    isJump: 0
     currentSlotPosition: 0
     currentSlotOrder: 0
     lastSlotOrder: 0
@@ -7518,11 +7524,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damping: 0.625
+  teleportOffset: 6.25
   playerVariable:
     actionType: 0
     steps: 0
     extraFruits: 0
     wasFirst: 0
+    isJump: 0
     currentSlotPosition: 0
     currentSlotOrder: 0
     lastSlotOrder: 0
