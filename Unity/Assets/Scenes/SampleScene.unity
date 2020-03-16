@@ -11769,25 +11769,31 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   musicEnum: 0
   soundEnum: 0
-  boardMusic: {fileID: 8300000, guid: d20502239560d8847b44807214bd8990, type: 3}
-  menuMusic: {fileID: 8300000, guid: 95859e7dd1dc3e44996c9a81e5d70f22, type: 3}
-  minigameMusic: {fileID: 8300000, guid: 0fe1a80cabd361041a9f86a91328b25a, type: 3}
-  walkSound: {fileID: 8300000, guid: 4954d0be3bf1b2c4bbb3cef1949a1cd2, type: 3}
-  jumpSound: {fileID: 8300000, guid: 0b97e4e32416b714fbf25f155c90fc1c, type: 3}
-  landSound: {fileID: 8300000, guid: 99db956abf41b3f4ba34b56c18d1bd77, type: 3}
-  winSound: {fileID: 8300000, guid: 846f2f34042a2b14b9608fafab5ae4f8, type: 3}
-  loseTurnSound: {fileID: 0}
-  plusThreeSound: {fileID: 8300000, guid: b53f16d00ed17d34f974e54672efbda4, type: 3}
-  minusThreeSound: {fileID: 8300000, guid: e58b74604f822d34c8525beb83b3cfef, type: 3}
-  plusTenSound: {fileID: 8300000, guid: 4c3669893a2f9284889b67770e12030a, type: 3}
-  chanceSlotSound: {fileID: 0}
-  minigameSlotSound: {fileID: 0}
-  minigameStartsound: {fileID: 0}
-  tpPlayerSound: {fileID: 0}
-  placeBagSound: {fileID: 0}
-  boardSource: {fileID: 2027658303}
-  minigameSource: {fileID: 2027658304}
-  soundSource: {fileID: 2027658307}
+  music:
+    boardMusic: {fileID: 8300000, guid: d20502239560d8847b44807214bd8990, type: 3}
+    menuMusic: {fileID: 0}
+    minigameMusic: {fileID: 8300000, guid: 4124afc1e591d7248968ce634e223316, type: 3}
+    winMusic: {fileID: 0}
+  playerSound:
+    walkSound: {fileID: 8300000, guid: 3b710472df0d477468802c5504b66d63, type: 3}
+    jumpSound: {fileID: 8300000, guid: ddc899ca4b8ba484f95bd5ba76e7d9f7, type: 3}
+    landSound: {fileID: 8300000, guid: d177647d31525ff409fcf6257a877c11, type: 3}
+  gameSound:
+    winSound: {fileID: 8300000, guid: 846f2f34042a2b14b9608fafab5ae4f8, type: 3}
+    loseTurnSound: {fileID: 0}
+    plusThreeSound: {fileID: 8300000, guid: b53f16d00ed17d34f974e54672efbda4, type: 3}
+    minusThreeSound: {fileID: 8300000, guid: e58b74604f822d34c8525beb83b3cfef, type: 3}
+    plusTenSound: {fileID: 8300000, guid: 4c3669893a2f9284889b67770e12030a, type: 3}
+    chanceSlotSound: {fileID: 8300000, guid: c8922b63349cedc46ac3546094c59d3d, type: 3}
+    minigameSlotSound: {fileID: 8300000, guid: 6a8013b07f4b53448b61f7b16f60cc49, type: 3}
+    minigameStartsound: {fileID: 0}
+    tpPlayerSound: {fileID: 0}
+    placeBagSound: {fileID: 0}
+    tickingClockSound: {fileID: 8300000, guid: 766b4bd364607e04f8a06f0910b256ef, type: 3}
+  source:
+    boardSource: {fileID: 2027658303}
+    minigameSource: {fileID: 2027658304}
+    soundSource: {fileID: 2027658307}
 --- !u!82 &2027658303
 AudioSource:
   m_ObjectHideFlags: 0

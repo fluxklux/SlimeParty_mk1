@@ -149,18 +149,18 @@ TextureImporter:
       name: Slime_player_yellow_backward_0
       rect:
         serializedVersion: 2
-        x: 25
-        y: 656
-        width: 277
-        height: 477
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 0
+        y: 600
+        width: 333
+        height: 600
+      alignment: 9
+      pivot: {x: 0.5, y: 0.18}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a28b0c93da0c9bd45b057553fea4c720
+      spriteID: c15e35ccb1948914aa3b0d27e9668096
       internalID: -1521254140097624967
       vertices: []
       indices: 
@@ -170,18 +170,18 @@ TextureImporter:
       name: Slime_player_yellow_backward_1
       rect:
         serializedVersion: 2
-        x: 358
-        y: 661
-        width: 277
-        height: 474
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 333
+        y: 600
+        width: 333
+        height: 600
+      alignment: 9
+      pivot: {x: 0.5, y: 0.18}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9be12ccb4a98ef24f93a4968d3470128
+      spriteID: a893af31d04dd5540b1f4c0439861cdd
       internalID: -3807628091077203237
       vertices: []
       indices: 
@@ -191,18 +191,18 @@ TextureImporter:
       name: Slime_player_yellow_backward_2
       rect:
         serializedVersion: 2
-        x: 692
-        y: 670
-        width: 277
-        height: 472
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 666
+        y: 600
+        width: 333
+        height: 600
+      alignment: 9
+      pivot: {x: 0.5, y: 0.18}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e2a113e7951006840aa9d09ed6761ecc
+      spriteID: 12cc19bda0612114788a3da48ad3214b
       internalID: -3992620717480832865
       vertices: []
       indices: 
@@ -212,18 +212,18 @@ TextureImporter:
       name: Slime_player_yellow_backward_3
       rect:
         serializedVersion: 2
-        x: 1026
-        y: 681
-        width: 276
-        height: 468
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 999
+        y: 600
+        width: 333
+        height: 600
+      alignment: 9
+      pivot: {x: 0.5, y: 0.18}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e04586dc2a6f95b4681abf9169c8d9b4
+      spriteID: b8789d4b05ce9ed4b83d81005df9449f
       internalID: 4034377444792669066
       vertices: []
       indices: 
@@ -233,18 +233,18 @@ TextureImporter:
       name: Slime_player_yellow_backward_4
       rect:
         serializedVersion: 2
-        x: 1360
-        y: 691
-        width: 276
-        height: 465
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 1332
+        y: 600
+        width: 333
+        height: 600
+      alignment: 9
+      pivot: {x: 0.5, y: 0.18}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8a6ddc2d27c324a488cedc99390d6caa
+      spriteID: 6d528aa48e78f95409b972d87538f4ff
       internalID: -8134424979644252759
       vertices: []
       indices: 
@@ -254,18 +254,18 @@ TextureImporter:
       name: Slime_player_yellow_backward_5
       rect:
         serializedVersion: 2
-        x: 1693
-        y: 698
-        width: 276
-        height: 462
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 1665
+        y: 600
+        width: 333
+        height: 600
+      alignment: 9
+      pivot: {x: 0.5, y: 0.18}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 217338ce1a9442647884395a84efc9d7
+      spriteID: ca6e3ccc51512dd4caea66ead915f74f
       internalID: 5865538683426154132
       vertices: []
       indices: 
@@ -275,18 +275,18 @@ TextureImporter:
       name: Slime_player_yellow_backward_6
       rect:
         serializedVersion: 2
-        x: 2027
-        y: 691
-        width: 276
-        height: 467
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 1998
+        y: 600
+        width: 333
+        height: 600
+      alignment: 9
+      pivot: {x: 0.5, y: 0.18}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1ac7dc7c458fa6249912460fd40d479f
+      spriteID: a1c85f2a7f4474d4391b6963909d62f5
       internalID: -1227766711302921422
       vertices: []
       indices: 
@@ -296,18 +296,18 @@ TextureImporter:
       name: Slime_player_yellow_backward_7
       rect:
         serializedVersion: 2
-        x: 2361
-        y: 681
-        width: 276
-        height: 474
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 2331
+        y: 600
+        width: 333
+        height: 600
+      alignment: 9
+      pivot: {x: 0.5, y: 0.18}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6e42e77a2ed95c645ae85cea3ac2966d
+      spriteID: ab27e8c70f7a722468a4edd94328a0f2
       internalID: -3459544920378386874
       vertices: []
       indices: 
@@ -317,18 +317,18 @@ TextureImporter:
       name: Slime_player_yellow_backward_8
       rect:
         serializedVersion: 2
-        x: 2694
-        y: 670
-        width: 276
-        height: 479
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 2664
+        y: 600
+        width: 333
+        height: 600
+      alignment: 9
+      pivot: {x: 0.5, y: 0.18}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 50b3d29824c5eb84a93fada0361a0e40
+      spriteID: 896e1699f60c57146a61317dc6975d4a
       internalID: -7931141006928667947
       vertices: []
       indices: 
@@ -338,18 +338,18 @@ TextureImporter:
       name: Slime_player_yellow_backward_9
       rect:
         serializedVersion: 2
-        x: 3027
-        y: 661
-        width: 277
-        height: 481
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 2997
+        y: 600
+        width: 333
+        height: 600
+      alignment: 9
+      pivot: {x: 0.5, y: 0.18}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f7b3a49079dfad041bf2d50d61e84dc2
+      spriteID: 312566445c6ab0e43823ef9dbb93dcdd
       internalID: -7847431467948708667
       vertices: []
       indices: 
@@ -359,18 +359,18 @@ TextureImporter:
       name: Slime_player_yellow_backward_10
       rect:
         serializedVersion: 2
-        x: 3360
-        y: 656
-        width: 277
-        height: 482
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 3330
+        y: 600
+        width: 333
+        height: 600
+      alignment: 9
+      pivot: {x: 0.5, y: 0.18}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1418b49333248be419e582f891d3ac13
+      spriteID: 21e2504e2cfb2354e862cb4783326a00
       internalID: -3857480856037710161
       vertices: []
       indices: 
@@ -380,18 +380,18 @@ TextureImporter:
       name: Slime_player_yellow_backward_11
       rect:
         serializedVersion: 2
-        x: 3693
-        y: 661
-        width: 277
-        height: 480
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 3663
+        y: 600
+        width: 333
+        height: 600
+      alignment: 9
+      pivot: {x: 0.5, y: 0.18}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2c4fd2764c741634682778e99746bd40
+      spriteID: 7c363e4135864354d8c71bc02f4e3a17
       internalID: -465592510664358375
       vertices: []
       indices: 
@@ -401,18 +401,18 @@ TextureImporter:
       name: Slime_player_yellow_backward_12
       rect:
         serializedVersion: 2
-        x: 30
-        y: 70
-        width: 276
-        height: 478
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 0
+        y: 0
+        width: 333
+        height: 600
+      alignment: 9
+      pivot: {x: 0.5, y: 0.18}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7e76fad32d5e0e34abf02b9e8afb4bc5
+      spriteID: 33e72f87534148245a6adaa32aabb4ab
       internalID: -3870331659785521236
       vertices: []
       indices: 
@@ -422,18 +422,18 @@ TextureImporter:
       name: Slime_player_yellow_backward_13
       rect:
         serializedVersion: 2
-        x: 363
-        y: 81
-        width: 276
-        height: 475
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 333
+        y: 0
+        width: 333
+        height: 600
+      alignment: 9
+      pivot: {x: 0.5, y: 0.18}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 10e6ca38e63364946ade3b2c71f1be78
+      spriteID: fadae3770c46ed1498b6a67fb89ddbdb
       internalID: -1374276894541512398
       vertices: []
       indices: 
@@ -443,18 +443,18 @@ TextureImporter:
       name: Slime_player_yellow_backward_14
       rect:
         serializedVersion: 2
-        x: 695
-        y: 91
-        width: 276
-        height: 471
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 666
+        y: 0
+        width: 333
+        height: 600
+      alignment: 9
+      pivot: {x: 0.5, y: 0.18}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bd538bf6fac4603419782e34abb9e32c
+      spriteID: 6f9eee70ad24bcc489edb4d9760cf877
       internalID: 8938318376674382224
       vertices: []
       indices: 
@@ -464,18 +464,18 @@ TextureImporter:
       name: Slime_player_yellow_backward_15
       rect:
         serializedVersion: 2
-        x: 1027
-        y: 98
-        width: 276
-        height: 464
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 999
+        y: 0
+        width: 333
+        height: 600
+      alignment: 9
+      pivot: {x: 0.5, y: 0.18}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9de089d3f47328244bfc03301ee5d42a
+      spriteID: 51edb7b5580b1f34f8ac8ff752edbd20
       internalID: 8537430764226568789
       vertices: []
       indices: 
@@ -485,18 +485,18 @@ TextureImporter:
       name: Slime_player_yellow_backward_16
       rect:
         serializedVersion: 2
-        x: 1360
-        y: 93
-        width: 276
-        height: 468
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 1332
+        y: 0
+        width: 333
+        height: 600
+      alignment: 9
+      pivot: {x: 0.5, y: 0.18}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 57aedd31aecd26340834f8f67c1b4373
+      spriteID: 413ef1bd43ba52645908a1c51b6c8f60
       internalID: -4052290500524708687
       vertices: []
       indices: 
@@ -506,18 +506,18 @@ TextureImporter:
       name: Slime_player_yellow_backward_17
       rect:
         serializedVersion: 2
-        x: 1692
-        y: 85
-        width: 276
-        height: 472
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 1665
+        y: 0
+        width: 333
+        height: 600
+      alignment: 9
+      pivot: {x: 0.5, y: 0.18}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 843a9d645c12185428386e887b8a1f6c
+      spriteID: 65b2a5f7579c3fc4f86377d76571f65f
       internalID: 2384343190447283779
       vertices: []
       indices: 
@@ -527,18 +527,18 @@ TextureImporter:
       name: Slime_player_yellow_backward_18
       rect:
         serializedVersion: 2
-        x: 2025
-        y: 76
-        width: 276
-        height: 475
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 1998
+        y: 0
+        width: 333
+        height: 600
+      alignment: 9
+      pivot: {x: 0.5, y: 0.18}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9eb220943d8d2f84184e16464fc906db
+      spriteID: 1ce90b1fc65de7247aaae19913547d34
       internalID: -2321775504063971265
       vertices: []
       indices: 
@@ -548,18 +548,18 @@ TextureImporter:
       name: Slime_player_yellow_backward_19
       rect:
         serializedVersion: 2
-        x: 2357
-        y: 67
-        width: 276
-        height: 476
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 2331
+        y: 0
+        width: 333
+        height: 600
+      alignment: 9
+      pivot: {x: 0.5, y: 0.18}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ffe3e76953274f742b3a69763047cca9
+      spriteID: cefe7ad55ad9f31438317e952b49f907
       internalID: -3475113292158566446
       vertices: []
       indices: 
