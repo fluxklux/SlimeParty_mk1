@@ -57,6 +57,8 @@ public class MinigameController : MonoBehaviour
     public bool countdownBool = false;
     [HideInInspector]
     public bool playedMinigameThisRound = false;
+    [HideInInspector]
+    public float musicThreshold = 1;
 
     private void Start()
     {
@@ -166,7 +168,7 @@ public class MinigameController : MonoBehaviour
     public IEnumerator Instructions (int playerIndex)
     {
 
-        ac.FadeInCaller(ac.source.minigameSource, 1.5f, 1);
+        ac.FadeInCaller(ac.source.minigameSource, 1.5f, musicThreshold);
         ac.FadeOutCaller(ac.source.boardSource, 1.5f, 0);
 
         SelectPlayer(playerIndex);
@@ -326,7 +328,7 @@ public class MinigameController : MonoBehaviour
 
         ac.PlaySound(SoundEnum.winSound);
 
-        ac.FadeInCaller(ac.source.boardSource, 1.5f, 1);
+        ac.FadeInCaller(ac.source.boardSource, 1.5f, musicThreshold);
         ac.FadeOutCaller(ac.source.minigameSource, 1.5f, 0);
 
         for (int i = 0; i < points.Length; i++)

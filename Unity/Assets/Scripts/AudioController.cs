@@ -172,7 +172,19 @@ public class AudioController : MonoBehaviour
         instance.StartCoroutine(FadeOut(songSource, speed, minVolume));
     }
 
-    static IEnumerator FadeIn(AudioSource songSource, float speed, float maxVolume)
+    public void UpdateMusicVolume (float musicThreshold)
+    {
+        if(GetComponent<MinigameController>().playedMinigameThisRound)
+        {
+            source.minigameSource.volume = musicThreshold;
+        }
+        else
+        {
+            source.boardSource.volume = musicThreshold;
+        }
+    }
+
+    IEnumerator FadeIn(AudioSource songSource, float speed, float maxVolume)
     {
         keepFadingIn = true;
 
@@ -201,13 +213,18 @@ public class AudioController : MonoBehaviour
         }
     }
 
-    static IEnumerator FadeOut(AudioSource songSource, float speed, float minVolume)
+    private float GetThreshold ()
+    {
+        return GetComponent<MinigameController>().musicThreshold;
+    }
+
+    IEnumerator FadeOut(AudioSource songSource, float speed, float minVolume)
     {
         keepFadingOut = true;
 
         float fadeOutTimer = Time.deltaTime;
 
-        songSource.volume = 1;
+        songSource.volume = GetThreshold();
         float audioVolume = songSource.volume;
        
         if (keepFadingOut)

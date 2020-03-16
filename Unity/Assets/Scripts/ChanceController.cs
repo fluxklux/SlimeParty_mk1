@@ -79,7 +79,7 @@ public class ChanceController : MonoBehaviour
 
         int slotSteps = calcIndex - mc.players[index].GetComponent<PlayerController>().playerVariable.currentSlotPosition;
 
-        Debug.Log(calcIndex);
+        //Debug.Log(calcIndex);
         gc.allSlots[calcIndex].GetComponent<SlotController>().hasEffect = true;
         Debug.Log("HAR DU FEL I KODEN? DETTA KAN VARA PROBLEMET");
 
