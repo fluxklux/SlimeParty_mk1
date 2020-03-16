@@ -121,7 +121,6 @@ public class MoveController : MonoBehaviour
         {
             runSequencer = 1;
             globalSequencer++;
-            //LoopPlayer(globalSequencer);
             waitingBetweenPlayer = true;
 
             ac.PlaySound(SoundEnum.walkSound);
@@ -133,6 +132,7 @@ public class MoveController : MonoBehaviour
         int calcSlot = players[gc.queueObjects[queueIndex].playerIndex].GetComponent<PlayerController>().playerVariable.currentSlotPosition + 1;
         calcSlot = (int)Mathf.Repeat(calcSlot, gc.allSlots.Length);
         Vector3 offset = CheckOtherPlayers(queueIndex, calcSlot);
+        players[gc.queueObjects[queueIndex].playerIndex].GetComponent<PlayerController>().playerVariable.isJumping = false;
         UpdatePlayerPositionPlayerIndex(calcSlot, gc.queueObjects[queueIndex].playerIndex, offset);
         gc.allSlots[calcSlot].GetComponent<SlotController>().TriggerSlotBehaviour(gc.queueObjects[queueIndex].playerIndex);
         runSequencer++;
@@ -209,6 +209,7 @@ public class MoveController : MonoBehaviour
                         default:
                             break;
                     }
+
                     players[j].GetComponent<PlayerController>().playerVariable.isJumping = false;
                     UpdatePlayerPositionPlayerIndex(players[j].GetComponent<PlayerController>().playerVariable.currentSlotPosition, j, temp);
                 }

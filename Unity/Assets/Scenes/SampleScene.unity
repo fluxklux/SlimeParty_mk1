@@ -2115,20 +2115,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 77eca6e9e6387bf48a07337117de2e29, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 1.25
-  teleportOffset: 6.25
+  damping: 0.25
   playerVariable:
     actionType: 0
     steps: 0
     extraFruits: 0
     wasFirst: 0
-    isJump: 0
+    isJumping: 0
+    isLanding: 0
     currentSlotPosition: 0
-    currentSlotOrder: 0
+    currentSlotOrder: 1
     lastSlotOrder: 0
     lastSlotIndex: 0
     color: {r: 1, g: 0, b: 0, a: 1}
     skip: 0
+  teleportOffset: 6.25
 --- !u!4 &442400272
 Transform:
   m_ObjectHideFlags: 0
@@ -3621,20 +3622,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 77eca6e9e6387bf48a07337117de2e29, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 0.415
-  teleportOffset: 6.25
+  damping: 0.25
   playerVariable:
     actionType: 0
     steps: 0
     extraFruits: 0
     wasFirst: 0
-    isJump: 0
+    isJumping: 0
+    isLanding: 0
     currentSlotPosition: 0
-    currentSlotOrder: 0
+    currentSlotOrder: 3
     lastSlotOrder: 0
     lastSlotIndex: 0
     color: {r: 1, g: 1, b: 0.013082923, a: 1}
     skip: 0
+  teleportOffset: 6.25
 --- !u!4 &724941765
 Transform:
   m_ObjectHideFlags: 0
@@ -5427,20 +5429,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 77eca6e9e6387bf48a07337117de2e29, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 0.3125
-  teleportOffset: 6.25
+  damping: 0.25
   playerVariable:
     actionType: 0
     steps: 0
     extraFruits: 0
     wasFirst: 0
-    isJump: 0
+    isJumping: 0
+    isLanding: 0
     currentSlotPosition: 0
-    currentSlotOrder: 0
-    lastSlotOrder: 0
+    currentSlotOrder: 4
+    lastSlotOrder: 3
     lastSlotIndex: 0
     color: {r: 0.6037736, g: 0.15663938, b: 0.55257756, a: 1}
     skip: 0
+  teleportOffset: 6.25
 --- !u!4 &954854756
 Transform:
   m_ObjectHideFlags: 0
@@ -6850,20 +6853,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 77eca6e9e6387bf48a07337117de2e29, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 0.625
-  teleportOffset: 6.25
+  damping: 0.25
   playerVariable:
     actionType: 0
     steps: 0
     extraFruits: 0
     wasFirst: 0
-    isJump: 0
+    isJumping: 0
+    isLanding: 0
     currentSlotPosition: 0
-    currentSlotOrder: 0
+    currentSlotOrder: 2
     lastSlotOrder: 0
     lastSlotIndex: 0
     color: {r: 0.16313636, g: 0.6754177, b: 0.8867924, a: 1}
     skip: 0
+  teleportOffset: 6.25
 --- !u!4 &1262265710
 Transform:
   m_ObjectHideFlags: 0
