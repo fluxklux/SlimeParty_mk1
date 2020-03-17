@@ -16,6 +16,7 @@ public class ChanceController : MonoBehaviour
     private MoveController mc;
     private InputController ic;
     private AudioController ac;
+    private PlayerController pc;
 
     private void Start()
     {
@@ -25,11 +26,12 @@ public class ChanceController : MonoBehaviour
         ac = GetComponent<AudioController>();
 
         AddPlusThreeSlotsToRange();
-        //Debug.Log("There is " + threePlusSlots.Count + " plusThree slots on the board");
     }
 
     public void RandomiseChance(int playerIndex)
     {
+        pc = Object.FindObjectOfType<PlayerController>();
+
         int chance;
 
         chance = Random.Range(1, 4);
@@ -53,6 +55,27 @@ public class ChanceController : MonoBehaviour
         }
     }
 
+    public void UpdateBagScale(GameObject objectTransform)
+    {
+        float maxY = 5;
+
+        float yPos = objectTransform.transform.position.y;
+
+        float differents;
+
+        differents = maxY - yPos;
+
+        Vector3 minScale = new Vector3(0.7f, 0.7f, 0.7f);
+
+        Vector3 maxScale = new Vector3(1f, 1f, 1f);
+
+        float bagScale;
+
+        bagScale = Mathf.Lerp(minScale.y, maxScale.y, differents - 4);
+
+        objectTransform.transform.localScale = new Vector3(bagScale, bagScale, 0.0f);
+    }
+
     void AddPlusThreeSlotsToRange()
     {
         for (int i = 0; i < gc.allSlots.Length; i++)
@@ -73,7 +96,6 @@ public class ChanceController : MonoBehaviour
     {
         slotToTp = Random.Range(0, gc.allSlots.Length);
 
-        //Debug.Log("about to TELEPORT with playerindex: " + index);
         int calcIndex = mc.players[index].GetComponent<PlayerController>().playerVariable.currentSlotPosition + slotToTp;
         calcIndex = (int)Mathf.Repeat(calcIndex, gc.allSlots.Length);
 
@@ -117,13 +139,11 @@ public class ChanceController : MonoBehaviour
             else
             {
                 GameObject instance = Instantiate(fruitBag, slotPos, Quaternion.identity);
+                UpdateBagScale(instance);
                 gc.allSlots[threePlusSlots[slotToPlace]].GetComponent<SlotController>().hasBag = true;
                 gc.allSlots[threePlusSlots[slotToPlace]].GetComponent<SlotController>().fruitBagObject = instance;
             }
-
             ac.PlaySound(SoundEnum.placeBagSound);
-
-            //Debug.Log("placed random bag on slot " + slotToPlace);
         }
     }
 
@@ -135,8 +155,5 @@ public class ChanceController : MonoBehaviour
         }
 
         ac.PlaySound(SoundEnum.loseTurnSound);
-
-        //Debug.Log("player " + (playerIndex  + 1)+ " lost a turn!");
-
     }
 }
