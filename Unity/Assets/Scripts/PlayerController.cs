@@ -9,9 +9,12 @@ public class PlayerVariables
 {
     public ActionType actionType;
     public int steps;
-    public int extraFruits; //alltid 10 atm.
+    public int extraFruits;
+
 
     public bool wasFirst;
+    public bool isJumping;
+    public bool isLanding;
     public int currentSlotPosition = 0;
     public int currentSlotOrder = 0;
     public int lastSlotOrder = 0;
@@ -25,11 +28,13 @@ public class PlayerController : MonoBehaviour
 {
     public float damping = 0.5f;
     public PlayerVariables playerVariable;
+    public float teleportOffset;
 
     private InputController ic;
     private Vector2 targetPos;
     private int targetPlayer;
     private bool lerp;
+    private Vector2 THESPACE;
 
     private Animator anim;
 
@@ -43,22 +48,66 @@ public class PlayerController : MonoBehaviour
     {
         lerp = true;
         targetPlayer = playerIndex;
-        targetPos = targetSlot;
+
+        if (!playerVariable.isJumping)
+        {
+            targetPos = targetSlot;
+        }
+        else
+        {
+            THESPACE = targetSlot;
+            targetPos = new Vector2(transform.position.x, teleportOffset);
+        }
+
     }
 
     private void Update()
-    {
-        if (lerp)
+    { 
+        if (lerp && playerVariable.isLanding)
         {
-            float difference = (transform.position.y - targetPos.y) * 10;
-            //Debug.Log("Dif: " + difference + ", Speed: " + anim.GetFloat("Speed"));
-
-            if(difference >= 0)
+            Debug.Log("Landing!");
+            anim.SetBool("Landing", true);
+            transform.position = Vector2.MoveTowards(transform.position, targetPos, damping);
+            UpdateScale();
+            float dist = Vector2.Distance(transform.position, targetPos);
+            if (dist < 0.025f)
             {
+                playerVariable.isLanding = false;
+                anim.SetBool("Landing", false);
+                lerp = false;
+            }
+        }
+        else if (lerp && playerVariable.isJumping)
+        {
+            Debug.Log("Jumping!");
+            anim.SetBool("Jumping", true);
+            transform.position = Vector2.MoveTowards(transform.position, targetPos, damping);
+            UpdateScale();
+            float dist = Vector2.Distance(transform.position, targetPos);
+            if (dist < 0.025f)
+            {
+                Debug.Log("About to TELEPORT");
+                //lerp = false;
+                transform.position = new Vector2(THESPACE.x, teleportOffset);
+                targetPos = THESPACE;
+                playerVariable.isJumping = false;
+                playerVariable.isLanding = true;
+                anim.SetBool("Jumping", false);
+            }
+        }
+        else if (lerp && !playerVariable.isJumping)
+        {
+            Debug.Log("Running!");
+            float difference = (targetPos.y - transform.position.y);
+
+            if (difference >= 0)
+            {
+                //Debug.Log(difference + " >= " + "0");
                 anim.SetFloat("Speed", 1f);
             }
-            else if(difference < 0)
+            else if (difference < 0)
             {
+                //Debug.Log(difference + " < " + "0");
                 anim.SetFloat("Speed", 0.5f);
             }
 
@@ -71,7 +120,7 @@ public class PlayerController : MonoBehaviour
                 lerp = false;
             }
         }
-        else
+        else if(!lerp)
         {
             anim.SetFloat("Speed", 0);
         }
