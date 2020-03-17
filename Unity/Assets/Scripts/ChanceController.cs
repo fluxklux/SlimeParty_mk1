@@ -6,6 +6,8 @@ public class ChanceController : MonoBehaviour
 {
     public GameObject fruitBag;
 
+    [SerializeField] private GameObject bagEffect = null; 
+
     [HideInInspector]
     public List<int> threePlusSlots = new List<int>();
     private int slotToTp;
@@ -139,6 +141,7 @@ public class ChanceController : MonoBehaviour
             else
             {
                 GameObject instance = Instantiate(fruitBag, slotPos, Quaternion.identity);
+                GameObject instanceBag = Instantiate(bagEffect, slotPos, Quaternion.identity);
                 UpdateBagScale(instance);
                 gc.allSlots[threePlusSlots[slotToPlace]].GetComponent<SlotController>().hasBag = true;
                 gc.allSlots[threePlusSlots[slotToPlace]].GetComponent<SlotController>().fruitBagObject = instance;
