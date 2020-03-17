@@ -18,8 +18,6 @@ public class PauseController : MonoBehaviour
     [SerializeField] private Slider musicSlider = null;
 
     [SerializeField] private AudioSource soundSource = null;
-    [SerializeField] private AudioSource musicSource = null;
-    [SerializeField] private AudioSource minigameMusicSource = null;
 
     [HideInInspector]
     public bool canPause = false;
