@@ -171,16 +171,33 @@ public class ActionController : MonoBehaviour
                 //Debug.Log("FruitAmount: " + fruitAmount);
                 gc.ChangeFruitAmount(playerIndex, fruitAmount);
 
-                switch(fruitAmount)
+                switch(actionType)
                 {
-                    case 3:
-                        effect.GetComponentInChildren<SpriteRenderer>().sprite = effectSprites[0];
+                    case 0:
+                        switch (fruitAmount)
+                        {
+                            case 3:
+                                effect.GetComponentInChildren<Animator>().SetTrigger("PlayPlusThree");
+                                //effect.GetComponentInChildren<SpriteRenderer>().sprite = effectSprites[0];
+                                break;
+                            case 10:
+                                effect.GetComponentInChildren<Animator>().SetTrigger("PlayPlusTen");
+                                //effect.GetComponentInChildren<SpriteRenderer>().sprite = effectSprites[1];
+                                break;
+                            case -3:
+                                effect.GetComponentInChildren<Animator>().SetTrigger("PlayMinusThree");
+                                //effect.GetComponentInChildren<SpriteRenderer>().sprite = effectSprites[2];
+                                break;
+                        }
                         break;
-                    case 10:
-                        effect.GetComponentInChildren<SpriteRenderer>().sprite = effectSprites[1];
+                    case 1:
+                        effect.GetComponentInChildren<Animator>().SetTrigger("PlayChance");
                         break;
-                    case -3:
-                        effect.GetComponentInChildren<SpriteRenderer>().sprite = effectSprites[2];
+                    case 2:
+                        effect.GetComponentInChildren<Animator>().SetTrigger("PlayMinigame");
+                        break;
+                    default:
+                        Debug.Log("Something went wrong");
                         break;
                 }
 

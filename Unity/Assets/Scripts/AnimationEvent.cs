@@ -12,9 +12,9 @@ public class AnimationEvent : MonoBehaviour
     }
 
     #region EffectText
-    public void ResetDisplayTrigger()
+    public void ResetPlayTrigger()
     {
-        gc.GetComponent<RoundController>().ResetRoundTrigger();
+        gc.GetComponent<RoundController>().ResetPlayTrigger();
     }
     #endregion
 }

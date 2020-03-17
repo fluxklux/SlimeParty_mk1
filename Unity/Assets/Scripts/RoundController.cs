@@ -19,10 +19,10 @@ public class RoundController : MonoBehaviour
 
     void Start()
     {
-        round = 1;
+        round = 18;
     }
 
-    public void ResetRoundTrigger ()
+    public void ResetPlayTrigger()
     {
         roundsLeftEffect.GetComponent<Animator>().ResetTrigger("Play");
     }
