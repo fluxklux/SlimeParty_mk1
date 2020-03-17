@@ -22,32 +22,60 @@ public class RoundController : MonoBehaviour
         round = 18;
     }
 
+    #region EffectTriggerResets
     public void ResetPlayTrigger()
     {
         roundsLeftEffect.GetComponent<Animator>().ResetTrigger("Play");
     }
 
+    public void ResetPlusThreeTrigger()
+    {
+        roundsLeftEffect.GetComponent<Animator>().ResetTrigger("PlayPlusThree");
+    }
+
+    public void ResetPlusTenTrigger()
+    {
+        roundsLeftEffect.GetComponent<Animator>().ResetTrigger("PlayPlusTen");
+    }
+
+    public void ResetMinusThreeTrigger()
+    {
+        roundsLeftEffect.GetComponent<Animator>().ResetTrigger("PlayMinusThree");
+    }
+
+    public void ResetMinigameTrigger()
+    {
+        roundsLeftEffect.GetComponent<Animator>().ResetTrigger("PlayMinigame");
+    }
+
+    public void ResetChanceTrigger()
+    {
+        roundsLeftEffect.GetComponent<Animator>().ResetTrigger("PlayChance");
+    }
+    #endregion
+
     public void DisplayRoundsLeft ()
     {
-        if(round == 20 || round == 25 || round == 29)
+        Debug.Log("DisplayRoundsLeft");
+        switch (round)
         {
-            switch (round)
-            {
-                case 10:
-                    roundsLeftEffect.GetComponent<Image>().sprite = tenRounds;
-                    roundsLeftEffect.GetComponent<Animator>().SetTrigger("Play");
-                    break;
-                case 5:
-                    roundsLeftEffect.GetComponent<Image>().sprite = fiveRounds;
-                    roundsLeftEffect.GetComponent<Animator>().SetTrigger("Play");
-                    break;
-                case 1:
-                    roundsLeftEffect.GetComponent<Image>().sprite = lastRound;
-                    roundsLeftEffect.GetComponent<Animator>().SetTrigger("Play");
-                    break;
-                default:
-                    break;
-            }
+            case 20:
+                Debug.Log("10 rounds left");
+                roundsLeftEffect.GetComponent<Image>().sprite = tenRounds;
+                roundsLeftEffect.GetComponent<Animator>().SetTrigger("Play");
+                break;
+            case 25:
+                Debug.Log("5 rounds left");
+                roundsLeftEffect.GetComponent<Image>().sprite = fiveRounds;
+                roundsLeftEffect.GetComponent<Animator>().SetTrigger("Play");
+                break;
+            case 29:
+                Debug.Log("1 round left");
+                roundsLeftEffect.GetComponent<Image>().sprite = lastRound;
+                roundsLeftEffect.GetComponent<Animator>().SetTrigger("Play");
+                break;
+            default:
+                break;
         }
     }
 

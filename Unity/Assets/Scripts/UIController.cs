@@ -38,7 +38,7 @@ public class UIController : MonoBehaviour
     {
         for (int i = 0; i < playerTexts.Length; i++)
         {
-            playerTexts[i].GetComponentInChildren<Text>().text = "P" + (i + 1) + ": " + playerFruits[i];
+            playerTexts[i].GetComponentInChildren<Text>().text = playerFruits[i].ToString();//"P" + (i + 1) + ": " + playerFruits[i];
         }
     }
 
