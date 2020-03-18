@@ -2016,6 +2016,7 @@ GameObject:
   - component: {fileID: 389363564}
   - component: {fileID: 389363565}
   - component: {fileID: 389363566}
+  - component: {fileID: 389363567}
   m_Layer: 0
   m_Name: graphics
   m_TagString: Untagged
@@ -2105,6 +2106,18 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &389363567
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 389363563}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f2dfcee6bc995f4dbe0e2fe2cbbef1f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &395948475
 GameObject:
   m_ObjectHideFlags: 0
@@ -2348,7 +2361,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &442400271
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9512,6 +9525,7 @@ GameObject:
   - component: {fileID: 1573077884}
   - component: {fileID: 1573077885}
   - component: {fileID: 1573077886}
+  - component: {fileID: 1573077887}
   m_Layer: 0
   m_Name: graphics
   m_TagString: Untagged
@@ -9601,6 +9615,18 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &1573077887
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1573077883}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f2dfcee6bc995f4dbe0e2fe2cbbef1f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1574913835
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12750,6 +12776,7 @@ GameObject:
   - component: {fileID: 1993413636}
   - component: {fileID: 1993413637}
   - component: {fileID: 1993413638}
+  - component: {fileID: 1993413639}
   m_Layer: 0
   m_Name: graphics
   m_TagString: Untagged
@@ -12839,6 +12866,18 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &1993413639
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1993413635}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f2dfcee6bc995f4dbe0e2fe2cbbef1f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &2007571738
 PrefabInstance:
   m_ObjectHideFlags: 0
