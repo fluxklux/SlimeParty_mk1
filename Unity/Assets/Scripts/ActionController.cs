@@ -158,7 +158,6 @@ public class ActionController : MonoBehaviour
         switch (actionType)
         {
             case 0:
-
                 int fruitAmount = actionClasses[i].fruitAmount;
                 if (mc.players[playerIndex].GetComponent<PlayerController>().playerVariable.extraFruits > 0)
                 {
@@ -171,33 +170,19 @@ public class ActionController : MonoBehaviour
                 //Debug.Log("FruitAmount: " + fruitAmount);
                 gc.ChangeFruitAmount(playerIndex, fruitAmount);
 
-                switch(actionType)
+                switch (fruitAmount)
                 {
-                    case 0:
-                        switch (fruitAmount)
-                        {
-                            case 3:
-                                effect.GetComponentInChildren<Animator>().SetTrigger("PlayPlusThree");
-                                //effect.GetComponentInChildren<SpriteRenderer>().sprite = effectSprites[0];
-                                break;
-                            case 10:
-                                effect.GetComponentInChildren<Animator>().SetTrigger("PlayPlusTen");
-                                //effect.GetComponentInChildren<SpriteRenderer>().sprite = effectSprites[1];
-                                break;
-                            case -3:
-                                effect.GetComponentInChildren<Animator>().SetTrigger("PlayMinusThree");
-                                //effect.GetComponentInChildren<SpriteRenderer>().sprite = effectSprites[2];
-                                break;
-                        }
+                    case 3:
+                        effect.GetComponentInChildren<Animator>().SetTrigger("PlayPlusThree");
+                        //effect.GetComponentInChildren<SpriteRenderer>().sprite = effectSprites[0];
                         break;
-                    case 1:
-                        effect.GetComponentInChildren<Animator>().SetTrigger("PlayChance");
+                    case 10:
+                        effect.GetComponentInChildren<Animator>().SetTrigger("PlayPlusTen");
+                        //effect.GetComponentInChildren<SpriteRenderer>().sprite = effectSprites[1];
                         break;
-                    case 2:
-                        effect.GetComponentInChildren<Animator>().SetTrigger("PlayMinigame");
-                        break;
-                    default:
-                        Debug.Log("Something went wrong");
+                    case -3:
+                        effect.GetComponentInChildren<Animator>().SetTrigger("PlayMinusThree");
+                        //effect.GetComponentInChildren<SpriteRenderer>().sprite = effectSprites[2];
                         break;
                 }
 
@@ -218,8 +203,8 @@ public class ActionController : MonoBehaviour
 
                 break;
             case 1:
-                //Debug.Log("CHANCE!");
                 ac.PlaySound(SoundEnum.chanceSlotSound);
+                effect.GetComponentInChildren<Animator>().SetTrigger("PlayChance");
                 cc.RandomiseChance(playerIndex);
                 break;
             case 2:
@@ -229,6 +214,7 @@ public class ActionController : MonoBehaviour
                     mgc.playedMinigameThisRound = true;
                     mgc.StartCoroutine(mgc.Instructions(playerIndex));
                     //mgc.SelectPlayer(playerIndex);
+                    effect.GetComponentInChildren<Animator>().SetTrigger("PlayMinigame");
                     ac.PlaySound(SoundEnum.minigameSlotSound);
 
                 }

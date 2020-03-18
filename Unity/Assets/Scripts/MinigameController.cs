@@ -153,11 +153,9 @@ public class MinigameController : MonoBehaviour
         switch (random)
         {
             case 0:
-                Debug.Log("Masher");
                 minigameIndex = allMinigames[0].index;
                 break;
             case 1:
-                Debug.Log("Reaction");
                 minigameIndex = allMinigames[1].index;
                 break;
             default:
