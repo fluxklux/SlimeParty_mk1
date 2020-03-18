@@ -19,7 +19,7 @@ public class RoundController : MonoBehaviour
 
     void Start()
     {
-        round = 18;
+        round = 1;
     }
 
     #region EffectTriggerResets
@@ -56,7 +56,6 @@ public class RoundController : MonoBehaviour
 
     public void DisplayRoundsLeft ()
     {
-        Debug.Log("DisplayRoundsLeft");
         switch (round)
         {
             case 20:

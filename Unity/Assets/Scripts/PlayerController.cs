@@ -62,52 +62,46 @@ public class PlayerController : MonoBehaviour
     }
 
     private void Update()
-    { 
-        if (lerp && playerVariable.isLanding)
+    {
+        if (lerp && playerVariable.isLanding && !playerVariable.isJumping)
         {
-            Debug.Log("Landing!");
-            anim.SetBool("Landing", true);
+            anim.SetBool("LandingBool", true);
+            anim.SetBool("JumpingBool", false);
             transform.position = Vector2.MoveTowards(transform.position, targetPos, damping);
             UpdateScale();
             float dist = Vector2.Distance(transform.position, targetPos);
             if (dist < 0.025f)
             {
                 playerVariable.isLanding = false;
-                anim.SetBool("Landing", false);
                 lerp = false;
             }
         }
-        else if (lerp && playerVariable.isJumping)
+        else if (lerp && playerVariable.isJumping && !playerVariable.isLanding)
         {
-            Debug.Log("Jumping!");
-            anim.SetBool("Jumping", true);
+            anim.SetBool("JumpingBool", true);
             transform.position = Vector2.MoveTowards(transform.position, targetPos, damping);
             UpdateScale();
             float dist = Vector2.Distance(transform.position, targetPos);
             if (dist < 0.025f)
             {
-                Debug.Log("About to TELEPORT");
                 //lerp = false;
                 transform.position = new Vector2(THESPACE.x, teleportOffset);
                 targetPos = THESPACE;
                 playerVariable.isJumping = false;
                 playerVariable.isLanding = true;
-                anim.SetBool("Jumping", false);
+                anim.SetBool("JumpingBool", false);
             }
         }
-        else if (lerp && !playerVariable.isJumping)
+        else if (lerp && !playerVariable.isJumping && !playerVariable.isLanding)
         {
-            Debug.Log("Running!");
             float difference = (targetPos.y - transform.position.y);
 
             if (difference >= 0)
             {
-                //Debug.Log(difference + " >= " + "0");
                 anim.SetFloat("Speed", 1f);
             }
             else if (difference < 0)
             {
-                //Debug.Log(difference + " < " + "0");
                 anim.SetFloat("Speed", 0.5f);
             }
 
