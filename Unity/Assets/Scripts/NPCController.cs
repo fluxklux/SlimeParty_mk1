@@ -2,24 +2,27 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+public enum NpcType { Idle, Walking};
+
 public class NPCController : MonoBehaviour
 {
+    public NpcType npcType;
+
+    public Transform[] wayPoints;
     public float speed;
     public float timeToWait;
-    public bool onlyIdle;
-    public Transform[] wayPoints;
 
     private int currentWayPoint;
-    private int pointToWaitAt;
     private float waitTimer;
+    private int pointToWaitAt;
     private bool isWalking = true;
     private Animator anim;
 
     private void Start()
     {
-        anim = GetComponentInChildren<Animator>();
+        anim = GetComponent<Animator>();
 
-        if (wayPoints.Length > 0)
+        for (int i = 0; i < wayPoints.Length; i++)
         {
             for (int i = 0; i < wayPoints.Length; i++)
             {
@@ -32,15 +35,25 @@ public class NPCController : MonoBehaviour
             onlyIdle = true;
         }
 
+        if(npcType == NpcType.Walking)
+        {
+            SetRandomPointToWait();
+        }
     }
 
-    void Update()
+    private void Update()
     {
+        if(npcType == NpcType.Idle)
+        {
+            anim.SetBool("Moving", false);
+        }
+
         MoveToWayPoint();
         UpdateScale();
 
         if (!isWalking)
         {
+            anim.SetBool("Moving", false);
             waitTimer += Time.fixedDeltaTime;
 
             if (waitTimer >= timeToWait)
@@ -52,18 +65,14 @@ public class NPCController : MonoBehaviour
         }
     }
 
-    void MoveToWayPoint()
+    private void MoveToWayPoint()
     {
         if (!onlyIdle)
         {
             if (transform.position == wayPoints[currentWayPoint].position)
             {
-                currentWayPoint++;
-
-                if (currentWayPoint == pointToWaitAt)
-                {
-                    isWalking = false;
-                }
+                isWalking = false;
+            }
 
                 if (currentWayPoint == wayPoints.Length)
                 {
@@ -81,21 +90,18 @@ public class NPCController : MonoBehaviour
         }
     }
 
-    void SetRandomPointToWait()
+    private void SetRandomPointToWait()
     {
         pointToWaitAt = Random.Range(1, wayPoints.Length);
     }
 
-    void Move()
+    private void Move()
     {
-        if (isWalking && !onlyIdle)
+        if (isWalking)
         {
+            anim.SetBool("Moving", true);
             transform.position = Vector2.MoveTowards(transform.position, wayPoints[currentWayPoint].position, speed * Time.fixedDeltaTime);
             anim.SetBool("WalkingBool", true);
-        }
-        else
-        {
-            anim.SetBool("WalkingBool", false);
         }
     }
 
