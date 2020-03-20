@@ -50,6 +50,7 @@ public class InputController : MonoBehaviour
             hasJoined[index] = true;
             uc.TogglePlayerUi(index);
             mc.players[index].SetActive(true);
+            uc.playerQueueText[index].SetActive(true);
         }
         else
         {

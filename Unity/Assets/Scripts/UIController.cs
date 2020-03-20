@@ -95,9 +95,6 @@ public class UIController : MonoBehaviour
             int playerIndex = gc.queueObjects[i].playerIndex;
 
             playerQueueText[playerIndex].GetComponentInChildren<Text>().text = (i + 1).ToString("F0");
-
-            //playerQueueText[playerIndex].SetActive(onOff);
-
         }
     }
 

@@ -146,8 +146,6 @@ public class PlayerController : MonoBehaviour
         playerScale = Mathf.Lerp(minScale.y, maxScale.y, differents - 4);
 
         transform.localScale = new Vector3(playerScale, playerScale, 0.0f);
-
-
     }
 
     public int GetPositionIndex()
