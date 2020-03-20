@@ -1,0 +1,1543 @@
+fileFormatVersion: 2
+guid: 62ca6dfecea8a294b990f07d0a3b938d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -9157835886064624315
+    second: slime_talk_talk_blink_0
+  - first:
+      213: -2371175212720984088
+    second: slime_talk_talk_blink_1
+  - first:
+      213: 1835522338068998082
+    second: slime_talk_talk_blink_2
+  - first:
+      213: 2975721613023811119
+    second: slime_talk_talk_blink_3
+  - first:
+      213: 1235393885896325829
+    second: slime_talk_talk_blink_4
+  - first:
+      213: 2425155403587840555
+    second: slime_talk_talk_blink_5
+  - first:
+      213: -8988092356731562764
+    second: slime_talk_talk_blink_6
+  - first:
+      213: -433199293038528091
+    second: slime_talk_talk_blink_7
+  - first:
+      213: -2569946728510528041
+    second: slime_talk_talk_blink_8
+  - first:
+      213: -516530942200146943
+    second: slime_talk_talk_blink_9
+  - first:
+      213: -819258851578223588
+    second: slime_talk_talk_blink_10
+  - first:
+      213: 8496715192179658578
+    second: slime_talk_talk_blink_11
+  - first:
+      213: -5436289299322214150
+    second: slime_talk_talk_blink_12
+  - first:
+      213: 5806952836947342093
+    second: slime_talk_talk_blink_13
+  - first:
+      213: -4593104577223192151
+    second: slime_talk_talk_blink_14
+  - first:
+      213: 5684088019511484796
+    second: slime_talk_talk_blink_15
+  - first:
+      213: -3554108554202815854
+    second: slime_talk_talk_blink_16
+  - first:
+      213: -3870340661077486393
+    second: slime_talk_talk_blink_17
+  - first:
+      213: 2181159865032818272
+    second: slime_talk_talk_blink_18
+  - first:
+      213: -5923737023569773926
+    second: slime_talk_talk_blink_19
+  - first:
+      213: -5244448522485088215
+    second: slime_talk_talk_blink_20
+  - first:
+      213: 5723789569496026467
+    second: slime_talk_talk_blink_21
+  - first:
+      213: 8240822371309072612
+    second: slime_talk_talk_blink_22
+  - first:
+      213: 6351825002914219048
+    second: slime_talk_talk_blink_23
+  - first:
+      213: -8791020370219930983
+    second: slime_talk_talk_blink_24
+  - first:
+      213: -8285340403117177879
+    second: slime_talk_talk_blink_25
+  - first:
+      213: 5115469429146228720
+    second: slime_talk_talk_blink_26
+  - first:
+      213: -1439913878024828690
+    second: slime_talk_talk_blink_27
+  - first:
+      213: -1531518891074607428
+    second: slime_talk_talk_blink_28
+  - first:
+      213: 2327992295619346280
+    second: slime_talk_talk_blink_29
+  - first:
+      213: -6313860303486147082
+    second: slime_talk_talk_blink_30
+  - first:
+      213: -8148391112294039525
+    second: slime_talk_talk_blink_31
+  - first:
+      213: 1698662954561237004
+    second: slime_talk_talk_blink_32
+  - first:
+      213: 6744764454940988200
+    second: slime_talk_talk_blink_33
+  - first:
+      213: 8857919141036908671
+    second: slime_talk_talk_blink_34
+  - first:
+      213: -1120793461539451384
+    second: slime_talk_talk_blink_35
+  - first:
+      213: 4221533326823629744
+    second: slime_talk_talk_blink_36
+  - first:
+      213: -5336356520168725455
+    second: slime_talk_talk_blink_37
+  - first:
+      213: -5505182027926873492
+    second: slime_talk_talk_blink_38
+  - first:
+      213: -4069247120991234931
+    second: slime_talk_talk_blink_39
+  - first:
+      213: 4415101207371407017
+    second: slime_talk_talk_blink_40
+  - first:
+      213: -3293745242257981545
+    second: slime_talk_talk_blink_41
+  - first:
+      213: 2294640003762183505
+    second: slime_talk_talk_blink_42
+  - first:
+      213: -7608163437617803222
+    second: slime_talk_talk_blink_43
+  - first:
+      213: -207181427232966878
+    second: slime_talk_talk_blink_44
+  - first:
+      213: 3659331463253980761
+    second: slime_talk_talk_blink_45
+  - first:
+      213: -6781140625561594988
+    second: slime_talk_talk_blink_46
+  - first:
+      213: -2113769142155337383
+    second: slime_talk_talk_blink_47
+  - first:
+      213: -4668038034349094033
+    second: slime_talk_talk_blink_48
+  - first:
+      213: 1109464437158967705
+    second: slime_talk_talk_blink_49
+  - first:
+      213: -8187598144714549881
+    second: slime_talk_talk_blink_50
+  - first:
+      213: -313482688361253133
+    second: slime_talk_talk_blink_51
+  - first:
+      213: -4805836075001704632
+    second: slime_talk_talk_blink_52
+  - first:
+      213: -942616766911898006
+    second: slime_talk_talk_blink_53
+  - first:
+      213: 7102118247620829054
+    second: slime_talk_talk_blink_54
+  - first:
+      213: -182715880889149901
+    second: slime_talk_talk_blink_55
+  - first:
+      213: 6170362961890468470
+    second: slime_talk_talk_blink_56
+  - first:
+      213: 8629262181568424439
+    second: slime_talk_talk_blink_57
+  - first:
+      213: -3566623672171111116
+    second: slime_talk_talk_blink_58
+  - first:
+      213: 5961925256974024863
+    second: slime_talk_talk_blink_59
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 600
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: slime_talk_talk_blink_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3900
+        width: 675
+        height: 975
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddacd473d77068145b72ff661638a9cb
+      internalID: -9157835886064624315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime_talk_talk_blink_1
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 3900
+        width: 675
+        height: 975
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c6383eec75327044be0cd7881fb0921
+      internalID: -2371175212720984088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime_talk_talk_blink_2
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 3900
+        width: 675
+        height: 975
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f8cfea934e662a4dbac2fa13049bf48
+      internalID: 1835522338068998082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime_talk_talk_blink_3
+      rect:
+        serializedVersion: 2
+        x: 2025
+        y: 3900
+        width: 675
+        height: 975
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9183438b1ac22b6489fea94e4920fc00
+      internalID: 2975721613023811119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime_talk_talk_blink_4
+      rect:
+        serializedVersion: 2
+        x: 2700
+        y: 3900
+        width: 675
+        height: 975
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d7e59a434b17a04394c95784ed9c402
+      internalID: 1235393885896325829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime_talk_talk_blink_5
+      rect:
+        serializedVersion: 2
+        x: 3375
+        y: 3900
+        width: 675
+        height: 975
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c6f99abf4111414f9f23ab5686717b8
+      internalID: 2425155403587840555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime_talk_talk_blink_6
+      rect:
+        serializedVersion: 2
+        x: 4050
+        y: 3900
+        width: 675
+        height: 975
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcd083be7a9ec104b8e6803d235cce49
+      internalID: -8988092356731562764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime_talk_talk_blink_7
+      rect:
+        serializedVersion: 2
+        x: 4725
+        y: 3900
+        width: 675
+        height: 975
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87ca8c2f0f0b90e4cb15068141a31c97
+      internalID: -433199293038528091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime_talk_talk_blink_8
+      rect:
+        serializedVersion: 2
+        x: 5400
+        y: 3900
+        width: 675
+        height: 975
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a7442bdb0ddaf24b912caad593b43ef
+      internalID: -2569946728510528041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime_talk_talk_blink_9
+      rect:
+        serializedVersion: 2
+        x: 6075
+        y: 3900
+        width: 675
+        height: 975
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c966350b73744bd40bb7c5632388b622
+      internalID: -516530942200146943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime_talk_talk_blink_10
+      rect:
+        serializedVersion: 2
+        x: 6750
+        y: 3900
+        width: 675
+        height: 975
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58457a09edd13194ba0cad35f1487403
+      internalID: -819258851578223588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime_talk_talk_blink_11
+      rect:
+        serializedVersion: 2
+        x: 7425
+        y: 3900
+        width: 675
+        height: 975
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82bc9000c282f494f8d5bcb34d302f3a
+      internalID: 8496715192179658578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime_talk_talk_blink_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2925
+        width: 675
+        height: 975
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba44125fe07c11a4e892166336049316
+      internalID: -5436289299322214150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime_talk_talk_blink_13
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 2925
+        width: 675
+        height: 975
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30e066821049f934ebaa291dbe35dac2
+      internalID: 5806952836947342093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime_talk_talk_blink_14
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 2925
+        width: 675
+        height: 975
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc6f5adc57931164d9ffdc23e264dbba
+      internalID: -4593104577223192151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime_talk_talk_blink_15
+      rect:
+        serializedVersion: 2
+        x: 2025
+        y: 2925
+        width: 675
+        height: 975
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97bd40ea6a16d8644bb7d8266acba123
+      internalID: 5684088019511484796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime_talk_talk_blink_16
+      rect:
+        serializedVersion: 2
+        x: 2700
+        y: 2925
+        width: 675
+        height: 975
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31fed0d938a6bb8408a103cb7bd0f47f
+      internalID: -3554108554202815854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime_talk_talk_blink_17
+      rect:
+        serializedVersion: 2
+        x: 3375
+        y: 2925
+        width: 675
+        height: 975
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d5524a4c42ad434ba75475bf0a8cd89
+      internalID: -3870340661077486393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime_talk_talk_blink_18
+      rect:
+        serializedVersion: 2
+        x: 4050
+        y: 2925
+        width: 675
+        height: 975
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c82c25573ac107f47a0cd5ee385f7f2c
+      internalID: 2181159865032818272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime_talk_talk_blink_19
+      rect:
+        serializedVersion: 2
+        x: 4725
+        y: 2925
+        width: 675
+        height: 975
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6468250e09fab784b92a11a57e4afb7d
+      internalID: -5923737023569773926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime_talk_talk_blink_20
+      rect:
+        serializedVersion: 2
+        x: 5400
+        y: 2925
+        width: 675
+        height: 975
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 089e69327f1caef428fd9b5dc66d4e86
+      internalID: -5244448522485088215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime_talk_talk_blink_21
+      rect:
+        serializedVersion: 2
+        x: 6075
+        y: 2925
+        width: 675
+        height: 975
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8655c309b8ac724db17f483a22c9a60
+      internalID: 5723789569496026467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime_talk_talk_blink_22
+      rect:
+        serializedVersion: 2
+        x: 6750
+        y: 2925
+        width: 675
+        height: 975
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5d80829d96e7a341abe89ea489b27e2
+      internalID: 8240822371309072612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime_talk_talk_blink_23
+      rect:
+        serializedVersion: 2
+        x: 7425
+        y: 2925
+        width: 675
+        height: 975
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8845413762ed5d448c707f11ca369a9
+      internalID: 6351825002914219048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime_talk_talk_blink_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1950
+        width: 675
+        height: 975
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 633499422160db44699665b49f2d5105
+      internalID: -8791020370219930983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime_talk_talk_blink_25
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 1950
+        width: 675
+        height: 975
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af6b7c418b0b75944af88e8c79057bc4
+      internalID: -8285340403117177879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime_talk_talk_blink_26
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 1950
+        width: 675
+        height: 975
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98645460ac18299428ccfec0b769d7eb
+      internalID: 5115469429146228720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime_talk_talk_blink_27
+      rect:
+        serializedVersion: 2
+        x: 2025
+        y: 1950
+        width: 675
+        height: 975
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28bef034ca885a84fa91f50a336dbe40
+      internalID: -1439913878024828690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime_talk_talk_blink_28
+      rect:
+        serializedVersion: 2
+        x: 2700
+        y: 1950
+        width: 675
+        height: 975
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 391db53c615aae540bc07bb4eb8bc7f0
+      internalID: -1531518891074607428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime_talk_talk_blink_29
+      rect:
+        serializedVersion: 2
+        x: 3375
+        y: 1950
+        width: 675
+        height: 975
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97c4cdb6e5a24e541a6b9c693dc0685a
+      internalID: 2327992295619346280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime_talk_talk_blink_30
+      rect:
+        serializedVersion: 2
+        x: 4050
+        y: 1950
+        width: 675
+        height: 975
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c12dfc91db20f5a4f8e8161e5fa9d96b
+      internalID: -6313860303486147082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime_talk_talk_blink_31
+      rect:
+        serializedVersion: 2
+        x: 4725
+        y: 1950
+        width: 675
+        height: 975
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c511bfbf6ee177745b6ea126fcc4afbc
+      internalID: -8148391112294039525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime_talk_talk_blink_32
+      rect:
+        serializedVersion: 2
+        x: 5400
+        y: 1950
+        width: 675
+        height: 975
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b8a3a62745ba664fbf41a6b708c747b
+      internalID: 1698662954561237004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime_talk_talk_blink_33
+      rect:
+        serializedVersion: 2
+        x: 6075
+        y: 1950
+        width: 675
+        height: 975
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 939e1ac47888ba5498c9916279854a43
+      internalID: 6744764454940988200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime_talk_talk_blink_34
+      rect:
+        serializedVersion: 2
+        x: 6750
+        y: 1950
+        width: 675
+        height: 975
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1567aef059310204fb0719fdfb99f75e
+      internalID: 8857919141036908671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime_talk_talk_blink_35
+      rect:
+        serializedVersion: 2
+        x: 7425
+        y: 1950
+        width: 675
+        height: 975
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 015a060e53371634690e3b9ae5925381
+      internalID: -1120793461539451384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime_talk_talk_blink_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 975
+        width: 675
+        height: 975
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ec6e30026d223941be0505824acbe6d
+      internalID: 4221533326823629744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime_talk_talk_blink_37
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 975
+        width: 675
+        height: 975
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d03020b29dc2a340b9e74f68c2fde6e
+      internalID: -5336356520168725455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime_talk_talk_blink_38
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 975
+        width: 675
+        height: 975
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88367342b67e0854fb23ffd83d45d16b
+      internalID: -5505182027926873492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime_talk_talk_blink_39
+      rect:
+        serializedVersion: 2
+        x: 2025
+        y: 975
+        width: 675
+        height: 975
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de160c9480d83ac4fb4784662650c241
+      internalID: -4069247120991234931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime_talk_talk_blink_40
+      rect:
+        serializedVersion: 2
+        x: 2700
+        y: 975
+        width: 675
+        height: 975
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 860c1b00187583d48bf44c563334ed33
+      internalID: 4415101207371407017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime_talk_talk_blink_41
+      rect:
+        serializedVersion: 2
+        x: 3375
+        y: 975
+        width: 675
+        height: 975
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d2210b3598f75c4a8cf42e830c8c48e
+      internalID: -3293745242257981545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime_talk_talk_blink_42
+      rect:
+        serializedVersion: 2
+        x: 4050
+        y: 975
+        width: 675
+        height: 975
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1fbc172775f1a44089d39dac303b7c9
+      internalID: 2294640003762183505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime_talk_talk_blink_43
+      rect:
+        serializedVersion: 2
+        x: 4725
+        y: 975
+        width: 675
+        height: 975
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad4ef09376547b64397250425cf860e8
+      internalID: -7608163437617803222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime_talk_talk_blink_44
+      rect:
+        serializedVersion: 2
+        x: 5400
+        y: 975
+        width: 675
+        height: 975
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0d2ab20b77491c4cb37beeff965c9b3
+      internalID: -207181427232966878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime_talk_talk_blink_45
+      rect:
+        serializedVersion: 2
+        x: 6075
+        y: 975
+        width: 675
+        height: 975
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51e8bcaa429a9d4468401389f2f0eca6
+      internalID: 3659331463253980761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime_talk_talk_blink_46
+      rect:
+        serializedVersion: 2
+        x: 6750
+        y: 975
+        width: 675
+        height: 975
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a9e11aa6359d1449acf2c17e1665657
+      internalID: -6781140625561594988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime_talk_talk_blink_47
+      rect:
+        serializedVersion: 2
+        x: 7425
+        y: 975
+        width: 675
+        height: 975
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a96d1dce4728ad946b5c909be1ccf462
+      internalID: -2113769142155337383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime_talk_talk_blink_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 675
+        height: 975
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60c3a276a0113f341b96f015cacb313e
+      internalID: -4668038034349094033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime_talk_talk_blink_49
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 0
+        width: 675
+        height: 975
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1281f1c7415edcd4c9e525663b9ffcdc
+      internalID: 1109464437158967705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime_talk_talk_blink_50
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 0
+        width: 675
+        height: 975
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2284fa3045b7b794aa8d83d6885cbff5
+      internalID: -8187598144714549881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime_talk_talk_blink_51
+      rect:
+        serializedVersion: 2
+        x: 2025
+        y: 0
+        width: 675
+        height: 975
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea59c7251fcb1744b919262c12299a3f
+      internalID: -313482688361253133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime_talk_talk_blink_52
+      rect:
+        serializedVersion: 2
+        x: 2700
+        y: 0
+        width: 675
+        height: 975
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcf7337303e3a654bb9ebdb957f3d8db
+      internalID: -4805836075001704632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime_talk_talk_blink_53
+      rect:
+        serializedVersion: 2
+        x: 3375
+        y: 0
+        width: 675
+        height: 975
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 485e5b243f2ff774bacf7a51f8ba3ea8
+      internalID: -942616766911898006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime_talk_talk_blink_54
+      rect:
+        serializedVersion: 2
+        x: 4050
+        y: 0
+        width: 675
+        height: 975
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2bffce92f1b31445a2cde0e713c3641
+      internalID: 7102118247620829054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime_talk_talk_blink_55
+      rect:
+        serializedVersion: 2
+        x: 4725
+        y: 0
+        width: 675
+        height: 975
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98aab84d13b47244f87b72331da0b6e7
+      internalID: -182715880889149901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime_talk_talk_blink_56
+      rect:
+        serializedVersion: 2
+        x: 5400
+        y: 0
+        width: 675
+        height: 975
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1c2c787dac2f954ea6717a099cfaf7b
+      internalID: 6170362961890468470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime_talk_talk_blink_57
+      rect:
+        serializedVersion: 2
+        x: 6075
+        y: 0
+        width: 675
+        height: 975
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57516ad6ffd76f4409a72dc683992947
+      internalID: 8629262181568424439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime_talk_talk_blink_58
+      rect:
+        serializedVersion: 2
+        x: 6750
+        y: 0
+        width: 675
+        height: 975
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33fdadc5d7aeac746b6a7055b7e0c2b1
+      internalID: -3566623672171111116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime_talk_talk_blink_59
+      rect:
+        serializedVersion: 2
+        x: 7425
+        y: 0
+        width: 675
+        height: 975
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d496092526513064f9d923b3bb99e4e3
+      internalID: 5961925256974024863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

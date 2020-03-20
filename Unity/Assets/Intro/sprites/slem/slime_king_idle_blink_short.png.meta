@@ -1,0 +1,1543 @@
+fileFormatVersion: 2
+guid: 10edcd8a91e09d245bcf5d52041add11
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5424610134022869884
+    second: slime_king_idle_blink_short_0
+  - first:
+      213: 6316686772604392585
+    second: slime_king_idle_blink_short_1
+  - first:
+      213: -213823597135236382
+    second: slime_king_idle_blink_short_2
+  - first:
+      213: 8103999471455111468
+    second: slime_king_idle_blink_short_3
+  - first:
+      213: 3048968991666832908
+    second: slime_king_idle_blink_short_4
+  - first:
+      213: -3755701076361345683
+    second: slime_king_idle_blink_short_5
+  - first:
+      213: -1074608193220242900
+    second: slime_king_idle_blink_short_6
+  - first:
+      213: -3684717260765754245
+    second: slime_king_idle_blink_short_7
+  - first:
+      213: -5385264077842030327
+    second: slime_king_idle_blink_short_8
+  - first:
+      213: -5610821506994129450
+    second: slime_king_idle_blink_short_9
+  - first:
+      213: 1633058260349580759
+    second: slime_king_idle_blink_short_10
+  - first:
+      213: -7421261734202923926
+    second: slime_king_idle_blink_short_11
+  - first:
+      213: 603052542057253630
+    second: slime_king_idle_blink_short_12
+  - first:
+      213: 6556082972913598437
+    second: slime_king_idle_blink_short_13
+  - first:
+      213: -142914309147321407
+    second: slime_king_idle_blink_short_14
+  - first:
+      213: 4102383485765496898
+    second: slime_king_idle_blink_short_15
+  - first:
+      213: 6364834487198795165
+    second: slime_king_idle_blink_short_16
+  - first:
+      213: 7908669503942746649
+    second: slime_king_idle_blink_short_17
+  - first:
+      213: 7978952401848747348
+    second: slime_king_idle_blink_short_18
+  - first:
+      213: -1940017803083023343
+    second: slime_king_idle_blink_short_19
+  - first:
+      213: -1379876320380028608
+    second: slime_king_idle_blink_short_20
+  - first:
+      213: 7588258951288946572
+    second: slime_king_idle_blink_short_21
+  - first:
+      213: -4343086022751722197
+    second: slime_king_idle_blink_short_22
+  - first:
+      213: -673712164257672499
+    second: slime_king_idle_blink_short_23
+  - first:
+      213: -8364247201527457012
+    second: slime_king_idle_blink_short_24
+  - first:
+      213: 3739926284216948710
+    second: slime_king_idle_blink_short_25
+  - first:
+      213: 838572591567527119
+    second: slime_king_idle_blink_short_26
+  - first:
+      213: -1435079581445718266
+    second: slime_king_idle_blink_short_27
+  - first:
+      213: -1111344227401281299
+    second: slime_king_idle_blink_short_28
+  - first:
+      213: 1578514993228441038
+    second: slime_king_idle_blink_short_29
+  - first:
+      213: 2430473702775614319
+    second: slime_king_idle_blink_short_30
+  - first:
+      213: 5662661987073900944
+    second: slime_king_idle_blink_short_31
+  - first:
+      213: 4485637485878635671
+    second: slime_king_idle_blink_short_32
+  - first:
+      213: 6671691422193285652
+    second: slime_king_idle_blink_short_33
+  - first:
+      213: -5840818564104805658
+    second: slime_king_idle_blink_short_34
+  - first:
+      213: 8971444289198851014
+    second: slime_king_idle_blink_short_35
+  - first:
+      213: 1470857739281205257
+    second: slime_king_idle_blink_short_36
+  - first:
+      213: 6546298320861682129
+    second: slime_king_idle_blink_short_37
+  - first:
+      213: -1511053590607111928
+    second: slime_king_idle_blink_short_38
+  - first:
+      213: -1574667168179317325
+    second: slime_king_idle_blink_short_39
+  - first:
+      213: -7780288723285824911
+    second: slime_king_idle_blink_short_40
+  - first:
+      213: 6999470724607673211
+    second: slime_king_idle_blink_short_41
+  - first:
+      213: 3049492478993509127
+    second: slime_king_idle_blink_short_42
+  - first:
+      213: -7450939267644812079
+    second: slime_king_idle_blink_short_43
+  - first:
+      213: 9170376276520179548
+    second: slime_king_idle_blink_short_44
+  - first:
+      213: -6237053484538700351
+    second: slime_king_idle_blink_short_45
+  - first:
+      213: -5424788048785988817
+    second: slime_king_idle_blink_short_46
+  - first:
+      213: 8505480631698232482
+    second: slime_king_idle_blink_short_47
+  - first:
+      213: -533457360765817266
+    second: slime_king_idle_blink_short_48
+  - first:
+      213: -9063041795007222707
+    second: slime_king_idle_blink_short_49
+  - first:
+      213: 8476078896682835012
+    second: slime_king_idle_blink_short_50
+  - first:
+      213: -5583348637102533797
+    second: slime_king_idle_blink_short_51
+  - first:
+      213: -2618347465326303821
+    second: slime_king_idle_blink_short_52
+  - first:
+      213: 1735791187796919369
+    second: slime_king_idle_blink_short_53
+  - first:
+      213: 8716300097154633364
+    second: slime_king_idle_blink_short_54
+  - first:
+      213: -9173960311078969394
+    second: slime_king_idle_blink_short_55
+  - first:
+      213: -5071838979156320516
+    second: slime_king_idle_blink_short_56
+  - first:
+      213: -1220613855352967795
+    second: slime_king_idle_blink_short_57
+  - first:
+      213: -1979705012981304525
+    second: slime_king_idle_blink_short_58
+  - first:
+      213: 2062837485300105299
+    second: slime_king_idle_blink_short_59
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 600
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: slime_king_idle_blink_short_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3900
+        width: 675
+        height: 975
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 688a51acdbca9c9478a718a23fe7d3ce
+      internalID: 5424610134022869884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime_king_idle_blink_short_1
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 3900
+        width: 675
+        height: 975
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6edc5b7746dc3e4db49c05e2fd13ed2
+      internalID: 6316686772604392585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime_king_idle_blink_short_2
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 3900
+        width: 675
+        height: 975
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 783f4123b210418478c4b0cebc9dbafa
+      internalID: -213823597135236382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime_king_idle_blink_short_3
+      rect:
+        serializedVersion: 2
+        x: 2025
+        y: 3900
+        width: 675
+        height: 975
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2147a27d1c401542b0237c8fbf8e859
+      internalID: 8103999471455111468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime_king_idle_blink_short_4
+      rect:
+        serializedVersion: 2
+        x: 2700
+        y: 3900
+        width: 675
+        height: 975
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99fda5dd2eb2c6f48b998ed4c2a991b3
+      internalID: 3048968991666832908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime_king_idle_blink_short_5
+      rect:
+        serializedVersion: 2
+        x: 3375
+        y: 3900
+        width: 675
+        height: 975
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b34e1baa0159714fbab231f12ef1a48
+      internalID: -3755701076361345683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime_king_idle_blink_short_6
+      rect:
+        serializedVersion: 2
+        x: 4050
+        y: 3900
+        width: 675
+        height: 975
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da2489030a5579e4b8d522c4ef9a2314
+      internalID: -1074608193220242900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime_king_idle_blink_short_7
+      rect:
+        serializedVersion: 2
+        x: 4725
+        y: 3900
+        width: 675
+        height: 975
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73ee01295c5e3234e84c58fa942d8be7
+      internalID: -3684717260765754245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime_king_idle_blink_short_8
+      rect:
+        serializedVersion: 2
+        x: 5400
+        y: 3900
+        width: 675
+        height: 975
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea00ec4ededeea34289ea143c52e4a3b
+      internalID: -5385264077842030327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime_king_idle_blink_short_9
+      rect:
+        serializedVersion: 2
+        x: 6075
+        y: 3900
+        width: 675
+        height: 975
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd804e5c9a05acf4aaa24f2518ef9ec8
+      internalID: -5610821506994129450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime_king_idle_blink_short_10
+      rect:
+        serializedVersion: 2
+        x: 6750
+        y: 3900
+        width: 675
+        height: 975
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a63378924495d642aef023e46dda92e
+      internalID: 1633058260349580759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime_king_idle_blink_short_11
+      rect:
+        serializedVersion: 2
+        x: 7425
+        y: 3900
+        width: 675
+        height: 975
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8ce3fdb91a588d4cb400939f0c70919
+      internalID: -7421261734202923926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime_king_idle_blink_short_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2925
+        width: 675
+        height: 975
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dc907161c010c640b2d81b898864c36
+      internalID: 603052542057253630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime_king_idle_blink_short_13
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 2925
+        width: 675
+        height: 975
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c24d0ba7465dca40bddde21253e3c40
+      internalID: 6556082972913598437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime_king_idle_blink_short_14
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 2925
+        width: 675
+        height: 975
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ef1b9ebc51511e4f9cc05918f21852b
+      internalID: -142914309147321407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime_king_idle_blink_short_15
+      rect:
+        serializedVersion: 2
+        x: 2025
+        y: 2925
+        width: 675
+        height: 975
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55302593d087e7646bedbe76d05fe98f
+      internalID: 4102383485765496898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime_king_idle_blink_short_16
+      rect:
+        serializedVersion: 2
+        x: 2700
+        y: 2925
+        width: 675
+        height: 975
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a558ced72a2f7d04d930cd27e58282a5
+      internalID: 6364834487198795165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime_king_idle_blink_short_17
+      rect:
+        serializedVersion: 2
+        x: 3375
+        y: 2925
+        width: 675
+        height: 975
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cec29635840267c48ab083f74d514129
+      internalID: 7908669503942746649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime_king_idle_blink_short_18
+      rect:
+        serializedVersion: 2
+        x: 4050
+        y: 2925
+        width: 675
+        height: 975
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b25fb21722270214f82cefa0b045fa92
+      internalID: 7978952401848747348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime_king_idle_blink_short_19
+      rect:
+        serializedVersion: 2
+        x: 4725
+        y: 2925
+        width: 675
+        height: 975
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df30218ee0d95e64b8f903d0ca53d296
+      internalID: -1940017803083023343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime_king_idle_blink_short_20
+      rect:
+        serializedVersion: 2
+        x: 5400
+        y: 2925
+        width: 675
+        height: 975
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39ccf1d491ba0254c836e9d761e67733
+      internalID: -1379876320380028608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime_king_idle_blink_short_21
+      rect:
+        serializedVersion: 2
+        x: 6075
+        y: 2925
+        width: 675
+        height: 975
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0853cb32430e2714e8858de95dccb76b
+      internalID: 7588258951288946572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime_king_idle_blink_short_22
+      rect:
+        serializedVersion: 2
+        x: 6750
+        y: 2925
+        width: 675
+        height: 975
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30481f181af64674b8420e943e934732
+      internalID: -4343086022751722197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime_king_idle_blink_short_23
+      rect:
+        serializedVersion: 2
+        x: 7425
+        y: 2925
+        width: 675
+        height: 975
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a49f7b4206045f47855f18292ad31ed
+      internalID: -673712164257672499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime_king_idle_blink_short_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1950
+        width: 675
+        height: 975
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c32bc85e9f89f1349b751dfc4f64171c
+      internalID: -8364247201527457012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime_king_idle_blink_short_25
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 1950
+        width: 675
+        height: 975
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2500538b5ed83694aae8fbd1ef7afe34
+      internalID: 3739926284216948710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime_king_idle_blink_short_26
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 1950
+        width: 675
+        height: 975
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4aaf60aa9dcab3240800b7363d3d17d7
+      internalID: 838572591567527119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime_king_idle_blink_short_27
+      rect:
+        serializedVersion: 2
+        x: 2025
+        y: 1950
+        width: 675
+        height: 975
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9777dd854edff5a4bba37032c0c5f1d8
+      internalID: -1435079581445718266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime_king_idle_blink_short_28
+      rect:
+        serializedVersion: 2
+        x: 2700
+        y: 1950
+        width: 675
+        height: 975
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2f011e128ece8d489fb848ff6890a8f
+      internalID: -1111344227401281299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime_king_idle_blink_short_29
+      rect:
+        serializedVersion: 2
+        x: 3375
+        y: 1950
+        width: 675
+        height: 975
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 935ba6568d3eab8478b735eb665f756f
+      internalID: 1578514993228441038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime_king_idle_blink_short_30
+      rect:
+        serializedVersion: 2
+        x: 4050
+        y: 1950
+        width: 675
+        height: 975
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb3a324f66a51724ab766dd9183a4b0e
+      internalID: 2430473702775614319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime_king_idle_blink_short_31
+      rect:
+        serializedVersion: 2
+        x: 4725
+        y: 1950
+        width: 675
+        height: 975
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9302b4a6aa715e64299b1287b7ce5059
+      internalID: 5662661987073900944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime_king_idle_blink_short_32
+      rect:
+        serializedVersion: 2
+        x: 5400
+        y: 1950
+        width: 675
+        height: 975
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f7aa975928b5364db9b1ffa6a5d46f5
+      internalID: 4485637485878635671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime_king_idle_blink_short_33
+      rect:
+        serializedVersion: 2
+        x: 6075
+        y: 1950
+        width: 675
+        height: 975
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25b1d0aa5a8376644aab00222442f971
+      internalID: 6671691422193285652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime_king_idle_blink_short_34
+      rect:
+        serializedVersion: 2
+        x: 6750
+        y: 1950
+        width: 675
+        height: 975
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28839b5eac1438a41a344e368ba87e1d
+      internalID: -5840818564104805658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime_king_idle_blink_short_35
+      rect:
+        serializedVersion: 2
+        x: 7425
+        y: 1950
+        width: 675
+        height: 975
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51caf1117f0c0db42816311c990adc0e
+      internalID: 8971444289198851014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime_king_idle_blink_short_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 975
+        width: 675
+        height: 975
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9562fcc021e4884449adc0154009b612
+      internalID: 1470857739281205257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime_king_idle_blink_short_37
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 975
+        width: 675
+        height: 975
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7729e64033b0eb94ab91f719004ab194
+      internalID: 6546298320861682129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime_king_idle_blink_short_38
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 975
+        width: 675
+        height: 975
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbb4cc9fc060eee45ad3d5bdc7568aab
+      internalID: -1511053590607111928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime_king_idle_blink_short_39
+      rect:
+        serializedVersion: 2
+        x: 2025
+        y: 975
+        width: 675
+        height: 975
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4542650d85c3d094ba99185707c724d6
+      internalID: -1574667168179317325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime_king_idle_blink_short_40
+      rect:
+        serializedVersion: 2
+        x: 2700
+        y: 975
+        width: 675
+        height: 975
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f49f40fde0b47d74ebf3a6f4fb1f1ab7
+      internalID: -7780288723285824911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime_king_idle_blink_short_41
+      rect:
+        serializedVersion: 2
+        x: 3375
+        y: 975
+        width: 675
+        height: 975
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e624e99ce7fd1646ba2fc37caa1a518
+      internalID: 6999470724607673211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime_king_idle_blink_short_42
+      rect:
+        serializedVersion: 2
+        x: 4050
+        y: 975
+        width: 675
+        height: 975
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfb6de4f9671d8d408363dd90540dac8
+      internalID: 3049492478993509127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime_king_idle_blink_short_43
+      rect:
+        serializedVersion: 2
+        x: 4725
+        y: 975
+        width: 675
+        height: 975
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b081670f52ac104c83dbc704bc44d95
+      internalID: -7450939267644812079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime_king_idle_blink_short_44
+      rect:
+        serializedVersion: 2
+        x: 5400
+        y: 975
+        width: 675
+        height: 975
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29150ee9d747b4c46abee731381f320b
+      internalID: 9170376276520179548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime_king_idle_blink_short_45
+      rect:
+        serializedVersion: 2
+        x: 6075
+        y: 975
+        width: 675
+        height: 975
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3366be6346167c74eb9fc4acaa2af71d
+      internalID: -6237053484538700351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime_king_idle_blink_short_46
+      rect:
+        serializedVersion: 2
+        x: 6750
+        y: 975
+        width: 675
+        height: 975
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6af44e4100237b643825983437f019e8
+      internalID: -5424788048785988817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime_king_idle_blink_short_47
+      rect:
+        serializedVersion: 2
+        x: 7425
+        y: 975
+        width: 675
+        height: 975
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00421fd9126046648b1f072ba4639bc9
+      internalID: 8505480631698232482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime_king_idle_blink_short_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 675
+        height: 975
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dc6c510ca275a74ab13e0c0a138c6a0
+      internalID: -533457360765817266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime_king_idle_blink_short_49
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 0
+        width: 675
+        height: 975
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: faae66f5c4f213848a064c0c69ee64c9
+      internalID: -9063041795007222707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime_king_idle_blink_short_50
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 0
+        width: 675
+        height: 975
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed904b06cfe06d94ca9944d22c8dbe8e
+      internalID: 8476078896682835012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime_king_idle_blink_short_51
+      rect:
+        serializedVersion: 2
+        x: 2025
+        y: 0
+        width: 675
+        height: 975
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f75045a0c64b904d82eac31316320f5
+      internalID: -5583348637102533797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime_king_idle_blink_short_52
+      rect:
+        serializedVersion: 2
+        x: 2700
+        y: 0
+        width: 675
+        height: 975
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79628425973027f4d8cb3d8d361418a9
+      internalID: -2618347465326303821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime_king_idle_blink_short_53
+      rect:
+        serializedVersion: 2
+        x: 3375
+        y: 0
+        width: 675
+        height: 975
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92f3efffb6ae5dc41bb04b23c2e72d94
+      internalID: 1735791187796919369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime_king_idle_blink_short_54
+      rect:
+        serializedVersion: 2
+        x: 4050
+        y: 0
+        width: 675
+        height: 975
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c679558233589af4084fa1d21f36dd08
+      internalID: 8716300097154633364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime_king_idle_blink_short_55
+      rect:
+        serializedVersion: 2
+        x: 4725
+        y: 0
+        width: 675
+        height: 975
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64c881675f7d8164d814a86da882dc94
+      internalID: -9173960311078969394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime_king_idle_blink_short_56
+      rect:
+        serializedVersion: 2
+        x: 5400
+        y: 0
+        width: 675
+        height: 975
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da48064f96164de4bb46ed38b9b0154f
+      internalID: -5071838979156320516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime_king_idle_blink_short_57
+      rect:
+        serializedVersion: 2
+        x: 6075
+        y: 0
+        width: 675
+        height: 975
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb95658a853b976439548e7930b8b101
+      internalID: -1220613855352967795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime_king_idle_blink_short_58
+      rect:
+        serializedVersion: 2
+        x: 6750
+        y: 0
+        width: 675
+        height: 975
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04924a31891d32d48a3eb855606abdcf
+      internalID: -1979705012981304525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime_king_idle_blink_short_59
+      rect:
+        serializedVersion: 2
+        x: 7425
+        y: 0
+        width: 675
+        height: 975
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ccccf162776abb41aa96c372f31565a
+      internalID: 2062837485300105299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

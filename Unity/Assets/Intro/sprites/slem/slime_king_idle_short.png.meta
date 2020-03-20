@@ -1,0 +1,1543 @@
+fileFormatVersion: 2
+guid: e4b08b8573c1b534abdb5ecd977f1168
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -389085576609836926
+    second: slime_king_idle_short_0
+  - first:
+      213: -6043035810345698021
+    second: slime_king_idle_short_1
+  - first:
+      213: -7181705549496046172
+    second: slime_king_idle_short_2
+  - first:
+      213: -8133986415289893731
+    second: slime_king_idle_short_3
+  - first:
+      213: 7995111359102579325
+    second: slime_king_idle_short_4
+  - first:
+      213: 4828794623797948226
+    second: slime_king_idle_short_5
+  - first:
+      213: 7936922547567234683
+    second: slime_king_idle_short_6
+  - first:
+      213: -4455262723229052587
+    second: slime_king_idle_short_7
+  - first:
+      213: 4309172292207788710
+    second: slime_king_idle_short_8
+  - first:
+      213: 8737965436597533891
+    second: slime_king_idle_short_9
+  - first:
+      213: 6899833470995384375
+    second: slime_king_idle_short_10
+  - first:
+      213: -8365419175032427630
+    second: slime_king_idle_short_11
+  - first:
+      213: 5702387540370132510
+    second: slime_king_idle_short_12
+  - first:
+      213: 4232167523401930606
+    second: slime_king_idle_short_13
+  - first:
+      213: -1866862369348990226
+    second: slime_king_idle_short_14
+  - first:
+      213: -3326787237888721338
+    second: slime_king_idle_short_15
+  - first:
+      213: -3348777656262068058
+    second: slime_king_idle_short_16
+  - first:
+      213: -3764023860326363946
+    second: slime_king_idle_short_17
+  - first:
+      213: 5640902970606174670
+    second: slime_king_idle_short_18
+  - first:
+      213: -320031171230909716
+    second: slime_king_idle_short_19
+  - first:
+      213: -8261087840173957572
+    second: slime_king_idle_short_20
+  - first:
+      213: 8313680246335582826
+    second: slime_king_idle_short_21
+  - first:
+      213: 2188971080506969245
+    second: slime_king_idle_short_22
+  - first:
+      213: 4341916127769067679
+    second: slime_king_idle_short_23
+  - first:
+      213: -5098587026269266673
+    second: slime_king_idle_short_24
+  - first:
+      213: 1533649559389613442
+    second: slime_king_idle_short_25
+  - first:
+      213: 8704655795066144502
+    second: slime_king_idle_short_26
+  - first:
+      213: 5945072779076293906
+    second: slime_king_idle_short_27
+  - first:
+      213: -4778243343220957468
+    second: slime_king_idle_short_28
+  - first:
+      213: 2083278752090530516
+    second: slime_king_idle_short_29
+  - first:
+      213: -1848588914769459371
+    second: slime_king_idle_short_30
+  - first:
+      213: 344572923675646293
+    second: slime_king_idle_short_31
+  - first:
+      213: -7041123448176192425
+    second: slime_king_idle_short_32
+  - first:
+      213: 5404589791406904756
+    second: slime_king_idle_short_33
+  - first:
+      213: 773761321601636622
+    second: slime_king_idle_short_34
+  - first:
+      213: -1145589835019324355
+    second: slime_king_idle_short_35
+  - first:
+      213: -2315291774508851377
+    second: slime_king_idle_short_36
+  - first:
+      213: 6112271205378792820
+    second: slime_king_idle_short_37
+  - first:
+      213: 6287288309142728462
+    second: slime_king_idle_short_38
+  - first:
+      213: 3714829859724646070
+    second: slime_king_idle_short_39
+  - first:
+      213: 4014808035288859043
+    second: slime_king_idle_short_40
+  - first:
+      213: 6920779377341643828
+    second: slime_king_idle_short_41
+  - first:
+      213: -7576778584390743449
+    second: slime_king_idle_short_42
+  - first:
+      213: -2015322115574420220
+    second: slime_king_idle_short_43
+  - first:
+      213: 1548995761508135621
+    second: slime_king_idle_short_44
+  - first:
+      213: 2022934591614057994
+    second: slime_king_idle_short_45
+  - first:
+      213: -3892437958903099934
+    second: slime_king_idle_short_46
+  - first:
+      213: 4221531287486263405
+    second: slime_king_idle_short_47
+  - first:
+      213: -5950422525529510743
+    second: slime_king_idle_short_48
+  - first:
+      213: -1857007762010375041
+    second: slime_king_idle_short_49
+  - first:
+      213: -1206639262152665233
+    second: slime_king_idle_short_50
+  - first:
+      213: 7381208266009478976
+    second: slime_king_idle_short_51
+  - first:
+      213: -2230191413980968612
+    second: slime_king_idle_short_52
+  - first:
+      213: -7196580127706256282
+    second: slime_king_idle_short_53
+  - first:
+      213: -5552784098963920370
+    second: slime_king_idle_short_54
+  - first:
+      213: -3070092380952988978
+    second: slime_king_idle_short_55
+  - first:
+      213: 6617699959097658799
+    second: slime_king_idle_short_56
+  - first:
+      213: -1492730358767536757
+    second: slime_king_idle_short_57
+  - first:
+      213: -1453063139557380421
+    second: slime_king_idle_short_58
+  - first:
+      213: 2571167179146912042
+    second: slime_king_idle_short_59
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 600
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: slime_king_idle_short_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3900
+        width: 675
+        height: 975
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27ab06d1605c4bd4bb9e20f04365137d
+      internalID: -389085576609836926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime_king_idle_short_1
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 3900
+        width: 675
+        height: 975
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c7ae061f74d00040a82ba18b83e999e
+      internalID: -6043035810345698021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime_king_idle_short_2
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 3900
+        width: 675
+        height: 975
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03bcbd5134b552048899834a937a26bf
+      internalID: -7181705549496046172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime_king_idle_short_3
+      rect:
+        serializedVersion: 2
+        x: 2025
+        y: 3900
+        width: 675
+        height: 975
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba756957467d5f5419d1f01fd8fb0c91
+      internalID: -8133986415289893731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime_king_idle_short_4
+      rect:
+        serializedVersion: 2
+        x: 2700
+        y: 3900
+        width: 675
+        height: 975
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ddcb11af3262054e8650835e9d18e59
+      internalID: 7995111359102579325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime_king_idle_short_5
+      rect:
+        serializedVersion: 2
+        x: 3375
+        y: 3900
+        width: 675
+        height: 975
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ece39373fb635240a809786fa09e7f2
+      internalID: 4828794623797948226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime_king_idle_short_6
+      rect:
+        serializedVersion: 2
+        x: 4050
+        y: 3900
+        width: 675
+        height: 975
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25db0cc55c7a0b146a381d2c187715f1
+      internalID: 7936922547567234683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime_king_idle_short_7
+      rect:
+        serializedVersion: 2
+        x: 4725
+        y: 3900
+        width: 675
+        height: 975
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc650fa846c09f14bb2988924bdf6bd6
+      internalID: -4455262723229052587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime_king_idle_short_8
+      rect:
+        serializedVersion: 2
+        x: 5400
+        y: 3900
+        width: 675
+        height: 975
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d53b27c6b98dcf42ad1fc777e94940c
+      internalID: 4309172292207788710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime_king_idle_short_9
+      rect:
+        serializedVersion: 2
+        x: 6075
+        y: 3900
+        width: 675
+        height: 975
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c06a2b9a706b0e4eb2f5143a081045b
+      internalID: 8737965436597533891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime_king_idle_short_10
+      rect:
+        serializedVersion: 2
+        x: 6750
+        y: 3900
+        width: 675
+        height: 975
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b3cf45604f23e54580d121c248d0123
+      internalID: 6899833470995384375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime_king_idle_short_11
+      rect:
+        serializedVersion: 2
+        x: 7425
+        y: 3900
+        width: 675
+        height: 975
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2f7041aa7ba6e74aa24d26196fbca34
+      internalID: -8365419175032427630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime_king_idle_short_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2925
+        width: 675
+        height: 975
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e509c802bbf52f142a083cedca8ae0ee
+      internalID: 5702387540370132510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime_king_idle_short_13
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 2925
+        width: 675
+        height: 975
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8da20d71eacde5943ad9beab9ac8cdfe
+      internalID: 4232167523401930606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime_king_idle_short_14
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 2925
+        width: 675
+        height: 975
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6f4f0a307acaf64586c9b50223b9eeb
+      internalID: -1866862369348990226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime_king_idle_short_15
+      rect:
+        serializedVersion: 2
+        x: 2025
+        y: 2925
+        width: 675
+        height: 975
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24d368f0ea1e4184aa4ec6a336785fcf
+      internalID: -3326787237888721338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime_king_idle_short_16
+      rect:
+        serializedVersion: 2
+        x: 2700
+        y: 2925
+        width: 675
+        height: 975
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0af5a423ebaddf46a446c7bc9b2215a
+      internalID: -3348777656262068058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime_king_idle_short_17
+      rect:
+        serializedVersion: 2
+        x: 3375
+        y: 2925
+        width: 675
+        height: 975
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a367fc59a77d0a940b840e3461947c81
+      internalID: -3764023860326363946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime_king_idle_short_18
+      rect:
+        serializedVersion: 2
+        x: 4050
+        y: 2925
+        width: 675
+        height: 975
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ef579aca6bb27244bc0a0b1bb5e939d
+      internalID: 5640902970606174670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime_king_idle_short_19
+      rect:
+        serializedVersion: 2
+        x: 4725
+        y: 2925
+        width: 675
+        height: 975
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d04a5460c319f3c4296947788687f526
+      internalID: -320031171230909716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime_king_idle_short_20
+      rect:
+        serializedVersion: 2
+        x: 5400
+        y: 2925
+        width: 675
+        height: 975
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82695a6fc404a28428347357207fcf14
+      internalID: -8261087840173957572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime_king_idle_short_21
+      rect:
+        serializedVersion: 2
+        x: 6075
+        y: 2925
+        width: 675
+        height: 975
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65a42464e515de4458a91f40f96b0e17
+      internalID: 8313680246335582826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime_king_idle_short_22
+      rect:
+        serializedVersion: 2
+        x: 6750
+        y: 2925
+        width: 675
+        height: 975
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5c66f6797ae497459954576f25a9c36
+      internalID: 2188971080506969245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime_king_idle_short_23
+      rect:
+        serializedVersion: 2
+        x: 7425
+        y: 2925
+        width: 675
+        height: 975
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcb789e84247dbc47a7a62b824bc1366
+      internalID: 4341916127769067679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime_king_idle_short_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1950
+        width: 675
+        height: 975
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b730db662b938984a8d03fd464d3509a
+      internalID: -5098587026269266673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime_king_idle_short_25
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 1950
+        width: 675
+        height: 975
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d12e53cac659c514f93c3af34475bbbd
+      internalID: 1533649559389613442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime_king_idle_short_26
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 1950
+        width: 675
+        height: 975
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9b8e55c5db5b6a42b9cdf9f9fd19f89
+      internalID: 8704655795066144502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime_king_idle_short_27
+      rect:
+        serializedVersion: 2
+        x: 2025
+        y: 1950
+        width: 675
+        height: 975
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 893755da0903bbe4e9f582d8db14ded1
+      internalID: 5945072779076293906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime_king_idle_short_28
+      rect:
+        serializedVersion: 2
+        x: 2700
+        y: 1950
+        width: 675
+        height: 975
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c72f91d2885df4542bf51c5086670c30
+      internalID: -4778243343220957468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime_king_idle_short_29
+      rect:
+        serializedVersion: 2
+        x: 3375
+        y: 1950
+        width: 675
+        height: 975
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5409b74f4f801c14db312649166512d6
+      internalID: 2083278752090530516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime_king_idle_short_30
+      rect:
+        serializedVersion: 2
+        x: 4050
+        y: 1950
+        width: 675
+        height: 975
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: faacae425a462664a8c7f1696ed95498
+      internalID: -1848588914769459371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime_king_idle_short_31
+      rect:
+        serializedVersion: 2
+        x: 4725
+        y: 1950
+        width: 675
+        height: 975
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3d9408b1f3e03242b7c13dd3b45d622
+      internalID: 344572923675646293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime_king_idle_short_32
+      rect:
+        serializedVersion: 2
+        x: 5400
+        y: 1950
+        width: 675
+        height: 975
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5eaa32b5f52b64f408eb7adf2ee12fc2
+      internalID: -7041123448176192425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime_king_idle_short_33
+      rect:
+        serializedVersion: 2
+        x: 6075
+        y: 1950
+        width: 675
+        height: 975
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b2becac867872e46a4a31e97c19dc79
+      internalID: 5404589791406904756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime_king_idle_short_34
+      rect:
+        serializedVersion: 2
+        x: 6750
+        y: 1950
+        width: 675
+        height: 975
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1de0fc31bd437a54f99a87e5e17c6fdc
+      internalID: 773761321601636622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime_king_idle_short_35
+      rect:
+        serializedVersion: 2
+        x: 7425
+        y: 1950
+        width: 675
+        height: 975
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1831a09303441654e8b1af0dd71d140e
+      internalID: -1145589835019324355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime_king_idle_short_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 975
+        width: 675
+        height: 975
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ca704d891aed3445a03afe45ccf8fc8
+      internalID: -2315291774508851377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime_king_idle_short_37
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 975
+        width: 675
+        height: 975
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e77e220f8d2764419bc4aa01f7b26a1
+      internalID: 6112271205378792820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime_king_idle_short_38
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 975
+        width: 675
+        height: 975
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6c0b5f94e117c048b1ab5af9e83fbd3
+      internalID: 6287288309142728462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime_king_idle_short_39
+      rect:
+        serializedVersion: 2
+        x: 2025
+        y: 975
+        width: 675
+        height: 975
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b94484dddc85675408a0a553435eb1f2
+      internalID: 3714829859724646070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime_king_idle_short_40
+      rect:
+        serializedVersion: 2
+        x: 2700
+        y: 975
+        width: 675
+        height: 975
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a422b1b9bafa49458f5a0b2a0283ded
+      internalID: 4014808035288859043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime_king_idle_short_41
+      rect:
+        serializedVersion: 2
+        x: 3375
+        y: 975
+        width: 675
+        height: 975
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8aed6a38bfc74dc4887c9b3896255b13
+      internalID: 6920779377341643828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime_king_idle_short_42
+      rect:
+        serializedVersion: 2
+        x: 4050
+        y: 975
+        width: 675
+        height: 975
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 512bc1f2bf96524418cb6b9865207062
+      internalID: -7576778584390743449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime_king_idle_short_43
+      rect:
+        serializedVersion: 2
+        x: 4725
+        y: 975
+        width: 675
+        height: 975
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf8ee23e21c6dce4ebf6a9e4a5c8e93e
+      internalID: -2015322115574420220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime_king_idle_short_44
+      rect:
+        serializedVersion: 2
+        x: 5400
+        y: 975
+        width: 675
+        height: 975
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e4d1b36ac9a12c4292667eaffcca36e
+      internalID: 1548995761508135621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime_king_idle_short_45
+      rect:
+        serializedVersion: 2
+        x: 6075
+        y: 975
+        width: 675
+        height: 975
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e83c7ce3343b6b4289148140cae5b70
+      internalID: 2022934591614057994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime_king_idle_short_46
+      rect:
+        serializedVersion: 2
+        x: 6750
+        y: 975
+        width: 675
+        height: 975
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 804ef35cabeb5494cbb461cd0a9c8dae
+      internalID: -3892437958903099934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime_king_idle_short_47
+      rect:
+        serializedVersion: 2
+        x: 7425
+        y: 975
+        width: 675
+        height: 975
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73a6bb2a3e72af54096c34a81563277a
+      internalID: 4221531287486263405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime_king_idle_short_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 675
+        height: 975
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1f1fc70998b7e948b737bc0fb1260be
+      internalID: -5950422525529510743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime_king_idle_short_49
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 0
+        width: 675
+        height: 975
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d991cae6ffe62cd43858323586224181
+      internalID: -1857007762010375041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime_king_idle_short_50
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 0
+        width: 675
+        height: 975
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2efb4c79bb3193240bf4a3f54f91ed35
+      internalID: -1206639262152665233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime_king_idle_short_51
+      rect:
+        serializedVersion: 2
+        x: 2025
+        y: 0
+        width: 675
+        height: 975
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec9c500781231a34e96c38d33f8f1235
+      internalID: 7381208266009478976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime_king_idle_short_52
+      rect:
+        serializedVersion: 2
+        x: 2700
+        y: 0
+        width: 675
+        height: 975
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a8f9f259e865ed44a919be007cbdd6e
+      internalID: -2230191413980968612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime_king_idle_short_53
+      rect:
+        serializedVersion: 2
+        x: 3375
+        y: 0
+        width: 675
+        height: 975
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae6fa114d71887d43a7d1185879aa227
+      internalID: -7196580127706256282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime_king_idle_short_54
+      rect:
+        serializedVersion: 2
+        x: 4050
+        y: 0
+        width: 675
+        height: 975
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5858d0ad7728eee4b95df66b2e075071
+      internalID: -5552784098963920370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime_king_idle_short_55
+      rect:
+        serializedVersion: 2
+        x: 4725
+        y: 0
+        width: 675
+        height: 975
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a27162958c784984a9abf92863a4efa4
+      internalID: -3070092380952988978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime_king_idle_short_56
+      rect:
+        serializedVersion: 2
+        x: 5400
+        y: 0
+        width: 675
+        height: 975
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 493ed3f868752c14591dde0ea4111e9b
+      internalID: 6617699959097658799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime_king_idle_short_57
+      rect:
+        serializedVersion: 2
+        x: 6075
+        y: 0
+        width: 675
+        height: 975
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79ce43f1387c4c84bbf507cc074dcd25
+      internalID: -1492730358767536757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime_king_idle_short_58
+      rect:
+        serializedVersion: 2
+        x: 6750
+        y: 0
+        width: 675
+        height: 975
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b323510a7dbe2bb4eac4ba8c0fd5240b
+      internalID: -1453063139557380421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime_king_idle_short_59
+      rect:
+        serializedVersion: 2
+        x: 7425
+        y: 0
+        width: 675
+        height: 975
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f55c6627552607147b3e8f9e4b017c8f
+      internalID: 2571167179146912042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

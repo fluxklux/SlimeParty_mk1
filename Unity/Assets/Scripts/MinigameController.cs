@@ -183,7 +183,7 @@ public class MinigameController : MonoBehaviour
         headerText.text = instructionsHeaders[minigameIndex];
 
         countdownBool = true;
-        yield return new WaitForSeconds(5);
+        yield return new WaitForSeconds(4.9f);
         instructionsPanel.SetActive(false);
         countdownBool = false;
         countdown = 5;

@@ -549,3 +549,19 @@ InputManager:
     type: 0
     axis: 6
     joyNum: 4
+  - serializedVersion: 3
+    m_Name: C1 Back
+    descriptiveName: 
+    descriptiveNegativeName: 
+    negativeButton: 
+    positiveButton: joystick 1 button 1
+    altNegativeButton: 
+    altPositiveButton: 
+    gravity: 1000
+    dead: 0.001
+    sensitivity: 1000
+    snap: 0
+    invert: 0
+    type: 0
+    axis: 6
+    joyNum: 1
