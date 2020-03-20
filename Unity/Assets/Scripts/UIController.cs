@@ -96,8 +96,16 @@ public class UIController : MonoBehaviour
 
             playerQueueText[playerIndex].GetComponentInChildren<Text>().text = (i + 1).ToString("F0");
 
-            playerQueueText[playerIndex].SetActive(onOff);
+            //playerQueueText[playerIndex].SetActive(onOff);
 
+        }
+    }
+
+    public void ResetQueueTextUi()
+    {
+        for (int i = 0; i < playerQueueText.Length; i++)
+        {
+            playerQueueText[i].GetComponentInChildren<Text>().text = "-";
         }
     }
 }

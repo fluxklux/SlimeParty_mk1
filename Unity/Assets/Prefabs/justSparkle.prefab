@@ -33686,7 +33686,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8722605841727866660}
-  - component: {fileID: 1320094142781912695}
   - component: {fileID: 5770930252011292496}
   m_Layer: 0
   m_Name: justSparkle
@@ -33716,19 +33715,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1320094142781912695
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8722605841727866663}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 29a556d6f7cf4934ea25733e37cec646, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  damping: 0.03
 --- !u!114 &5770930252011292496
 MonoBehaviour:
   m_ObjectHideFlags: 0

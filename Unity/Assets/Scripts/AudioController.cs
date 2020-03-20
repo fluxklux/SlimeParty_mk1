@@ -19,7 +19,7 @@ public class Music
 [System.Serializable]
 public class PlayerSound
 {
-    [Header("PlayerSound")]
+    [Header("PlayerSounds")]
     public AudioClip walkSound;
     public AudioClip jumpSound;
     public AudioClip landSound;
@@ -28,18 +28,22 @@ public class PlayerSound
 [System.Serializable]
 public class GameSound
 {
-    [Header("GameSound")]
+    [Header("GameSounds")]
     public AudioClip winSound;
+    public AudioClip tickingClockSound;
+    public AudioClip minigameStartsound;
+    [Space(4)]
+    [Header("ChanceSounds")]
     public AudioClip loseTurnSound;
+    public AudioClip tpPlayerSound;
+    public AudioClip placeBagSound;
+    [Space(4)]
+    [Header("SlotsSounds")]
     public AudioClip plusThreeSound;
     public AudioClip minusThreeSound;
     public AudioClip plusTenSound;
     public AudioClip chanceSlotSound;
     public AudioClip minigameSlotSound;
-    public AudioClip minigameStartsound;
-    public AudioClip tpPlayerSound;
-    public AudioClip placeBagSound;
-    public AudioClip tickingClockSound;
 }
 
 [System.Serializable]
@@ -60,15 +64,15 @@ public class AudioController : MonoBehaviour
 
     public Music music;
 
-    [Space(10)]
+   
 
     public PlayerSound playerSound;
 
-    [Space(10)]
+  
 
     public GameSound gameSound;
 
-    [Space(10)]
+  
 
     public Sources source;
 

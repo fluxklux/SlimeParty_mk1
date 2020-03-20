@@ -23,6 +23,7 @@ public class InputState : GameState
         uc.ToggleTimer(true);
         gc.GetComponent<RoundController>().UpdateRound();
         gc.GetComponent<RoundController>().DisplayRoundsLeft();
+        uc.ResetQueueTextUi();
     }
 
     public override void Update ()

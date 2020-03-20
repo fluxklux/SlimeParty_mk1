@@ -4,33 +4,40 @@ using UnityEngine;
 
 public class NPCController : MonoBehaviour
 {
+    public float speed;
+    public float timeToWait;
+    public bool onlyIdle;
     public Transform[] wayPoints;
 
     private int currentWayPoint;
-
-    public float speed;
-
-    public float timeToWait;
-
-    private float waitTimer;
-
     private int pointToWaitAt;
-
-    bool isWalking = true;
+    private float waitTimer;
+    private bool isWalking = true;
+    private Animator anim;
 
     private void Start()
     {
-        for (int i = 0; i < wayPoints.Length; i++)
+        anim = GetComponentInChildren<Animator>();
+
+        if (wayPoints.Length > 0)
         {
-            wayPoints[i].transform.SetParent(null, false);
+            for (int i = 0; i < wayPoints.Length; i++)
+            {
+                wayPoints[i].transform.SetParent(null, false);
+            }
+            SetRandomPointToWait();
+        }
+        else
+        {
+            onlyIdle = true;
         }
 
-        SetRandomPointToWait();
     }
 
     void Update()
     {
         MoveToWayPoint();
+        UpdateScale();
 
         if (!isWalking)
         {
@@ -47,49 +54,70 @@ public class NPCController : MonoBehaviour
 
     void MoveToWayPoint()
     {
-        if (transform.position == wayPoints[currentWayPoint].position)
+        if (!onlyIdle)
         {
-            currentWayPoint++;
-
-            if (currentWayPoint == pointToWaitAt)
+            if (transform.position == wayPoints[currentWayPoint].position)
             {
-                isWalking = false;
+                currentWayPoint++;
 
-                Debug.Log("HELLO");
-            }
+                if (currentWayPoint == pointToWaitAt)
+                {
+                    isWalking = false;
+                }
 
-            if (currentWayPoint == wayPoints.Length)
-            {
-                currentWayPoint = currentWayPoint - wayPoints.Length;
+                if (currentWayPoint == wayPoints.Length)
+                {
+                    currentWayPoint = currentWayPoint - wayPoints.Length;
+                }
+                else
+                {
+                    Move();
+                }
             }
             else
             {
-                Debug.Log(currentWayPoint);
                 Move();
             }
-        }
-        else
-        {
-            Move();
         }
     }
 
     void SetRandomPointToWait()
     {
         pointToWaitAt = Random.Range(1, wayPoints.Length);
-
-        Debug.Log("randomPoint is " + pointToWaitAt);
     }
 
     void Move()
     {
-        if (isWalking)
+        if (isWalking && !onlyIdle)
         {
             transform.position = Vector2.MoveTowards(transform.position, wayPoints[currentWayPoint].position, speed * Time.fixedDeltaTime);
+            anim.SetBool("WalkingBool", true);
         }
         else
         {
-            Debug.Log("am not moving!");
+            anim.SetBool("WalkingBool", false);
         }
     }
+
+    public void UpdateScale()
+    {
+        float maxY = 5;
+
+        float yPos = transform.position.y;
+
+        float differents;
+
+        differents = maxY - yPos;
+
+        Vector3 minScale = new Vector3(1f, 1f, 1f);
+
+        Vector3 maxScale = new Vector3(1.5f, 1.5f, 1.5f);
+
+        float nonPlayableCharacterScale;
+
+        nonPlayableCharacterScale = Mathf.Lerp(minScale.y, maxScale.y, differents - 4);
+
+        transform.localScale = new Vector3(nonPlayableCharacterScale, nonPlayableCharacterScale, 0.0f);
+    }
+
 }
