@@ -17,7 +17,7 @@ public class GameController : MonoBehaviour
     
     public List<QueueObject> queueObjects = new List<QueueObject>();
 
-    int[] playerFruits = { 0, 0, 0, 0 };
+    [HideInInspector] public int[] playerFruits = { 0, 0, 0, 0 };
 
     UIController uc;
     InputController ic;

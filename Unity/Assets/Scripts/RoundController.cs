@@ -3,6 +3,14 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+
+[System.Serializable]
+public class SortingClass
+{
+   public int playerIndex;
+   public int fruitAmount;
+}
+
 public class RoundController : MonoBehaviour
 {
     [SerializeField] private Text overEndText = null;
@@ -17,9 +25,27 @@ public class RoundController : MonoBehaviour
     [HideInInspector]
     public int round;
 
+    private GameController gc;
+
+    public SortingClass[] sortedFruits = { null, null, null, null };
+
+    public GameObject winScreen;
+
+    public GameObject[] flagsVisual;
+
+    public GameObject[] playerVisual;
+
+    public Sprite[] flagSprite;
+
+    public Sprite[] playerSprite;
+
+    public Text[] textVisual;
+
     void Start()
     {
         round = 1;
+
+        gc = GetComponent<GameController>();
     }
 
     #region EffectTriggerResets
@@ -54,7 +80,7 @@ public class RoundController : MonoBehaviour
     }
     #endregion
 
-    public void DisplayRoundsLeft ()
+    public void DisplayRoundsLeft()
     {
         switch (round)
         {
@@ -81,11 +107,53 @@ public class RoundController : MonoBehaviour
     public void UpdateRound()
     {
         round++;
-        if(round >= roundMax)
+        if (round >= roundMax)
         {
             Time.timeScale = 0f;
             GetComponent<PauseController>().EndGame();
-            overEndText.gameObject.SetActive(true);
+            SortPlayer();
+
+            //overEndText.gameObject.SetActive(true);
         }
     }
+
+    private void Update()
+    {
+        if (Input.GetKeyDown("k"))
+        {
+            SortPlayer();
+        }
+    }
+
+    private void SortPlayer()
+    {
+        for (int k = 0; k < gc.playerFruits.Length; k++)
+        {
+            sortedFruits[k].playerIndex = k;
+            sortedFruits[k].fruitAmount = gc.playerFruits[k];   
+        }
+
+        for (int i = 0; i < sortedFruits.Length - 1; i++)
+        {
+            for (int j = 0; j < sortedFruits.Length - 1 - i; j++)
+            {
+                if (sortedFruits[j].fruitAmount > sortedFruits[j + 1].fruitAmount)
+                {
+                    SortingClass tmp = sortedFruits[j + 1];
+                    sortedFruits[j + 1] = sortedFruits[j];
+                    sortedFruits[j] = tmp;
+                }
+            }
+        }
+
+        for (int q = 0; q < sortedFruits.Length; q++)
+        {
+            playerVisual[q].GetComponent<Image>().sprite = playerSprite[sortedFruits[q].playerIndex];
+            flagsVisual[q].GetComponent<Image>().sprite = flagSprite[sortedFruits[q].playerIndex];
+            textVisual[q].text = sortedFruits[q].fruitAmount.ToString();
+        }
+
+        winScreen.SetActive(true);
+    }
+
 }

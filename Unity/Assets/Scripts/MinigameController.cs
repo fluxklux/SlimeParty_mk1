@@ -20,7 +20,8 @@ public class MinigameController : MonoBehaviour
 
     [Header("Instructions variables")]
     [SerializeField] private string[] instructionsHeaders = { "", "" };
-    [SerializeField] private string[] instructionsDescription = { "", "" };
+    //[SerializeField] private string[] instructionsDescription = { "", "" };
+    [SerializeField] private GameObject[] instructionObjects = { null, null };
 
     //--------------------------------------------------------------
 
@@ -179,7 +180,8 @@ public class MinigameController : MonoBehaviour
         player2SelectedText.color = ic.allPlayers[minigamePlayers[1]].GetComponent<PlayerController>().playerVariable.color;
 
         instructionsPanel.SetActive(true);
-        instructionText.text = instructionsDescription[minigameIndex];
+        instructionObjects[minigameIndex].SetActive(true);
+        //instructionText.text = instructionsDescription[minigameIndex];
         headerText.text = instructionsHeaders[minigameIndex];
 
         countdownBool = true;
@@ -328,6 +330,11 @@ public class MinigameController : MonoBehaviour
 
         ac.FadeInCaller(ac.source.boardSource, 1.5f, musicThreshold);
         ac.FadeOutCaller(ac.source.minigameSource, 1.5f, 0);
+
+        for (int k = 0; k < instructionObjects.Length; k++)
+        {
+            instructionObjects[k].SetActive(false);
+        }
 
         for (int i = 0; i < points.Length; i++)
         {
