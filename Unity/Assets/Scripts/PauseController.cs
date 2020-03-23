@@ -6,6 +6,7 @@ using UnityEngine.UI;
 public class PauseController : MonoBehaviour
 {
     [SerializeField] private GameObject pausePanel = null;
+    [SerializeField] private GameObject optionSelectionMarker = null;
     [SerializeField] private GameObject selectionMarker = null;
     [SerializeField] private GameObject[] pauseButtons = { null, null };
 
@@ -27,6 +28,12 @@ public class PauseController : MonoBehaviour
     private bool gameEnded = false;
     private int playerInControll = 0;
     private int selectedButton = 0;
+
+    private void Start()
+    {
+        selectionMarker.transform.position = optionsSliders[0].transform.position + new Vector3(-300, 0, 0);
+        optionSelectionMarker.transform.position = optionsSliders[0].transform.position + new Vector3(-300, 0, 0);
+    }
 
     private void Update()
     {
@@ -86,7 +93,9 @@ public class PauseController : MonoBehaviour
                         case 0:
                             pausePanel.SetActive(false);
                             optionsPanel.SetActive(true);
-                            selectionMarker.transform.position = optionsSliders[0].transform.position;
+                            selectionMarker.SetActive(false);
+                            optionSelectionMarker.SetActive(true);
+                            selectionMarker.transform.position = optionsSliders[0].transform.position + new Vector3(-300, 0, 0);
                             break;
                         case 1:
                             Application.Quit();
@@ -165,7 +174,9 @@ public class PauseController : MonoBehaviour
                         case 2:
                             pausePanel.SetActive(true);
                             optionsPanel.SetActive(false);
-                            selectionMarker.transform.position = pauseButtons[0].transform.position;
+                            selectionMarker.SetActive(true);
+                            optionSelectionMarker.SetActive(false);
+                            selectionMarker.transform.position = pauseButtons[0].transform.position + new Vector3(-300, 0, 0); ;
                             break;
                         default:
                             Debug.Log("Something went wrong");
@@ -191,18 +202,16 @@ public class PauseController : MonoBehaviour
     {
         selectedButton += dir;
         selectedButton = Mathf.Clamp(selectedButton, 0, optionsSliders.Length - 1);
-        //Debug.Log(selectedButton);
 
-        selectionMarker.transform.position = pauseButtons[selectedButton].transform.position;
+        optionSelectionMarker.transform.position = pauseButtons[selectedButton].transform.position + new Vector3(-300, 0, 0); ;
     }
 
     private void MoveSelectionMarker (int dir)
     {
         selectedButton += dir;
         selectedButton = Mathf.Clamp(selectedButton, 0, pauseButtons.Length - 1);
-        //Debug.Log(selectedButton);
 
-        selectionMarker.transform.position = pauseButtons[selectedButton].transform.position;
+        selectionMarker.transform.position = pauseButtons[selectedButton].transform.position + new Vector3(-300, 0, 0); ;
     }
 
     public IEnumerator delayPause ()
@@ -228,11 +237,13 @@ public class PauseController : MonoBehaviour
 
             if (paused)
             {
+                selectionMarker.transform.position = pauseButtons[0].transform.position + new Vector3(-300, 0, 0);
                 optionsPanel.SetActive(false);
                 Time.timeScale = 0.0f;
             }
             else
             {
+                optionSelectionMarker.SetActive(false);
                 optionsPanel.SetActive(false);
                 Time.timeScale = 1.0f;
             }
