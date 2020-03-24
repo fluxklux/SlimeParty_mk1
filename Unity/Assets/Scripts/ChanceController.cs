@@ -20,6 +20,8 @@ public class ChanceController : MonoBehaviour
     private AudioController ac;
     private PlayerController pc;
 
+    GameObject effect;
+
     private void Start()
     {
         gc = GetComponent<GameController>();

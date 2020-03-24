@@ -23,7 +23,6 @@ public class ResultState : GameState
         {
             gc.ChangeFruitAmount(gc.GetComponent<MinigameController>().minigamePlayers[gc.GetComponent<MinigameController>().winner], 10);
         }
-        //Debug.Log(gc.GetComponent<MinigameController>().minigamePlayers[gc.GetComponent<MinigameController>().winner]);
     }
 
     public override GameState NextState()

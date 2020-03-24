@@ -19,7 +19,6 @@ public class ActionState : GameState
         this.pc = newPc;
 
         newGc.GetComponent<ActionController>().GetPlayerActions(); //snabbare än att lägga till ActionController i konstruktorn.
-        //gc.allSlots[mc.selectedSlot].GetComponent<SlotController>().TriggerSlotBehaviour(mc.selectedPlayer);
     }
 
     public override GameState NextState()

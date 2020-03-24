@@ -22,10 +22,9 @@ public class GameController : MonoBehaviour
     UIController uc;
     InputController ic;
     Dpad dpad;
-
     AudioController ac;
-
     MoveController mc;
+    RoundController rc;
 
     public bool[] turnSkipped = { false, false, false, false };
 
@@ -36,6 +35,7 @@ public class GameController : MonoBehaviour
         dpad = GetComponent<Dpad>();
         ac = GetComponent<AudioController>();
         mc = GetComponent<MoveController>();
+        rc = GetComponent<RoundController>();
     }
 
     public void HandleQueueInputs(int indexedPlayer, int dpadIndex)
@@ -69,22 +69,17 @@ public class GameController : MonoBehaviour
         {
             ic.hasPressedKey[i] = false;
 
-
             if (turnSkipped[i] == true)
             {
                 ic.allPlayers[i].GetComponent<PlayerController>().playerVariable.skip = false;
                 ic.hasPressedKey[i] = false;
                 turnSkipped[i] = false;
-
             }
             else if (ic.allPlayers[i].GetComponent<PlayerController>().playerVariable.skip == true)
             {
                 ic.hasPressedKey[i] = true;
 
-                //Debug.Log("skipped player " + i + " turn");
-
                 turnSkipped[i] = true;
-
             }
         }
     }
@@ -92,7 +87,6 @@ public class GameController : MonoBehaviour
     public void ChangeFruitAmount(int playerIndex, int amount)
     {
         playerFruits[playerIndex] += amount;
-
 
         if (playerFruits[playerIndex] < 0)
         {
@@ -109,12 +103,12 @@ public class GameController : MonoBehaviour
             ac.PlaySound(SoundEnum.minusThreeSound);
         }
 
-
-
         if (mc.players[playerIndex].GetComponent<PlayerController>().playerVariable.actionType == ActionType.PlusFruit10)
         {
             ac.PlaySound(SoundEnum.plusTenSound);
         }
+
+        rc.SortingPlayer();
 
         uc.UpdatePlayerFruits(playerFruits);
     }

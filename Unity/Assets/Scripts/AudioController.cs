@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public enum MusicEnum { boardMusic, menuMusic, minigameMusic, winMusic };
+public enum MusicEnum { boardMusic, menuMusic, minigameMusic, endMusic };
 
 public enum SoundEnum {/*START OF GAMESOUNDS*/ winSound, loseTurnSound, plusThreeSound, minusThreeSound, plusTenSound, chanceSlotSound, minigameSlotSound, minigameStartSound, tpPlayerSound, placeBagSound, tickingClockSound,  /*END OF GAMESOUNDS*/ /*START OF PLAYERSOUND*/walkSound, jumpSound, landSound /*END OF PLAYERSOUND*/ };
 
@@ -13,7 +13,7 @@ public class Music
     public AudioClip boardMusic;
     public AudioClip menuMusic;
     public AudioClip minigameMusic;
-    public AudioClip winMusic;
+    public AudioClip endMusic;
 }
 
 [System.Serializable]
@@ -63,17 +63,8 @@ public class AudioController : MonoBehaviour
     [HideInInspector] public SoundEnum soundEnum;
 
     public Music music;
-
-   
-
     public PlayerSound playerSound;
-
-  
-
     public GameSound gameSound;
-
-  
-
     public Sources source;
 
     private static bool keepFadingIn;
@@ -99,8 +90,8 @@ public class AudioController : MonoBehaviour
             case MusicEnum.minigameMusic:
                 source.minigameSource.clip = music.minigameMusic;
                 break;
-            case MusicEnum.winMusic:
-                //musicSource.clip = winMusic;
+            case MusicEnum.endMusic:
+                source.minigameSource.clip = music.endMusic;
                 break;
             default:
                 break;
@@ -192,7 +183,7 @@ public class AudioController : MonoBehaviour
     {
         keepFadingIn = true;
 
-        float fadeInTimer = Time.deltaTime;
+        float fadeInTimer = Time.fixedDeltaTime;
 
         songSource.volume = 0;
         float audioVolume = songSource.volume;
@@ -226,7 +217,7 @@ public class AudioController : MonoBehaviour
     {
         keepFadingOut = true;
 
-        float fadeOutTimer = Time.deltaTime;
+        float fadeOutTimer = Time.fixedDeltaTime;
 
         songSource.volume = GetThreshold();
         float audioVolume = songSource.volume;

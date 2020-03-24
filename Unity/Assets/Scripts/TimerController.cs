@@ -48,7 +48,7 @@ public class TimerController : MonoBehaviour
     {
         if(timer > 0 && count)
         {
-            timer -= Time.deltaTime;
+            timer -= Time.fixedDeltaTime;
             elapsedTime = startTimer - timer;
 
             uc.UpdateTimerText(timer, startTimer);

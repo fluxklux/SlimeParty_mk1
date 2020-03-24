@@ -143,7 +143,7 @@ public class MoveController : MonoBehaviour
     {
         if (waitingBetweenPlayer)
         {
-            timer += Time.deltaTime;
+            timer += Time.fixedDeltaTime;
             if (timer >= playerWaitTime)
             {
                 timer = 0;
@@ -157,7 +157,7 @@ public class MoveController : MonoBehaviour
 
         if (waitingBetweenRun)
         {
-            runTimer += Time.deltaTime;
+            runTimer += Time.fixedDeltaTime;
             if (runTimer >= runWaitTime)
             {
                 runTimer = 0;
