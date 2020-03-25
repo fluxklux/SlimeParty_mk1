@@ -15,17 +15,29 @@ public class NPCController : MonoBehaviour
     private int currentWayPoint;
     private float waitTimer;
     private int pointToWaitAt;
-    private bool isWalking = true;
+    private bool isWalking;
     private Animator anim;
 
     private void Start()
     {
-        anim = GetComponent<Animator>();
+        anim = GetComponentInChildren<Animator>();
 
-        for (int i = 0; i < wayPoints.Length; i++)
+        if (wayPoints.Length <= 0)
         {
-            wayPoints[i].transform.SetParent(null, false);
+            isWalking = false;
+            npcType = NpcType.Idle;
         }
+        else
+        {
+
+            for (int i = 0; i < wayPoints.Length; i++)
+            {
+                wayPoints[i].transform.SetParent(null, false);
+            }
+
+        }
+
+
 
         if (npcType == NpcType.Walking)
         {
@@ -57,6 +69,12 @@ public class NPCController : MonoBehaviour
 
     private void Update()
     {
+
+        if (npcType == NpcType.Walking)
+        {
+            MoveToWayPoint();
+        }
+
         UpdateScale();
 
         if (npcType == NpcType.Idle)
@@ -64,7 +82,6 @@ public class NPCController : MonoBehaviour
             anim.SetBool("Moving", false);
         }
 
-        MoveToWayPoint();
 
         if (!isWalking)
         {
@@ -82,27 +99,31 @@ public class NPCController : MonoBehaviour
 
     private void MoveToWayPoint()
     {
-        if (transform.position == wayPoints[currentWayPoint].position)
+        if (isWalking)
         {
-            currentWayPoint++;
-
-            if (currentWayPoint == pointToWaitAt)
+            if (transform.position == wayPoints[currentWayPoint].position)
             {
-                isWalking = false;
-            }
+                currentWayPoint++;
 
-            if (currentWayPoint == wayPoints.Length)
-            {
-                currentWayPoint = currentWayPoint - wayPoints.Length;
+                if (currentWayPoint == pointToWaitAt)
+                {
+                    isWalking = false;
+                }
+
+                if (currentWayPoint == wayPoints.Length)
+                {
+                    currentWayPoint = currentWayPoint - wayPoints.Length;
+                }
+                else
+                {
+                    Move();
+                }
             }
             else
             {
                 Move();
             }
-        }
-        else
-        {
-            Move();
+
         }
     }
 

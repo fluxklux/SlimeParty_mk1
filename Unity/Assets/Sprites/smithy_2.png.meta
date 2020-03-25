@@ -1,0 +1,5887 @@
+fileFormatVersion: 2
+guid: 47025ea60638ced4186d62301acee375
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5783792016879284114
+    second: smithy_2_0
+  - first:
+      213: 1469949179900491500
+    second: smithy_2_1
+  - first:
+      213: 6610972626446017905
+    second: smithy_2_2
+  - first:
+      213: -6510598408350262696
+    second: smithy_2_3
+  - first:
+      213: -3718335215522580292
+    second: smithy_2_4
+  - first:
+      213: 5696466470734020246
+    second: smithy_2_5
+  - first:
+      213: -8230678381978908504
+    second: smithy_2_6
+  - first:
+      213: -879900172082567885
+    second: smithy_2_7
+  - first:
+      213: -3314333648313949203
+    second: smithy_2_8
+  - first:
+      213: -865158142037768335
+    second: smithy_2_9
+  - first:
+      213: 8499997537782060117
+    second: smithy_2_10
+  - first:
+      213: -8971089398521765156
+    second: smithy_2_11
+  - first:
+      213: 2801333708427833853
+    second: smithy_2_12
+  - first:
+      213: 2768596024415187735
+    second: smithy_2_13
+  - first:
+      213: -5452112864196598613
+    second: smithy_2_14
+  - first:
+      213: -7385225376740424531
+    second: smithy_2_15
+  - first:
+      213: -4015256720971919441
+    second: smithy_2_16
+  - first:
+      213: -2453493575443778597
+    second: smithy_2_17
+  - first:
+      213: -1232077719332432428
+    second: smithy_2_18
+  - first:
+      213: -254120520061571489
+    second: smithy_2_19
+  - first:
+      213: 2458713404818460126
+    second: smithy_2_20
+  - first:
+      213: -705786200800794373
+    second: smithy_2_21
+  - first:
+      213: 6760941444760898937
+    second: smithy_2_22
+  - first:
+      213: -9080927953547396154
+    second: smithy_2_23
+  - first:
+      213: 302466059720165789
+    second: smithy_2_24
+  - first:
+      213: 1411784634609961871
+    second: smithy_2_25
+  - first:
+      213: 3396343371997897899
+    second: smithy_2_26
+  - first:
+      213: -703423074277782054
+    second: smithy_2_27
+  - first:
+      213: 7981327686997124678
+    second: smithy_2_28
+  - first:
+      213: 8705916338336058834
+    second: smithy_2_29
+  - first:
+      213: 5248377249111265212
+    second: smithy_2_30
+  - first:
+      213: 2440485619203981196
+    second: smithy_2_31
+  - first:
+      213: 4412122135364145832
+    second: smithy_2_32
+  - first:
+      213: -9090107842711372293
+    second: smithy_2_33
+  - first:
+      213: -4318266052402998691
+    second: smithy_2_34
+  - first:
+      213: 2573921920169588830
+    second: smithy_2_35
+  - first:
+      213: 5948604803228297831
+    second: smithy_2_36
+  - first:
+      213: -6480782458923475955
+    second: smithy_2_37
+  - first:
+      213: 7180212786179208096
+    second: smithy_2_38
+  - first:
+      213: 4326529686559301185
+    second: smithy_2_39
+  - first:
+      213: -2977974293829884925
+    second: smithy_2_40
+  - first:
+      213: -4783197617965958478
+    second: smithy_2_41
+  - first:
+      213: -5503085689948989237
+    second: smithy_2_42
+  - first:
+      213: 2713677760031416620
+    second: smithy_2_43
+  - first:
+      213: -7678134318237351133
+    second: smithy_2_44
+  - first:
+      213: 7050959075151022560
+    second: smithy_2_45
+  - first:
+      213: -8693856466317526258
+    second: smithy_2_46
+  - first:
+      213: -5563863752316008006
+    second: smithy_2_47
+  - first:
+      213: 3263616137607525823
+    second: smithy_2_48
+  - first:
+      213: 7472660257898981158
+    second: smithy_2_49
+  - first:
+      213: 5565063447934575815
+    second: smithy_2_50
+  - first:
+      213: -2798405753344644537
+    second: smithy_2_51
+  - first:
+      213: -3975957740632031361
+    second: smithy_2_52
+  - first:
+      213: -5239675423222283106
+    second: smithy_2_53
+  - first:
+      213: 2398952767214558705
+    second: smithy_2_54
+  - first:
+      213: -1260146566925301980
+    second: smithy_2_55
+  - first:
+      213: 7526642993886459638
+    second: smithy_2_56
+  - first:
+      213: -2748533973393804702
+    second: smithy_2_57
+  - first:
+      213: 8233839914994142336
+    second: smithy_2_58
+  - first:
+      213: 7645982933996697192
+    second: smithy_2_59
+  - first:
+      213: -7183993768799176757
+    second: smithy_2_60
+  - first:
+      213: 419622343885091446
+    second: smithy_2_61
+  - first:
+      213: -3642636067932148895
+    second: smithy_2_62
+  - first:
+      213: -7930140405709161228
+    second: smithy_2_63
+  - first:
+      213: 6399703438640242808
+    second: smithy_2_64
+  - first:
+      213: 7703907548636065921
+    second: smithy_2_65
+  - first:
+      213: -4103481391783581311
+    second: smithy_2_66
+  - first:
+      213: 4356156961334610715
+    second: smithy_2_67
+  - first:
+      213: 5133235604864122162
+    second: smithy_2_68
+  - first:
+      213: 746863215759545185
+    second: smithy_2_69
+  - first:
+      213: -4145593189530254074
+    second: smithy_2_70
+  - first:
+      213: 4856561414960800644
+    second: smithy_2_71
+  - first:
+      213: -7086760266825368247
+    second: smithy_2_72
+  - first:
+      213: 7061979530597953971
+    second: smithy_2_73
+  - first:
+      213: 2056181049681747524
+    second: smithy_2_74
+  - first:
+      213: -4350845845959051514
+    second: smithy_2_75
+  - first:
+      213: 1434371362256066825
+    second: smithy_2_76
+  - first:
+      213: 191173423895501792
+    second: smithy_2_77
+  - first:
+      213: -2197295697944235575
+    second: smithy_2_78
+  - first:
+      213: -18388223794505877
+    second: smithy_2_79
+  - first:
+      213: -4975575837857523055
+    second: smithy_2_80
+  - first:
+      213: -8758674154370150000
+    second: smithy_2_81
+  - first:
+      213: -3033979558641890299
+    second: smithy_2_82
+  - first:
+      213: -5401527131322904365
+    second: smithy_2_83
+  - first:
+      213: -253915227489067137
+    second: smithy_2_84
+  - first:
+      213: 2905397461559929414
+    second: smithy_2_85
+  - first:
+      213: -8197185796735254610
+    second: smithy_2_86
+  - first:
+      213: -7376219665065246348
+    second: smithy_2_87
+  - first:
+      213: -8281797889638991906
+    second: smithy_2_88
+  - first:
+      213: 70335399733084504
+    second: smithy_2_89
+  - first:
+      213: 7944029426199278853
+    second: smithy_2_90
+  - first:
+      213: 6875061558181260153
+    second: smithy_2_91
+  - first:
+      213: -5878357535924776493
+    second: smithy_2_92
+  - first:
+      213: 8510475860490207081
+    second: smithy_2_93
+  - first:
+      213: 2437210111006035129
+    second: smithy_2_94
+  - first:
+      213: 2204174936935540734
+    second: smithy_2_95
+  - first:
+      213: -433425038383710404
+    second: smithy_2_96
+  - first:
+      213: -4709748901293178913
+    second: smithy_2_97
+  - first:
+      213: 4087174526250379463
+    second: smithy_2_98
+  - first:
+      213: 6623990251795656566
+    second: smithy_2_99
+  - first:
+      213: -5656270996862745716
+    second: smithy_2_100
+  - first:
+      213: -4934622539172973481
+    second: smithy_2_101
+  - first:
+      213: -1325316860817332897
+    second: smithy_2_102
+  - first:
+      213: -6685604952469994269
+    second: smithy_2_103
+  - first:
+      213: -2242392337286620756
+    second: smithy_2_104
+  - first:
+      213: -5397555131632281684
+    second: smithy_2_105
+  - first:
+      213: -4729056638377805424
+    second: smithy_2_106
+  - first:
+      213: 1241543738524489840
+    second: smithy_2_107
+  - first:
+      213: -1491099631310892159
+    second: smithy_2_108
+  - first:
+      213: 9186396393162868800
+    second: smithy_2_109
+  - first:
+      213: 3242271517063212856
+    second: smithy_2_110
+  - first:
+      213: -1381601552043760104
+    second: smithy_2_111
+  - first:
+      213: 4757581794124412518
+    second: smithy_2_112
+  - first:
+      213: -2532231043334287481
+    second: smithy_2_113
+  - first:
+      213: 4037327853828682246
+    second: smithy_2_114
+  - first:
+      213: -7772514286771330792
+    second: smithy_2_115
+  - first:
+      213: -1778071594505803525
+    second: smithy_2_116
+  - first:
+      213: -1730434374802092066
+    second: smithy_2_117
+  - first:
+      213: 2441982884743988608
+    second: smithy_2_118
+  - first:
+      213: -5721118963949629496
+    second: smithy_2_119
+  - first:
+      213: -8757707685523956197
+    second: smithy_2_120
+  - first:
+      213: 47523142459404268
+    second: smithy_2_121
+  - first:
+      213: 7388711741097182277
+    second: smithy_2_122
+  - first:
+      213: 5370616178091657257
+    second: smithy_2_123
+  - first:
+      213: 2230832277026242216
+    second: smithy_2_124
+  - first:
+      213: 7538659508741057786
+    second: smithy_2_125
+  - first:
+      213: 7148255058364331811
+    second: smithy_2_126
+  - first:
+      213: -1332203153253570733
+    second: smithy_2_127
+  - first:
+      213: -7385599444245739254
+    second: smithy_2_128
+  - first:
+      213: -674489389517096584
+    second: smithy_2_129
+  - first:
+      213: -6278630916133854952
+    second: smithy_2_130
+  - first:
+      213: 3711536521520383909
+    second: smithy_2_131
+  - first:
+      213: -8140048405864202291
+    second: smithy_2_132
+  - first:
+      213: -396278207100157316
+    second: smithy_2_133
+  - first:
+      213: 1889070763686333834
+    second: smithy_2_134
+  - first:
+      213: 282403884446097323
+    second: smithy_2_135
+  - first:
+      213: -4953145515377911322
+    second: smithy_2_136
+  - first:
+      213: 6039581984822046308
+    second: smithy_2_137
+  - first:
+      213: 518799263292399456
+    second: smithy_2_138
+  - first:
+      213: -7781046280129206113
+    second: smithy_2_139
+  - first:
+      213: -7358690559366163497
+    second: smithy_2_140
+  - first:
+      213: -791059232670042171
+    second: smithy_2_141
+  - first:
+      213: -4199768446858549326
+    second: smithy_2_142
+  - first:
+      213: -6766876685850967825
+    second: smithy_2_143
+  - first:
+      213: 3948055341478638737
+    second: smithy_2_144
+  - first:
+      213: 2779019868852188239
+    second: smithy_2_145
+  - first:
+      213: 4102966861803255211
+    second: smithy_2_146
+  - first:
+      213: -4040839226962417752
+    second: smithy_2_147
+  - first:
+      213: 5921066853992127179
+    second: smithy_2_148
+  - first:
+      213: 3998071938566692758
+    second: smithy_2_149
+  - first:
+      213: 8538752988936951893
+    second: smithy_2_150
+  - first:
+      213: 8589081256121177823
+    second: smithy_2_151
+  - first:
+      213: -4292117029569448207
+    second: smithy_2_152
+  - first:
+      213: -8218272297401805524
+    second: smithy_2_153
+  - first:
+      213: 7310318379253445022
+    second: smithy_2_154
+  - first:
+      213: -2462642015120013603
+    second: smithy_2_155
+  - first:
+      213: -1060991898227873610
+    second: smithy_2_156
+  - first:
+      213: -367620588357380115
+    second: smithy_2_157
+  - first:
+      213: 560646008924339347
+    second: smithy_2_158
+  - first:
+      213: -7993975624919054394
+    second: smithy_2_159
+  - first:
+      213: -1827797109051133629
+    second: smithy_2_160
+  - first:
+      213: 2818374881028419543
+    second: smithy_2_161
+  - first:
+      213: -7957471661382977638
+    second: smithy_2_162
+  - first:
+      213: 6155112475107518505
+    second: smithy_2_163
+  - first:
+      213: 6437362127399570816
+    second: smithy_2_164
+  - first:
+      213: -221917549011194355
+    second: smithy_2_165
+  - first:
+      213: -2385643321921707014
+    second: smithy_2_166
+  - first:
+      213: -977699501870270148
+    second: smithy_2_167
+  - first:
+      213: -5929527146574422115
+    second: smithy_2_168
+  - first:
+      213: -5242839794147362717
+    second: smithy_2_169
+  - first:
+      213: -5896110736402724460
+    second: smithy_2_170
+  - first:
+      213: 5300703560562611356
+    second: smithy_2_171
+  - first:
+      213: -6143853568141211327
+    second: smithy_2_172
+  - first:
+      213: -5740982269538826358
+    second: smithy_2_173
+  - first:
+      213: 4460258380595325922
+    second: smithy_2_174
+  - first:
+      213: 3089068978366043753
+    second: smithy_2_175
+  - first:
+      213: 6971102757927194042
+    second: smithy_2_176
+  - first:
+      213: 5961464121754449596
+    second: smithy_2_177
+  - first:
+      213: 3046248063130145445
+    second: smithy_2_178
+  - first:
+      213: -7407153682292877338
+    second: smithy_2_179
+  - first:
+      213: 6120665350714586054
+    second: smithy_2_180
+  - first:
+      213: 735043986949383628
+    second: smithy_2_181
+  - first:
+      213: -982899065292455163
+    second: smithy_2_182
+  - first:
+      213: -3658574841223251668
+    second: smithy_2_183
+  - first:
+      213: -6529484699059265944
+    second: smithy_2_184
+  - first:
+      213: -8031137035532486768
+    second: smithy_2_185
+  - first:
+      213: 6044130098854181265
+    second: smithy_2_186
+  - first:
+      213: 2768301243483153587
+    second: smithy_2_187
+  - first:
+      213: 7836484221338487640
+    second: smithy_2_188
+  - first:
+      213: 2642349965721795592
+    second: smithy_2_189
+  - first:
+      213: -8904866089402184563
+    second: smithy_2_190
+  - first:
+      213: -5026350043384607654
+    second: smithy_2_191
+  - first:
+      213: 6982879558390480538
+    second: smithy_2_192
+  - first:
+      213: 4058883646943236163
+    second: smithy_2_193
+  - first:
+      213: -1901841789378260384
+    second: smithy_2_194
+  - first:
+      213: -4811917209861338654
+    second: smithy_2_195
+  - first:
+      213: 9021972216458097847
+    second: smithy_2_196
+  - first:
+      213: 8028842608177870116
+    second: smithy_2_197
+  - first:
+      213: 1847487912170777626
+    second: smithy_2_198
+  - first:
+      213: 31657405562832246
+    second: smithy_2_199
+  - first:
+      213: 2373175730429174237
+    second: smithy_2_200
+  - first:
+      213: 5165705019113683896
+    second: smithy_2_201
+  - first:
+      213: 1414623237227966939
+    second: smithy_2_202
+  - first:
+      213: 1323200920758213560
+    second: smithy_2_203
+  - first:
+      213: -4188047561166376114
+    second: smithy_2_204
+  - first:
+      213: -6792031068568506550
+    second: smithy_2_205
+  - first:
+      213: 1089932142245080076
+    second: smithy_2_206
+  - first:
+      213: -184058407844001053
+    second: smithy_2_207
+  - first:
+      213: 4018753895678240365
+    second: smithy_2_208
+  - first:
+      213: -6430421686504939658
+    second: smithy_2_209
+  - first:
+      213: 6823686283177810410
+    second: smithy_2_210
+  - first:
+      213: -8289707335019153548
+    second: smithy_2_211
+  - first:
+      213: 6285010115466890745
+    second: smithy_2_212
+  - first:
+      213: -1853668390918345749
+    second: smithy_2_213
+  - first:
+      213: 1710641659250953699
+    second: smithy_2_214
+  - first:
+      213: -6501209552252507147
+    second: smithy_2_215
+  - first:
+      213: -5640643580664078662
+    second: smithy_2_216
+  - first:
+      213: 758550821837698849
+    second: smithy_2_217
+  - first:
+      213: -7255284171445051107
+    second: smithy_2_218
+  - first:
+      213: 3861208753731394985
+    second: smithy_2_219
+  - first:
+      213: -1889596572220113857
+    second: smithy_2_220
+  - first:
+      213: 1240142327950273071
+    second: smithy_2_221
+  - first:
+      213: 540992967564573040
+    second: smithy_2_222
+  - first:
+      213: 423235910339370999
+    second: smithy_2_223
+  - first:
+      213: -1567878157914565600
+    second: smithy_2_224
+  - first:
+      213: 4367767830721142008
+    second: smithy_2_225
+  - first:
+      213: -5149203636455690693
+    second: smithy_2_226
+  - first:
+      213: -9084566837651135497
+    second: smithy_2_227
+  - first:
+      213: 3002677498410317164
+    second: smithy_2_228
+  - first:
+      213: 5893546621046133006
+    second: smithy_2_229
+  - first:
+      213: 5836837750937161775
+    second: smithy_2_230
+  - first:
+      213: 7353837355363533606
+    second: smithy_2_231
+  - first:
+      213: -1750664547140344354
+    second: smithy_2_232
+  - first:
+      213: -7948476391635732332
+    second: smithy_2_233
+  - first:
+      213: -8964091725245584458
+    second: smithy_2_234
+  - first:
+      213: 2478055897021284943
+    second: smithy_2_235
+  - first:
+      213: 1807015483760378929
+    second: smithy_2_236
+  - first:
+      213: -6713602574600613988
+    second: smithy_2_237
+  - first:
+      213: 1139593884955638563
+    second: smithy_2_238
+  - first:
+      213: 4810781702356793776
+    second: smithy_2_239
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 600
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: smithy_2_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 11875
+        width: 510
+        height: 625
+      alignment: 9
+      pivot: {x: 0.335, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39483a8f703f20941b515e197b6ab1fb
+      internalID: -5783792016879284114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smithy_2_1
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 11875
+        width: 510
+        height: 625
+      alignment: 9
+      pivot: {x: 0.335, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 646d5eb2ea0f20e4fbc4d3e026ed10b7
+      internalID: 1469949179900491500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smithy_2_2
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 11875
+        width: 510
+        height: 625
+      alignment: 9
+      pivot: {x: 0.335, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12eff5a2c7c260540a20974dcd03219a
+      internalID: 6610972626446017905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smithy_2_3
+      rect:
+        serializedVersion: 2
+        x: 1530
+        y: 11875
+        width: 510
+        height: 625
+      alignment: 9
+      pivot: {x: 0.335, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d23d4dac30f04d245b6b6af22ca6610e
+      internalID: -6510598408350262696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smithy_2_4
+      rect:
+        serializedVersion: 2
+        x: 2040
+        y: 11875
+        width: 510
+        height: 625
+      alignment: 9
+      pivot: {x: 0.335, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd20de476b254164db7a61475081d23d
+      internalID: -3718335215522580292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smithy_2_5
+      rect:
+        serializedVersion: 2
+        x: 2550
+        y: 11875
+        width: 510
+        height: 625
+      alignment: 9
+      pivot: {x: 0.335, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 477f5d61204268a4dbdc7a3a1d083dd8
+      internalID: 5696466470734020246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smithy_2_6
+      rect:
+        serializedVersion: 2
+        x: 3060
+        y: 11875
+        width: 510
+        height: 625
+      alignment: 9
+      pivot: {x: 0.335, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc1017fca65c60248b1c55b5249bce43
+      internalID: -8230678381978908504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smithy_2_7
+      rect:
+        serializedVersion: 2
+        x: 3570
+        y: 11875
+        width: 510
+        height: 625
+      alignment: 9
+      pivot: {x: 0.335, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c029615c97b1ad34b9ad718d76b8b4dc
+      internalID: -879900172082567885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smithy_2_8
+      rect:
+        serializedVersion: 2
+        x: 4080
+        y: 11875
+        width: 510
+        height: 625
+      alignment: 9
+      pivot: {x: 0.335, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 006f012d377e2b448bb765d4644cb553
+      internalID: -3314333648313949203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smithy_2_9
+      rect:
+        serializedVersion: 2
+        x: 4590
+        y: 11875
+        width: 510
+        height: 625
+      alignment: 9
+      pivot: {x: 0.335, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ea37c9c122853e40a61d7443b7e4f47
+      internalID: -865158142037768335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smithy_2_10
+      rect:
+        serializedVersion: 2
+        x: 5100
+        y: 11875
+        width: 510
+        height: 625
+      alignment: 9
+      pivot: {x: 0.335, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0f590023a660674494f121116255034
+      internalID: 8499997537782060117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smithy_2_11
+      rect:
+        serializedVersion: 2
+        x: 5610
+        y: 11875
+        width: 510
+        height: 625
+      alignment: 9
+      pivot: {x: 0.335, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16e99ce3eb31ed94785e160957a579f5
+      internalID: -8971089398521765156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smithy_2_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 11250
+        width: 510
+        height: 625
+      alignment: 9
+      pivot: {x: 0.335, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff090a2486fe8394ca0962263f60dd21
+      internalID: 2801333708427833853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smithy_2_13
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 11250
+        width: 510
+        height: 625
+      alignment: 9
+      pivot: {x: 0.335, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e7f59d7dab71f3489446be3dbbec72f
+      internalID: 2768596024415187735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smithy_2_14
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 11250
+        width: 510
+        height: 625
+      alignment: 9
+      pivot: {x: 0.335, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49852cedd2221ad46bb4ac76eb42a7ec
+      internalID: -5452112864196598613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smithy_2_15
+      rect:
+        serializedVersion: 2
+        x: 1530
+        y: 11250
+        width: 510
+        height: 625
+      alignment: 9
+      pivot: {x: 0.335, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13e09325f41737c44b08897d6ef04c4a
+      internalID: -7385225376740424531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smithy_2_16
+      rect:
+        serializedVersion: 2
+        x: 2040
+        y: 11250
+        width: 510
+        height: 625
+      alignment: 9
+      pivot: {x: 0.335, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb7e3f86ca60e3d48aa5abfb0326df6c
+      internalID: -4015256720971919441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smithy_2_17
+      rect:
+        serializedVersion: 2
+        x: 2550
+        y: 11250
+        width: 510
+        height: 625
+      alignment: 9
+      pivot: {x: 0.335, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e020f9f828da9943b5032c771c1865f
+      internalID: -2453493575443778597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smithy_2_18
+      rect:
+        serializedVersion: 2
+        x: 3060
+        y: 11250
+        width: 510
+        height: 625
+      alignment: 9
+      pivot: {x: 0.335, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f93cfcc0a7ef0f4788395e06d2b1dd0
+      internalID: -1232077719332432428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smithy_2_19
+      rect:
+        serializedVersion: 2
+        x: 3570
+        y: 11250
+        width: 510
+        height: 625
+      alignment: 9
+      pivot: {x: 0.335, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 517bef5dc72e17b44ae98418623dd248
+      internalID: -254120520061571489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smithy_2_20
+      rect:
+        serializedVersion: 2
+        x: 4080
+        y: 11250
+        width: 510
+        height: 625
+      alignment: 9
+      pivot: {x: 0.335, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f88f231492706934789aba0d9d3747c8
+      internalID: 2458713404818460126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smithy_2_21
+      rect:
+        serializedVersion: 2
+        x: 4590
+        y: 11250
+        width: 510
+        height: 625
+      alignment: 9
+      pivot: {x: 0.335, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4c828d29ed30084bbd34371f94c758c
+      internalID: -705786200800794373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smithy_2_22
+      rect:
+        serializedVersion: 2
+        x: 5100
+        y: 11250
+        width: 510
+        height: 625
+      alignment: 9
+      pivot: {x: 0.335, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c18291292b3811047ba1c047a226f91c
+      internalID: 6760941444760898937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smithy_2_23
+      rect:
+        serializedVersion: 2
+        x: 5610
+        y: 11250
+        width: 510
+        height: 625
+      alignment: 9
+      pivot: {x: 0.335, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70b51dba878e94b4abed6895cc8b819c
+      internalID: -9080927953547396154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smithy_2_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 10625
+        width: 510
+        height: 625
+      alignment: 9
+      pivot: {x: 0.335, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9930b581e9b7b9a42824df7775dec619
+      internalID: 302466059720165789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smithy_2_25
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 10625
+        width: 510
+        height: 625
+      alignment: 9
+      pivot: {x: 0.335, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aacbe9cd1812e1b42b11d074270b9d36
+      internalID: 1411784634609961871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smithy_2_26
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 10625
+        width: 510
+        height: 625
+      alignment: 9
+      pivot: {x: 0.335, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74b56f520e19bb9469cc44f8bc552606
+      internalID: 3396343371997897899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smithy_2_27
+      rect:
+        serializedVersion: 2
+        x: 1530
+        y: 10625
+        width: 510
+        height: 625
+      alignment: 9
+      pivot: {x: 0.335, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7116656f9bbf31d469b7e8ef94eb78bb
+      internalID: -703423074277782054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smithy_2_28
+      rect:
+        serializedVersion: 2
+        x: 2040
+        y: 10625
+        width: 510
+        height: 625
+      alignment: 9
+      pivot: {x: 0.335, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c52f5fc051ad7647b1bb33f1bf4627b
+      internalID: 7981327686997124678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smithy_2_29
+      rect:
+        serializedVersion: 2
+        x: 2550
+        y: 10625
+        width: 510
+        height: 625
+      alignment: 9
+      pivot: {x: 0.335, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a33b8eea2949ba74a83ad2ee71b05a02
+      internalID: 8705916338336058834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smithy_2_30
+      rect:
+        serializedVersion: 2
+        x: 3060
+        y: 10625
+        width: 510
+        height: 625
+      alignment: 9
+      pivot: {x: 0.335, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70ce18d1a15dc5340a9b3916faa7f5dc
+      internalID: 5248377249111265212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smithy_2_31
+      rect:
+        serializedVersion: 2
+        x: 3570
+        y: 10625
+        width: 510
+        height: 625
+      alignment: 9
+      pivot: {x: 0.335, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d0c1f0c9dfb2e448b85ef07c859ff17
+      internalID: 2440485619203981196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smithy_2_32
+      rect:
+        serializedVersion: 2
+        x: 4080
+        y: 10625
+        width: 510
+        height: 625
+      alignment: 9
+      pivot: {x: 0.335, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f8596aba469f8941a5e6bf7a0085e9c
+      internalID: 4412122135364145832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smithy_2_33
+      rect:
+        serializedVersion: 2
+        x: 4590
+        y: 10625
+        width: 510
+        height: 625
+      alignment: 9
+      pivot: {x: 0.335, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87ea7d1e2ac01764eae8315865468733
+      internalID: -9090107842711372293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smithy_2_34
+      rect:
+        serializedVersion: 2
+        x: 5100
+        y: 10625
+        width: 510
+        height: 625
+      alignment: 9
+      pivot: {x: 0.335, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59a615a20903e6b4d8b45076d72bf8e2
+      internalID: -4318266052402998691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smithy_2_35
+      rect:
+        serializedVersion: 2
+        x: 5610
+        y: 10625
+        width: 510
+        height: 625
+      alignment: 9
+      pivot: {x: 0.335, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a0013b05f5f9694bb71dd6ca7edca73
+      internalID: 2573921920169588830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smithy_2_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 10000
+        width: 510
+        height: 625
+      alignment: 9
+      pivot: {x: 0.335, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 447c1f8c439b4194798dcb6fc5fca453
+      internalID: 5948604803228297831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smithy_2_37
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 10000
+        width: 510
+        height: 625
+      alignment: 9
+      pivot: {x: 0.335, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e19503216395a794d88f8d4b93dfe121
+      internalID: -6480782458923475955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smithy_2_38
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 10000
+        width: 510
+        height: 625
+      alignment: 9
+      pivot: {x: 0.335, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f2e282e261f9074fa0e8b9c6498368a
+      internalID: 7180212786179208096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smithy_2_39
+      rect:
+        serializedVersion: 2
+        x: 1530
+        y: 10000
+        width: 510
+        height: 625
+      alignment: 9
+      pivot: {x: 0.335, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2411f11f407e9eb459365f5ddc43b377
+      internalID: 4326529686559301185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smithy_2_40
+      rect:
+        serializedVersion: 2
+        x: 2040
+        y: 10000
+        width: 510
+        height: 625
+      alignment: 9
+      pivot: {x: 0.335, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ea6713be444dea4a80e8067278a48b8
+      internalID: -2977974293829884925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smithy_2_41
+      rect:
+        serializedVersion: 2
+        x: 2550
+        y: 10000
+        width: 510
+        height: 625
+      alignment: 9
+      pivot: {x: 0.335, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c3dd7d17748cea4894c7178a61ede6e
+      internalID: -4783197617965958478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smithy_2_42
+      rect:
+        serializedVersion: 2
+        x: 3060
+        y: 10000
+        width: 510
+        height: 625
+      alignment: 9
+      pivot: {x: 0.335, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b0efec9f078e6f48a7e70d28e812f0c
+      internalID: -5503085689948989237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smithy_2_43
+      rect:
+        serializedVersion: 2
+        x: 3570
+        y: 10000
+        width: 510
+        height: 625
+      alignment: 9
+      pivot: {x: 0.335, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2db3f923c322a564f988267f68d28bd4
+      internalID: 2713677760031416620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smithy_2_44
+      rect:
+        serializedVersion: 2
+        x: 4080
+        y: 10000
+        width: 510
+        height: 625
+      alignment: 9
+      pivot: {x: 0.335, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 955d6d085aff376458ca68e598bf6d5a
+      internalID: -7678134318237351133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smithy_2_45
+      rect:
+        serializedVersion: 2
+        x: 4590
+        y: 10000
+        width: 510
+        height: 625
+      alignment: 9
+      pivot: {x: 0.335, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fc7655273579714ebe6ee5b34ba0bbd
+      internalID: 7050959075151022560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smithy_2_46
+      rect:
+        serializedVersion: 2
+        x: 5100
+        y: 10000
+        width: 510
+        height: 625
+      alignment: 9
+      pivot: {x: 0.335, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdeffdf20fa6d144f8e1f723956d8efb
+      internalID: -8693856466317526258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smithy_2_47
+      rect:
+        serializedVersion: 2
+        x: 5610
+        y: 10000
+        width: 510
+        height: 625
+      alignment: 9
+      pivot: {x: 0.335, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c000adf906bc8f49915ae51c2afea07
+      internalID: -5563863752316008006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smithy_2_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 9375
+        width: 510
+        height: 625
+      alignment: 9
+      pivot: {x: 0.335, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35054b26733dbb14a8169b81f8bdfe8f
+      internalID: 3263616137607525823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smithy_2_49
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 9375
+        width: 510
+        height: 625
+      alignment: 9
+      pivot: {x: 0.335, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c06ae35ca807fa4fbe2bad733ee99bb
+      internalID: 7472660257898981158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smithy_2_50
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 9375
+        width: 510
+        height: 625
+      alignment: 9
+      pivot: {x: 0.335, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6228f4e2b189d7418febda9e641aae3
+      internalID: 5565063447934575815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smithy_2_51
+      rect:
+        serializedVersion: 2
+        x: 1530
+        y: 9375
+        width: 510
+        height: 625
+      alignment: 9
+      pivot: {x: 0.335, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f042c8700ba0f874e95f1294b1894b12
+      internalID: -2798405753344644537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smithy_2_52
+      rect:
+        serializedVersion: 2
+        x: 2040
+        y: 9375
+        width: 510
+        height: 625
+      alignment: 9
+      pivot: {x: 0.335, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ebddc33af646f845adc450dfcb4eaf2
+      internalID: -3975957740632031361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smithy_2_53
+      rect:
+        serializedVersion: 2
+        x: 2550
+        y: 9375
+        width: 510
+        height: 625
+      alignment: 9
+      pivot: {x: 0.335, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 521c396cc920a3d4f9b9a8484af90aa0
+      internalID: -5239675423222283106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smithy_2_54
+      rect:
+        serializedVersion: 2
+        x: 3060
+        y: 9375
+        width: 510
+        height: 625
+      alignment: 9
+      pivot: {x: 0.335, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4f45c145b6b08a4ca32a1760ef9ba8f
+      internalID: 2398952767214558705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smithy_2_55
+      rect:
+        serializedVersion: 2
+        x: 3570
+        y: 9375
+        width: 510
+        height: 625
+      alignment: 9
+      pivot: {x: 0.335, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a8632949b46d1544a4b8fee86de35de
+      internalID: -1260146566925301980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smithy_2_56
+      rect:
+        serializedVersion: 2
+        x: 4080
+        y: 9375
+        width: 510
+        height: 625
+      alignment: 9
+      pivot: {x: 0.335, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bd59b1fd5f45ea408c362a07126a20b
+      internalID: 7526642993886459638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smithy_2_57
+      rect:
+        serializedVersion: 2
+        x: 4590
+        y: 9375
+        width: 510
+        height: 625
+      alignment: 9
+      pivot: {x: 0.335, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d92743470b8aba540a9244158dc50d73
+      internalID: -2748533973393804702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smithy_2_58
+      rect:
+        serializedVersion: 2
+        x: 5100
+        y: 9375
+        width: 510
+        height: 625
+      alignment: 9
+      pivot: {x: 0.335, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ced77ff73523dd429a37a755c6d6aed
+      internalID: 8233839914994142336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smithy_2_59
+      rect:
+        serializedVersion: 2
+        x: 5610
+        y: 9375
+        width: 510
+        height: 625
+      alignment: 9
+      pivot: {x: 0.335, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98d2d0eb91f6fe846a1f87b318f7b5e6
+      internalID: 7645982933996697192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smithy_2_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 8750
+        width: 510
+        height: 625
+      alignment: 9
+      pivot: {x: 0.335, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a176b49eae99e8a40bc5584ce7beab11
+      internalID: -7183993768799176757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smithy_2_61
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 8750
+        width: 510
+        height: 625
+      alignment: 9
+      pivot: {x: 0.335, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa23a848627c4e74f99a6145bc06b54b
+      internalID: 419622343885091446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smithy_2_62
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 8750
+        width: 510
+        height: 625
+      alignment: 9
+      pivot: {x: 0.335, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49a74d931d625c744bba0754e1c720d9
+      internalID: -3642636067932148895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smithy_2_63
+      rect:
+        serializedVersion: 2
+        x: 1530
+        y: 8750
+        width: 510
+        height: 625
+      alignment: 9
+      pivot: {x: 0.335, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b0f99559d5646744a10a7a7431bc012
+      internalID: -7930140405709161228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smithy_2_64
+      rect:
+        serializedVersion: 2
+        x: 2040
+        y: 8750
+        width: 510
+        height: 625
+      alignment: 9
+      pivot: {x: 0.335, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 995c8d29b3fab2f4db0e40de7c14ce9a
+      internalID: 6399703438640242808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smithy_2_65
+      rect:
+        serializedVersion: 2
+        x: 2550
+        y: 8750
+        width: 510
+        height: 625
+      alignment: 9
+      pivot: {x: 0.335, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 012ee785f61876b4e91f07e12f0f75ca
+      internalID: 7703907548636065921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smithy_2_66
+      rect:
+        serializedVersion: 2
+        x: 3060
+        y: 8750
+        width: 510
+        height: 625
+      alignment: 9
+      pivot: {x: 0.335, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4aebb51d2368f404ba3116b846dd3539
+      internalID: -4103481391783581311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smithy_2_67
+      rect:
+        serializedVersion: 2
+        x: 3570
+        y: 8750
+        width: 510
+        height: 625
+      alignment: 9
+      pivot: {x: 0.335, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 555768a72b5a302408ecceef8d7536aa
+      internalID: 4356156961334610715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smithy_2_68
+      rect:
+        serializedVersion: 2
+        x: 4080
+        y: 8750
+        width: 510
+        height: 625
+      alignment: 9
+      pivot: {x: 0.335, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79bd00ae2d53bff479c10450c43a6731
+      internalID: 5133235604864122162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smithy_2_69
+      rect:
+        serializedVersion: 2
+        x: 4590
+        y: 8750
+        width: 510
+        height: 625
+      alignment: 9
+      pivot: {x: 0.335, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 734cf208aab93884a839cd4c063ccbf2
+      internalID: 746863215759545185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smithy_2_70
+      rect:
+        serializedVersion: 2
+        x: 5100
+        y: 8750
+        width: 510
+        height: 625
+      alignment: 9
+      pivot: {x: 0.335, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec039447bfc232948b01034b21e080a7
+      internalID: -4145593189530254074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smithy_2_71
+      rect:
+        serializedVersion: 2
+        x: 5610
+        y: 8750
+        width: 510
+        height: 625
+      alignment: 9
+      pivot: {x: 0.335, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa952bb21ec945b428837d672e23dc51
+      internalID: 4856561414960800644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smithy_2_72
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 8125
+        width: 510
+        height: 625
+      alignment: 9
+      pivot: {x: 0.335, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3ddd570342725745bc6933903be96c3
+      internalID: -7086760266825368247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smithy_2_73
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 8125
+        width: 510
+        height: 625
+      alignment: 9
+      pivot: {x: 0.335, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b108bceca1775ed449161b4e94df6070
+      internalID: 7061979530597953971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smithy_2_74
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 8125
+        width: 510
+        height: 625
+      alignment: 9
+      pivot: {x: 0.335, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fc9efbc54e3dbb4fa6e6687fd315e5f
+      internalID: 2056181049681747524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smithy_2_75
+      rect:
+        serializedVersion: 2
+        x: 1530
+        y: 8125
+        width: 510
+        height: 625
+      alignment: 9
+      pivot: {x: 0.335, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6f2492c0aefdee408a332cd18fb03f8
+      internalID: -4350845845959051514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smithy_2_76
+      rect:
+        serializedVersion: 2
+        x: 2040
+        y: 8125
+        width: 510
+        height: 625
+      alignment: 9
+      pivot: {x: 0.335, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99b0150d29159f24a894fe78e0d83abd
+      internalID: 1434371362256066825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smithy_2_77
+      rect:
+        serializedVersion: 2
+        x: 2550
+        y: 8125
+        width: 510
+        height: 625
+      alignment: 9
+      pivot: {x: 0.335, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c17884353e51fa4888c9de6c8835e98
+      internalID: 191173423895501792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smithy_2_78
+      rect:
+        serializedVersion: 2
+        x: 3060
+        y: 8125
+        width: 510
+        height: 625
+      alignment: 9
+      pivot: {x: 0.335, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abcfeab582b3c5d4eb1267c1f4f20544
+      internalID: -2197295697944235575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smithy_2_79
+      rect:
+        serializedVersion: 2
+        x: 3570
+        y: 8125
+        width: 510
+        height: 625
+      alignment: 9
+      pivot: {x: 0.335, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33ad47b0b62c2ab47af37aa2530df2ac
+      internalID: -18388223794505877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smithy_2_80
+      rect:
+        serializedVersion: 2
+        x: 4080
+        y: 8125
+        width: 510
+        height: 625
+      alignment: 9
+      pivot: {x: 0.335, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60663aba1af67dc488fce7d0412d364f
+      internalID: -4975575837857523055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smithy_2_81
+      rect:
+        serializedVersion: 2
+        x: 4590
+        y: 8125
+        width: 510
+        height: 625
+      alignment: 9
+      pivot: {x: 0.335, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75e5d273f48543041b85061079839a52
+      internalID: -8758674154370150000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smithy_2_82
+      rect:
+        serializedVersion: 2
+        x: 5100
+        y: 8125
+        width: 510
+        height: 625
+      alignment: 9
+      pivot: {x: 0.335, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 231a8fc382c073d40a88f0037e94e443
+      internalID: -3033979558641890299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smithy_2_83
+      rect:
+        serializedVersion: 2
+        x: 5610
+        y: 8125
+        width: 510
+        height: 625
+      alignment: 9
+      pivot: {x: 0.335, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52f0fea1d002f1f42bfa81392aea1be9
+      internalID: -5401527131322904365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smithy_2_84
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 7500
+        width: 510
+        height: 625
+      alignment: 9
+      pivot: {x: 0.335, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f68967aa7a56cc94e8f53124132e391a
+      internalID: -253915227489067137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smithy_2_85
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 7500
+        width: 510
+        height: 625
+      alignment: 9
+      pivot: {x: 0.335, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89e59e7352d9b8e4f8ab6b821b493922
+      internalID: 2905397461559929414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smithy_2_86
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 7500
+        width: 510
+        height: 625
+      alignment: 9
+      pivot: {x: 0.335, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f473a49929fb85246a6830940613eda9
+      internalID: -8197185796735254610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smithy_2_87
+      rect:
+        serializedVersion: 2
+        x: 1530
+        y: 7500
+        width: 510
+        height: 625
+      alignment: 9
+      pivot: {x: 0.335, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1bd60be84916914d918373a143c6867
+      internalID: -7376219665065246348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smithy_2_88
+      rect:
+        serializedVersion: 2
+        x: 2040
+        y: 7500
+        width: 510
+        height: 625
+      alignment: 9
+      pivot: {x: 0.335, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b29c8bd95dfc1648b220a369d206696
+      internalID: -8281797889638991906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smithy_2_89
+      rect:
+        serializedVersion: 2
+        x: 2550
+        y: 7500
+        width: 510
+        height: 625
+      alignment: 9
+      pivot: {x: 0.335, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe716d5fff2e63a479fa6eb5b096a42d
+      internalID: 70335399733084504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smithy_2_90
+      rect:
+        serializedVersion: 2
+        x: 3060
+        y: 7500
+        width: 510
+        height: 625
+      alignment: 9
+      pivot: {x: 0.335, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df5c83f7ddf0ff5429f8248d12f44122
+      internalID: 7944029426199278853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smithy_2_91
+      rect:
+        serializedVersion: 2
+        x: 3570
+        y: 7500
+        width: 510
+        height: 625
+      alignment: 9
+      pivot: {x: 0.335, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca2952ca19e14234f8704eab2442dde1
+      internalID: 6875061558181260153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smithy_2_92
+      rect:
+        serializedVersion: 2
+        x: 4080
+        y: 7500
+        width: 510
+        height: 625
+      alignment: 9
+      pivot: {x: 0.335, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17b53ea39b921424da45aedf7a617bc5
+      internalID: -5878357535924776493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smithy_2_93
+      rect:
+        serializedVersion: 2
+        x: 4590
+        y: 7500
+        width: 510
+        height: 625
+      alignment: 9
+      pivot: {x: 0.335, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b16a136eada6daa4aab175ec6dbde325
+      internalID: 8510475860490207081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smithy_2_94
+      rect:
+        serializedVersion: 2
+        x: 5100
+        y: 7500
+        width: 510
+        height: 625
+      alignment: 9
+      pivot: {x: 0.335, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00b6fa953473fd243ab25ea98c065d99
+      internalID: 2437210111006035129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smithy_2_95
+      rect:
+        serializedVersion: 2
+        x: 5610
+        y: 7500
+        width: 510
+        height: 625
+      alignment: 9
+      pivot: {x: 0.335, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8ba0b5cfb26ede4e909078610744c8d
+      internalID: 2204174936935540734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smithy_2_96
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6875
+        width: 510
+        height: 625
+      alignment: 9
+      pivot: {x: 0.335, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6974e40483bbafe47bb6f7b01d85cd59
+      internalID: -433425038383710404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smithy_2_97
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 6875
+        width: 510
+        height: 625
+      alignment: 9
+      pivot: {x: 0.335, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49037b0ee9761df43b646cef21249b50
+      internalID: -4709748901293178913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smithy_2_98
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 6875
+        width: 510
+        height: 625
+      alignment: 9
+      pivot: {x: 0.335, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfdfc6f37b899de42aae045a598f44e6
+      internalID: 4087174526250379463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smithy_2_99
+      rect:
+        serializedVersion: 2
+        x: 1530
+        y: 6875
+        width: 510
+        height: 625
+      alignment: 9
+      pivot: {x: 0.335, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e3aacc68646b3a4fbab2e200fac2365
+      internalID: 6623990251795656566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smithy_2_100
+      rect:
+        serializedVersion: 2
+        x: 2040
+        y: 6875
+        width: 510
+        height: 625
+      alignment: 9
+      pivot: {x: 0.335, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c3a336916d953947b00b6294f84fdf2
+      internalID: -5656270996862745716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smithy_2_101
+      rect:
+        serializedVersion: 2
+        x: 2550
+        y: 6875
+        width: 510
+        height: 625
+      alignment: 9
+      pivot: {x: 0.335, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 074d718ea6523d44196b5c95182dfde1
+      internalID: -4934622539172973481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smithy_2_102
+      rect:
+        serializedVersion: 2
+        x: 3060
+        y: 6875
+        width: 510
+        height: 625
+      alignment: 9
+      pivot: {x: 0.335, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6a6e06efb5e8124ca53613de7247298
+      internalID: -1325316860817332897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smithy_2_103
+      rect:
+        serializedVersion: 2
+        x: 3570
+        y: 6875
+        width: 510
+        height: 625
+      alignment: 9
+      pivot: {x: 0.335, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77558330424f59c44bd776d70a21e0ee
+      internalID: -6685604952469994269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smithy_2_104
+      rect:
+        serializedVersion: 2
+        x: 4080
+        y: 6875
+        width: 510
+        height: 625
+      alignment: 9
+      pivot: {x: 0.335, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d27d52ce54bfcaa46ad6cc45a7cc70b3
+      internalID: -2242392337286620756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smithy_2_105
+      rect:
+        serializedVersion: 2
+        x: 4590
+        y: 6875
+        width: 510
+        height: 625
+      alignment: 9
+      pivot: {x: 0.335, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56740277df2edbc45bc64d1dfa66f36b
+      internalID: -5397555131632281684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smithy_2_106
+      rect:
+        serializedVersion: 2
+        x: 5100
+        y: 6875
+        width: 510
+        height: 625
+      alignment: 9
+      pivot: {x: 0.335, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dae6de865b45ac4b89f471077008aa1
+      internalID: -4729056638377805424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smithy_2_107
+      rect:
+        serializedVersion: 2
+        x: 5610
+        y: 6875
+        width: 510
+        height: 625
+      alignment: 9
+      pivot: {x: 0.335, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfc141fb9ef174f47b88368cd8803a06
+      internalID: 1241543738524489840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smithy_2_108
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6250
+        width: 510
+        height: 625
+      alignment: 9
+      pivot: {x: 0.335, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 144c460ce5043bd40a81b539933aed86
+      internalID: -1491099631310892159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smithy_2_109
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 6250
+        width: 510
+        height: 625
+      alignment: 9
+      pivot: {x: 0.335, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d33cb69aa6f760e46a89e582107dae92
+      internalID: 9186396393162868800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smithy_2_110
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 6250
+        width: 510
+        height: 625
+      alignment: 9
+      pivot: {x: 0.335, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8875c99cdb85f454db8d3928e6cdea54
+      internalID: 3242271517063212856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smithy_2_111
+      rect:
+        serializedVersion: 2
+        x: 1530
+        y: 6250
+        width: 510
+        height: 625
+      alignment: 9
+      pivot: {x: 0.335, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13c46e21f47cab54c9dea56561916618
+      internalID: -1381601552043760104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smithy_2_112
+      rect:
+        serializedVersion: 2
+        x: 2040
+        y: 6250
+        width: 510
+        height: 625
+      alignment: 9
+      pivot: {x: 0.335, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c6cc77a8a12b0d499c94c05c7059265
+      internalID: 4757581794124412518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smithy_2_113
+      rect:
+        serializedVersion: 2
+        x: 2550
+        y: 6250
+        width: 510
+        height: 625
+      alignment: 9
+      pivot: {x: 0.335, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfb6ae46770ab2e4c8fc5c333ca7a006
+      internalID: -2532231043334287481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smithy_2_114
+      rect:
+        serializedVersion: 2
+        x: 3060
+        y: 6250
+        width: 510
+        height: 625
+      alignment: 9
+      pivot: {x: 0.335, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f15d85c92e0829f468dd8c72ff24bf35
+      internalID: 4037327853828682246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smithy_2_115
+      rect:
+        serializedVersion: 2
+        x: 3570
+        y: 6250
+        width: 510
+        height: 625
+      alignment: 9
+      pivot: {x: 0.335, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ba125cef36ecf94da80e8942bb7aeb7
+      internalID: -7772514286771330792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smithy_2_116
+      rect:
+        serializedVersion: 2
+        x: 4080
+        y: 6250
+        width: 510
+        height: 625
+      alignment: 9
+      pivot: {x: 0.335, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05d87b3a86ebf2045a87e4ab055a777c
+      internalID: -1778071594505803525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smithy_2_117
+      rect:
+        serializedVersion: 2
+        x: 4590
+        y: 6250
+        width: 510
+        height: 625
+      alignment: 9
+      pivot: {x: 0.335, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 304fdcc37ba8091439648ca4636feced
+      internalID: -1730434374802092066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smithy_2_118
+      rect:
+        serializedVersion: 2
+        x: 5100
+        y: 6250
+        width: 510
+        height: 625
+      alignment: 9
+      pivot: {x: 0.335, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a3fa17603e5aa64d9b449a0fd9e89ce
+      internalID: 2441982884743988608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smithy_2_119
+      rect:
+        serializedVersion: 2
+        x: 5610
+        y: 6250
+        width: 510
+        height: 625
+      alignment: 9
+      pivot: {x: 0.335, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e38fe4145a137041bdc7361f1f68f03
+      internalID: -5721118963949629496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smithy_2_120
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5625
+        width: 510
+        height: 625
+      alignment: 9
+      pivot: {x: 0.335, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f794e78c3db0dff49a097741658568de
+      internalID: -8757707685523956197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smithy_2_121
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 5625
+        width: 510
+        height: 625
+      alignment: 9
+      pivot: {x: 0.335, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f449c61c861400c47af1ffc3e48da0cc
+      internalID: 47523142459404268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smithy_2_122
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 5625
+        width: 510
+        height: 625
+      alignment: 9
+      pivot: {x: 0.335, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cb3962dc3147da48aca741f5c45c957
+      internalID: 7388711741097182277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smithy_2_123
+      rect:
+        serializedVersion: 2
+        x: 1530
+        y: 5625
+        width: 510
+        height: 625
+      alignment: 9
+      pivot: {x: 0.335, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3fb014752103294dbc5af5c49e64590
+      internalID: 5370616178091657257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smithy_2_124
+      rect:
+        serializedVersion: 2
+        x: 2040
+        y: 5625
+        width: 510
+        height: 625
+      alignment: 9
+      pivot: {x: 0.335, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04056c91048e95f449328de1cdc900f2
+      internalID: 2230832277026242216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smithy_2_125
+      rect:
+        serializedVersion: 2
+        x: 2550
+        y: 5625
+        width: 510
+        height: 625
+      alignment: 9
+      pivot: {x: 0.335, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a71437350f410c840ab34860e6e80f08
+      internalID: 7538659508741057786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smithy_2_126
+      rect:
+        serializedVersion: 2
+        x: 3060
+        y: 5625
+        width: 510
+        height: 625
+      alignment: 9
+      pivot: {x: 0.335, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e78ea21106917e4c877842d2fb24088
+      internalID: 7148255058364331811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smithy_2_127
+      rect:
+        serializedVersion: 2
+        x: 3570
+        y: 5625
+        width: 510
+        height: 625
+      alignment: 9
+      pivot: {x: 0.335, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04e5d9f6ffa0cda4ab99693a8156857a
+      internalID: -1332203153253570733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smithy_2_128
+      rect:
+        serializedVersion: 2
+        x: 4080
+        y: 5625
+        width: 510
+        height: 625
+      alignment: 9
+      pivot: {x: 0.335, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b66bd9bac49b3944e8b0173aca598092
+      internalID: -7385599444245739254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smithy_2_129
+      rect:
+        serializedVersion: 2
+        x: 4590
+        y: 5625
+        width: 510
+        height: 625
+      alignment: 9
+      pivot: {x: 0.335, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0604401b1e1ea704aac8711b06c1c73f
+      internalID: -674489389517096584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smithy_2_130
+      rect:
+        serializedVersion: 2
+        x: 5100
+        y: 5625
+        width: 510
+        height: 625
+      alignment: 9
+      pivot: {x: 0.335, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0812427f3b2f59d45ac683ad7a0b6fc6
+      internalID: -6278630916133854952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smithy_2_131
+      rect:
+        serializedVersion: 2
+        x: 5610
+        y: 5625
+        width: 510
+        height: 625
+      alignment: 9
+      pivot: {x: 0.335, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c978eea8e88e9042bf7307c4ffb79e0
+      internalID: 3711536521520383909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smithy_2_132
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5000
+        width: 510
+        height: 625
+      alignment: 9
+      pivot: {x: 0.335, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54fc8e2148be5c34aa91fa76581587ff
+      internalID: -8140048405864202291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smithy_2_133
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 5000
+        width: 510
+        height: 625
+      alignment: 9
+      pivot: {x: 0.335, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e186ac46ed99709489c8b69d0d39f9f4
+      internalID: -396278207100157316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smithy_2_134
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 5000
+        width: 510
+        height: 625
+      alignment: 9
+      pivot: {x: 0.335, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16e4613d9bf5d684b8934c8eeae631a4
+      internalID: 1889070763686333834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smithy_2_135
+      rect:
+        serializedVersion: 2
+        x: 1530
+        y: 5000
+        width: 510
+        height: 625
+      alignment: 9
+      pivot: {x: 0.335, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f705580a71e0b74ebdc273120f8a031
+      internalID: 282403884446097323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smithy_2_136
+      rect:
+        serializedVersion: 2
+        x: 2040
+        y: 5000
+        width: 510
+        height: 625
+      alignment: 9
+      pivot: {x: 0.335, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c57ffbfc1ed013c4896c9ebc3050326e
+      internalID: -4953145515377911322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smithy_2_137
+      rect:
+        serializedVersion: 2
+        x: 2550
+        y: 5000
+        width: 510
+        height: 625
+      alignment: 9
+      pivot: {x: 0.335, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3ed1f126bac34f479f8e674988aa083
+      internalID: 6039581984822046308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smithy_2_138
+      rect:
+        serializedVersion: 2
+        x: 3060
+        y: 5000
+        width: 510
+        height: 625
+      alignment: 9
+      pivot: {x: 0.335, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 234fbc42cbe2bd14dbf4f182e5984ba1
+      internalID: 518799263292399456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smithy_2_139
+      rect:
+        serializedVersion: 2
+        x: 3570
+        y: 5000
+        width: 510
+        height: 625
+      alignment: 9
+      pivot: {x: 0.335, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e3bae7a533281744a89cf8874997209
+      internalID: -7781046280129206113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smithy_2_140
+      rect:
+        serializedVersion: 2
+        x: 4080
+        y: 5000
+        width: 510
+        height: 625
+      alignment: 9
+      pivot: {x: 0.335, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a0e909c47a960c41a23d7b598dd6f4f
+      internalID: -7358690559366163497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smithy_2_141
+      rect:
+        serializedVersion: 2
+        x: 4590
+        y: 5000
+        width: 510
+        height: 625
+      alignment: 9
+      pivot: {x: 0.335, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ef42bd7c1e9d2c46b7708b7823a0ad5
+      internalID: -791059232670042171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smithy_2_142
+      rect:
+        serializedVersion: 2
+        x: 5100
+        y: 5000
+        width: 510
+        height: 625
+      alignment: 9
+      pivot: {x: 0.335, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e6868e6c9c291641a43c1105dab6b28
+      internalID: -4199768446858549326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smithy_2_143
+      rect:
+        serializedVersion: 2
+        x: 5610
+        y: 5000
+        width: 510
+        height: 625
+      alignment: 9
+      pivot: {x: 0.335, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbb95459ab702fc4788b69b50ccf5fb2
+      internalID: -6766876685850967825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smithy_2_144
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4375
+        width: 510
+        height: 625
+      alignment: 9
+      pivot: {x: 0.335, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19dace14f18c4eb4c857d8d810defce3
+      internalID: 3948055341478638737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smithy_2_145
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 4375
+        width: 510
+        height: 625
+      alignment: 9
+      pivot: {x: 0.335, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 120a796ff4532e24eadff32c03ad1a81
+      internalID: 2779019868852188239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smithy_2_146
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 4375
+        width: 510
+        height: 625
+      alignment: 9
+      pivot: {x: 0.335, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a07f4511921eccc4dac34480c27c9bc6
+      internalID: 4102966861803255211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smithy_2_147
+      rect:
+        serializedVersion: 2
+        x: 1530
+        y: 4375
+        width: 510
+        height: 625
+      alignment: 9
+      pivot: {x: 0.335, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6bddaf4c686fa0429deff7ee45bd7f8
+      internalID: -4040839226962417752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smithy_2_148
+      rect:
+        serializedVersion: 2
+        x: 2040
+        y: 4375
+        width: 510
+        height: 625
+      alignment: 9
+      pivot: {x: 0.335, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2697f1e3c4f454843bebae7bc6451943
+      internalID: 5921066853992127179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smithy_2_149
+      rect:
+        serializedVersion: 2
+        x: 2550
+        y: 4375
+        width: 510
+        height: 625
+      alignment: 9
+      pivot: {x: 0.335, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a10c9b13a7a1ec54d9a40ea57a35cf9c
+      internalID: 3998071938566692758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smithy_2_150
+      rect:
+        serializedVersion: 2
+        x: 3060
+        y: 4375
+        width: 510
+        height: 625
+      alignment: 9
+      pivot: {x: 0.335, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aaf488311ee5f664f80530543bcb52b5
+      internalID: 8538752988936951893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smithy_2_151
+      rect:
+        serializedVersion: 2
+        x: 3570
+        y: 4375
+        width: 510
+        height: 625
+      alignment: 9
+      pivot: {x: 0.335, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74ead8b05b372034280226adfcb37a0f
+      internalID: 8589081256121177823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smithy_2_152
+      rect:
+        serializedVersion: 2
+        x: 4080
+        y: 4375
+        width: 510
+        height: 625
+      alignment: 9
+      pivot: {x: 0.335, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9f2828a79cd4d5439f6211ea20f09ad
+      internalID: -4292117029569448207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smithy_2_153
+      rect:
+        serializedVersion: 2
+        x: 4590
+        y: 4375
+        width: 510
+        height: 625
+      alignment: 9
+      pivot: {x: 0.335, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fe2f17f56910ed4c9b02f1e0c84eb44
+      internalID: -8218272297401805524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smithy_2_154
+      rect:
+        serializedVersion: 2
+        x: 5100
+        y: 4375
+        width: 510
+        height: 625
+      alignment: 9
+      pivot: {x: 0.335, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66a4a1f42689e504e997a464fcf05e8c
+      internalID: 7310318379253445022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smithy_2_155
+      rect:
+        serializedVersion: 2
+        x: 5610
+        y: 4375
+        width: 510
+        height: 625
+      alignment: 9
+      pivot: {x: 0.335, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9e47166a298a524c8ece6b146c3b8bf
+      internalID: -2462642015120013603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smithy_2_156
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3750
+        width: 510
+        height: 625
+      alignment: 9
+      pivot: {x: 0.335, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1936eace0bcda341b478b098ddf9958
+      internalID: -1060991898227873610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smithy_2_157
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 3750
+        width: 510
+        height: 625
+      alignment: 9
+      pivot: {x: 0.335, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 396beccd67d9c6244a6cd13f65bd7917
+      internalID: -367620588357380115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smithy_2_158
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 3750
+        width: 510
+        height: 625
+      alignment: 9
+      pivot: {x: 0.335, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f581cdb2ff2d22418312afc59236678
+      internalID: 560646008924339347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smithy_2_159
+      rect:
+        serializedVersion: 2
+        x: 1530
+        y: 3750
+        width: 510
+        height: 625
+      alignment: 9
+      pivot: {x: 0.335, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61be85a5201b45b42825a5f246c97618
+      internalID: -7993975624919054394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smithy_2_160
+      rect:
+        serializedVersion: 2
+        x: 2040
+        y: 3750
+        width: 510
+        height: 625
+      alignment: 9
+      pivot: {x: 0.335, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11700fa2e29f5724e908cbfef03ba4d9
+      internalID: -1827797109051133629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smithy_2_161
+      rect:
+        serializedVersion: 2
+        x: 2550
+        y: 3750
+        width: 510
+        height: 625
+      alignment: 9
+      pivot: {x: 0.335, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c0b7027f8789d9459e375f237ce5259
+      internalID: 2818374881028419543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smithy_2_162
+      rect:
+        serializedVersion: 2
+        x: 3060
+        y: 3750
+        width: 510
+        height: 625
+      alignment: 9
+      pivot: {x: 0.335, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 405602f8b467bee4492bb5a5611c46c3
+      internalID: -7957471661382977638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smithy_2_163
+      rect:
+        serializedVersion: 2
+        x: 3570
+        y: 3750
+        width: 510
+        height: 625
+      alignment: 9
+      pivot: {x: 0.335, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d2f26aafd5a12b4f9a59a5520268e50
+      internalID: 6155112475107518505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smithy_2_164
+      rect:
+        serializedVersion: 2
+        x: 4080
+        y: 3750
+        width: 510
+        height: 625
+      alignment: 9
+      pivot: {x: 0.335, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32a59d61b825f3945a003652cf15bf61
+      internalID: 6437362127399570816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smithy_2_165
+      rect:
+        serializedVersion: 2
+        x: 4590
+        y: 3750
+        width: 510
+        height: 625
+      alignment: 9
+      pivot: {x: 0.335, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97f4ef772bece184bb4e904002f7649f
+      internalID: -221917549011194355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smithy_2_166
+      rect:
+        serializedVersion: 2
+        x: 5100
+        y: 3750
+        width: 510
+        height: 625
+      alignment: 9
+      pivot: {x: 0.335, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f355651cb782c941bc215a445417554
+      internalID: -2385643321921707014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smithy_2_167
+      rect:
+        serializedVersion: 2
+        x: 5610
+        y: 3750
+        width: 510
+        height: 625
+      alignment: 9
+      pivot: {x: 0.335, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05d2ff787c0c3f84e9125bc12b6a9608
+      internalID: -977699501870270148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smithy_2_168
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3125
+        width: 510
+        height: 625
+      alignment: 9
+      pivot: {x: 0.335, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 488488228c1175e47890b27ae4cfc752
+      internalID: -5929527146574422115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smithy_2_169
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 3125
+        width: 510
+        height: 625
+      alignment: 9
+      pivot: {x: 0.335, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4eccbd68413948d49a3a386028efb74f
+      internalID: -5242839794147362717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smithy_2_170
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 3125
+        width: 510
+        height: 625
+      alignment: 9
+      pivot: {x: 0.335, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b2951550e2b16e4894c950b0e7e1bbe
+      internalID: -5896110736402724460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smithy_2_171
+      rect:
+        serializedVersion: 2
+        x: 1530
+        y: 3125
+        width: 510
+        height: 625
+      alignment: 9
+      pivot: {x: 0.335, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9fe380a1c6c98e48866342ab4842a7c
+      internalID: 5300703560562611356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smithy_2_172
+      rect:
+        serializedVersion: 2
+        x: 2040
+        y: 3125
+        width: 510
+        height: 625
+      alignment: 9
+      pivot: {x: 0.335, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16b1738309217a74bba1d9d874663a4d
+      internalID: -6143853568141211327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smithy_2_173
+      rect:
+        serializedVersion: 2
+        x: 2550
+        y: 3125
+        width: 510
+        height: 625
+      alignment: 9
+      pivot: {x: 0.335, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41e8df9161035a7449cbc4a6c2bc3543
+      internalID: -5740982269538826358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smithy_2_174
+      rect:
+        serializedVersion: 2
+        x: 3060
+        y: 3125
+        width: 510
+        height: 625
+      alignment: 9
+      pivot: {x: 0.335, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d21c78b3ad797d44c9d85ec5cc0031b7
+      internalID: 4460258380595325922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smithy_2_175
+      rect:
+        serializedVersion: 2
+        x: 3570
+        y: 3125
+        width: 510
+        height: 625
+      alignment: 9
+      pivot: {x: 0.335, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7942d1dd9ab01914a90862863eacae72
+      internalID: 3089068978366043753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smithy_2_176
+      rect:
+        serializedVersion: 2
+        x: 4080
+        y: 3125
+        width: 510
+        height: 625
+      alignment: 9
+      pivot: {x: 0.335, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 063553be6a3459b49ace97a55e169228
+      internalID: 6971102757927194042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smithy_2_177
+      rect:
+        serializedVersion: 2
+        x: 4590
+        y: 3125
+        width: 510
+        height: 625
+      alignment: 9
+      pivot: {x: 0.335, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77c9aa474bdf9f6488694bb205e6f6d5
+      internalID: 5961464121754449596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smithy_2_178
+      rect:
+        serializedVersion: 2
+        x: 5100
+        y: 3125
+        width: 510
+        height: 625
+      alignment: 9
+      pivot: {x: 0.335, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f41e7dd999d666f49aae875892b06530
+      internalID: 3046248063130145445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smithy_2_179
+      rect:
+        serializedVersion: 2
+        x: 5610
+        y: 3125
+        width: 510
+        height: 625
+      alignment: 9
+      pivot: {x: 0.335, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee2d8c27d644d9547bc4f4e735410fcf
+      internalID: -7407153682292877338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smithy_2_180
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2500
+        width: 510
+        height: 625
+      alignment: 9
+      pivot: {x: 0.335, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: faf674c9a2461e54a8ae0113ca0d1241
+      internalID: 6120665350714586054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smithy_2_181
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 2500
+        width: 510
+        height: 625
+      alignment: 9
+      pivot: {x: 0.335, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ef80daa809434c47b61ca2d796a6a02
+      internalID: 735043986949383628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smithy_2_182
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 2500
+        width: 510
+        height: 625
+      alignment: 9
+      pivot: {x: 0.335, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb0c210e35e9b75489fd45f7cc50d23b
+      internalID: -982899065292455163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smithy_2_183
+      rect:
+        serializedVersion: 2
+        x: 1530
+        y: 2500
+        width: 510
+        height: 625
+      alignment: 9
+      pivot: {x: 0.335, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20ac8d3afd5b7a24db9fe7e9d1ad313b
+      internalID: -3658574841223251668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smithy_2_184
+      rect:
+        serializedVersion: 2
+        x: 2040
+        y: 2500
+        width: 510
+        height: 625
+      alignment: 9
+      pivot: {x: 0.335, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03b7ef24f47e08045a6b34de8b66d76d
+      internalID: -6529484699059265944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smithy_2_185
+      rect:
+        serializedVersion: 2
+        x: 2550
+        y: 2500
+        width: 510
+        height: 625
+      alignment: 9
+      pivot: {x: 0.335, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b5a88bc15e97b44cbed1ba088609c21
+      internalID: -8031137035532486768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smithy_2_186
+      rect:
+        serializedVersion: 2
+        x: 3060
+        y: 2500
+        width: 510
+        height: 625
+      alignment: 9
+      pivot: {x: 0.335, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a54dbbfac9a65f40864409b332f9d76
+      internalID: 6044130098854181265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smithy_2_187
+      rect:
+        serializedVersion: 2
+        x: 3570
+        y: 2500
+        width: 510
+        height: 625
+      alignment: 9
+      pivot: {x: 0.335, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 283cbbf1f6b913d4ca23bc1c64ae73b7
+      internalID: 2768301243483153587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smithy_2_188
+      rect:
+        serializedVersion: 2
+        x: 4080
+        y: 2500
+        width: 510
+        height: 625
+      alignment: 9
+      pivot: {x: 0.335, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fa66e21cfc67294580813e3cf962731
+      internalID: 7836484221338487640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smithy_2_189
+      rect:
+        serializedVersion: 2
+        x: 4590
+        y: 2500
+        width: 510
+        height: 625
+      alignment: 9
+      pivot: {x: 0.335, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9f0ff571745f824b9983e664c5ee170
+      internalID: 2642349965721795592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smithy_2_190
+      rect:
+        serializedVersion: 2
+        x: 5100
+        y: 2500
+        width: 510
+        height: 625
+      alignment: 9
+      pivot: {x: 0.335, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 348789fb98047134da3ad4bebc842ef2
+      internalID: -8904866089402184563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smithy_2_191
+      rect:
+        serializedVersion: 2
+        x: 5610
+        y: 2500
+        width: 510
+        height: 625
+      alignment: 9
+      pivot: {x: 0.335, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1af16d7f8d579e441aad5207c28f1055
+      internalID: -5026350043384607654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smithy_2_192
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1875
+        width: 510
+        height: 625
+      alignment: 9
+      pivot: {x: 0.335, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 884650c7eea4de84ab1aedda1c917c79
+      internalID: 6982879558390480538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smithy_2_193
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 1875
+        width: 510
+        height: 625
+      alignment: 9
+      pivot: {x: 0.335, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9731058ed590ea4d82e6916d6d844b3
+      internalID: 4058883646943236163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smithy_2_194
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 1875
+        width: 510
+        height: 625
+      alignment: 9
+      pivot: {x: 0.335, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cd7110acf3ad344388e82ea40dd7158
+      internalID: -1901841789378260384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smithy_2_195
+      rect:
+        serializedVersion: 2
+        x: 1530
+        y: 1875
+        width: 510
+        height: 625
+      alignment: 9
+      pivot: {x: 0.335, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21054c9cf28d81543aeede5d678ab8f7
+      internalID: -4811917209861338654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smithy_2_196
+      rect:
+        serializedVersion: 2
+        x: 2040
+        y: 1875
+        width: 510
+        height: 625
+      alignment: 9
+      pivot: {x: 0.335, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13dddc41a972b214782d1906bbe8a4a8
+      internalID: 9021972216458097847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smithy_2_197
+      rect:
+        serializedVersion: 2
+        x: 2550
+        y: 1875
+        width: 510
+        height: 625
+      alignment: 9
+      pivot: {x: 0.335, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bf267f78a171f84bbec1ef76e17ad53
+      internalID: 8028842608177870116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smithy_2_198
+      rect:
+        serializedVersion: 2
+        x: 3060
+        y: 1875
+        width: 510
+        height: 625
+      alignment: 9
+      pivot: {x: 0.335, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db8f5c4f40cd5d3458042493affa855f
+      internalID: 1847487912170777626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smithy_2_199
+      rect:
+        serializedVersion: 2
+        x: 3570
+        y: 1875
+        width: 510
+        height: 625
+      alignment: 9
+      pivot: {x: 0.335, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c82c191bfccfd647ac047880984d64c
+      internalID: 31657405562832246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smithy_2_200
+      rect:
+        serializedVersion: 2
+        x: 4080
+        y: 1875
+        width: 510
+        height: 625
+      alignment: 9
+      pivot: {x: 0.335, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3da7d3ee0853a17409acdeb81eb41062
+      internalID: 2373175730429174237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smithy_2_201
+      rect:
+        serializedVersion: 2
+        x: 4590
+        y: 1875
+        width: 510
+        height: 625
+      alignment: 9
+      pivot: {x: 0.335, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0248ed984b56ed448dff6aa441164b0
+      internalID: 5165705019113683896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smithy_2_202
+      rect:
+        serializedVersion: 2
+        x: 5100
+        y: 1875
+        width: 510
+        height: 625
+      alignment: 9
+      pivot: {x: 0.335, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8e77ff25b1e16c4485adc55ae75cc00
+      internalID: 1414623237227966939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smithy_2_203
+      rect:
+        serializedVersion: 2
+        x: 5610
+        y: 1875
+        width: 510
+        height: 625
+      alignment: 9
+      pivot: {x: 0.335, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a77ab8b173afa943b74960cd281fcd0
+      internalID: 1323200920758213560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smithy_2_204
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1250
+        width: 510
+        height: 625
+      alignment: 9
+      pivot: {x: 0.335, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b539d571130bf1498a56a8a801c8e08
+      internalID: -4188047561166376114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smithy_2_205
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 1250
+        width: 510
+        height: 625
+      alignment: 9
+      pivot: {x: 0.335, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76d5543b7b1480c4eab07f64e14f97c5
+      internalID: -6792031068568506550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smithy_2_206
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 1250
+        width: 510
+        height: 625
+      alignment: 9
+      pivot: {x: 0.335, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5fb365e9e15b5e47a3cc5b6d25eedff
+      internalID: 1089932142245080076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smithy_2_207
+      rect:
+        serializedVersion: 2
+        x: 1530
+        y: 1250
+        width: 510
+        height: 625
+      alignment: 9
+      pivot: {x: 0.335, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ae6054e1d4f4d44c9b2d357bcb36e8f
+      internalID: -184058407844001053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smithy_2_208
+      rect:
+        serializedVersion: 2
+        x: 2040
+        y: 1250
+        width: 510
+        height: 625
+      alignment: 9
+      pivot: {x: 0.335, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b4057326717d9443b3c8da5096f26d6
+      internalID: 4018753895678240365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smithy_2_209
+      rect:
+        serializedVersion: 2
+        x: 2550
+        y: 1250
+        width: 510
+        height: 625
+      alignment: 9
+      pivot: {x: 0.335, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77c4da5905cf01b45a942b1108694961
+      internalID: -6430421686504939658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smithy_2_210
+      rect:
+        serializedVersion: 2
+        x: 3060
+        y: 1250
+        width: 510
+        height: 625
+      alignment: 9
+      pivot: {x: 0.335, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aab94b3fa31a972408cf316b84e10b3d
+      internalID: 6823686283177810410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smithy_2_211
+      rect:
+        serializedVersion: 2
+        x: 3570
+        y: 1250
+        width: 510
+        height: 625
+      alignment: 9
+      pivot: {x: 0.335, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97c690c16e1654b46ac31262cf911d4d
+      internalID: -8289707335019153548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smithy_2_212
+      rect:
+        serializedVersion: 2
+        x: 4080
+        y: 1250
+        width: 510
+        height: 625
+      alignment: 9
+      pivot: {x: 0.335, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad11cd7a0969b744dbb01b2cbfe6d4b3
+      internalID: 6285010115466890745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smithy_2_213
+      rect:
+        serializedVersion: 2
+        x: 4590
+        y: 1250
+        width: 510
+        height: 625
+      alignment: 9
+      pivot: {x: 0.335, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a927ae3a04fc3bd4d9233effad40eb38
+      internalID: -1853668390918345749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smithy_2_214
+      rect:
+        serializedVersion: 2
+        x: 5100
+        y: 1250
+        width: 510
+        height: 625
+      alignment: 9
+      pivot: {x: 0.335, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83731e63586839f4aa791ac40b9a8add
+      internalID: 1710641659250953699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smithy_2_215
+      rect:
+        serializedVersion: 2
+        x: 5610
+        y: 1250
+        width: 510
+        height: 625
+      alignment: 9
+      pivot: {x: 0.335, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05e9d36ecf579f742bb6e71eb0c05644
+      internalID: -6501209552252507147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smithy_2_216
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 625
+        width: 510
+        height: 625
+      alignment: 9
+      pivot: {x: 0.335, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca80c8f7dba8ed8459db687d9c02f4d5
+      internalID: -5640643580664078662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smithy_2_217
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 625
+        width: 510
+        height: 625
+      alignment: 9
+      pivot: {x: 0.335, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be049514d2c63054891e1bfac51152d6
+      internalID: 758550821837698849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smithy_2_218
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 625
+        width: 510
+        height: 625
+      alignment: 9
+      pivot: {x: 0.335, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cdb0501237787d4e96539f80012be4d
+      internalID: -7255284171445051107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smithy_2_219
+      rect:
+        serializedVersion: 2
+        x: 1530
+        y: 625
+        width: 510
+        height: 625
+      alignment: 9
+      pivot: {x: 0.335, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d24333cfa2480354cb5ed9556e16d099
+      internalID: 3861208753731394985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smithy_2_220
+      rect:
+        serializedVersion: 2
+        x: 2040
+        y: 625
+        width: 510
+        height: 625
+      alignment: 9
+      pivot: {x: 0.335, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dc17bde00481084cacf8e0ae564a5e9
+      internalID: -1889596572220113857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smithy_2_221
+      rect:
+        serializedVersion: 2
+        x: 2550
+        y: 625
+        width: 510
+        height: 625
+      alignment: 9
+      pivot: {x: 0.335, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c874aaa2d4c665b458b744d806af66d2
+      internalID: 1240142327950273071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smithy_2_222
+      rect:
+        serializedVersion: 2
+        x: 3060
+        y: 625
+        width: 510
+        height: 625
+      alignment: 9
+      pivot: {x: 0.335, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 598ddb7c0f212584dafd210a9045b109
+      internalID: 540992967564573040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smithy_2_223
+      rect:
+        serializedVersion: 2
+        x: 3570
+        y: 625
+        width: 510
+        height: 625
+      alignment: 9
+      pivot: {x: 0.335, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a8463e99f0921444a5cc765cc2ef281
+      internalID: 423235910339370999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smithy_2_224
+      rect:
+        serializedVersion: 2
+        x: 4080
+        y: 625
+        width: 510
+        height: 625
+      alignment: 9
+      pivot: {x: 0.335, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f0c7f3fb2d4e2949b4631c7316900ec
+      internalID: -1567878157914565600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smithy_2_225
+      rect:
+        serializedVersion: 2
+        x: 4590
+        y: 625
+        width: 510
+        height: 625
+      alignment: 9
+      pivot: {x: 0.335, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb0f397462c811b4eb168ce1e5f1b0b5
+      internalID: 4367767830721142008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smithy_2_226
+      rect:
+        serializedVersion: 2
+        x: 5100
+        y: 625
+        width: 510
+        height: 625
+      alignment: 9
+      pivot: {x: 0.335, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fff16f8e19b69349ade91654f4366bc
+      internalID: -5149203636455690693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smithy_2_227
+      rect:
+        serializedVersion: 2
+        x: 5610
+        y: 625
+        width: 510
+        height: 625
+      alignment: 9
+      pivot: {x: 0.335, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f65c19ec311a40546adb7a1f332a2efe
+      internalID: -9084566837651135497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smithy_2_228
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 510
+        height: 625
+      alignment: 9
+      pivot: {x: 0.335, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70fc3fdf5289bd14b86db05e3bd953ba
+      internalID: 3002677498410317164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smithy_2_229
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 0
+        width: 510
+        height: 625
+      alignment: 9
+      pivot: {x: 0.335, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 088a348948b1cd44f8f76277b992cb1e
+      internalID: 5893546621046133006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smithy_2_230
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 0
+        width: 510
+        height: 625
+      alignment: 9
+      pivot: {x: 0.335, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32dfb474080e55d419800b02885b2b56
+      internalID: 5836837750937161775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smithy_2_231
+      rect:
+        serializedVersion: 2
+        x: 1530
+        y: 0
+        width: 510
+        height: 625
+      alignment: 9
+      pivot: {x: 0.335, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d1089341736467469a0449aee623975
+      internalID: 7353837355363533606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smithy_2_232
+      rect:
+        serializedVersion: 2
+        x: 2040
+        y: 0
+        width: 510
+        height: 625
+      alignment: 9
+      pivot: {x: 0.335, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75fc032dfaae84042b576e43d749530d
+      internalID: -1750664547140344354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smithy_2_233
+      rect:
+        serializedVersion: 2
+        x: 2550
+        y: 0
+        width: 510
+        height: 625
+      alignment: 9
+      pivot: {x: 0.335, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c0ae38085cad6d40843fe302920bc19
+      internalID: -7948476391635732332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smithy_2_234
+      rect:
+        serializedVersion: 2
+        x: 3060
+        y: 0
+        width: 510
+        height: 625
+      alignment: 9
+      pivot: {x: 0.335, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c704cda856602b4f94b4a7a1052a7a4
+      internalID: -8964091725245584458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smithy_2_235
+      rect:
+        serializedVersion: 2
+        x: 3570
+        y: 0
+        width: 510
+        height: 625
+      alignment: 9
+      pivot: {x: 0.335, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf9ad7044f4651e4aa73951d88692bb2
+      internalID: 2478055897021284943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smithy_2_236
+      rect:
+        serializedVersion: 2
+        x: 4080
+        y: 0
+        width: 510
+        height: 625
+      alignment: 9
+      pivot: {x: 0.335, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3225584f8177be4c9a60ac37ead38fd
+      internalID: 1807015483760378929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smithy_2_237
+      rect:
+        serializedVersion: 2
+        x: 4590
+        y: 0
+        width: 510
+        height: 625
+      alignment: 9
+      pivot: {x: 0.335, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c7ce7634526ae743b2ec1e60cef266c
+      internalID: -6713602574600613988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smithy_2_238
+      rect:
+        serializedVersion: 2
+        x: 5100
+        y: 0
+        width: 510
+        height: 625
+      alignment: 9
+      pivot: {x: 0.335, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ed8a7c92052afd479784b7247cde326
+      internalID: 1139593884955638563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smithy_2_239
+      rect:
+        serializedVersion: 2
+        x: 5610
+        y: 0
+        width: 510
+        height: 625
+      alignment: 9
+      pivot: {x: 0.335, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 802decc4e0fdeac43ae10a7635f8ca57
+      internalID: 4810781702356793776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 6c371eb42d9100841aaad80f4638a1ee
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
