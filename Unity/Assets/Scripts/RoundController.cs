@@ -48,6 +48,8 @@ public class RoundController : MonoBehaviour
 
     public SortingClass[] playerOrder = { null, null, null, null };
 
+    public GameObject[] crowns;
+
     void Start()
     {
         round = 1;
@@ -199,15 +201,19 @@ public class RoundController : MonoBehaviour
             {
                 case 0:
                     orderingText[playerOrder[l].playerIndex].text = ((3 - l) + 1) + "th";
+                    crowns[playerOrder[l].playerIndex].SetActive(false);
                     break;
                 case 1:
                     orderingText[playerOrder[l].playerIndex].text = ((3 - l) + 1) + "rd";
+                    crowns[playerOrder[l].playerIndex].SetActive(false);
                     break;
                 case 2:
                     orderingText[playerOrder[l].playerIndex].text = ((3 - l) + 1) + "nd";
+                    crowns[playerOrder[l].playerIndex].SetActive(false);
                     break;
                 case 3:
                     orderingText[playerOrder[l].playerIndex].text = ((3 - l) + 1) + "st";
+                    crowns[playerOrder[l].playerIndex].SetActive(true);
                     break;
                 default:
                     break;
