@@ -20,6 +20,8 @@ public class ChanceController : MonoBehaviour
     private AudioController ac;
     private PlayerController pc;
 
+    public GameObject stunEffect;
+
     GameObject effect;
 
     private void Start()
@@ -158,6 +160,14 @@ public class ChanceController : MonoBehaviour
         {
             ic.allPlayers[playerIndex].GetComponent<PlayerController>().playerVariable.skip = true;
         }
+
+        effect = Instantiate(stunEffect) as GameObject;
+        effect.transform.position = new Vector3(
+                ic.allPlayers[playerIndex].transform.position.x,
+                ic.allPlayers[playerIndex].transform.position.y + 0.5f, 0);
+
+
+        effect.transform.parent = ic.allPlayers[playerIndex].transform;
 
         ac.PlaySound(SoundEnum.loseTurnSound);
     }

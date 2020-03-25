@@ -143,7 +143,7 @@ public class RoundController : MonoBehaviour
         Time.timeScale = 0f;
     }
 
-    public void SortPlayer()
+    private void SortPlayer()
     {
         for (int k = 0; k < gc.playerFruits.Length; k++)
         {
@@ -163,13 +163,6 @@ public class RoundController : MonoBehaviour
                 }
             }
         }
-
-
-
-
-
-        if (round >= roundMax)
-        {
             for (int q = 0; q < sortedFruits.Length; q++)
             {
                 playerVisual[q].GetComponent<Image>().sprite = playerSprite[sortedFruits[q].playerIndex];
@@ -177,7 +170,6 @@ public class RoundController : MonoBehaviour
                 textVisual[q].text = sortedFruits[q].fruitAmount.ToString();
             }
             winScreen.SetActive(true);
-        }
     }
 
     public void SortingPlayer()
@@ -203,9 +195,6 @@ public class RoundController : MonoBehaviour
 
         for (int l = playerOrder.Length - 1; l >= 0; l--)
         {
-            //Debug.Log("INDEX: " + playerOrder[l].playerIndex + " INT: " + l);
-            //orderingText[playerOrder[l].playerIndex].text = ((3 - l) + 1).ToString();
-
             switch (l)
             {
                 case 0:

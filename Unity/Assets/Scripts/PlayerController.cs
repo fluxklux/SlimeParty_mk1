@@ -152,4 +152,9 @@ public class PlayerController : MonoBehaviour
     {
         return playerVariable.currentSlotPosition;
     }
+
+    public void RemoveStun()
+    {
+        Object.Destroy(gameObject.GetComponentInChildren<Rotate>().gameObject);
+    }
 }

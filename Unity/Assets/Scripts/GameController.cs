@@ -74,6 +74,7 @@ public class GameController : MonoBehaviour
                 ic.allPlayers[i].GetComponent<PlayerController>().playerVariable.skip = false;
                 ic.hasPressedKey[i] = false;
                 turnSkipped[i] = false;
+                ic.allPlayers[i].GetComponent<PlayerController>().RemoveStun();
             }
             else if (ic.allPlayers[i].GetComponent<PlayerController>().playerVariable.skip == true)
             {

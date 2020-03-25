@@ -24,14 +24,16 @@ public class InputController : MonoBehaviour
 
     AudioController ac;
 
+    RoundController rc;
+
     void Start()
     {
         mc = GetComponent<MoveController>();
         dc = GetComponent<Dpad>();
         gc = GetComponent<GameController>();
         uc = GetComponent<UIController>();
-
         ac = GetComponent<AudioController>();
+        rc = GetComponent<RoundController>();
 
         uc.ToggleDpad(false);
         uc.ToggleTimer(false);
@@ -51,6 +53,7 @@ public class InputController : MonoBehaviour
             uc.TogglePlayerUi(index);
             mc.players[index].SetActive(true);
             uc.playerQueueText[index].SetActive(true);
+            rc.orderingText[index].gameObject.SetActive(true);
         }
         else
         {
