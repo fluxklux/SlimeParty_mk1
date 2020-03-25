@@ -4,7 +4,6 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.EventSystems;
 using UnityEngine.SceneManagement;
-
 public class ClickThing : MonoBehaviour
 {
 
@@ -16,7 +15,7 @@ public class ClickThing : MonoBehaviour
         }
     }
 
-    public void StartGame ()
+    public void LoadGame()
     {
         SceneManager.LoadScene(2);
     }

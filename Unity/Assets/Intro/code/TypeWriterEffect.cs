@@ -13,7 +13,6 @@ public class TypeWriterEffect : MonoBehaviour
 	public GameObject Options;
 	public Animator KingAnimation;
 
-
 	// Use this for initialization
 	void Start()
 	{
@@ -21,6 +20,7 @@ public class TypeWriterEffect : MonoBehaviour
 		StartCoroutine(ShowText());
 		TextLength = fullText.Length;
 		KingAnimation.SetBool("Idle", false);
+
 	}
 
 	IEnumerator ShowText()
@@ -45,7 +45,7 @@ public class TypeWriterEffect : MonoBehaviour
 			KingAnimation.SetBool("Idle", true);
 			TextLength = 0;
 		}
-		if (Input.GetKeyDown("space"))
+		if (Input.GetButtonDown("C1 Select"))
 		{
 			skipText = true;
 		}

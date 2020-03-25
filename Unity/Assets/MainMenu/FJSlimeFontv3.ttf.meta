@@ -1,0 +1,25 @@
+fileFormatVersion: 2
+guid: 5b2740af53df7404fa03eac77adc3b95
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: FJSlimeFontv3
+  fontNames:
+  - FJSlimeFontv3
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 3cfd51e3c5e25b94098b092f31e06613, type: 3}
+  - {fileID: 12800000, guid: 1b214af35f9d43045877b46e006cf8ce, type: 3}
+  - {fileID: 12800000, guid: 3154798ace82628418fd4ce2c87f9660, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
