@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public enum NpcType { Idle, Walking };
+public enum NpcType { Idle, Walking};
 
 public class NPCController : MonoBehaviour
 {
@@ -15,12 +15,17 @@ public class NPCController : MonoBehaviour
     private int currentWayPoint;
     private float waitTimer;
     private int pointToWaitAt;
-    private bool isWalking;
+    private bool isWalking = true;
     private Animator anim;
+    private int timeBeforePlayAnim;
+    private SpriteRenderer npcSprite;
+
 
     private void Start()
     {
         anim = GetComponentInChildren<Animator>();
+
+        npcSprite = GetComponentInChildren<SpriteRenderer>();
 
         if (wayPoints.Length <= 0)
         {
@@ -29,15 +34,11 @@ public class NPCController : MonoBehaviour
         }
         else
         {
-
             for (int i = 0; i < wayPoints.Length; i++)
             {
-                wayPoints[i].transform.SetParent(null, false);
+                wayPoints[i].transform.SetParent(null, true);
             }
-
         }
-
-
 
         if (npcType == NpcType.Walking)
         {
@@ -69,7 +70,6 @@ public class NPCController : MonoBehaviour
 
     private void Update()
     {
-
         if (npcType == NpcType.Walking)
         {
             MoveToWayPoint();
@@ -123,7 +123,6 @@ public class NPCController : MonoBehaviour
             {
                 Move();
             }
-
         }
     }
 
