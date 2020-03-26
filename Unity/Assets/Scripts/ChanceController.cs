@@ -5,6 +5,7 @@ using UnityEngine;
 public class ChanceController : MonoBehaviour
 {
     public GameObject fruitBag;
+    public GameObject stunApple;
 
     [SerializeField] private GameObject bagEffect = null; 
 
@@ -54,7 +55,10 @@ public class ChanceController : MonoBehaviour
                 break;
             case 3:
                 //Dålig effekt, förlora sin tur
-                SkipPlayerTurn(playerIndex);
+                GameObject apple = Instantiate(stunApple, new Vector2(0, 8), Quaternion.identity) as GameObject;
+                apple.GetComponent<StunApple>().SetPlayerIndex(playerIndex);
+                apple.GetComponent<StunApple>().SetTarget(mc.players[playerIndex].transform);
+                //SkipPlayerTurn(playerIndex);
                 break;
             default:
                 break;
@@ -154,8 +158,9 @@ public class ChanceController : MonoBehaviour
         }
     }
 
-    void SkipPlayerTurn(int playerIndex)
+    public void SkipPlayerTurn(int playerIndex)
     {
+        Debug.Log("PLAYER INDEX: " + playerIndex);
         if (gc.turnSkipped[playerIndex] == false)
         {
             ic.allPlayers[playerIndex].GetComponent<PlayerController>().playerVariable.skip = true;
