@@ -1,0 +1,2287 @@
+fileFormatVersion: 2
+guid: 447b843c1134b0442afb0485c44ece1b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7759885331429376755
+    second: npc_red_idle_0
+  - first:
+      213: 9077627499321228798
+    second: npc_red_idle_1
+  - first:
+      213: 7138208770159087516
+    second: npc_red_idle_2
+  - first:
+      213: -822786142804227350
+    second: npc_red_idle_3
+  - first:
+      213: 2265510407111623362
+    second: npc_red_idle_4
+  - first:
+      213: -5306251115782893226
+    second: npc_red_idle_5
+  - first:
+      213: 8997499369894413592
+    second: npc_red_idle_6
+  - first:
+      213: 5267795226005021211
+    second: npc_red_idle_7
+  - first:
+      213: 8185628075635751217
+    second: npc_red_idle_8
+  - first:
+      213: 7998328808310268052
+    second: npc_red_idle_9
+  - first:
+      213: -1917446471393030880
+    second: npc_red_idle_10
+  - first:
+      213: -823764218873584344
+    second: npc_red_idle_11
+  - first:
+      213: -2626010296642173749
+    second: npc_red_idle_12
+  - first:
+      213: -722556007023835331
+    second: npc_red_idle_13
+  - first:
+      213: -6241901427967704117
+    second: npc_red_idle_14
+  - first:
+      213: 5582729145431805112
+    second: npc_red_idle_15
+  - first:
+      213: 2526176812104701705
+    second: npc_red_idle_16
+  - first:
+      213: 7919367225151259046
+    second: npc_red_idle_17
+  - first:
+      213: -2823500067648286762
+    second: npc_red_idle_18
+  - first:
+      213: -3178156112480586117
+    second: npc_red_idle_19
+  - first:
+      213: -6615456883192080573
+    second: npc_red_idle_20
+  - first:
+      213: 876465648237486876
+    second: npc_red_idle_21
+  - first:
+      213: -1162271353447535584
+    second: npc_red_idle_22
+  - first:
+      213: 6741575698548501010
+    second: npc_red_idle_23
+  - first:
+      213: 8004296144523711264
+    second: npc_red_idle_24
+  - first:
+      213: -3469477331017780635
+    second: npc_red_idle_25
+  - first:
+      213: 3583247219246344735
+    second: npc_red_idle_26
+  - first:
+      213: -6420397214692562915
+    second: npc_red_idle_27
+  - first:
+      213: -4331987659011526476
+    second: npc_red_idle_28
+  - first:
+      213: -2496490841149072846
+    second: npc_red_idle_29
+  - first:
+      213: 6348377521322934338
+    second: npc_red_idle_30
+  - first:
+      213: 4901776658284113314
+    second: npc_red_idle_31
+  - first:
+      213: 434182765841376388
+    second: npc_red_idle_32
+  - first:
+      213: 707775832394412180
+    second: npc_red_idle_33
+  - first:
+      213: -895976363201799461
+    second: npc_red_idle_34
+  - first:
+      213: -6746769739549065248
+    second: npc_red_idle_35
+  - first:
+      213: 7549289504007655363
+    second: npc_red_idle_36
+  - first:
+      213: -8814777078025106165
+    second: npc_red_idle_37
+  - first:
+      213: -1097083677941387071
+    second: npc_red_idle_38
+  - first:
+      213: -8372480037197434626
+    second: npc_red_idle_39
+  - first:
+      213: 9003062539702316996
+    second: npc_red_idle_40
+  - first:
+      213: -3426382341870598582
+    second: npc_red_idle_41
+  - first:
+      213: 3564864825168034081
+    second: npc_red_idle_42
+  - first:
+      213: -1956626213216132212
+    second: npc_red_idle_43
+  - first:
+      213: 8742746605905971632
+    second: npc_red_idle_44
+  - first:
+      213: -469112031800617441
+    second: npc_red_idle_45
+  - first:
+      213: -4787575878012336842
+    second: npc_red_idle_46
+  - first:
+      213: -3438265960349653994
+    second: npc_red_idle_47
+  - first:
+      213: -8023911538134638882
+    second: npc_red_idle_48
+  - first:
+      213: 1478699021778877435
+    second: npc_red_idle_49
+  - first:
+      213: -75659459038724095
+    second: npc_red_idle_50
+  - first:
+      213: -9173326961922375292
+    second: npc_red_idle_51
+  - first:
+      213: 5148775372687443424
+    second: npc_red_idle_52
+  - first:
+      213: 2694456852624424571
+    second: npc_red_idle_53
+  - first:
+      213: -273903500037516414
+    second: npc_red_idle_54
+  - first:
+      213: -4068312932499121208
+    second: npc_red_idle_55
+  - first:
+      213: 6400498915046616962
+    second: npc_red_idle_56
+  - first:
+      213: 7890120965672037873
+    second: npc_red_idle_57
+  - first:
+      213: 2041912571981613171
+    second: npc_red_idle_58
+  - first:
+      213: -2782618055427781788
+    second: npc_red_idle_59
+  - first:
+      213: 4119608913759178462
+    second: npc_red_idle_60
+  - first:
+      213: 3873074372094282536
+    second: npc_red_idle_61
+  - first:
+      213: 4381912354683917032
+    second: npc_red_idle_62
+  - first:
+      213: -5656947423692912558
+    second: npc_red_idle_63
+  - first:
+      213: 3850089812740165757
+    second: npc_red_idle_64
+  - first:
+      213: -7083805250766446512
+    second: npc_red_idle_65
+  - first:
+      213: -1128860034230836897
+    second: npc_red_idle_66
+  - first:
+      213: -8713037801734125817
+    second: npc_red_idle_67
+  - first:
+      213: -339465119976164445
+    second: npc_red_idle_68
+  - first:
+      213: -3167328135719614175
+    second: npc_red_idle_69
+  - first:
+      213: 6466146481069500549
+    second: npc_red_idle_70
+  - first:
+      213: -3590482667138974128
+    second: npc_red_idle_71
+  - first:
+      213: 2411599068505824774
+    second: npc_red_idle_72
+  - first:
+      213: -5541898078522499139
+    second: npc_red_idle_73
+  - first:
+      213: 8007961602480366052
+    second: npc_red_idle_74
+  - first:
+      213: 739642775962872065
+    second: npc_red_idle_75
+  - first:
+      213: -5838521661536306048
+    second: npc_red_idle_76
+  - first:
+      213: 4437940119916212263
+    second: npc_red_idle_77
+  - first:
+      213: -1883357451036528664
+    second: npc_red_idle_78
+  - first:
+      213: -1134434431283431837
+    second: npc_red_idle_79
+  - first:
+      213: 8913775305084042069
+    second: npc_red_idle_80
+  - first:
+      213: -4689359994897160096
+    second: npc_red_idle_81
+  - first:
+      213: 6529287744868223300
+    second: npc_red_idle_82
+  - first:
+      213: -1574952653805397740
+    second: npc_red_idle_83
+  - first:
+      213: 6174885874887686419
+    second: npc_red_idle_84
+  - first:
+      213: 543754627457486019
+    second: npc_red_idle_85
+  - first:
+      213: -6486358392397232666
+    second: npc_red_idle_86
+  - first:
+      213: -7401380533822206516
+    second: npc_red_idle_87
+  - first:
+      213: -2920163147938835046
+    second: npc_red_idle_88
+  - first:
+      213: 8447259535854013407
+    second: npc_red_idle_89
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 600
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: npc_red_idle_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4200
+        width: 333
+        height: 600
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebc9e8dfc8890d24bad97cd2984fb0d3
+      internalID: -7759885331429376755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_red_idle_1
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 4200
+        width: 333
+        height: 600
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cdbef1b37df659458b45e4a0c79077a
+      internalID: 9077627499321228798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_red_idle_2
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 4200
+        width: 333
+        height: 600
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 202c6835c0ebed24e80be962ef6dc884
+      internalID: 7138208770159087516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_red_idle_3
+      rect:
+        serializedVersion: 2
+        x: 999
+        y: 4200
+        width: 333
+        height: 600
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1828eb44e94c5744fbbf13ac88663449
+      internalID: -822786142804227350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_red_idle_4
+      rect:
+        serializedVersion: 2
+        x: 1332
+        y: 4200
+        width: 333
+        height: 600
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f026cfde7299a26428e71f7a55c87bc9
+      internalID: 2265510407111623362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_red_idle_5
+      rect:
+        serializedVersion: 2
+        x: 1665
+        y: 4200
+        width: 333
+        height: 600
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75f6e9fea1fd43f4c882739585bb50c5
+      internalID: -5306251115782893226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_red_idle_6
+      rect:
+        serializedVersion: 2
+        x: 1998
+        y: 4200
+        width: 333
+        height: 600
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e7d6d133ec54dd49b830d63b151f514
+      internalID: 8997499369894413592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_red_idle_7
+      rect:
+        serializedVersion: 2
+        x: 2331
+        y: 4200
+        width: 333
+        height: 600
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5eaf47c5abf27b4ebeac736d3902a99
+      internalID: 5267795226005021211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_red_idle_8
+      rect:
+        serializedVersion: 2
+        x: 2664
+        y: 4200
+        width: 333
+        height: 600
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c25f5e8de1a3a944aa4e75e8982904fd
+      internalID: 8185628075635751217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_red_idle_9
+      rect:
+        serializedVersion: 2
+        x: 2997
+        y: 4200
+        width: 333
+        height: 600
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc0583502230ee647b5049c420d58ab4
+      internalID: 7998328808310268052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_red_idle_10
+      rect:
+        serializedVersion: 2
+        x: 3330
+        y: 4200
+        width: 333
+        height: 600
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62f9bdf08bd6ef34499188128177c76b
+      internalID: -1917446471393030880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_red_idle_11
+      rect:
+        serializedVersion: 2
+        x: 3663
+        y: 4200
+        width: 333
+        height: 600
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 152c91a71f858084882e8d128ea635f6
+      internalID: -823764218873584344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_red_idle_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3600
+        width: 333
+        height: 600
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0278604bb2a95ee49b395abdeb77b4da
+      internalID: -2626010296642173749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_red_idle_13
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 3600
+        width: 333
+        height: 600
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06049152103f6794aa0a300f200a7a96
+      internalID: -722556007023835331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_red_idle_14
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 3600
+        width: 333
+        height: 600
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bece85a3e67f8c4e91d03bb24d73905
+      internalID: -6241901427967704117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_red_idle_15
+      rect:
+        serializedVersion: 2
+        x: 999
+        y: 3600
+        width: 333
+        height: 600
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fb698417c6bd794dbeeecd9fc401e6d
+      internalID: 5582729145431805112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_red_idle_16
+      rect:
+        serializedVersion: 2
+        x: 1332
+        y: 3600
+        width: 333
+        height: 600
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20cc2f36617f59044b730adf904eec96
+      internalID: 2526176812104701705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_red_idle_17
+      rect:
+        serializedVersion: 2
+        x: 1665
+        y: 3600
+        width: 333
+        height: 600
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bed3db7700dc2084e98771126e6c6453
+      internalID: 7919367225151259046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_red_idle_18
+      rect:
+        serializedVersion: 2
+        x: 1998
+        y: 3600
+        width: 333
+        height: 600
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47482b591117a134b9e778204bdf1101
+      internalID: -2823500067648286762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_red_idle_19
+      rect:
+        serializedVersion: 2
+        x: 2331
+        y: 3600
+        width: 333
+        height: 600
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e21d02f7ccd52ec488294c502499e812
+      internalID: -3178156112480586117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_red_idle_20
+      rect:
+        serializedVersion: 2
+        x: 2664
+        y: 3600
+        width: 333
+        height: 600
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1e444e293ff7b04a9d333769ce72c8d
+      internalID: -6615456883192080573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_red_idle_21
+      rect:
+        serializedVersion: 2
+        x: 2997
+        y: 3600
+        width: 333
+        height: 600
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48d517b71131a3e42950bb1fdbac0ee7
+      internalID: 876465648237486876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_red_idle_22
+      rect:
+        serializedVersion: 2
+        x: 3330
+        y: 3600
+        width: 333
+        height: 600
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7c73483b0ec0fc4286bc42bd2841dfb
+      internalID: -1162271353447535584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_red_idle_23
+      rect:
+        serializedVersion: 2
+        x: 3663
+        y: 3600
+        width: 333
+        height: 600
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a1a99dffc9ebb242a0de594b26a657c
+      internalID: 6741575698548501010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_red_idle_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3000
+        width: 333
+        height: 600
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bc4b60565334764299b247eb8f57ed6
+      internalID: 8004296144523711264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_red_idle_25
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 3000
+        width: 333
+        height: 600
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b5ff9bd047192d4691e71838779f99d
+      internalID: -3469477331017780635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_red_idle_26
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 3000
+        width: 333
+        height: 600
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1232ae1d507042d468db07d00ba0baf7
+      internalID: 3583247219246344735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_red_idle_27
+      rect:
+        serializedVersion: 2
+        x: 999
+        y: 3000
+        width: 333
+        height: 600
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9dc0560c6367cf458097cd397a4a142
+      internalID: -6420397214692562915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_red_idle_28
+      rect:
+        serializedVersion: 2
+        x: 1332
+        y: 3000
+        width: 333
+        height: 600
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cc8243bc9784f84d9fb1529448dee4d
+      internalID: -4331987659011526476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_red_idle_29
+      rect:
+        serializedVersion: 2
+        x: 1665
+        y: 3000
+        width: 333
+        height: 600
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45ea28d1b8963684ea42726c1b106ad2
+      internalID: -2496490841149072846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_red_idle_30
+      rect:
+        serializedVersion: 2
+        x: 1998
+        y: 3000
+        width: 333
+        height: 600
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24d7b3686afd0844893d6f5c6e6321e9
+      internalID: 6348377521322934338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_red_idle_31
+      rect:
+        serializedVersion: 2
+        x: 2331
+        y: 3000
+        width: 333
+        height: 600
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cbcdff7faaa1cb40be43ea1fe29dd19
+      internalID: 4901776658284113314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_red_idle_32
+      rect:
+        serializedVersion: 2
+        x: 2664
+        y: 3000
+        width: 333
+        height: 600
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7097703636663143a45ee97feefc0f0
+      internalID: 434182765841376388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_red_idle_33
+      rect:
+        serializedVersion: 2
+        x: 2997
+        y: 3000
+        width: 333
+        height: 600
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1c8dbaa0ec900a43ab5c26468cd40a1
+      internalID: 707775832394412180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_red_idle_34
+      rect:
+        serializedVersion: 2
+        x: 3330
+        y: 3000
+        width: 333
+        height: 600
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46b33d015b9d3224691f7915aa2902ab
+      internalID: -895976363201799461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_red_idle_35
+      rect:
+        serializedVersion: 2
+        x: 3663
+        y: 3000
+        width: 333
+        height: 600
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d50385200509ac4e855616c83704468
+      internalID: -6746769739549065248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_red_idle_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2400
+        width: 333
+        height: 600
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5749679687141d4489b9a24f4bd7070d
+      internalID: 7549289504007655363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_red_idle_37
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 2400
+        width: 333
+        height: 600
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab1e13fc7ced05745843f7acb2dedfb9
+      internalID: -8814777078025106165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_red_idle_38
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 2400
+        width: 333
+        height: 600
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bda08ed454d20464088e3cbcb4bc52a9
+      internalID: -1097083677941387071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_red_idle_39
+      rect:
+        serializedVersion: 2
+        x: 999
+        y: 2400
+        width: 333
+        height: 600
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f4eb37a3d4f7854b87c4c1624db4ff9
+      internalID: -8372480037197434626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_red_idle_40
+      rect:
+        serializedVersion: 2
+        x: 1332
+        y: 2400
+        width: 333
+        height: 600
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cffaae4dec95794d912306cc26ad2eb
+      internalID: 9003062539702316996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_red_idle_41
+      rect:
+        serializedVersion: 2
+        x: 1665
+        y: 2400
+        width: 333
+        height: 600
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 812c49e066d085f488cf1e494c6a689c
+      internalID: -3426382341870598582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_red_idle_42
+      rect:
+        serializedVersion: 2
+        x: 1998
+        y: 2400
+        width: 333
+        height: 600
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66620fddfe0839b419707e9a5564f2e1
+      internalID: 3564864825168034081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_red_idle_43
+      rect:
+        serializedVersion: 2
+        x: 2331
+        y: 2400
+        width: 333
+        height: 600
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95bf63b6efdd06147b7f349108397850
+      internalID: -1956626213216132212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_red_idle_44
+      rect:
+        serializedVersion: 2
+        x: 2664
+        y: 2400
+        width: 333
+        height: 600
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec742111197bc614db70eab2ca488294
+      internalID: 8742746605905971632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_red_idle_45
+      rect:
+        serializedVersion: 2
+        x: 2997
+        y: 2400
+        width: 333
+        height: 600
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe4bc415bb118734785048fade4cd2f0
+      internalID: -469112031800617441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_red_idle_46
+      rect:
+        serializedVersion: 2
+        x: 3330
+        y: 2400
+        width: 333
+        height: 600
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 276bb10953218ad4ea9eae22358a7d5d
+      internalID: -4787575878012336842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_red_idle_47
+      rect:
+        serializedVersion: 2
+        x: 3663
+        y: 2400
+        width: 333
+        height: 600
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 487489af5840c53459aede9912909001
+      internalID: -3438265960349653994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_red_idle_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1800
+        width: 333
+        height: 600
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83d615b245b833f409d3f05b2d2f0314
+      internalID: -8023911538134638882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_red_idle_49
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 1800
+        width: 333
+        height: 600
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 139f71e28a8aae046a9d83e00d070eab
+      internalID: 1478699021778877435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_red_idle_50
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 1800
+        width: 333
+        height: 600
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6eb81ce4e3ef0844a8e82128d2c55ff5
+      internalID: -75659459038724095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_red_idle_51
+      rect:
+        serializedVersion: 2
+        x: 999
+        y: 1800
+        width: 333
+        height: 600
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4f532bcfff2ac1419cd31dcbbc44a6d
+      internalID: -9173326961922375292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_red_idle_52
+      rect:
+        serializedVersion: 2
+        x: 1332
+        y: 1800
+        width: 333
+        height: 600
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bed4effca1187814b80ab93c4e86f1e3
+      internalID: 5148775372687443424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_red_idle_53
+      rect:
+        serializedVersion: 2
+        x: 1665
+        y: 1800
+        width: 333
+        height: 600
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c25135ee00d736c4fab2016587bf3baa
+      internalID: 2694456852624424571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_red_idle_54
+      rect:
+        serializedVersion: 2
+        x: 1998
+        y: 1800
+        width: 333
+        height: 600
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f7bb5a8106449f42ac4d5b60e45bd74
+      internalID: -273903500037516414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_red_idle_55
+      rect:
+        serializedVersion: 2
+        x: 2331
+        y: 1800
+        width: 333
+        height: 600
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad35c8df0b7579047818d79dbcafbd58
+      internalID: -4068312932499121208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_red_idle_56
+      rect:
+        serializedVersion: 2
+        x: 2664
+        y: 1800
+        width: 333
+        height: 600
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef888ee63787aeb41b0223f2b3120685
+      internalID: 6400498915046616962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_red_idle_57
+      rect:
+        serializedVersion: 2
+        x: 2997
+        y: 1800
+        width: 333
+        height: 600
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cd9fe848fc2de441a9a2e9cfd3e5cd1
+      internalID: 7890120965672037873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_red_idle_58
+      rect:
+        serializedVersion: 2
+        x: 3330
+        y: 1800
+        width: 333
+        height: 600
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74fb68f390be4e84c8c1cae6a2e13f0d
+      internalID: 2041912571981613171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_red_idle_59
+      rect:
+        serializedVersion: 2
+        x: 3663
+        y: 1800
+        width: 333
+        height: 600
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61da560f3f1b4c94889fc5e83b7045c5
+      internalID: -2782618055427781788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_red_idle_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1200
+        width: 333
+        height: 600
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 125680553d7e4ea448a2d04876495bc5
+      internalID: 4119608913759178462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_red_idle_61
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 1200
+        width: 333
+        height: 600
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2de4f75209258da4eada40ef53c2d098
+      internalID: 3873074372094282536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_red_idle_62
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 1200
+        width: 333
+        height: 600
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d65f863e3649d3d41b2248d07e3ec90d
+      internalID: 4381912354683917032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_red_idle_63
+      rect:
+        serializedVersion: 2
+        x: 999
+        y: 1200
+        width: 333
+        height: 600
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6534496fbad78e54f864b69314b5f154
+      internalID: -5656947423692912558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_red_idle_64
+      rect:
+        serializedVersion: 2
+        x: 1332
+        y: 1200
+        width: 333
+        height: 600
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4c9c5008023c7749b179b655d5877b7
+      internalID: 3850089812740165757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_red_idle_65
+      rect:
+        serializedVersion: 2
+        x: 1665
+        y: 1200
+        width: 333
+        height: 600
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b113c7ae2bf01b448e44867bd487bda
+      internalID: -7083805250766446512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_red_idle_66
+      rect:
+        serializedVersion: 2
+        x: 1998
+        y: 1200
+        width: 333
+        height: 600
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d2850251c705fa45ab14b1e84deaef3
+      internalID: -1128860034230836897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_red_idle_67
+      rect:
+        serializedVersion: 2
+        x: 2331
+        y: 1200
+        width: 333
+        height: 600
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c3746562c00c18488b59494c0c727d3
+      internalID: -8713037801734125817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_red_idle_68
+      rect:
+        serializedVersion: 2
+        x: 2664
+        y: 1200
+        width: 333
+        height: 600
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db4524ecae294fd4f92c36ad8a84c4de
+      internalID: -339465119976164445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_red_idle_69
+      rect:
+        serializedVersion: 2
+        x: 2997
+        y: 1200
+        width: 333
+        height: 600
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 629c09d4b512e1d459509df63d2aede7
+      internalID: -3167328135719614175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_red_idle_70
+      rect:
+        serializedVersion: 2
+        x: 3330
+        y: 1200
+        width: 333
+        height: 600
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58e3171918316af438b216a002a0cd7f
+      internalID: 6466146481069500549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_red_idle_71
+      rect:
+        serializedVersion: 2
+        x: 3663
+        y: 1200
+        width: 333
+        height: 600
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32f29d542b07a734694ba1632130dac9
+      internalID: -3590482667138974128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_red_idle_72
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 600
+        width: 333
+        height: 600
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68bb19be6640243428596c26d89b4dc7
+      internalID: 2411599068505824774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_red_idle_73
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 600
+        width: 333
+        height: 600
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 020d7603fb188784da94cad6f574204a
+      internalID: -5541898078522499139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_red_idle_74
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 600
+        width: 333
+        height: 600
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7aa9d5cf2c737ac4fb2c047651edb0cc
+      internalID: 8007961602480366052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_red_idle_75
+      rect:
+        serializedVersion: 2
+        x: 999
+        y: 600
+        width: 333
+        height: 600
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85a3dc1172bd0bf4a9c65eaf02a40233
+      internalID: 739642775962872065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_red_idle_76
+      rect:
+        serializedVersion: 2
+        x: 1332
+        y: 600
+        width: 333
+        height: 600
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b97b993be944ee4b8d2eebc8477f041
+      internalID: -5838521661536306048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_red_idle_77
+      rect:
+        serializedVersion: 2
+        x: 1665
+        y: 600
+        width: 333
+        height: 600
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7225c61ca3a180441a3ffe006bc1b55e
+      internalID: 4437940119916212263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_red_idle_78
+      rect:
+        serializedVersion: 2
+        x: 1998
+        y: 600
+        width: 333
+        height: 600
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d64dc3635b589245a4925a179e54e44
+      internalID: -1883357451036528664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_red_idle_79
+      rect:
+        serializedVersion: 2
+        x: 2331
+        y: 600
+        width: 333
+        height: 600
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3b6360399f5bb544b200270ac7708b9
+      internalID: -1134434431283431837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_red_idle_80
+      rect:
+        serializedVersion: 2
+        x: 2664
+        y: 600
+        width: 333
+        height: 600
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60a38d3ebd1bd014e87c4615d6793c46
+      internalID: 8913775305084042069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_red_idle_81
+      rect:
+        serializedVersion: 2
+        x: 2997
+        y: 600
+        width: 333
+        height: 600
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f2bf02aeb844e24485899c7f95ef719
+      internalID: -4689359994897160096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_red_idle_82
+      rect:
+        serializedVersion: 2
+        x: 3330
+        y: 600
+        width: 333
+        height: 600
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86720157b243ad8428ef1820c11664a2
+      internalID: 6529287744868223300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_red_idle_83
+      rect:
+        serializedVersion: 2
+        x: 3663
+        y: 600
+        width: 333
+        height: 600
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de843c15adbf0d647a627779a055f1fe
+      internalID: -1574952653805397740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_red_idle_84
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 333
+        height: 600
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2492e1b4f8492149a9c9df67323bb08
+      internalID: 6174885874887686419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_red_idle_85
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 0
+        width: 333
+        height: 600
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e19934009dbcc664d8810794c73913bc
+      internalID: 543754627457486019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_red_idle_86
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 0
+        width: 333
+        height: 600
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe4ab0f942b37ad41bfac95f5b02b071
+      internalID: -6486358392397232666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_red_idle_87
+      rect:
+        serializedVersion: 2
+        x: 999
+        y: 0
+        width: 333
+        height: 600
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d913b2018038d4479d413698fcab32c
+      internalID: -7401380533822206516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_red_idle_88
+      rect:
+        serializedVersion: 2
+        x: 1332
+        y: 0
+        width: 333
+        height: 600
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47bed91ee1a417844b5d14731331176b
+      internalID: -2920163147938835046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_red_idle_89
+      rect:
+        serializedVersion: 2
+        x: 1665
+        y: 0
+        width: 333
+        height: 600
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38e0091d6d557aa4c93ea7a64be1666a
+      internalID: 8447259535854013407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: f93e9f04bccdc0d46b8b5d959e074a41
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,2287 @@
+fileFormatVersion: 2
+guid: 5c74625f4c8b7514a9420013b77339d4
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4830259953787778317
+    second: npc_blue_idle_0
+  - first:
+      213: 3965007596072696705
+    second: npc_blue_idle_1
+  - first:
+      213: -2003238783818882501
+    second: npc_blue_idle_2
+  - first:
+      213: 6346162548372787864
+    second: npc_blue_idle_3
+  - first:
+      213: -6707585460223748648
+    second: npc_blue_idle_4
+  - first:
+      213: -5621482302755506578
+    second: npc_blue_idle_5
+  - first:
+      213: 4073382122292891528
+    second: npc_blue_idle_6
+  - first:
+      213: 9080365316147110047
+    second: npc_blue_idle_7
+  - first:
+      213: -6633135979991684425
+    second: npc_blue_idle_8
+  - first:
+      213: 5597859207268312299
+    second: npc_blue_idle_9
+  - first:
+      213: 42504676072431380
+    second: npc_blue_idle_10
+  - first:
+      213: -2000354942311374135
+    second: npc_blue_idle_11
+  - first:
+      213: -1350817740336324174
+    second: npc_blue_idle_12
+  - first:
+      213: -6361889221564466825
+    second: npc_blue_idle_13
+  - first:
+      213: -2603951463817856258
+    second: npc_blue_idle_14
+  - first:
+      213: 3756019356910546767
+    second: npc_blue_idle_15
+  - first:
+      213: -6658211700025244700
+    second: npc_blue_idle_16
+  - first:
+      213: -8857136064732572906
+    second: npc_blue_idle_17
+  - first:
+      213: 8280438941232046630
+    second: npc_blue_idle_18
+  - first:
+      213: -7199496495240942423
+    second: npc_blue_idle_19
+  - first:
+      213: -420972855584922531
+    second: npc_blue_idle_20
+  - first:
+      213: 7614064725075479241
+    second: npc_blue_idle_21
+  - first:
+      213: -362763307768530257
+    second: npc_blue_idle_22
+  - first:
+      213: -5748621641371926636
+    second: npc_blue_idle_23
+  - first:
+      213: -4166522913959183977
+    second: npc_blue_idle_24
+  - first:
+      213: -73118540445794577
+    second: npc_blue_idle_25
+  - first:
+      213: -2764217772623315190
+    second: npc_blue_idle_26
+  - first:
+      213: 3821515097863085771
+    second: npc_blue_idle_27
+  - first:
+      213: -5695898899559415264
+    second: npc_blue_idle_28
+  - first:
+      213: 5546855998251884403
+    second: npc_blue_idle_29
+  - first:
+      213: -8617776344527592122
+    second: npc_blue_idle_30
+  - first:
+      213: -3566278693999640981
+    second: npc_blue_idle_31
+  - first:
+      213: -2004214534100335537
+    second: npc_blue_idle_32
+  - first:
+      213: 340139100815289204
+    second: npc_blue_idle_33
+  - first:
+      213: 5475008408828767432
+    second: npc_blue_idle_34
+  - first:
+      213: -6796987911595343856
+    second: npc_blue_idle_35
+  - first:
+      213: -5169207781529542626
+    second: npc_blue_idle_36
+  - first:
+      213: -26326459675584443
+    second: npc_blue_idle_37
+  - first:
+      213: 3822851104234967240
+    second: npc_blue_idle_38
+  - first:
+      213: -8324461777200558595
+    second: npc_blue_idle_39
+  - first:
+      213: 1028314541040574858
+    second: npc_blue_idle_40
+  - first:
+      213: -2405273059522827092
+    second: npc_blue_idle_41
+  - first:
+      213: -1532364312826355323
+    second: npc_blue_idle_42
+  - first:
+      213: -3209899305595080407
+    second: npc_blue_idle_43
+  - first:
+      213: 2225649799737263561
+    second: npc_blue_idle_44
+  - first:
+      213: 8065540857150673607
+    second: npc_blue_idle_45
+  - first:
+      213: -2919490205916087499
+    second: npc_blue_idle_46
+  - first:
+      213: -46122347266908982
+    second: npc_blue_idle_47
+  - first:
+      213: 5155197819868903658
+    second: npc_blue_idle_48
+  - first:
+      213: 2606528213623868736
+    second: npc_blue_idle_49
+  - first:
+      213: 2660958462990713630
+    second: npc_blue_idle_50
+  - first:
+      213: 9096687724139007232
+    second: npc_blue_idle_51
+  - first:
+      213: -5389225330695108161
+    second: npc_blue_idle_52
+  - first:
+      213: -7877625226279966270
+    second: npc_blue_idle_53
+  - first:
+      213: -3173966154869965592
+    second: npc_blue_idle_54
+  - first:
+      213: -8283000957037689665
+    second: npc_blue_idle_55
+  - first:
+      213: 3310380760221788065
+    second: npc_blue_idle_56
+  - first:
+      213: -956043700238257444
+    second: npc_blue_idle_57
+  - first:
+      213: 7801824208193894807
+    second: npc_blue_idle_58
+  - first:
+      213: -8643233188524648004
+    second: npc_blue_idle_59
+  - first:
+      213: -7000417378894053150
+    second: npc_blue_idle_60
+  - first:
+      213: -5778747387368197112
+    second: npc_blue_idle_61
+  - first:
+      213: -1716057772208976162
+    second: npc_blue_idle_62
+  - first:
+      213: 7557926750808511170
+    second: npc_blue_idle_63
+  - first:
+      213: -1326413273091932363
+    second: npc_blue_idle_64
+  - first:
+      213: 7163179942129882508
+    second: npc_blue_idle_65
+  - first:
+      213: -2880153788319967187
+    second: npc_blue_idle_66
+  - first:
+      213: -1584234488355122966
+    second: npc_blue_idle_67
+  - first:
+      213: -2388153611110682715
+    second: npc_blue_idle_68
+  - first:
+      213: 3959687630925413935
+    second: npc_blue_idle_69
+  - first:
+      213: 8496956179532633363
+    second: npc_blue_idle_70
+  - first:
+      213: 2974358330294405918
+    second: npc_blue_idle_71
+  - first:
+      213: 3634371944257841010
+    second: npc_blue_idle_72
+  - first:
+      213: 5238320948372621073
+    second: npc_blue_idle_73
+  - first:
+      213: -8980423870409622918
+    second: npc_blue_idle_74
+  - first:
+      213: -3814466076305649667
+    second: npc_blue_idle_75
+  - first:
+      213: -4514388616816476844
+    second: npc_blue_idle_76
+  - first:
+      213: 2052749564529408983
+    second: npc_blue_idle_77
+  - first:
+      213: -547164353433775464
+    second: npc_blue_idle_78
+  - first:
+      213: 6865205832381539539
+    second: npc_blue_idle_79
+  - first:
+      213: -211628033980236899
+    second: npc_blue_idle_80
+  - first:
+      213: -7130845275463108087
+    second: npc_blue_idle_81
+  - first:
+      213: -4454514016914870066
+    second: npc_blue_idle_82
+  - first:
+      213: -7785760376800259412
+    second: npc_blue_idle_83
+  - first:
+      213: 2575262973633864071
+    second: npc_blue_idle_84
+  - first:
+      213: 3883867539308960892
+    second: npc_blue_idle_85
+  - first:
+      213: 3504034892611710563
+    second: npc_blue_idle_86
+  - first:
+      213: 8563263265131050750
+    second: npc_blue_idle_87
+  - first:
+      213: -3222308226714595383
+    second: npc_blue_idle_88
+  - first:
+      213: -4454869026003730912
+    second: npc_blue_idle_89
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 600
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: npc_blue_idle_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4200
+        width: 333
+        height: 600
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ad467c130f056744b8dd87b4c775b43
+      internalID: -4830259953787778317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_blue_idle_1
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 4200
+        width: 333
+        height: 600
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a834c8ff12823634d94918d8613ae955
+      internalID: 3965007596072696705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_blue_idle_2
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 4200
+        width: 333
+        height: 600
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c889928f155ae4343a9268b06ade12d8
+      internalID: -2003238783818882501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_blue_idle_3
+      rect:
+        serializedVersion: 2
+        x: 999
+        y: 4200
+        width: 333
+        height: 600
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f171536ed4fcbf4eb65b5b3b2ee608e
+      internalID: 6346162548372787864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_blue_idle_4
+      rect:
+        serializedVersion: 2
+        x: 1332
+        y: 4200
+        width: 333
+        height: 600
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f702a260b48631249978a411cb118106
+      internalID: -6707585460223748648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_blue_idle_5
+      rect:
+        serializedVersion: 2
+        x: 1665
+        y: 4200
+        width: 333
+        height: 600
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3de5f75bd88ffd0488ea4191509085ee
+      internalID: -5621482302755506578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_blue_idle_6
+      rect:
+        serializedVersion: 2
+        x: 1998
+        y: 4200
+        width: 333
+        height: 600
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb77b9d236a339f488930d223c28b1c6
+      internalID: 4073382122292891528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_blue_idle_7
+      rect:
+        serializedVersion: 2
+        x: 2331
+        y: 4200
+        width: 333
+        height: 600
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16c2c112a76c0aa4790f3cdb3d2bd4ab
+      internalID: 9080365316147110047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_blue_idle_8
+      rect:
+        serializedVersion: 2
+        x: 2664
+        y: 4200
+        width: 333
+        height: 600
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6acc5b64baca1f248b2201e501e394b3
+      internalID: -6633135979991684425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_blue_idle_9
+      rect:
+        serializedVersion: 2
+        x: 2997
+        y: 4200
+        width: 333
+        height: 600
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a633d90648fed934a86b4bbd71476247
+      internalID: 5597859207268312299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_blue_idle_10
+      rect:
+        serializedVersion: 2
+        x: 3330
+        y: 4200
+        width: 333
+        height: 600
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22d4a89bbb4f99446aa31d058009c5a0
+      internalID: 42504676072431380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_blue_idle_11
+      rect:
+        serializedVersion: 2
+        x: 3663
+        y: 4200
+        width: 333
+        height: 600
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e83c7e08afbf63844b41e3fc4bda5820
+      internalID: -2000354942311374135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_blue_idle_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3600
+        width: 333
+        height: 600
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f275ff813589654ea5360f2a6095161
+      internalID: -1350817740336324174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_blue_idle_13
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 3600
+        width: 333
+        height: 600
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6284cd797e50aaa4aa64e825eae72b63
+      internalID: -6361889221564466825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_blue_idle_14
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 3600
+        width: 333
+        height: 600
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cd396408b645574a8e28e8cc5f73cc2
+      internalID: -2603951463817856258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_blue_idle_15
+      rect:
+        serializedVersion: 2
+        x: 999
+        y: 3600
+        width: 333
+        height: 600
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdbdb462906b45d4a85098c97d2eee78
+      internalID: 3756019356910546767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_blue_idle_16
+      rect:
+        serializedVersion: 2
+        x: 1332
+        y: 3600
+        width: 333
+        height: 600
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc5e7632539e7c14ab42ca15f92130aa
+      internalID: -6658211700025244700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_blue_idle_17
+      rect:
+        serializedVersion: 2
+        x: 1665
+        y: 3600
+        width: 333
+        height: 600
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea3d91751fad30543b7428b04c44219f
+      internalID: -8857136064732572906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_blue_idle_18
+      rect:
+        serializedVersion: 2
+        x: 1998
+        y: 3600
+        width: 333
+        height: 600
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59167dc4d3b20c844bef3ec381e07325
+      internalID: 8280438941232046630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_blue_idle_19
+      rect:
+        serializedVersion: 2
+        x: 2331
+        y: 3600
+        width: 333
+        height: 600
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d98170b1f5a51649949972c5526d216
+      internalID: -7199496495240942423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_blue_idle_20
+      rect:
+        serializedVersion: 2
+        x: 2664
+        y: 3600
+        width: 333
+        height: 600
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 362ecd5ea9a5c3943a39178b903c79d8
+      internalID: -420972855584922531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_blue_idle_21
+      rect:
+        serializedVersion: 2
+        x: 2997
+        y: 3600
+        width: 333
+        height: 600
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a8355bfd796f3e439977c0cb351a223
+      internalID: 7614064725075479241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_blue_idle_22
+      rect:
+        serializedVersion: 2
+        x: 3330
+        y: 3600
+        width: 333
+        height: 600
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18984331db099d041b58ef9c8d6c3cbe
+      internalID: -362763307768530257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_blue_idle_23
+      rect:
+        serializedVersion: 2
+        x: 3663
+        y: 3600
+        width: 333
+        height: 600
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 887de7a06bc3854438a62a24ce19372f
+      internalID: -5748621641371926636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_blue_idle_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3000
+        width: 333
+        height: 600
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8914ff133fedb3438919f05c5cc4832
+      internalID: -4166522913959183977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_blue_idle_25
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 3000
+        width: 333
+        height: 600
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cbf2775e4ef8f74cb97ffa9328f25ad
+      internalID: -73118540445794577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_blue_idle_26
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 3000
+        width: 333
+        height: 600
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2d8f73f13cf5b84ba9589abf5a50d0e
+      internalID: -2764217772623315190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_blue_idle_27
+      rect:
+        serializedVersion: 2
+        x: 999
+        y: 3000
+        width: 333
+        height: 600
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d275b85c3d2f2b148b58d9fea5e201bc
+      internalID: 3821515097863085771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_blue_idle_28
+      rect:
+        serializedVersion: 2
+        x: 1332
+        y: 3000
+        width: 333
+        height: 600
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5df95c58dbe38324c95803f9efd422ce
+      internalID: -5695898899559415264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_blue_idle_29
+      rect:
+        serializedVersion: 2
+        x: 1665
+        y: 3000
+        width: 333
+        height: 600
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33febd2dd5965184a9ac10b3807df078
+      internalID: 5546855998251884403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_blue_idle_30
+      rect:
+        serializedVersion: 2
+        x: 1998
+        y: 3000
+        width: 333
+        height: 600
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23be7f8c0f013d64bb9a7e2c08f52069
+      internalID: -8617776344527592122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_blue_idle_31
+      rect:
+        serializedVersion: 2
+        x: 2331
+        y: 3000
+        width: 333
+        height: 600
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ebce537ad5e5b748b7ff0ae4cb84435
+      internalID: -3566278693999640981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_blue_idle_32
+      rect:
+        serializedVersion: 2
+        x: 2664
+        y: 3000
+        width: 333
+        height: 600
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85161824507583b4e9ece2bc8d606e01
+      internalID: -2004214534100335537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_blue_idle_33
+      rect:
+        serializedVersion: 2
+        x: 2997
+        y: 3000
+        width: 333
+        height: 600
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 486e3b48768e0ec48a2d7ddeb66a9fb2
+      internalID: 340139100815289204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_blue_idle_34
+      rect:
+        serializedVersion: 2
+        x: 3330
+        y: 3000
+        width: 333
+        height: 600
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 261b5c4ec6b538e45bd42763d91f0f2e
+      internalID: 5475008408828767432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_blue_idle_35
+      rect:
+        serializedVersion: 2
+        x: 3663
+        y: 3000
+        width: 333
+        height: 600
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2bec69a6176ad14da884c30c9eee259
+      internalID: -6796987911595343856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_blue_idle_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2400
+        width: 333
+        height: 600
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f290decaae0b58348a6f69b62aac470b
+      internalID: -5169207781529542626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_blue_idle_37
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 2400
+        width: 333
+        height: 600
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 424cbff751e8ba341a55ffdcf26f81ea
+      internalID: -26326459675584443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_blue_idle_38
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 2400
+        width: 333
+        height: 600
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea64eca46e2be34499a588f433837fec
+      internalID: 3822851104234967240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_blue_idle_39
+      rect:
+        serializedVersion: 2
+        x: 999
+        y: 2400
+        width: 333
+        height: 600
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2edaf2ecaad3c145a7c44ee54fcd01e
+      internalID: -8324461777200558595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_blue_idle_40
+      rect:
+        serializedVersion: 2
+        x: 1332
+        y: 2400
+        width: 333
+        height: 600
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f242b70eb7102a4e8b652e792c1009f
+      internalID: 1028314541040574858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_blue_idle_41
+      rect:
+        serializedVersion: 2
+        x: 1665
+        y: 2400
+        width: 333
+        height: 600
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a8add4b4fd08eb4a9a87d4cf3c21fea
+      internalID: -2405273059522827092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_blue_idle_42
+      rect:
+        serializedVersion: 2
+        x: 1998
+        y: 2400
+        width: 333
+        height: 600
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3684c19ca870e4408a4ac8e17e38011
+      internalID: -1532364312826355323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_blue_idle_43
+      rect:
+        serializedVersion: 2
+        x: 2331
+        y: 2400
+        width: 333
+        height: 600
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c2175816f9728045aea348912bf9347
+      internalID: -3209899305595080407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_blue_idle_44
+      rect:
+        serializedVersion: 2
+        x: 2664
+        y: 2400
+        width: 333
+        height: 600
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64ee016d29262734aac41203c7e506cb
+      internalID: 2225649799737263561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_blue_idle_45
+      rect:
+        serializedVersion: 2
+        x: 2997
+        y: 2400
+        width: 333
+        height: 600
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1570a77fcc31ff469c4b775eb04323a
+      internalID: 8065540857150673607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_blue_idle_46
+      rect:
+        serializedVersion: 2
+        x: 3330
+        y: 2400
+        width: 333
+        height: 600
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91ee38775342aa84aa779ca107c4dca5
+      internalID: -2919490205916087499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_blue_idle_47
+      rect:
+        serializedVersion: 2
+        x: 3663
+        y: 2400
+        width: 333
+        height: 600
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4c93c771b1012341a38053c389885e9
+      internalID: -46122347266908982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_blue_idle_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1800
+        width: 333
+        height: 600
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bb4b799a2c8a834eb8931346020ac81
+      internalID: 5155197819868903658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_blue_idle_49
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 1800
+        width: 333
+        height: 600
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1496145e93154524da2bbab9e6d5fe6d
+      internalID: 2606528213623868736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_blue_idle_50
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 1800
+        width: 333
+        height: 600
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5fc46b74934ade479dfd2b46c3ff17f
+      internalID: 2660958462990713630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_blue_idle_51
+      rect:
+        serializedVersion: 2
+        x: 999
+        y: 1800
+        width: 333
+        height: 600
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a9fa81575e392f46b655639247531cc
+      internalID: 9096687724139007232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_blue_idle_52
+      rect:
+        serializedVersion: 2
+        x: 1332
+        y: 1800
+        width: 333
+        height: 600
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0182c7bede83f244b89dc3aaa1d48200
+      internalID: -5389225330695108161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_blue_idle_53
+      rect:
+        serializedVersion: 2
+        x: 1665
+        y: 1800
+        width: 333
+        height: 600
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36b11237afc21094ebfb191b012b4cfd
+      internalID: -7877625226279966270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_blue_idle_54
+      rect:
+        serializedVersion: 2
+        x: 1998
+        y: 1800
+        width: 333
+        height: 600
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83cddf6f3d78b7848a4ed57f2c071ffc
+      internalID: -3173966154869965592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_blue_idle_55
+      rect:
+        serializedVersion: 2
+        x: 2331
+        y: 1800
+        width: 333
+        height: 600
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63b23f3b406b9af4996821c45f969e3b
+      internalID: -8283000957037689665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_blue_idle_56
+      rect:
+        serializedVersion: 2
+        x: 2664
+        y: 1800
+        width: 333
+        height: 600
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c33a914e41c8b7647b6f9b15317250f3
+      internalID: 3310380760221788065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_blue_idle_57
+      rect:
+        serializedVersion: 2
+        x: 2997
+        y: 1800
+        width: 333
+        height: 600
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8493b9269e4899d418c28637cabf091f
+      internalID: -956043700238257444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_blue_idle_58
+      rect:
+        serializedVersion: 2
+        x: 3330
+        y: 1800
+        width: 333
+        height: 600
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be2e2c5490a92bc4b8b4d0f512b3a144
+      internalID: 7801824208193894807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_blue_idle_59
+      rect:
+        serializedVersion: 2
+        x: 3663
+        y: 1800
+        width: 333
+        height: 600
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1bc2642928eac5459ffc1067e686e48
+      internalID: -8643233188524648004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_blue_idle_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1200
+        width: 333
+        height: 600
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 345e34ef08634c3458eb9516bc855a6e
+      internalID: -7000417378894053150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_blue_idle_61
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 1200
+        width: 333
+        height: 600
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 260dfa5b5883da34eb14f083f382733b
+      internalID: -5778747387368197112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_blue_idle_62
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 1200
+        width: 333
+        height: 600
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dee02c3dea41c0248b08046ce3b65dd0
+      internalID: -1716057772208976162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_blue_idle_63
+      rect:
+        serializedVersion: 2
+        x: 999
+        y: 1200
+        width: 333
+        height: 600
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ece3b91f4f63bc54f953e96f859516ce
+      internalID: 7557926750808511170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_blue_idle_64
+      rect:
+        serializedVersion: 2
+        x: 1332
+        y: 1200
+        width: 333
+        height: 600
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16e26c668cac93840b50038a72e1d27a
+      internalID: -1326413273091932363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_blue_idle_65
+      rect:
+        serializedVersion: 2
+        x: 1665
+        y: 1200
+        width: 333
+        height: 600
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cbde13bc07480d49a1e8019fa1ff8d4
+      internalID: 7163179942129882508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_blue_idle_66
+      rect:
+        serializedVersion: 2
+        x: 1998
+        y: 1200
+        width: 333
+        height: 600
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc43e4cd7626f7247b20612ed27ecce4
+      internalID: -2880153788319967187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_blue_idle_67
+      rect:
+        serializedVersion: 2
+        x: 2331
+        y: 1200
+        width: 333
+        height: 600
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ad7b1e617b0cdc41bcb460a6ad532e1
+      internalID: -1584234488355122966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_blue_idle_68
+      rect:
+        serializedVersion: 2
+        x: 2664
+        y: 1200
+        width: 333
+        height: 600
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 786ead948a053144da8dd8641952887d
+      internalID: -2388153611110682715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_blue_idle_69
+      rect:
+        serializedVersion: 2
+        x: 2997
+        y: 1200
+        width: 333
+        height: 600
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 467400b4261a6bb47aa49cb2b361b505
+      internalID: 3959687630925413935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_blue_idle_70
+      rect:
+        serializedVersion: 2
+        x: 3330
+        y: 1200
+        width: 333
+        height: 600
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d7a6ba824aba0a4282bb5ad3b933b6a
+      internalID: 8496956179532633363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_blue_idle_71
+      rect:
+        serializedVersion: 2
+        x: 3663
+        y: 1200
+        width: 333
+        height: 600
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20041f78bf957014c97b34e8b53ccc84
+      internalID: 2974358330294405918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_blue_idle_72
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 600
+        width: 333
+        height: 600
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b6ec27e86746cb46bd819929b5dfae0
+      internalID: 3634371944257841010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_blue_idle_73
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 600
+        width: 333
+        height: 600
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 158a4af6a8b6a3c47adb623713556c38
+      internalID: 5238320948372621073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_blue_idle_74
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 600
+        width: 333
+        height: 600
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dc348189b56811419083b4c45a3dbf3
+      internalID: -8980423870409622918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_blue_idle_75
+      rect:
+        serializedVersion: 2
+        x: 999
+        y: 600
+        width: 333
+        height: 600
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e91e129c4f3e0a40b0865e86913a46d
+      internalID: -3814466076305649667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_blue_idle_76
+      rect:
+        serializedVersion: 2
+        x: 1332
+        y: 600
+        width: 333
+        height: 600
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 274e90b8c6bda3a409e06e55e4038825
+      internalID: -4514388616816476844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_blue_idle_77
+      rect:
+        serializedVersion: 2
+        x: 1665
+        y: 600
+        width: 333
+        height: 600
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ee5d670479a124498d8b9ce9157eed1
+      internalID: 2052749564529408983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_blue_idle_78
+      rect:
+        serializedVersion: 2
+        x: 1998
+        y: 600
+        width: 333
+        height: 600
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01ffc21bcd65c24409734b1369b96dc0
+      internalID: -547164353433775464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_blue_idle_79
+      rect:
+        serializedVersion: 2
+        x: 2331
+        y: 600
+        width: 333
+        height: 600
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c1cdb08464c14d468d6cbbfc4464f59
+      internalID: 6865205832381539539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_blue_idle_80
+      rect:
+        serializedVersion: 2
+        x: 2664
+        y: 600
+        width: 333
+        height: 600
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9651a1383dd367f40be23f514bfbe32f
+      internalID: -211628033980236899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_blue_idle_81
+      rect:
+        serializedVersion: 2
+        x: 2997
+        y: 600
+        width: 333
+        height: 600
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 724c8daa42c493e46b0d0c3f3c4c7d83
+      internalID: -7130845275463108087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_blue_idle_82
+      rect:
+        serializedVersion: 2
+        x: 3330
+        y: 600
+        width: 333
+        height: 600
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e17a2d375eeb2f74d936ed6d5544a9bb
+      internalID: -4454514016914870066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_blue_idle_83
+      rect:
+        serializedVersion: 2
+        x: 3663
+        y: 600
+        width: 333
+        height: 600
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36598552fadd38845b69ba91984b8881
+      internalID: -7785760376800259412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_blue_idle_84
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 333
+        height: 600
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4788585e53c236a4fb42abde61081669
+      internalID: 2575262973633864071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_blue_idle_85
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 0
+        width: 333
+        height: 600
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a12d11fc532493b49a670d156ad44cdc
+      internalID: 3883867539308960892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_blue_idle_86
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 0
+        width: 333
+        height: 600
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c151c54e3fa6a82419d649c8a5b54f19
+      internalID: 3504034892611710563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_blue_idle_87
+      rect:
+        serializedVersion: 2
+        x: 999
+        y: 0
+        width: 333
+        height: 600
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6a7408a585c0c649afc91c47701cfa5
+      internalID: 8563263265131050750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_blue_idle_88
+      rect:
+        serializedVersion: 2
+        x: 1332
+        y: 0
+        width: 333
+        height: 600
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1df05be7765e2c6459fdfefb9e69bb28
+      internalID: -3222308226714595383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_blue_idle_89
+      rect:
+        serializedVersion: 2
+        x: 1665
+        y: 0
+        width: 333
+        height: 600
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3302be18bd699ba40854eedfcfcdfb44
+      internalID: -4454869026003730912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 65a0c0fdd74d6844a98bb9c171ced03c
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,3007 @@
+fileFormatVersion: 2
+guid: ed95824ec23c22748aa6e94ecc654f08
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 42837171011408933
+    second: Pope_0
+  - first:
+      213: -4451317607511083074
+    second: Pope_1
+  - first:
+      213: -889151111407395858
+    second: Pope_2
+  - first:
+      213: 4036102275779894949
+    second: Pope_3
+  - first:
+      213: -6772097088730867893
+    second: Pope_4
+  - first:
+      213: -8709158735515945574
+    second: Pope_5
+  - first:
+      213: -5436305328467056063
+    second: Pope_6
+  - first:
+      213: 8672800409529496954
+    second: Pope_7
+  - first:
+      213: -8464212829978232447
+    second: Pope_8
+  - first:
+      213: -5163449546030066633
+    second: Pope_9
+  - first:
+      213: -4078682633773915314
+    second: Pope_10
+  - first:
+      213: 5683485038604200703
+    second: Pope_11
+  - first:
+      213: -8772110942995732144
+    second: Pope_12
+  - first:
+      213: 6794170965148438764
+    second: Pope_13
+  - first:
+      213: 3204419279407436375
+    second: Pope_14
+  - first:
+      213: -4430176892647563113
+    second: Pope_15
+  - first:
+      213: 7441804676511987233
+    second: Pope_16
+  - first:
+      213: 6400017596296108066
+    second: Pope_17
+  - first:
+      213: -2953093019814604804
+    second: Pope_18
+  - first:
+      213: 4865147358066857309
+    second: Pope_19
+  - first:
+      213: 6026188982645939450
+    second: Pope_20
+  - first:
+      213: 1238382931372122824
+    second: Pope_21
+  - first:
+      213: -5741482097902779358
+    second: Pope_22
+  - first:
+      213: 5433582935665501149
+    second: Pope_23
+  - first:
+      213: 945646762598450973
+    second: Pope_24
+  - first:
+      213: -5969122041603367130
+    second: Pope_25
+  - first:
+      213: -8679179060809616595
+    second: Pope_26
+  - first:
+      213: -3196171181558231622
+    second: Pope_27
+  - first:
+      213: 4233718791194641971
+    second: Pope_28
+  - first:
+      213: -8263745030590020810
+    second: Pope_29
+  - first:
+      213: 2917951448348068853
+    second: Pope_30
+  - first:
+      213: 4702092263172115728
+    second: Pope_31
+  - first:
+      213: 3311741418865791141
+    second: Pope_32
+  - first:
+      213: 6007555455084931684
+    second: Pope_33
+  - first:
+      213: -2371580107617656046
+    second: Pope_34
+  - first:
+      213: 6466549159202883516
+    second: Pope_35
+  - first:
+      213: -5310114818022118429
+    second: Pope_36
+  - first:
+      213: -4580420515652669813
+    second: Pope_37
+  - first:
+      213: -2670742529517197964
+    second: Pope_38
+  - first:
+      213: -965968719505674571
+    second: Pope_39
+  - first:
+      213: 1309139131585109214
+    second: Pope_40
+  - first:
+      213: -3920482587372776648
+    second: Pope_41
+  - first:
+      213: -7820985134742369821
+    second: Pope_42
+  - first:
+      213: -7693272613733431911
+    second: Pope_43
+  - first:
+      213: -8562593745983804488
+    second: Pope_44
+  - first:
+      213: -2997585998938781348
+    second: Pope_45
+  - first:
+      213: 8098921400065006997
+    second: Pope_46
+  - first:
+      213: 8347374375533026950
+    second: Pope_47
+  - first:
+      213: -529261980798492964
+    second: Pope_48
+  - first:
+      213: 5132711424418354394
+    second: Pope_49
+  - first:
+      213: 4728910573418804136
+    second: Pope_50
+  - first:
+      213: 3685878956477129998
+    second: Pope_51
+  - first:
+      213: -1250190738027960612
+    second: Pope_52
+  - first:
+      213: -920921188715614497
+    second: Pope_53
+  - first:
+      213: 3253809379447723452
+    second: Pope_54
+  - first:
+      213: -1209139751105605333
+    second: Pope_55
+  - first:
+      213: 8348913161056353777
+    second: Pope_56
+  - first:
+      213: 7593391960281194980
+    second: Pope_57
+  - first:
+      213: -2172457472099449118
+    second: Pope_58
+  - first:
+      213: 4302762428497204916
+    second: Pope_59
+  - first:
+      213: -3185020738839511948
+    second: Pope_60
+  - first:
+      213: 1567554084672694666
+    second: Pope_61
+  - first:
+      213: 8548230267251463991
+    second: Pope_62
+  - first:
+      213: -1561618567804798728
+    second: Pope_63
+  - first:
+      213: 5442349670973132089
+    second: Pope_64
+  - first:
+      213: 9185815227178307324
+    second: Pope_65
+  - first:
+      213: 5389348087395523216
+    second: Pope_66
+  - first:
+      213: 7575992359771208465
+    second: Pope_67
+  - first:
+      213: 4901725321716141197
+    second: Pope_68
+  - first:
+      213: 7199199026550450046
+    second: Pope_69
+  - first:
+      213: 2132581758047338423
+    second: Pope_70
+  - first:
+      213: 12441213147811354
+    second: Pope_71
+  - first:
+      213: -2975303230794520876
+    second: Pope_72
+  - first:
+      213: 7561754879672275403
+    second: Pope_73
+  - first:
+      213: 7492067428037758404
+    second: Pope_74
+  - first:
+      213: -8877806601484977473
+    second: Pope_75
+  - first:
+      213: 1855890876457677162
+    second: Pope_76
+  - first:
+      213: -2930134622748107270
+    second: Pope_77
+  - first:
+      213: -2158465109665529390
+    second: Pope_78
+  - first:
+      213: 2360034308044954686
+    second: Pope_79
+  - first:
+      213: 6471403203835978800
+    second: Pope_80
+  - first:
+      213: 4326873208605276404
+    second: Pope_81
+  - first:
+      213: 221007112481798540
+    second: Pope_82
+  - first:
+      213: -8939880868474835180
+    second: Pope_83
+  - first:
+      213: 125912282547488631
+    second: Pope_84
+  - first:
+      213: 2209451606913579976
+    second: Pope_85
+  - first:
+      213: -6872483426491484344
+    second: Pope_86
+  - first:
+      213: -3590508817644358394
+    second: Pope_87
+  - first:
+      213: 4776015363976022730
+    second: Pope_88
+  - first:
+      213: -8034948275596074551
+    second: Pope_89
+  - first:
+      213: -220169074456097842
+    second: Pope_90
+  - first:
+      213: -8947509957575378659
+    second: Pope_91
+  - first:
+      213: 7531962491287369698
+    second: Pope_92
+  - first:
+      213: 7326467446210223115
+    second: Pope_93
+  - first:
+      213: -57178548360061470
+    second: Pope_94
+  - first:
+      213: 1626933177711210327
+    second: Pope_95
+  - first:
+      213: 6534858191276931224
+    second: Pope_96
+  - first:
+      213: -5985237196824276512
+    second: Pope_97
+  - first:
+      213: 4528025015988874600
+    second: Pope_98
+  - first:
+      213: -438515077110292653
+    second: Pope_99
+  - first:
+      213: 8265412363392483699
+    second: Pope_100
+  - first:
+      213: 4451945968195542958
+    second: Pope_101
+  - first:
+      213: -2469861606435670910
+    second: Pope_102
+  - first:
+      213: 8471510584436809091
+    second: Pope_103
+  - first:
+      213: -4200166596548198177
+    second: Pope_104
+  - first:
+      213: 1304132113337426275
+    second: Pope_105
+  - first:
+      213: 949325226339973135
+    second: Pope_106
+  - first:
+      213: -3745917487427585551
+    second: Pope_107
+  - first:
+      213: 8697550067273368149
+    second: Pope_108
+  - first:
+      213: 41720858523597284
+    second: Pope_109
+  - first:
+      213: -3059189663590840103
+    second: Pope_110
+  - first:
+      213: 801437649727389383
+    second: Pope_111
+  - first:
+      213: -2433739875744888385
+    second: Pope_112
+  - first:
+      213: -2548265982846908148
+    second: Pope_113
+  - first:
+      213: 7691513775013985423
+    second: Pope_114
+  - first:
+      213: 2621578129940231646
+    second: Pope_115
+  - first:
+      213: -4509188713616830751
+    second: Pope_116
+  - first:
+      213: 1205039370200424515
+    second: Pope_117
+  - first:
+      213: -4738858205918511865
+    second: Pope_118
+  - first:
+      213: 2780944432925519228
+    second: Pope_119
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 600
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Pope_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 7875
+        width: 700
+        height: 875
+      alignment: 9
+      pivot: {x: 0.3, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d053aa2f96d4964d9aac515bb15c588
+      internalID: 42837171011408933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pope_1
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 7875
+        width: 700
+        height: 875
+      alignment: 9
+      pivot: {x: 0.3, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b00426b83e4c66468bc7050339dba86
+      internalID: -4451317607511083074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pope_2
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 7875
+        width: 700
+        height: 875
+      alignment: 9
+      pivot: {x: 0.3, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 052b5140f7eadc142bce0dd9edb6faa9
+      internalID: -889151111407395858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pope_3
+      rect:
+        serializedVersion: 2
+        x: 2100
+        y: 7875
+        width: 700
+        height: 875
+      alignment: 9
+      pivot: {x: 0.3, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 925f3dd955fe24b498b54f81179114e8
+      internalID: 4036102275779894949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pope_4
+      rect:
+        serializedVersion: 2
+        x: 2800
+        y: 7875
+        width: 700
+        height: 875
+      alignment: 9
+      pivot: {x: 0.3, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d04081ba684fe5e49afae68aadfd302e
+      internalID: -6772097088730867893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pope_5
+      rect:
+        serializedVersion: 2
+        x: 3500
+        y: 7875
+        width: 700
+        height: 875
+      alignment: 9
+      pivot: {x: 0.3, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30b11a089444dd240a756b5137621667
+      internalID: -8709158735515945574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pope_6
+      rect:
+        serializedVersion: 2
+        x: 4200
+        y: 7875
+        width: 700
+        height: 875
+      alignment: 9
+      pivot: {x: 0.3, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 077f27ab26918594fbbaddc24940ae8c
+      internalID: -5436305328467056063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pope_7
+      rect:
+        serializedVersion: 2
+        x: 4900
+        y: 7875
+        width: 700
+        height: 875
+      alignment: 9
+      pivot: {x: 0.3, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2aadd2aeb8717c4691ed85710a80e08
+      internalID: 8672800409529496954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pope_8
+      rect:
+        serializedVersion: 2
+        x: 5600
+        y: 7875
+        width: 700
+        height: 875
+      alignment: 9
+      pivot: {x: 0.3, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20ed629ccc5ad42418b4b5cf98c9fcbb
+      internalID: -8464212829978232447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pope_9
+      rect:
+        serializedVersion: 2
+        x: 6300
+        y: 7875
+        width: 700
+        height: 875
+      alignment: 9
+      pivot: {x: 0.3, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7111f3e256a4d9408cd7945b43b8fed
+      internalID: -5163449546030066633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pope_10
+      rect:
+        serializedVersion: 2
+        x: 7000
+        y: 7875
+        width: 700
+        height: 875
+      alignment: 9
+      pivot: {x: 0.3, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d56990c6ef05fb42b93d5f85df629fd
+      internalID: -4078682633773915314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pope_11
+      rect:
+        serializedVersion: 2
+        x: 7700
+        y: 7875
+        width: 700
+        height: 875
+      alignment: 9
+      pivot: {x: 0.3, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93aac9f5897973043a6d52a47232cc97
+      internalID: 5683485038604200703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pope_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 7000
+        width: 700
+        height: 875
+      alignment: 9
+      pivot: {x: 0.3, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f16923a227fc7a84c9037edd2ff177b8
+      internalID: -8772110942995732144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pope_13
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 7000
+        width: 700
+        height: 875
+      alignment: 9
+      pivot: {x: 0.3, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbbc87622cf5e754b96fd89cdf2b0731
+      internalID: 6794170965148438764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pope_14
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 7000
+        width: 700
+        height: 875
+      alignment: 9
+      pivot: {x: 0.3, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1accdc284a91d8148a948778b0c9fc64
+      internalID: 3204419279407436375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pope_15
+      rect:
+        serializedVersion: 2
+        x: 2100
+        y: 7000
+        width: 700
+        height: 875
+      alignment: 9
+      pivot: {x: 0.3, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b02a8b70529a6d84583bb04a24408341
+      internalID: -4430176892647563113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pope_16
+      rect:
+        serializedVersion: 2
+        x: 2800
+        y: 7000
+        width: 700
+        height: 875
+      alignment: 9
+      pivot: {x: 0.3, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c2696fe1e12f644b9633e35dd5000b8
+      internalID: 7441804676511987233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pope_17
+      rect:
+        serializedVersion: 2
+        x: 3500
+        y: 7000
+        width: 700
+        height: 875
+      alignment: 9
+      pivot: {x: 0.3, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d812673022f75b4bad9f054941ba299
+      internalID: 6400017596296108066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pope_18
+      rect:
+        serializedVersion: 2
+        x: 4200
+        y: 7000
+        width: 700
+        height: 875
+      alignment: 9
+      pivot: {x: 0.3, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecfe3a9502f6e3b47afd00aa5f025b6b
+      internalID: -2953093019814604804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pope_19
+      rect:
+        serializedVersion: 2
+        x: 4900
+        y: 7000
+        width: 700
+        height: 875
+      alignment: 9
+      pivot: {x: 0.3, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f448af2033062d442b3f4353f1297342
+      internalID: 4865147358066857309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pope_20
+      rect:
+        serializedVersion: 2
+        x: 5600
+        y: 7000
+        width: 700
+        height: 875
+      alignment: 9
+      pivot: {x: 0.3, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f06930293fa5d31449ac51d17b7339f9
+      internalID: 6026188982645939450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pope_21
+      rect:
+        serializedVersion: 2
+        x: 6300
+        y: 7000
+        width: 700
+        height: 875
+      alignment: 9
+      pivot: {x: 0.3, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c940e68eb190bd64a930307087d34918
+      internalID: 1238382931372122824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pope_22
+      rect:
+        serializedVersion: 2
+        x: 7000
+        y: 7000
+        width: 700
+        height: 875
+      alignment: 9
+      pivot: {x: 0.3, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00c65b901200c354581814ea05500bac
+      internalID: -5741482097902779358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pope_23
+      rect:
+        serializedVersion: 2
+        x: 7700
+        y: 7000
+        width: 700
+        height: 875
+      alignment: 9
+      pivot: {x: 0.3, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c63a96d193c0f864d9df5322a9462847
+      internalID: 5433582935665501149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pope_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6125
+        width: 700
+        height: 875
+      alignment: 9
+      pivot: {x: 0.3, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82ea38bf4e88cc74785c001cf8374340
+      internalID: 945646762598450973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pope_25
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 6125
+        width: 700
+        height: 875
+      alignment: 9
+      pivot: {x: 0.3, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f4fbc338d18c494f9528079201d6b6f
+      internalID: -5969122041603367130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pope_26
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 6125
+        width: 700
+        height: 875
+      alignment: 9
+      pivot: {x: 0.3, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41de3fbaf0f9a8348a3adabf1ea834e7
+      internalID: -8679179060809616595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pope_27
+      rect:
+        serializedVersion: 2
+        x: 2100
+        y: 6125
+        width: 700
+        height: 875
+      alignment: 9
+      pivot: {x: 0.3, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 310b74cc7586f844c86af0310b23cdec
+      internalID: -3196171181558231622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pope_28
+      rect:
+        serializedVersion: 2
+        x: 2800
+        y: 6125
+        width: 700
+        height: 875
+      alignment: 9
+      pivot: {x: 0.3, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcf1248b35f9f81469d460fada301646
+      internalID: 4233718791194641971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pope_29
+      rect:
+        serializedVersion: 2
+        x: 3500
+        y: 6125
+        width: 700
+        height: 875
+      alignment: 9
+      pivot: {x: 0.3, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa914cf5314ba2c4096cbed376f038d5
+      internalID: -8263745030590020810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pope_30
+      rect:
+        serializedVersion: 2
+        x: 4200
+        y: 6125
+        width: 700
+        height: 875
+      alignment: 9
+      pivot: {x: 0.3, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8e5560789fe5f84ea9c93b152a3146f
+      internalID: 2917951448348068853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pope_31
+      rect:
+        serializedVersion: 2
+        x: 4900
+        y: 6125
+        width: 700
+        height: 875
+      alignment: 9
+      pivot: {x: 0.3, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5235a1a12f27e584aa85753064da87c3
+      internalID: 4702092263172115728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pope_32
+      rect:
+        serializedVersion: 2
+        x: 5600
+        y: 6125
+        width: 700
+        height: 875
+      alignment: 9
+      pivot: {x: 0.3, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b36fa1ddde3adb41b2bc1f7fe9ada9a
+      internalID: 3311741418865791141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pope_33
+      rect:
+        serializedVersion: 2
+        x: 6300
+        y: 6125
+        width: 700
+        height: 875
+      alignment: 9
+      pivot: {x: 0.3, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c92aa0be795a144482f79b06a2ff171
+      internalID: 6007555455084931684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pope_34
+      rect:
+        serializedVersion: 2
+        x: 7000
+        y: 6125
+        width: 700
+        height: 875
+      alignment: 9
+      pivot: {x: 0.3, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bff095493ee29a24c9d9fc7669897cb9
+      internalID: -2371580107617656046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pope_35
+      rect:
+        serializedVersion: 2
+        x: 7700
+        y: 6125
+        width: 700
+        height: 875
+      alignment: 9
+      pivot: {x: 0.3, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06213e9e652985945a777d1713c99209
+      internalID: 6466549159202883516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pope_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5250
+        width: 700
+        height: 875
+      alignment: 9
+      pivot: {x: 0.3, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e08e8366ae3c1ec41a74c71c4b93e45c
+      internalID: -5310114818022118429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pope_37
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 5250
+        width: 700
+        height: 875
+      alignment: 9
+      pivot: {x: 0.3, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47120800ce0949648ae467593a4e5975
+      internalID: -4580420515652669813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pope_38
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 5250
+        width: 700
+        height: 875
+      alignment: 9
+      pivot: {x: 0.3, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95907165b144d9a4ab83e494cd0e5b24
+      internalID: -2670742529517197964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pope_39
+      rect:
+        serializedVersion: 2
+        x: 2100
+        y: 5250
+        width: 700
+        height: 875
+      alignment: 9
+      pivot: {x: 0.3, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21666dc2810ed5e4e946d7f7c6122751
+      internalID: -965968719505674571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pope_40
+      rect:
+        serializedVersion: 2
+        x: 2800
+        y: 5250
+        width: 700
+        height: 875
+      alignment: 9
+      pivot: {x: 0.3, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3731cf81fc3f911409ebfba7e7960178
+      internalID: 1309139131585109214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pope_41
+      rect:
+        serializedVersion: 2
+        x: 3500
+        y: 5250
+        width: 700
+        height: 875
+      alignment: 9
+      pivot: {x: 0.3, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e3a48e023305354f822e108ffbbedb8
+      internalID: -3920482587372776648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pope_42
+      rect:
+        serializedVersion: 2
+        x: 4200
+        y: 5250
+        width: 700
+        height: 875
+      alignment: 9
+      pivot: {x: 0.3, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31817a887cdb02f48af13e870ce68808
+      internalID: -7820985134742369821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pope_43
+      rect:
+        serializedVersion: 2
+        x: 4900
+        y: 5250
+        width: 700
+        height: 875
+      alignment: 9
+      pivot: {x: 0.3, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b04d29f3256bfe49ac8c94904b2e541
+      internalID: -7693272613733431911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pope_44
+      rect:
+        serializedVersion: 2
+        x: 5600
+        y: 5250
+        width: 700
+        height: 875
+      alignment: 9
+      pivot: {x: 0.3, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68779c91d322c7344a4f17ede880a77f
+      internalID: -8562593745983804488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pope_45
+      rect:
+        serializedVersion: 2
+        x: 6300
+        y: 5250
+        width: 700
+        height: 875
+      alignment: 9
+      pivot: {x: 0.3, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f31597c1d67fe34ca05b0fe92c462b5
+      internalID: -2997585998938781348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pope_46
+      rect:
+        serializedVersion: 2
+        x: 7000
+        y: 5250
+        width: 700
+        height: 875
+      alignment: 9
+      pivot: {x: 0.3, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6de5c143ad2982429128ae058a79b30
+      internalID: 8098921400065006997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pope_47
+      rect:
+        serializedVersion: 2
+        x: 7700
+        y: 5250
+        width: 700
+        height: 875
+      alignment: 9
+      pivot: {x: 0.3, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c3b759baa3dc944fa05a6dc7584c72a
+      internalID: 8347374375533026950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pope_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4375
+        width: 700
+        height: 875
+      alignment: 9
+      pivot: {x: 0.3, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40d31501f422a5547a2ca30a13325c4a
+      internalID: -529261980798492964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pope_49
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 4375
+        width: 700
+        height: 875
+      alignment: 9
+      pivot: {x: 0.3, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dd3f3a380d51f2449b86fa4b44e2835
+      internalID: 5132711424418354394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pope_50
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 4375
+        width: 700
+        height: 875
+      alignment: 9
+      pivot: {x: 0.3, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d34be8371e8af6944bd1a49c3046919b
+      internalID: 4728910573418804136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pope_51
+      rect:
+        serializedVersion: 2
+        x: 2100
+        y: 4375
+        width: 700
+        height: 875
+      alignment: 9
+      pivot: {x: 0.3, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 540de6032d3520a49846e65c6bb8e045
+      internalID: 3685878956477129998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pope_52
+      rect:
+        serializedVersion: 2
+        x: 2800
+        y: 4375
+        width: 700
+        height: 875
+      alignment: 9
+      pivot: {x: 0.3, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9339f3da0827c14bae1d7654cc93122
+      internalID: -1250190738027960612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pope_53
+      rect:
+        serializedVersion: 2
+        x: 3500
+        y: 4375
+        width: 700
+        height: 875
+      alignment: 9
+      pivot: {x: 0.3, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 740cf832463f96048a682b508c9830da
+      internalID: -920921188715614497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pope_54
+      rect:
+        serializedVersion: 2
+        x: 4200
+        y: 4375
+        width: 700
+        height: 875
+      alignment: 9
+      pivot: {x: 0.3, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b6c550b317b9e04fb7317e98209c20b
+      internalID: 3253809379447723452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pope_55
+      rect:
+        serializedVersion: 2
+        x: 4900
+        y: 4375
+        width: 700
+        height: 875
+      alignment: 9
+      pivot: {x: 0.3, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aec1c6122cc0a294f9049c95e9b69e16
+      internalID: -1209139751105605333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pope_56
+      rect:
+        serializedVersion: 2
+        x: 5600
+        y: 4375
+        width: 700
+        height: 875
+      alignment: 9
+      pivot: {x: 0.3, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3afbd8dc5fbff1a4da13c5c1964af76f
+      internalID: 8348913161056353777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pope_57
+      rect:
+        serializedVersion: 2
+        x: 6300
+        y: 4375
+        width: 700
+        height: 875
+      alignment: 9
+      pivot: {x: 0.3, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ccacdfe951c78b4999a1067435bbdca
+      internalID: 7593391960281194980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pope_58
+      rect:
+        serializedVersion: 2
+        x: 7000
+        y: 4375
+        width: 700
+        height: 875
+      alignment: 9
+      pivot: {x: 0.3, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0932781b8ae52e149a6d7499825b1968
+      internalID: -2172457472099449118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pope_59
+      rect:
+        serializedVersion: 2
+        x: 7700
+        y: 4375
+        width: 700
+        height: 875
+      alignment: 9
+      pivot: {x: 0.3, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0745f4963703e444696ee14697177c80
+      internalID: 4302762428497204916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pope_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3500
+        width: 700
+        height: 875
+      alignment: 9
+      pivot: {x: 0.3, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd5a072e7d8fea24eb759588fb84e656
+      internalID: -3185020738839511948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pope_61
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 3500
+        width: 700
+        height: 875
+      alignment: 9
+      pivot: {x: 0.3, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80b4fc65b640d114187aae4e1c894dda
+      internalID: 1567554084672694666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pope_62
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 3500
+        width: 700
+        height: 875
+      alignment: 9
+      pivot: {x: 0.3, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 150e564e299abda4eb7cd4efd407e70c
+      internalID: 8548230267251463991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pope_63
+      rect:
+        serializedVersion: 2
+        x: 2100
+        y: 3500
+        width: 700
+        height: 875
+      alignment: 9
+      pivot: {x: 0.3, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a4e6ccce35793c45b2506c4c3f97a2f
+      internalID: -1561618567804798728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pope_64
+      rect:
+        serializedVersion: 2
+        x: 2800
+        y: 3500
+        width: 700
+        height: 875
+      alignment: 9
+      pivot: {x: 0.3, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f8aa62d76579f447b8eaa59e16eaa85
+      internalID: 5442349670973132089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pope_65
+      rect:
+        serializedVersion: 2
+        x: 3500
+        y: 3500
+        width: 700
+        height: 875
+      alignment: 9
+      pivot: {x: 0.3, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ae865c7b65202e4e959d6a67f997130
+      internalID: 9185815227178307324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pope_66
+      rect:
+        serializedVersion: 2
+        x: 4200
+        y: 3500
+        width: 700
+        height: 875
+      alignment: 9
+      pivot: {x: 0.3, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0dbf1b1734ef7c48b24c85638fdb915
+      internalID: 5389348087395523216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pope_67
+      rect:
+        serializedVersion: 2
+        x: 4900
+        y: 3500
+        width: 700
+        height: 875
+      alignment: 9
+      pivot: {x: 0.3, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b829d83a83ee76245a8f3848a268889a
+      internalID: 7575992359771208465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pope_68
+      rect:
+        serializedVersion: 2
+        x: 5600
+        y: 3500
+        width: 700
+        height: 875
+      alignment: 9
+      pivot: {x: 0.3, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58890b5d11ef32343b0b529f942c5fbc
+      internalID: 4901725321716141197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pope_69
+      rect:
+        serializedVersion: 2
+        x: 6300
+        y: 3500
+        width: 700
+        height: 875
+      alignment: 9
+      pivot: {x: 0.3, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f86268a78b46064a8b629a3456beec2
+      internalID: 7199199026550450046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pope_70
+      rect:
+        serializedVersion: 2
+        x: 7000
+        y: 3500
+        width: 700
+        height: 875
+      alignment: 9
+      pivot: {x: 0.3, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c13468720107334194525505156c0ac
+      internalID: 2132581758047338423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pope_71
+      rect:
+        serializedVersion: 2
+        x: 7700
+        y: 3500
+        width: 700
+        height: 875
+      alignment: 9
+      pivot: {x: 0.3, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf2bc296a37ee214bbf6ede9b7a45b42
+      internalID: 12441213147811354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pope_72
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2625
+        width: 700
+        height: 875
+      alignment: 9
+      pivot: {x: 0.3, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd419d400a35b7148b20b3a83ca74709
+      internalID: -2975303230794520876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pope_73
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 2625
+        width: 700
+        height: 875
+      alignment: 9
+      pivot: {x: 0.3, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23bcf878cbd17c3449069748bf3fd143
+      internalID: 7561754879672275403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pope_74
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 2625
+        width: 700
+        height: 875
+      alignment: 9
+      pivot: {x: 0.3, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45a0052ae7f34ae4983d3eba743dd338
+      internalID: 7492067428037758404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pope_75
+      rect:
+        serializedVersion: 2
+        x: 2100
+        y: 2625
+        width: 700
+        height: 875
+      alignment: 9
+      pivot: {x: 0.3, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 987406584fa66c64e863b1859d1fa41e
+      internalID: -8877806601484977473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pope_76
+      rect:
+        serializedVersion: 2
+        x: 2800
+        y: 2625
+        width: 700
+        height: 875
+      alignment: 9
+      pivot: {x: 0.3, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca9c11531e3ebc34889ccbc1b36320dd
+      internalID: 1855890876457677162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pope_77
+      rect:
+        serializedVersion: 2
+        x: 3500
+        y: 2625
+        width: 700
+        height: 875
+      alignment: 9
+      pivot: {x: 0.3, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6000ccd4394a04c4e8d484b53129a4ba
+      internalID: -2930134622748107270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pope_78
+      rect:
+        serializedVersion: 2
+        x: 4200
+        y: 2625
+        width: 700
+        height: 875
+      alignment: 9
+      pivot: {x: 0.3, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42fca0cfb34e55847b5e1274af153602
+      internalID: -2158465109665529390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pope_79
+      rect:
+        serializedVersion: 2
+        x: 4900
+        y: 2625
+        width: 700
+        height: 875
+      alignment: 9
+      pivot: {x: 0.3, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e806593eca82f043ab3694ae7c8ec50
+      internalID: 2360034308044954686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pope_80
+      rect:
+        serializedVersion: 2
+        x: 5600
+        y: 2625
+        width: 700
+        height: 875
+      alignment: 9
+      pivot: {x: 0.3, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a64d2d6cc54cbf4438a0e9e3ec30a18a
+      internalID: 6471403203835978800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pope_81
+      rect:
+        serializedVersion: 2
+        x: 6300
+        y: 2625
+        width: 700
+        height: 875
+      alignment: 9
+      pivot: {x: 0.3, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0647e757c0cea043a788354da466df5
+      internalID: 4326873208605276404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pope_82
+      rect:
+        serializedVersion: 2
+        x: 7000
+        y: 2625
+        width: 700
+        height: 875
+      alignment: 9
+      pivot: {x: 0.3, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be6d424e20212bd47a91e01aab6a99bc
+      internalID: 221007112481798540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pope_83
+      rect:
+        serializedVersion: 2
+        x: 7700
+        y: 2625
+        width: 700
+        height: 875
+      alignment: 9
+      pivot: {x: 0.3, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c9a0bf0c15cac440a0b0d796118ec94
+      internalID: -8939880868474835180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pope_84
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1750
+        width: 700
+        height: 875
+      alignment: 9
+      pivot: {x: 0.3, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e95e972a069c2d42805bf46085e6fe5
+      internalID: 125912282547488631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pope_85
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 1750
+        width: 700
+        height: 875
+      alignment: 9
+      pivot: {x: 0.3, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79bddc86621acd1479deba39c1a950e9
+      internalID: 2209451606913579976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pope_86
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 1750
+        width: 700
+        height: 875
+      alignment: 9
+      pivot: {x: 0.3, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e194fe5913f4d0b45916e618bf87b9f8
+      internalID: -6872483426491484344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pope_87
+      rect:
+        serializedVersion: 2
+        x: 2100
+        y: 1750
+        width: 700
+        height: 875
+      alignment: 9
+      pivot: {x: 0.3, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e333a12c9e5e2b540b8f6c0879b61dfa
+      internalID: -3590508817644358394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pope_88
+      rect:
+        serializedVersion: 2
+        x: 2800
+        y: 1750
+        width: 700
+        height: 875
+      alignment: 9
+      pivot: {x: 0.3, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 683c00c3f10c5064ea1c13d52a24b2e3
+      internalID: 4776015363976022730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pope_89
+      rect:
+        serializedVersion: 2
+        x: 3500
+        y: 1750
+        width: 700
+        height: 875
+      alignment: 9
+      pivot: {x: 0.3, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6babaf040aa82648a9c0cb7f0d0300e
+      internalID: -8034948275596074551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pope_90
+      rect:
+        serializedVersion: 2
+        x: 4200
+        y: 1750
+        width: 700
+        height: 875
+      alignment: 9
+      pivot: {x: 0.3, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d5d6b27be78dcc4e8bfbb4a5af427c0
+      internalID: -220169074456097842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pope_91
+      rect:
+        serializedVersion: 2
+        x: 4900
+        y: 1750
+        width: 700
+        height: 875
+      alignment: 9
+      pivot: {x: 0.3, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bb13f96a052d854e950848ee52a4f44
+      internalID: -8947509957575378659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pope_92
+      rect:
+        serializedVersion: 2
+        x: 5600
+        y: 1750
+        width: 700
+        height: 875
+      alignment: 9
+      pivot: {x: 0.3, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d3c0ef37e6a58e4e8708703dc779c6d
+      internalID: 7531962491287369698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pope_93
+      rect:
+        serializedVersion: 2
+        x: 6300
+        y: 1750
+        width: 700
+        height: 875
+      alignment: 9
+      pivot: {x: 0.3, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c941489ee25ec014095d58d7f8444572
+      internalID: 7326467446210223115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pope_94
+      rect:
+        serializedVersion: 2
+        x: 7000
+        y: 1750
+        width: 700
+        height: 875
+      alignment: 9
+      pivot: {x: 0.3, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cee0a14b28a77704bbcce077ebbd7451
+      internalID: -57178548360061470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pope_95
+      rect:
+        serializedVersion: 2
+        x: 7700
+        y: 1750
+        width: 700
+        height: 875
+      alignment: 9
+      pivot: {x: 0.3, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca296adb104cb17459aee0b4e6532f05
+      internalID: 1626933177711210327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pope_96
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 875
+        width: 700
+        height: 875
+      alignment: 9
+      pivot: {x: 0.3, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01e7ba993193e6c47a84780ce34f9093
+      internalID: 6534858191276931224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pope_97
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 875
+        width: 700
+        height: 875
+      alignment: 9
+      pivot: {x: 0.3, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24f3626209429414b9f5df1dcbc075ea
+      internalID: -5985237196824276512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pope_98
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 875
+        width: 700
+        height: 875
+      alignment: 9
+      pivot: {x: 0.3, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8de383541f803b742ae1e4a19763e9a1
+      internalID: 4528025015988874600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pope_99
+      rect:
+        serializedVersion: 2
+        x: 2100
+        y: 875
+        width: 700
+        height: 875
+      alignment: 9
+      pivot: {x: 0.3, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8b86e30710434846a93ac2a4c63b063
+      internalID: -438515077110292653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pope_100
+      rect:
+        serializedVersion: 2
+        x: 2800
+        y: 875
+        width: 700
+        height: 875
+      alignment: 9
+      pivot: {x: 0.3, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adb146733819e804b8cb86d67f9be100
+      internalID: 8265412363392483699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pope_101
+      rect:
+        serializedVersion: 2
+        x: 3500
+        y: 875
+        width: 700
+        height: 875
+      alignment: 9
+      pivot: {x: 0.3, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8f5e104b94d6d64aa2ac8e759dcb1c8
+      internalID: 4451945968195542958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pope_102
+      rect:
+        serializedVersion: 2
+        x: 4200
+        y: 875
+        width: 700
+        height: 875
+      alignment: 9
+      pivot: {x: 0.3, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 707d129c7ae5c0843980559ceb57306e
+      internalID: -2469861606435670910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pope_103
+      rect:
+        serializedVersion: 2
+        x: 4900
+        y: 875
+        width: 700
+        height: 875
+      alignment: 9
+      pivot: {x: 0.3, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f8f34b92fe97a2428894c546e1da379
+      internalID: 8471510584436809091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pope_104
+      rect:
+        serializedVersion: 2
+        x: 5600
+        y: 875
+        width: 700
+        height: 875
+      alignment: 9
+      pivot: {x: 0.3, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 643fd7c8b5a160c488254a9c30e1f402
+      internalID: -4200166596548198177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pope_105
+      rect:
+        serializedVersion: 2
+        x: 6300
+        y: 875
+        width: 700
+        height: 875
+      alignment: 9
+      pivot: {x: 0.3, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28aef50d6b017e94bb0aeedd199938aa
+      internalID: 1304132113337426275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pope_106
+      rect:
+        serializedVersion: 2
+        x: 7000
+        y: 875
+        width: 700
+        height: 875
+      alignment: 9
+      pivot: {x: 0.3, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba0e44f2346bcf3469166d87895a8f52
+      internalID: 949325226339973135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pope_107
+      rect:
+        serializedVersion: 2
+        x: 7700
+        y: 875
+        width: 700
+        height: 875
+      alignment: 9
+      pivot: {x: 0.3, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9012eb6eeb3ba0646ae5e5d1db6e6441
+      internalID: -3745917487427585551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pope_108
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 700
+        height: 875
+      alignment: 9
+      pivot: {x: 0.3, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db52eb75492a11243807fb387d55f133
+      internalID: 8697550067273368149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pope_109
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 0
+        width: 700
+        height: 875
+      alignment: 9
+      pivot: {x: 0.3, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0593f848011ffc44b936c06d86c0a63a
+      internalID: 41720858523597284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pope_110
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 0
+        width: 700
+        height: 875
+      alignment: 9
+      pivot: {x: 0.3, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b5497d78f31ab5479906c7862e78c1c
+      internalID: -3059189663590840103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pope_111
+      rect:
+        serializedVersion: 2
+        x: 2100
+        y: 0
+        width: 700
+        height: 875
+      alignment: 9
+      pivot: {x: 0.3, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adf2f9e1e97b2d84481bd320da8e30bd
+      internalID: 801437649727389383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pope_112
+      rect:
+        serializedVersion: 2
+        x: 2800
+        y: 0
+        width: 700
+        height: 875
+      alignment: 9
+      pivot: {x: 0.3, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c4bf7fdb232d8f479379453e97189b3
+      internalID: -2433739875744888385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pope_113
+      rect:
+        serializedVersion: 2
+        x: 3500
+        y: 0
+        width: 700
+        height: 875
+      alignment: 9
+      pivot: {x: 0.3, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef1dc33322ba0ac46a4782708a575117
+      internalID: -2548265982846908148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pope_114
+      rect:
+        serializedVersion: 2
+        x: 4200
+        y: 0
+        width: 700
+        height: 875
+      alignment: 9
+      pivot: {x: 0.3, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec0d62f5f0473a74ba168952839d24ae
+      internalID: 7691513775013985423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pope_115
+      rect:
+        serializedVersion: 2
+        x: 4900
+        y: 0
+        width: 700
+        height: 875
+      alignment: 9
+      pivot: {x: 0.3, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdb17589327dde94d9dc531c20abc809
+      internalID: 2621578129940231646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pope_116
+      rect:
+        serializedVersion: 2
+        x: 5600
+        y: 0
+        width: 700
+        height: 875
+      alignment: 9
+      pivot: {x: 0.3, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f1dd0dd674ad2447ac36295df84d2a9
+      internalID: -4509188713616830751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pope_117
+      rect:
+        serializedVersion: 2
+        x: 6300
+        y: 0
+        width: 700
+        height: 875
+      alignment: 9
+      pivot: {x: 0.3, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 944fd2c624720e04eab2e53a43cdd0f1
+      internalID: 1205039370200424515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pope_118
+      rect:
+        serializedVersion: 2
+        x: 7000
+        y: 0
+        width: 700
+        height: 875
+      alignment: 9
+      pivot: {x: 0.3, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67912d09963e13642b57441df3b9cc6a
+      internalID: -4738858205918511865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pope_119
+      rect:
+        serializedVersion: 2
+        x: 7700
+        y: 0
+        width: 700
+        height: 875
+      alignment: 9
+      pivot: {x: 0.3, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e729282146e19c4fb9d41c4fa20cae5
+      internalID: 2780944432925519228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 31681a1d60fa3564da812064ca7b98cb
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
